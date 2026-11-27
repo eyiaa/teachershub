@@ -1,0 +1,716 @@
+[
+  {
+    "id": "INTERVIEW-01",
+    "phase": "Flow",
+    "number": 1,
+    "pathway": "Job Interviews",
+    "cefr": "B1",
+    "title": "Job Interviews 1: Introducing Yourself Professionally",
+    "canDo": "Can introduce professional background and summarise a CV in clear, simple sentences.",
+    "goal": "Introduce yourself in an interview using the present perfect to describe experience so far.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What do you do for work or study, and how long have you been doing it?",
+        "tutorAction": "Give a 15-second example: I have worked in retail for two years. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I have + past participle (experience so far) + for (a length of time) / since (a starting point)",
+        "examples": [
+          "I have worked as an accountant for six years.",
+          "I have led a small team since 2021.",
+          "I have just completed a course in project management."
+        ],
+        "method": "Show a short CV summary on screen. Ask guiding questions: Is this experience finished or still continuing? Which word gives the length of time, and which gives the starting point? Then ask the student to write one line about their own experience.",
+        "checkQuestion": "In I have worked here for four years, is the work finished or still continuing?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this short introduction twice at a steady pace: Good morning. I am Sofia, and I have worked as an accountant for six years. I have managed a small team since 2021, and I have just completed a course in data analysis.",
+        "factCheck": "Ask: How long has Sofia worked as an accountant? (six years). Since when has she managed a team? (2021). What has she just completed? (a course in data analysis).",
+        "toneCheck": "Ask: Does Sofia sound confident or nervous? Ask the student to point to the phrase that shows confidence, such as I have just completed."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Interview opening: the tutor plays the interviewer and asks: Tell me about yourself. The student answers in about 60 seconds, using the present perfect at least twice. The tutor then asks one follow-up question.",
+        "phrases": [
+          "I have worked as ... for ...",
+          "I have been ... since ...",
+          "I have just ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the introduction, then note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I work as an engineer since five years.",
+          "I have worked in this company since five years."
+        ]
+      }
+    }
+  },
+  {
+    "id": "INTERVIEW-02",
+    "phase": "Flow",
+    "number": 2,
+    "pathway": "Job Interviews",
+    "cefr": "B1",
+    "title": "Job Interviews 2: Telling Your Story with STAR",
+    "canDo": "Can describe a past achievement clearly, giving the situation, the task, the action taken, and the result.",
+    "goal": "Answer a past-experience question in four parts (situation, task, action, result) using past tenses.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Tell me about a time you were proud of something you achieved at work or school.",
+        "tutorAction": "Give a short example, then ask the student what the result was."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Situation (past simple sets the scene) + Task + Action (past simple) + Result (past simple, or present perfect for the lasting effect)",
+        "examples": [
+          "Our sales team was missing its targets, so I was asked to review the plan.",
+          "I visited each client and listened carefully to their concerns.",
+          "As a result, sales rose by fifteen percent, and we have kept that growth since."
+        ],
+        "method": "Show the STAR frame with the examples beside each part. Ask guiding questions: Which part describes the problem? Which part describes what you did? Then ask the student to put one past achievement into the four parts.",
+        "checkQuestion": "Which part of a STAR answer explains what you achieved?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this interview answer twice at a steady pace: Our customer complaints were rising, so I was asked to fix the process. I met the support team every week and changed the way we logged problems. As a result, complaints fell by a third, and the team has kept that improvement.",
+        "factCheck": "Ask: What was rising? (customer complaints). What was the speaker asked to do? (fix the process). By how much did complaints fall? (a third).",
+        "toneCheck": "Ask: Does the speaker sound proud of the result or modest about it? Ask the student to point to the phrase that shows the result lasted, such as has kept that improvement."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Achievement story: the tutor asks: Tell me about a time you solved a problem at work or school. The student answers in four parts (situation, task, action, result) using past tenses. The tutor then asks: What would you do differently now?",
+        "phrases": [
+          "The situation was ...",
+          "I was responsible for ...",
+          "As a result, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student complete all four parts before offering a stronger tense or connector."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The problem was we are missing the target, so I do a plan.",
+          "As a result, the sales go up and we keep it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "INTERVIEW-03",
+    "phase": "Flow",
+    "number": 3,
+    "pathway": "Job Interviews",
+    "cefr": "B1",
+    "title": "Job Interviews 3: Strengths, Weaknesses, and Motivation",
+    "canDo": "Can describe personal strengths, interests, and areas for improvement honestly and clearly.",
+    "goal": "Talk about strengths and weaknesses using be good at, be interested in, and be working on with -ing forms.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one thing you are good at, and one thing you are working on improving?",
+        "tutorAction": "Give a short example, then let the student speak for about one minute."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I'm good at + -ing / I'm interested in + -ing / I'm working on + -ing (an area I am improving)",
+        "examples": [
+          "I'm good at explaining complex ideas to clients.",
+          "I'm interested in working with international teams.",
+          "I'm working on speaking more confidently in meetings."
+        ],
+        "method": "Show the three frames with examples. Ask guiding questions: What form follows at, in, and on? Is the weakness presented as something being improved? Then ask the student to finish the three frames about themselves.",
+        "checkQuestion": "After I'm good at, do we use a verb in the base form or the -ing form?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this interview answer twice at a steady pace: I'm good at organising projects, and I'm interested in leading larger teams. One thing I'm working on is delegating more. I used to do everything myself, but now I'm learning to trust my colleagues.",
+        "factCheck": "Ask: What is the speaker good at? (organising projects). What are they interested in? (leading larger teams). What are they working on? (delegating more).",
+        "toneCheck": "Ask: Does the speaker sound honest and self-aware? Ask the student to point to the phrase that shows self-awareness, such as I used to do everything myself."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Honest self-assessment: the tutor asks: What are your main strengths, and what are you working on? The student gives at least two strengths and one weakness, framed as an area of improvement.",
+        "phrases": [
+          "I'm good at ...",
+          "I'm interested in ...",
+          "I'm working on ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student speak fully, and suggest one stronger phrase in the chat only after the answer is complete."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I am good in organise projects.",
+          "One weakness is I am very lazy sometimes."
+        ]
+      }
+    }
+  },
+  {
+    "id": "INTERVIEW-04",
+    "phase": "Flow",
+    "number": 4,
+    "pathway": "Job Interviews",
+    "cefr": "B1",
+    "title": "Job Interviews 4: Asking Good Questions",
+    "canDo": "Can ask polite, well-formed questions at the end of an interview about the role, the team, and development.",
+    "goal": "Ask polite questions using indirect question forms such as Could you tell me ...? and I was wondering whether ...",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What would you want to know about a company before you applied for a job there?",
+        "tutorAction": "Give one example question, then ask the student to add a second."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Could you tell me + question word + subject + verb? / I was wondering whether + subject + verb / Do you mind telling me + question word + clause?",
+        "examples": [
+          "Could you tell me what a typical day in this role looks like?",
+          "I was wondering whether there are training opportunities in the first year.",
+          "Do you mind telling me how success is measured in this team?"
+        ],
+        "method": "Show direct questions beside the polite indirect versions. Ask guiding questions: Which version is more polite? Does the word order change after the question word? Then ask the student to turn one direct question into a polite indirect question.",
+        "checkQuestion": "In Could you tell me what a typical day looks like, is the word order the same as in a direct question?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this short dialogue twice at a steady pace: Interviewer: Do you have any questions for us? Candidate: Yes. Could you tell me how the team works together? I was wondering whether there are training opportunities in the first year.",
+        "factCheck": "Ask: What does the candidate ask about the team? (how the team works together). What else do they ask about? (training opportunities in the first year).",
+        "toneCheck": "Ask: Is the candidate polite or demanding? Ask the student to point to the phrase that shows politeness, such as I was wondering whether."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Question round: the tutor plays the interviewer, who ends with: Do you have any questions for us? The student asks three polite questions about the role, the team, and development. The tutor answers one of them.",
+        "phrases": [
+          "Could you tell me ...?",
+          "I was wondering whether ...",
+          "Do you mind telling me ...?"
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student ask each question fully, and note word order errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Could you tell me what is a typical day?",
+          "I want to know do you have training."
+        ]
+      }
+    }
+  },
+  {
+    "id": "INTERVIEW-05",
+    "phase": "Flow",
+    "number": 5,
+    "pathway": "Job Interviews",
+    "cefr": "B1",
+    "title": "Job Interviews 5: Mock Interview and Feedback",
+    "canDo": "Can take part in a full mock interview, answering common questions with experience, plans, and reasons.",
+    "goal": "Answer a full set of interview questions, combining present perfect for experience with would for plans.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: If you were interviewing for your dream job, what would make you most nervous?",
+        "tutorAction": "Let the student answer, then ask what they would do to feel calmer."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "If I got the job, I would + base verb (a plan for the future) / I have + past participle (experience so far) / I think that would + base verb (a reason)",
+        "examples": [
+          "If I got this role, I would focus on building client relationships.",
+          "I have worked in sales, so I would bring that experience to the team.",
+          "I think that would improve the service for our customers."
+        ],
+        "method": "Show the three frames with examples. Ask guiding questions: Is the plan real or hypothetical? Which tense describes experience so far? Then ask the student to give one answer about the job they want.",
+        "checkQuestion": "In If I got this role, I would focus on clients, is the situation real or hypothetical?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this interview answer twice at a steady pace: I have worked in retail for three years, so I know how to deal with difficult customers. If I got this position, I would introduce a regular feedback session for the team, because I think that would improve service.",
+        "factCheck": "Ask: How long has the candidate worked in retail? (three years). What would they introduce if they got the job? (a regular feedback session).",
+        "toneCheck": "Ask: Does the candidate sound confident about the plan? Ask the student to point to the phrase that gives the reason, such as because I think that would improve service."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Full mock interview: the tutor plays the interviewer and asks four questions: introduce yourself, describe a past achievement, name a weakness, and explain what you would do in this role. The student answers each in one to two minutes. The tutor then gives one piece of feedback.",
+        "phrases": [
+          "If I got this role, I would ...",
+          "I have worked ... for ...",
+          "I think that would ..."
+        ],
+        "mandate": "Act as a formal interviewer. Keep the tone professional, let the student answer each question fully, and note errors silently for the feedback."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "If I will get the job, I would be happy.",
+          "I work in sales for five years and I know it well."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLUENCY-01",
+    "phase": "Flow",
+    "number": 1,
+    "pathway": "Fluency",
+    "cefr": "B1",
+    "title": "Fluency 1: Fillers and Hesitation",
+    "canDo": "Can keep speaking while thinking, using natural fillers and short pauses instead of stopping.",
+    "goal": "Use natural fillers (well, actually, let me think) to buy time and keep the conversation going.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is something you find hard to explain in English?",
+        "tutorAction": "Let the student speak for about one minute, without correcting their pauses."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Filler (well, actually, let me think, that's a good question) + short pause + main idea",
+        "examples": [
+          "Well, I think the main issue is cost.",
+          "That's a good question. Let me think for a moment.",
+          "Actually, I would say it depends on the team."
+        ],
+        "method": "Show a list of natural fillers with their jobs (buying time, softening, changing direction). Ask guiding questions: What is the speaker doing while they think? Which filler buys time without changing the meaning? Then ask the student to use one filler in a short answer.",
+        "checkQuestion": "Does That's a good question give you time to think, or does it answer the question?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Listen to or read this answer twice at a steady pace: Well, that's a good question. Let me think. Actually, I'd say the biggest challenge is communication, because people don't always say what they mean.",
+        "factCheck": "Ask: What does the speaker say first? (that's a good question). What is the biggest challenge? (communication). Why? (people do not always say what they mean).",
+        "toneCheck": "Ask: Does the speaker sound hesitant or thoughtful? Ask the student to point to the filler that shows they are thinking, such as let me think."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Thinking time: the tutor asks one open question about a familiar topic (a hobby, a favourite place, a recent change). The student answers using at least two fillers, aiming for short natural pauses rather than silence.",
+        "phrases": [
+          "Well, I think ...",
+          "Let me think ...",
+          "Actually, I would say ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student pause and recover without help. Praise natural fillers, and do not correct hesitation during the answer."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Eh, I think, eh, the city is nice, eh.",
+          "I am thinking, I am thinking, the answer is yes."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLUENCY-02",
+    "phase": "Flow",
+    "number": 2,
+    "pathway": "Fluency",
+    "cefr": "B1",
+    "title": "Fluency 2: Linking Ideas Smoothly",
+    "canDo": "Can join ideas in a longer story or opinion using everyday linking phrases so the speech flows.",
+    "goal": "Use on top of that, in fact, and anyway to add, emphasise, and return to the main point.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What did you do last weekend?",
+        "tutorAction": "Give a short example with one linking word, then let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Point + linking phrase + extra idea. Adding: on top of that. Emphasising: in fact. Returning: anyway.",
+        "examples": [
+          "The course was useful. On top of that, it was affordable.",
+          "I didn't expect to enjoy it. In fact, I loved it.",
+          "The weather was bad. Anyway, we still had a good time."
+        ],
+        "method": "Show the three linking phrases with their jobs. Ask guiding questions: Does this phrase add an idea, emphasise one, or return to the main point? Then ask the student to link two short sentences from their week.",
+        "checkQuestion": "Does anyway return to the main point, or introduce a contrast?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: The hotel was small. On top of that, the breakfast was excellent. In fact, it was the best part of the trip. Anyway, we would stay there again.",
+        "factCheck": "Ask: What was small? (the hotel). What was excellent? (the breakfast). What was the best part of the trip? (the breakfast).",
+        "toneCheck": "Ask: Is the speaker positive overall? Ask the student to point to the phrase that shows the strongest opinion, such as the best part of the trip."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Two-minute story: the student describes a recent trip, meal, or event using at least three linking phrases. The tutor asks one question at the end to extend it.",
+        "phrases": [
+          "On top of that, ...",
+          "In fact, ...",
+          "Anyway, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student link at least three ideas before responding, and note linking errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The hotel was small, and also the breakfast was very good, and in fact it was the best.",
+          "We would stay again, anyway, because, I think."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLUENCY-03",
+    "phase": "Flow",
+    "number": 3,
+    "pathway": "Fluency",
+    "cefr": "B1",
+    "title": "Fluency 3: Rhythm, Stress, and Connected Speech",
+    "canDo": "Can speak with natural stress and linking, so that content words stand out and the speech flows smoothly.",
+    "goal": "Stress content words and reduce function words such as to, and, and can, so that speech sounds natural.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Read aloud: I want to go to the market tomorrow. Ask: Which words did you stress?",
+        "tutorAction": "Model the sentence once with natural stress, then ask the student to say it with you."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Content words (nouns, main verbs, adjectives) carry stress. Function words (to, and, can, of) are weak. Weak forms link the sentence together.",
+        "examples": [
+          "We need to finish the REPORT by FRIDAY.",
+          "Do you want a COFFEE?",
+          "I want to go to the MARKET."
+        ],
+        "method": "Play or read each sentence twice: first slowly with full forms, then at natural speed. Ask guiding questions: Which words stand out? Which words sound weaker? Then ask the student to read one sentence with the stressed words in capitals.",
+        "checkQuestion": "In We need to finish the REPORT by FRIDAY, which word carries the most stress?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this line twice at natural speed, then once slowly: I wanna get the report finished by Friday, so I'm gonna need some help from the team.",
+        "factCheck": "Ask: What does the speaker need to get finished? (the report). By when? (Friday). Who might help? (the team).",
+        "toneCheck": "Ask: Does the speaker sound urgent or relaxed? Ask the student to point to the words that sound fast and weak, such as wanna and gonna."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Read-aloud challenge: the student reads three short sentences from the tutor's card with natural stress and linking. Then the student answers one question about the topic, keeping the same rhythm.",
+        "phrases": [
+          "I want to ...",
+          "We need to ... by ...",
+          "Do you want ...?"
+        ],
+        "mandate": "Model the rhythm first, then let the student copy it. Do not correct every sound. Focus on stress on content words and a steady flow."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want go to the shop tomorrow.",
+          "We need finish the report by Friday."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLUENCY-04",
+    "phase": "Flow",
+    "number": 4,
+    "pathway": "Fluency",
+    "cefr": "B1",
+    "title": "Fluency 4: Timed Speaking Challenge",
+    "canDo": "Can give a clear, reasoned opinion with an example within a fixed time, without long pauses.",
+    "goal": "Give an opinion, a reason, and an example within 60 seconds, using a linking word.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Should children learn a second language at school?",
+        "tutorAction": "Set a 60-second timer and start it when the student begins."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I believe + opinion, because + reason. For example, + example. However, + counter-point (optional).",
+        "examples": [
+          "I believe public transport should be cheaper, because it helps people who do not have cars.",
+          "For example, our city's bus fare doubled last year.",
+          "However, some people think the budget is better spent on roads."
+        ],
+        "method": "Show the frame with a timer. Ask guiding questions: What is your opinion? What is the reason? What is the example? Then ask the student to practise the frame in 60 seconds on a short topic.",
+        "checkQuestion": "Which part of the frame gives a real example?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Listen to or read this answer twice at a steady pace: I think remote work is good for most people, because it saves travel time. For example, my colleague now spends two more hours a day with her family. However, some people feel isolated, so companies need to support them.",
+        "factCheck": "Ask: What does the speaker think about remote work? (it is good for most people). What does a colleague gain? (two more hours a day with family). What do some people feel? (isolated).",
+        "toneCheck": "Ask: Does the speaker agree fully with remote work? Ask the student to point to the phrase that shows balance, such as However."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Sixty-second opinion: the tutor gives a topic card (remote work, online shopping, city living). The student speaks for 60 seconds using the frame and one linking word. Then repeat once with a new topic and aim to be faster and smoother.",
+        "phrases": [
+          "I believe ..., because ...",
+          "For example, ...",
+          "However, ..."
+        ],
+        "mandate": "Keep time visibly. Do not interrupt during the 60 seconds. After each turn, note one fluency gain and one priority for the next attempt."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I think it is good because is good for people, and example my city is bad.",
+          "However some people is alone, so company must help."
+        ]
+      }
+    }
+  },
+  {
+    "id": "PRESENTATION-01",
+    "phase": "Flow",
+    "number": 1,
+    "pathway": "Presentation Skills",
+    "cefr": "B1",
+    "title": "Presentation Skills 1: Structuring a Presentation",
+    "canDo": "Can organise a short presentation into a clear introduction, body, and close, using signposting language.",
+    "goal": "Structure a short presentation with I'd like to talk about, First / Next / Finally, and To sum up.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one topic you could explain to a group in five minutes?",
+        "tutorAction": "Let the student name a topic, then ask how they would start."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Introduction (I'd like to talk about ...) + body (First, ... / Next, ... / Finally, ...) + close (To sum up, ... / Thank you for listening)",
+        "examples": [
+          "I'd like to talk about how we can reduce waste at work.",
+          "First, I'll look at the current problem. Next, I'll present three solutions.",
+          "To sum up, the best option is recycling on every floor."
+        ],
+        "method": "Show the three-part structure with the signposting words highlighted. Ask guiding questions: Where does the speaker say what they will talk about? Which words move the listener to the next point? Then ask the student to outline a three-point talk on a topic they know.",
+        "checkQuestion": "Which phrase tells the audience the presentation is ending?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this presentation opening twice at a steady pace: Good morning. I'd like to talk about our new customer app. First, I'll explain why we built it. Next, I'll show you how it works. Finally, I'll describe the results so far.",
+        "factCheck": "Ask: What is the talk about? (the new customer app). How many points does the speaker make? (three: why, how it works, and results).",
+        "toneCheck": "Ask: Does the speaker sound clear and organised? Ask the student to point to the words that show the order, such as First, Next, and Finally."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Three-minute outline: the student introduces a topic (a product, a process, a local issue) and explains three points using signposting. The tutor, as the audience, asks one question at the end.",
+        "phrases": [
+          "I'd like to talk about ...",
+          "First, I'll ...",
+          "To sum up, ..."
+        ],
+        "mandate": "Act as the audience. Do not interrupt the presentation. Note signposting errors and the first and last sentences for feedback."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I talk about the app, first is why, second is how, and in the end the results.",
+          "The end. Thank you."
+        ]
+      }
+    }
+  },
+  {
+    "id": "PRESENTATION-02",
+    "phase": "Flow",
+    "number": 2,
+    "pathway": "Presentation Skills",
+    "cefr": "B1",
+    "title": "Presentation Skills 2: Language for Slides and Visuals",
+    "canDo": "Can describe a simple chart or slide, explaining the main trends and comparisons.",
+    "goal": "Describe trends on a slide using the chart shows, rose sharply, and here you can see.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a simple bar chart on screen. Ask: What is the first thing you notice?",
+        "tutorAction": "Give a short example, then let the student describe the chart."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "The chart shows + noun / Sales rose or fell + adverb (sharply, slightly) + in + time / Here you can see + noun + clause",
+        "examples": [
+          "The chart shows monthly sales over the last year.",
+          "Sales rose sharply in March and then levelled off.",
+          "Here you can see that costs fell by ten percent."
+        ],
+        "method": "Show a simple chart beside the visual language. Ask guiding questions: Is the change big or small? When did it happen? Then ask the student to describe one trend in the chart.",
+        "checkQuestion": "In Sales rose sharply, does sharply describe the size or the timing of the change?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this description of a slide twice at a steady pace: This graph shows our website traffic. Visits rose slightly in January, but they increased sharply in March after the new campaign. Here you can see that the trend has continued since then.",
+        "factCheck": "Ask: What does the graph show? (website traffic). When did visits increase sharply? (March). What has continued? (the trend).",
+        "toneCheck": "Ask: Does the speaker sound pleased with the trend? Ask the student to point to the phrase that shows the strongest change, such as increased sharply."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Describe the slide: the tutor shares a simple chart or table. The student describes two trends and one comparison, using at least three visual phrases.",
+        "phrases": [
+          "The chart shows ...",
+          "... rose sharply in ...",
+          "Here you can see ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student describe each trend fully, and note verb form and tense errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Sales are rising very much in March.",
+          "The chart show the sales last year."
+        ]
+      }
+    }
+  },
+  {
+    "id": "PRESENTATION-03",
+    "phase": "Flow",
+    "number": 3,
+    "pathway": "Presentation Skills",
+    "cefr": "B1",
+    "title": "Presentation Skills 3: Handling Questions",
+    "canDo": "Can respond to audience questions by clarifying, answering, and checking that the listener is satisfied.",
+    "goal": "Handle a difficult question using clarify, answer, and check: Do you mean ...? / It could ... / Does that answer your question?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is the hardest question you could be asked after a presentation?",
+        "tutorAction": "Let the student answer, then ask one follow-up question."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "That's a good question + clarify (Do you mean ...?) + answer (It could ..., although ...) + check (Does that answer your question?)",
+        "examples": [
+          "That's a good question. Do you mean the cost or the timeline?",
+          "It could be done in six months, although it depends on funding.",
+          "Does that answer your question, or would you like more detail?"
+        ],
+        "method": "Show the four-step frame. Ask guiding questions: Which step makes sure you understood the question? Which phrase lets you give a partial answer? Then ask the student to answer one difficult question using the frame.",
+        "checkQuestion": "Which step checks that the listener is satisfied with the answer?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this exchange twice at a steady pace: Audience: Will this cost more over time? Speaker: That's a good question. Do you mean the initial cost or the long-term cost? It could cost more in year one, although it should save money after that. Does that answer your question?",
+        "factCheck": "Ask: What did the audience ask? (whether it will cost more over time). What does the speaker ask for? (whether the initial or long-term cost is meant). What might be more expensive? (year one).",
+        "toneCheck": "Ask: Is the speaker defensive or open? Ask the student to point to the phrase that invites more discussion, such as Does that answer your question?"
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Hard question: the tutor, as the audience, asks a challenging question about the student's topic from the previous class. The student clarifies, answers, and checks understanding using the frame.",
+        "phrases": [
+          "That's a good question. Do you mean ...?",
+          "It could ..., although ...",
+          "Does that answer your question?"
+        ],
+        "mandate": "Act as a sceptical audience member. Ask follow-up questions if the answer is unclear, and keep the tone respectful."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Yes, I think it is good, so no problem.",
+          "The cost is high, because the cost is high."
+        ]
+      }
+    }
+  },
+  {
+    "id": "PRESENTATION-04",
+    "phase": "Flow",
+    "number": 4,
+    "pathway": "Presentation Skills",
+    "cefr": "B1",
+    "title": "Presentation Skills 4: Pacing, Pauses, and Emphasis",
+    "canDo": "Can control speed and pauses in a presentation, stressing key points so the audience follows the main message.",
+    "goal": "Use a deliberate pause and stress on key words to make the main point clear.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Have you ever watched a presentation that was hard to follow? What made it difficult?",
+        "tutorAction": "Let the student answer freely, and note what they mention about speed or pauses."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Pause before a key point; stress the key word; slow down for numbers and names",
+        "examples": [
+          "We reduced costs by twenty percent. (pause) That is the key result.",
+          "The most important word here is trust.",
+          "Our target for next year is one million users."
+        ],
+        "method": "Model the same sentence twice: once flat, and once with a pause and stress. Ask guiding questions: Which word did the speaker stress? Where was the pause? Then ask the student to rehearse one key sentence with a deliberate pause.",
+        "checkQuestion": "Why does a pause before a key result help the audience?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this presentation extract twice at a steady pace: We spent two years on this project. (pause) And the result? Costs fell by a third. (pause) That single change is why we are here today.",
+        "factCheck": "Ask: How long did the project take? (two years). How much did costs fall? (a third). What is the single change? (the cost reduction).",
+        "toneCheck": "Ask: Does the speaker sound excited or calm? Ask the student to point to the phrase that builds the moment, such as And the result?"
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Rehearse a key slide: the student practises the main sentence of a short talk with a pause and stress, then delivers the full sentence to the tutor. The tutor asks the student to repeat it with a different stress to change the meaning.",
+        "phrases": [
+          "The key point is ...",
+          "What matters most is ...",
+          "And the result?"
+        ],
+        "mandate": "Model deliberate pauses. Do not interrupt. Note where the student rushes, and give one specific pacing tip in the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We reduced costs by twenty percent that is the key result.",
+          "The most important word is, trust, and we need trust."
+        ]
+      }
+    }
+  },
+  {
+    "id": "PRESENTATION-05",
+    "phase": "Flow",
+    "number": 5,
+    "pathway": "Presentation Skills",
+    "cefr": "B1",
+    "title": "Presentation Skills 5: Full Presentation and Peer Feedback",
+    "canDo": "Can deliver a short complete presentation with structure, a visual description, and a question round, and reflect on feedback.",
+    "goal": "Deliver a three-minute presentation with clear structure, a visual description, and a closing question, then reflect on peer feedback.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one thing you want your audience to remember from your talk?",
+        "tutorAction": "Let the student answer, then ask how they would say it in one sentence."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Introduction + three signposted points + visual description + question round + close",
+        "examples": [
+          "I'd like to present our plan for the next quarter.",
+          "Next, let me show you the results on this slide.",
+          "Thank you for listening. Are there any questions?"
+        ],
+        "method": "Show the presentation checklist: structure, visuals, pacing, and questions. Ask guiding questions: Which part was strongest? Which part needs one more sentence? Then ask the student to plan a three-minute talk using the checklist.",
+        "checkQuestion": "Which part of the checklist ends the presentation and invites questions?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this peer feedback twice at a steady pace: Your structure was clear, because you signposted each point. The slides helped, but you read them aloud. Next time, try to describe the chart in your own words, and pause before your key result.",
+        "factCheck": "Ask: What was clear? (the structure, through signposting). What did the speaker do with the slides? (read them aloud). What should be done next time? (describe the chart in own words and pause before the result).",
+        "toneCheck": "Ask: Is the feedback encouraging or critical? Ask the student to point to the phrase that shows encouragement, such as Your structure was clear."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Three-minute presentation: the student delivers a short talk on a familiar topic, using the structure, one visual description, and a closing question. The tutor gives two strengths and one priority, in a peer-feedback style.",
+        "phrases": [
+          "Let me show you ...",
+          "Here you can see ...",
+          "Are there any questions?"
+        ],
+        "mandate": "Act as a peer audience. Give feedback in this order: strength, priority, next step. Do not correct language until the feedback is complete."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I will show you, the slide is good, and the people can see.",
+          "Thank you. End."
+        ]
+      }
+    }
+  }
+]

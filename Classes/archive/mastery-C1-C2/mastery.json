@@ -1,0 +1,542 @@
+[
+  {
+    "id": "MASTERY-01",
+    "phase": "Mastery",
+    "number": 1,
+    "cefr": "C1",
+    "title": "Measured Judgements: Hedging and Stance",
+    "canDo": "Can express complex ideas with precise, measured stance and qualify claims fluently and without strain.",
+    "goal": "State a view with appropriate hedging and sustain it in an extended discussion.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this topic: Is it fair to judge a society by its most successful citizens? Ask for an opening opinion in about 60 seconds.",
+        "tutorAction": "Let the student speak without interruption. Note two stance phrases for the wrap-up."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "It could be argued that ... / To some extent, ... / There is a case for ... / Arguably, ...",
+        "examples": [
+          "It could be argued that success reflects opportunity as much as effort.",
+          "To some extent, the criticism is justified, though it overlooks context.",
+          "Arguably, the problem lies less in the policy than in its execution."
+        ],
+        "method": "Show the hedges on screen with a strong claim and a hedged claim side by side. Ask guiding questions: What is the difference in certainty? When would a speaker choose each? Let the student restate their warm-up opinion with one hedge.",
+        "checkQuestion": "Which phrase shows the speaker is certain: arguably, or it is undeniable that?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this editorial extract twice at native speed: Few would dispute that meritocracy is an appealing ideal. Yet the evidence suggests that privilege, far from being incidental, shapes which talents are ever recognised in the first place.",
+        "factCheck": "Ask: What do few people dispute? (meritocracy is an appealing ideal). What does the evidence suggest shapes recognition? (privilege).",
+        "toneCheck": "Ask: How does the writer signal the shift from the ideal to the critique? Ask the student to point to the word that marks the contrast, such as Yet."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Extended discussion: the student and the tutor debate the warm-up question for about twelve minutes. The student must use at least three hedges and must respond to two challenges from the tutor. Finish with a three-minute summary of the strongest point on each side.",
+        "phrases": [
+          "It could be argued that ...",
+          "To some extent, ...",
+          "Arguably, ..."
+        ],
+        "mandate": "Guide a high-level discussion. Take notes on minor errors silently, let the student lead, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "It is true that success is because of work.",
+          "Privilege is the reason for everything."
+        ],
+        "upgrades": [
+          { "accurate": "It is true that success is because of work.", "native": "To a large extent, success reflects sustained effort." },
+          { "accurate": "Privilege is the reason for everything.", "native": "Privilege plays a far larger role than is often acknowledged." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-02",
+    "phase": "Mastery",
+    "number": 2,
+    "cefr": "C1",
+    "title": "Emphasis and Focus: Cleft Sentences and Inversion",
+    "canDo": "Can use advanced sentence structures for emphasis and organise information to highlight what matters most.",
+    "goal": "Use cleft sentences and inversion to emphasise key points in speech and writing.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this topic: What is the most underrated skill in the modern workplace? Ask for an opening answer in about 60 seconds.",
+        "tutorAction": "Let the student speak freely. Note any structure they reach for to add emphasis."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "It is X that ... / What I find striking is ... / Rarely have I ... / Not only ... but also ...",
+        "examples": [
+          "It is listening that most managers neglect.",
+          "What I find striking is how little attention we pay to tone.",
+          "Rarely have I seen a team recover so quickly from a setback."
+        ],
+        "method": "Show a plain sentence and its emphatic version. Ask guiding questions: What is being highlighted? What is the new sentence order? Let the student rewrite one of their warm-up sentences with emphasis.",
+        "checkQuestion": "In Rarely have I seen a team recover, why does the auxiliary verb come before the subject?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this column extract twice at native speed: Not only does the policy ignore regional differences, but it also assumes that every household can afford the upgrade. What the government calls reform is, in truth, a quiet transfer of cost.",
+        "factCheck": "Ask: What does the policy ignore? (regional differences). What does it assume about households? (they can afford the upgrade).",
+        "toneCheck": "Ask: How does the writer feel about the government's word reform? Ask the student to point to the phrase that shows the attitude, such as in truth."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Persuasive talk: the student argues a position on the warm-up topic in a three-minute monologue, then defends it against two challenges from the tutor. Each main point must use an emphatic structure at least once.",
+        "phrases": [
+          "What matters most is ...",
+          "Rarely does ...",
+          "It is ... that ..."
+        ],
+        "mandate": "Guide a high-level discussion. Let the student lead, take silent notes on small errors, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "What I think is important is communication.",
+          "Rarely I have seen this happen."
+        ],
+        "upgrades": [
+          { "accurate": "What I think is important is communication.", "native": "What matters most is communication." },
+          { "accurate": "Rarely I have seen this happen.", "native": "Rarely have I seen this happen." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-03",
+    "phase": "Mastery",
+    "number": 3,
+    "cefr": "C1",
+    "title": "Industry Language: Business and Strategy Terms",
+    "canDo": "Can use professional and industry-specific terminology accurately in a formal discussion.",
+    "goal": "Discuss a business strategy using precise industry terms such as margin, stakeholder, and scalability.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this topic: What makes a start-up sustainable in the long run? Ask for an opening opinion in about 60 seconds.",
+        "tutorAction": "Let the student speak freely and note any industry terms they use or avoid."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Term + collocation in context (profit margin, stakeholder buy-in, scalable model, cash flow pressure)",
+        "examples": [
+          "The company is protecting its profit margin by renegotiating supplier contracts.",
+          "Getting stakeholder buy-in early makes the strategy easier to deliver.",
+          "The model is scalable only if customer acquisition costs fall."
+        ],
+        "method": "Show each term with a collocation and a plain-English equivalent. Ask guiding questions: Would a plain word be less precise here? Let the student replace two plain words in their warm-up answer with industry terms.",
+        "checkQuestion": "Which term refers to the people with an interest in a decision: stakeholder or shareholder?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this business news extract twice at native speed: The firm reported thinner margins this quarter, citing rising input costs. Analysts say that unless it can improve its scalability, investor confidence will remain fragile.",
+        "factCheck": "Ask: What did the firm report? (thinner margins). What is the cause? (rising input costs). What must improve? (scalability).",
+        "toneCheck": "Ask: Are the analysts optimistic or cautious? Ask the student to point to the phrase that shows the attitude, such as remain fragile."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Strategy presentation: the student presents a short business strategy to the tutor, acting as a board member, and defends it against two questions about cost and stakeholder support. The student must use at least four industry terms naturally.",
+        "phrases": [
+          "The priority is to protect ...",
+          "We need stakeholder buy-in on ...",
+          "The model only scales if ..."
+        ],
+        "mandate": "Guide a high-level discussion. Act as a demanding board member, take silent notes on terminology, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The company has thin margins because it costs more.",
+          "We need the people who own shares to agree."
+        ],
+        "upgrades": [
+          { "accurate": "The company has thin margins because it costs more.", "native": "The company's margins are under pressure from rising input costs." },
+          { "accurate": "We need the people who own shares to agree.", "native": "We need shareholder buy-in before we proceed." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-04",
+    "phase": "Mastery",
+    "number": 4,
+    "cefr": "C1",
+    "title": "Irony and Understatement: Saying Less to Mean More",
+    "canDo": "Can recognise and use irony, understatement, and sarcasm in speech, reading texts, and everyday conversation.",
+    "goal": "Recognise and use understatement and irony in conversation, and explain the intended meaning.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this line: The printer has broken again, so today is going brilliantly. Ask: What is the speaker really saying?",
+        "tutorAction": "Let the student explain the irony in their own words, then ask one follow-up about the tone."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Understatement (not bad at all, a bit of a problem) and irony (positive words with a negative meaning), signalled by tone and context",
+        "examples": [
+          "The project was a bit of a disaster. (The project failed badly.)",
+          "Well, that went brilliantly. (Things went badly.)",
+          "It is not the worst idea he has had. (It was a poor idea.)"
+        ],
+        "method": "Show each example with its literal and intended meaning. Ask guiding questions: What is the literal meaning? What would a listener infer from the context? Let the student create one ironic remark about a common frustration.",
+        "checkQuestion": "If a speaker says the meeting went brilliantly after a terrible presentation, do they mean it literally?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Play a short sarcastic exchange from a comedy clip, or read this text twice at native speed: Oh, wonderful. The train was cancelled again, so naturally we are all having a lovely walk home. Nothing says good planning like a bus that never arrives.",
+        "factCheck": "Ask: Why are they walking home? (the train was cancelled). What does the speaker say about the bus? (it never arrives).",
+        "toneCheck": "Ask: Is the speaker happy or annoyed? Ask the student to point to the phrase that shows the real feeling, such as Nothing says good planning."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Witty complaint: the tutor describes a minor everyday frustration (a late delivery, a noisy neighbour). The student responds using irony or understatement, then the tutor replies. Continue for five exchanges, shifting between light and serious tone.",
+        "phrases": [
+          "That is not ideal, is it?",
+          "Well, that went rather well.",
+          "I suppose it could be worse."
+        ],
+        "mandate": "Guide a high-level discussion. Act as a witty conversation partner, take silent notes on awkward phrasing, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The day is very good because my printer broke.",
+          "That was a very bad presentation, I was very sad."
+        ],
+        "upgrades": [
+          { "accurate": "The day is very good because my printer broke.", "native": "Well, today is shaping up nicely." },
+          { "accurate": "That was a very bad presentation, I was very sad.", "native": "That presentation was a bit of a disaster." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-05",
+    "phase": "Mastery",
+    "number": 5,
+    "cefr": "C1",
+    "title": "Register Shifts: Formal and Casual in One Conversation",
+    "canDo": "Can switch smoothly between casual chat and formal meetings, adapting vocabulary and tone to the audience.",
+    "goal": "Move between casual and formal register in the same conversation without losing clarity.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this scenario: You meet a senior client at a casual lunch and the topic turns to a contract. Ask: How would you open the conversation?",
+        "tutorAction": "Let the student open in whichever register they choose, then ask them to shift to the other register."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Casual: to be fair, honestly, I'd say. Formal: with respect, I would contend, it would seem that. Shift with a signal phrase.",
+        "examples": [
+          "Honestly, I think the deadline is unrealistic. (casual)",
+          "With respect, I would contend that the deadline is unrealistic. (formal)",
+          "To be fair, the team did its best, so let us review the timeline. (a bridge between the two)"
+        ],
+        "method": "Show the same message in casual and formal versions. Ask guiding questions: Who is the audience? Which words signal the register? Let the student deliver one message in both registers.",
+        "checkQuestion": "Which word signals a formal register: honestly, or with respect?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this short transcript twice at native speed: Look, I know it is a tight schedule. Still, with respect, the client expects a revised plan by Thursday, and I would contend that we can meet that if we prioritise the core features.",
+        "factCheck": "Ask: What does the client expect by Thursday? (a revised plan). What does the speaker think is needed? (prioritise core features).",
+        "toneCheck": "Ask: Where does the speaker switch from casual to formal? Ask the student to point to the phrase that marks the shift, such as with respect."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Two-scene role-play: first the student and tutor chat casually about a weekend, then the conversation turns to a formal contract discussion. The student must make the shift at least twice and handle one interruption from the tutor in each register.",
+        "phrases": [
+          "Honestly, ...",
+          "With respect, ...",
+          "To be fair, ..."
+        ],
+        "mandate": "Guide a high-level discussion. Switch registers yourself without warning, take silent notes, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Hey, with respect, I would be honest with you.",
+          "Dear boss, yeah I think it is a bit too much."
+        ],
+        "upgrades": [
+          { "accurate": "Hey, with respect, I would be honest with you.", "native": "Look, I would be candid with you, if I may." },
+          { "accurate": "Dear boss, yeah I think it is a bit too much.", "native": "Dear Ms Lee, I feel the workload is rather too heavy at present." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-06",
+    "phase": "Mastery",
+    "number": 6,
+    "cefr": "C1",
+    "title": "Persuasive Devices: Rhetoric in Speech",
+    "canDo": "Can produce clear, well-structured, detailed speech on complex subjects, using rhetorical devices to persuade.",
+    "goal": "Use rhetorical devices such as rhetorical questions, repetition, and contrast to persuade an audience.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this topic: Should public transport be free? Ask for a one-minute opening opinion.",
+        "tutorAction": "Let the student speak freely and note any rhetorical device they use naturally."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Rhetorical question + answer; repetition at the start of clauses (anaphora); contrast pairs (not X, but Y)",
+        "examples": [
+          "Who really benefits from the status quo? Not the commuters.",
+          "We must invest in clean transport. We must invest in fair transport.",
+          "It is not about cost; it is about access."
+        ],
+        "method": "Show each device with an example and a label. Ask guiding questions: What effect does the repetition have? Who answers the rhetorical question? Let the student add one device to their warm-up opinion.",
+        "checkQuestion": "In a rhetorical question, does the speaker expect a real answer from the audience?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this speech extract twice at native speed: Why do we accept delays as normal? Why do we tolerate overcrowded carriages? It is not inevitable. It is a choice, and it is one we can change.",
+        "factCheck": "Ask: What do we accept as normal? (delays). What does the speaker say about the choice? (it is one we can change).",
+        "toneCheck": "Ask: Is the speaker resigned or determined? Ask the student to point to the phrase that shows the attitude, such as we can change."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Public address: the student gives a three-minute persuasive speech on the warm-up topic to the tutor, who acts as an audience member. The student must use at least two rhetorical devices, and the tutor asks two questions from the audience afterwards.",
+        "phrases": [
+          "Why do we ...?",
+          "It is not ... but ...",
+          "We must ..., we must ..."
+        ],
+        "mandate": "Guide a high-level discussion. Respond as a critical audience member, take silent notes on small errors, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Why we accept the delays? It is normal.",
+          "It is not about money, is about people."
+        ],
+        "upgrades": [
+          { "accurate": "Why we accept the delays? It is normal.", "native": "Why do we accept delays as if they were normal?" },
+          { "accurate": "It is not about money, is about people.", "native": "It is not about money; it is about people." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-07",
+    "phase": "Mastery",
+    "number": 7,
+    "cefr": "C2",
+    "title": "Cultural Subtext: Reading Between the Lines in Media",
+    "canDo": "Can understand implicit meaning, cultural references, and subtle attitudes in fast-paced media and literature.",
+    "goal": "Analyse the cultural subtext and implied meaning in a media text and explain it fluently.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this headline: Local council praises residents for their patience during the roadworks. Ask: What is the subtext here?",
+        "tutorAction": "Let the student explain the subtext freely, then ask what the headline is avoiding saying."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Euphemism and implicature: the surface meaning, the implied meaning, and the cultural reference that makes the implication work",
+        "examples": [
+          "Residents showed remarkable patience. (The roadworks were a serious problem.)",
+          "The reform was described as bold. (Critics thought it was reckless.)",
+          "She is a safe pair of hands. (She is reliable, but not exciting.)"
+        ],
+        "method": "Show each example with the surface and implied meaning. Ask guiding questions: What does the writer avoid saying? What does a reader need to know to understand the implication? Let the student decode one new example.",
+        "checkQuestion": "What is the implied meaning of describing a plan as bold in a newspaper column?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this media column twice at native speed: The minister described the report as thorough, which in Westminster terms means nobody will read past the executive summary. The committee, meanwhile, has promised to look into it, a phrase that has preceded many quiet burials.",
+        "factCheck": "Ask: How did the minister describe the report? (as thorough). What did the committee promise? (to look into it).",
+        "toneCheck": "Ask: How does the writer feel about the minister's words? Ask the student to decode the implied meaning of the phrase quiet burials and explain the cultural reference."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Media debate: the student and tutor discuss a current affairs topic chosen from a recent headline. The student must explain at least two implied meanings and the cultural context behind them, and respond to a challenge that the tutor raises.",
+        "phrases": [
+          "What this really suggests is ...",
+          "The phrase carries the implication that ...",
+          "Read in context, it signals ..."
+        ],
+        "mandate": "Guide a high-level discussion as an intellectual equal. Take silent notes on phrasing, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The minister said the report is good, so it is good.",
+          "This phrase means they will look at it later."
+        ],
+        "upgrades": [
+          { "accurate": "The minister said the report is good, so it is good.", "native": "The minister praised the report, though the praise reads as a polite brush-off." },
+          { "accurate": "This phrase means they will look at it later.", "native": "The phrase is a familiar euphemism for shelving a report indefinitely." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-08",
+    "phase": "Mastery",
+    "number": 8,
+    "cefr": "C2",
+    "title": "Subtle Humour: Wit, Timing, and Self-Deprecation",
+    "canDo": "Can use and understand subtle humour, wordplay, and self-deprecation in conversation with native-speed fluency.",
+    "goal": "Use wit and self-deprecation naturally in conversation, and respond to humour from others.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this line: I am not saying I am bad at planning, but my calendar has never once been ready for me. Ask: Why is this funny?",
+        "tutorAction": "Let the student explain the humour, then ask them to add a line in the same style."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Understatement, self-deprecation, and callback (a joke that returns with a new twist)",
+        "examples": [
+          "I am not saying I am disorganised, but my inbox has its own postcode.",
+          "I would love to help, but my schedule is currently a fiction.",
+          "As I said last week, the plan is perfect. The execution is a separate problem."
+        ],
+        "method": "Show each example and label the device. Ask guiding questions: What is the joke against? Who is the joke on? Let the student write one self-deprecating line about a small mistake they made recently.",
+        "checkQuestion": "In the inbox joke, is the speaker mocking someone else or themselves?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Play a short comedy sketch with fast native dialogue, or read this text twice at native speed: My cooking is famous in my flat. Unfortunately, it is famous mostly for the smoke alarm, which has now learned my face and says hello.",
+        "factCheck": "Ask: What is the speaker famous for? (their cooking, or rather the smoke alarm). What has the alarm learned? (the speaker's face).",
+        "toneCheck": "Ask: Is the speaker boasting or joking about their cooking? Ask the student to point to the phrase that shows the joke, such as famous mostly for the smoke alarm."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Witty exchange: the student and tutor trade light anecdotes about everyday failures, using self-deprecation and at least one callback to an earlier line. Keep the exchange natural and fast, and let the other speaker respond with a joke.",
+        "phrases": [
+          "I am not saying ..., but ...",
+          "As I said earlier, ...",
+          "In my defence, ..."
+        ],
+        "mandate": "Guide a high-level discussion as a witty conversation partner. Match the student's pace, take silent notes on phrasing, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I am not saying I am bad, but I am bad.",
+          "My cooking is very funny because the smoke is making a noise."
+        ],
+        "upgrades": [
+          { "accurate": "I am not saying I am bad, but I am bad.", "native": "I am not saying I am hopeless, but the evidence is against me." },
+          { "accurate": "My cooking is very funny because the smoke is making a noise.", "native": "My cooking is legendary, mostly because of the smoke alarm." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-09",
+    "phase": "Mastery",
+    "number": 9,
+    "cefr": "C2",
+    "title": "Nuanced Counter-Argument: Conceding and Rebutting",
+    "canDo": "Can express complex ideas precisely, concede points fairly, and rebut arguments in a sophisticated way.",
+    "goal": "Concede a valid point in a debate and rebut the rest with precise, sophisticated language.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this claim: Economic growth always improves people's lives. Ask: Where do you stand on this, and why?",
+        "tutorAction": "Let the student state a clear position in about 60 seconds, then challenge it with one counter-example."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "While it is true that X, the more pressing issue is Y. / I take the point, though I would question the premise that ...",
+        "examples": [
+          "While it is true that growth creates jobs, the more pressing issue is who captures the gains.",
+          "I take the point about productivity, though I would question the premise that wages follow automatically.",
+          "That may hold in aggregate, but it obscures considerable variation between regions."
+        ],
+        "method": "Show a weak rebuttal and a refined one side by side. Ask guiding questions: What does the concession signal? What is the rebuttal targeting: the premise or the conclusion? Let the student rebut one counter-point from the warm-up.",
+        "checkQuestion": "Does the phrase I take the point signal agreement, disagreement, or a partial concession?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this editorial extract twice at native speed: Defenders of the scheme rightly point to the jobs it created. Their argument, however, rests on an assumption that the benefits were evenly shared, which the figures do not support.",
+        "factCheck": "Ask: What do defenders point to? (the jobs it created). What assumption does their argument rest on? (benefits were evenly shared).",
+        "toneCheck": "Ask: Does the writer accept the defenders' argument? Ask the student to point to the words that show the concession and the rebuttal, such as rightly and however."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Structured debate: the student takes a side on the warm-up claim and debates the tutor for twelve minutes. Each turn, the student must make one concession and one rebuttal, using precise language.",
+        "phrases": [
+          "While it is true that ..., ...",
+          "I take the point, though ...",
+          "That may hold, but ..."
+        ],
+        "mandate": "Guide a high-level discussion as an intellectual equal. Take silent notes on phrasing, let the student lead, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Yes it is true but I don't agree at all.",
+          "Economy is good, but the people are not happy."
+        ],
+        "upgrades": [
+          { "accurate": "Yes it is true but I don't agree at all.", "native": "While that is undeniably true, I would contest the conclusion." },
+          { "accurate": "Economy is good, but the people are not happy.", "native": "Growth is encouraging, but its benefits are unevenly distributed." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "MASTERY-10",
+    "phase": "Mastery",
+    "number": 10,
+    "cefr": "C2",
+    "title": "Native Choice: Refining Fluent Speech",
+    "canDo": "Can express complex ideas without hesitation, with native-like word choice, collocation, and natural flow.",
+    "goal": "Speak fluently on a complex topic and refine word choices toward natural, native-like collocations.",
+    "stages": {
+      "warmup": {
+        "minutes": 2,
+        "prompt": "Post this topic: Is originality overrated in art and business? Ask for an immediate, detailed opening opinion.",
+        "tutorAction": "Let the student speak without interruption and note two collocations for the wrap-up."
+      },
+      "theory": {
+        "minutes": 3,
+        "structure": "Collocation and register: draw a conclusion, carry real weight, a sweeping generalisation, bear in mind, the bottom line",
+        "examples": [
+          "We should be careful not to draw a sweeping conclusion from one case.",
+          "That point carries real weight, bearing in mind the evidence.",
+          "The bottom line is that originality depends on context."
+        ],
+        "method": "Show each collocation with a more textbook alternative. Ask guiding questions: Which version sounds more natural to a native speaker? Why? Let the student rebuild one of their warm-up sentences using a natural collocation.",
+        "checkQuestion": "Is it more natural to say draw a conclusion or make a conclusion in English?"
+      },
+      "comprehension": {
+        "minutes": 5,
+        "source": "Read this essay extract twice at native speed: Originality is often treated as a virtue in itself. Yet most innovations are, on closer inspection, careful recombinations of existing ideas, and the bottom line is that context matters more than novelty.",
+        "factCheck": "Ask: How is originality often treated? (as a virtue in itself). What do most innovations consist of? (careful recombinations of existing ideas).",
+        "toneCheck": "Ask: Is the writer dismissive of originality or measured about it? Ask the student to point to the phrase that shows the balance, such as on closer inspection."
+      },
+      "conversation": {
+        "minutes": 18,
+        "task": "Fluent debate: the student and tutor discuss the warm-up topic at native speed for twelve minutes, shifting between formal and casual tone at least twice. The tutor finishes with a challenge to the student's central claim.",
+        "phrases": [
+          "The bottom line is that ...",
+          "That carries real weight, bearing in mind ...",
+          "I would be wary of a sweeping generalisation about ..."
+        ],
+        "mandate": "Guide a high-level discussion as a native-level coach. Take silent notes on word choice, let the student lead, and keep the speaking share at 90 percent or more."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We should not make a big conclusion from one case.",
+          "The most important thing at the end is that context is important."
+        ],
+        "upgrades": [
+          { "accurate": "We should not make a big conclusion from one case.", "native": "We should not draw a sweeping conclusion from a single case." },
+          { "accurate": "The most important thing at the end is that context is important.", "native": "The bottom line is that context matters." }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "id": "QR-G-01",
+    "type": "Grammar",
+    "topic": "Tenses",
+    "question": "Why do we say I work in a bank, but I am working from home this week?",
+    "answer": "Present simple describes routines and permanent facts. Present continuous describes temporary situations and actions happening around now.",
+    "examples": [
+      "I work in a bank. (my usual job)",
+      "I am working from home this week. (a temporary change)"
+    ],
+    "mistake": "Using the continuous for routines, such as I am working in a bank every day. Use the simple form for routines.",
+    "tip": "Ask: Is this usual, or just for now?"
+  },
+  {
+    "id": "QR-G-02",
+    "type": "Grammar",
+    "topic": "Tenses",
+    "question": "Why do we say I have lived here for three years, and not I live here since three years?",
+    "answer": "Use for with a length of time (three years). Use since with a starting point (2019). For actions that started in the past and continue now, use the present perfect or present perfect continuous.",
+    "examples": [
+      "I have lived here for three years.",
+      "I have lived here since 2019."
+    ],
+    "mistake": "Using the present simple with for or since, as in I live here since 2019. Use the present perfect instead.",
+    "tip": "Spanish uses the present for desde hace. English uses the present perfect for the same idea."
+  },
+  {
+    "id": "QR-G-03",
+    "type": "Grammar",
+    "topic": "Tenses",
+    "question": "Why do we say I visited Spain last year, and not I have visited Spain last year?",
+    "answer": "The present perfect connects the past to now and cannot be used with a finished time, such as last year, yesterday, or in 2019. Use the past simple for finished times.",
+    "examples": [
+      "I visited Spain last year.",
+      "I have visited Spain three times. (no finished time given)"
+    ],
+    "mistake": "Adding a finished time word to the present perfect, as in I have seen him yesterday.",
+    "tip": "If the sentence names a finished time, use the past simple."
+  },
+  {
+    "id": "QR-G-04",
+    "type": "Grammar",
+    "topic": "Verbs",
+    "question": "Why do we say make a decision but do homework?",
+    "answer": "Make is used for creating or causing things, such as make a decision, make a mistake, make a plan. Do is used for tasks and activities, such as do homework, do the dishes, do exercise.",
+    "examples": [
+      "We need to make a decision by Friday.",
+      "I have to do my homework tonight."
+    ],
+    "mistake": "Using do with decision or plan (do a decision), or make with homework (make homework). Spanish uses hacer for both.",
+    "tip": "Learn each common phrase as one unit, such as make a mistake and do the shopping."
+  },
+  {
+    "id": "QR-G-05",
+    "type": "Grammar",
+    "topic": "Verbs",
+    "question": "Why do we say She told me, but She said me?",
+    "answer": "Tell needs a person after it (tell me, tell him). Say is used without a person, and it is followed by the words spoken (say hello, she said that).",
+    "examples": [
+      "She told me that the meeting was cancelled.",
+      "She said that the meeting was cancelled."
+    ],
+    "mistake": "Saying she said me. Use say with the words or that, and tell with a person.",
+    "tip": "If you can add a person after the verb, use tell."
+  },
+  {
+    "id": "QR-G-06",
+    "type": "Grammar",
+    "topic": "Quantity",
+    "question": "Why do we say many people but much water?",
+    "answer": "Many is used with countable nouns (things you can count). Much is used with uncountable nouns (things you measure, such as water, information, time). Spanish uses mucho for both.",
+    "examples": [
+      "There are many books on the desk.",
+      "There is not much information about the course."
+    ],
+    "mistake": "Saying much people or many information.",
+    "tip": "Ask: Can I count it? If yes, use many. If not, use much."
+  },
+  {
+    "id": "QR-G-07",
+    "type": "Grammar",
+    "topic": "Quantity",
+    "question": "Why do we say I am 30 years old, and not I have 30 years?",
+    "answer": "In English, age is described with the verb to be. Spanish uses tener (to have) for age, but English does not.",
+    "examples": [
+      "I am 30 years old.",
+      "How old are you?"
+    ],
+    "mistake": "I have 30 years, which comes directly from tengo 30 años.",
+    "tip": "For age, always use am, is, or are."
+  },
+  {
+    "id": "QR-G-08",
+    "type": "Grammar",
+    "topic": "Quantity",
+    "question": "Why do we say There are many people, and not There is many people?",
+    "answer": "There is is used with a singular or uncountable noun, and there are with a plural noun. Spanish uses hay for both.",
+    "examples": [
+      "There is a problem with the printer.",
+      "There are three students in the class."
+    ],
+    "mistake": "Using there is with a plural noun, as in There is many students.",
+    "tip": "Check the noun after there: singular or uncountable takes is, plural takes are."
+  },
+  {
+    "id": "QR-G-09",
+    "type": "Grammar",
+    "topic": "Verbs",
+    "question": "Why do we say she works, and not she work?",
+    "answer": "In the present simple, the third person singular (he, she, it) adds -s to the verb. Spanish changes the verb ending, so the English -s is easy to forget.",
+    "examples": [
+      "She works in a hospital.",
+      "He goes to school by bus."
+    ],
+    "mistake": "Forgetting the -s after he, she, or it: She work. Also check for -es after verbs ending in -o, -ch, and -sh: she goes, she watches.",
+    "tip": "Say the -s clearly, even though it is not written in Spanish."
+  },
+  {
+    "id": "QR-G-10",
+    "type": "Grammar",
+    "topic": "Questions",
+    "question": "Why do we say Where do you live?, and not Where you live?",
+    "answer": "English questions need an auxiliary verb (do, does, did, is, are) before the subject. Spanish questions often need no helper verb, so the helper is easy to forget.",
+    "examples": [
+      "Where do you live?",
+      "Does she speak French?"
+    ],
+    "mistake": "Dropping the auxiliary: Where you work? or You speak English?",
+    "tip": "For yes or no questions in the present, start with do or does."
+  },
+  {
+    "id": "QR-G-11",
+    "type": "Grammar",
+    "topic": "Negatives",
+    "question": "Why do we say I don't know anything, and not I don't know nothing?",
+    "answer": "English uses only one negative in a clause. Spanish allows double negatives (no sé nada), but English does not.",
+    "examples": [
+      "I don't know anything about it.",
+      "I know nothing about it."
+    ],
+    "mistake": "Using two negatives in one clause: I don't know nothing, I never went nowhere.",
+    "tip": "Use don't with anything, or use nothing without don't, but never both."
+  },
+  {
+    "id": "QR-G-12",
+    "type": "Grammar",
+    "topic": "Word order",
+    "question": "Why do we say a big red car, and not a red big car?",
+    "answer": "English adjectives follow a fixed order: opinion, size, age, shape, colour, origin, material, then noun. Spanish often puts colour and size after the noun, so the English order feels unnatural.",
+    "examples": [
+      "She bought a beautiful old wooden table.",
+      "It is a small black bag."
+    ],
+    "mistake": "Putting colour before size: a red big car. Also avoid placing the adjective after the noun, as in a car red.",
+    "tip": "Opinion, size, colour, noun. Keep that order for the most common cases."
+  },
+  {
+    "id": "QR-G-13",
+    "type": "Grammar",
+    "topic": "Tenses",
+    "question": "Why do we say I have already eaten, but I haven't eaten yet?",
+    "answer": "Already is used in positive sentences to show something happened earlier than expected. Yet is used in negative sentences and questions to show something has not happened, but may happen soon.",
+    "examples": [
+      "I have already finished the report.",
+      "I haven't finished the report yet."
+    ],
+    "mistake": "Using already in a negative sentence (I haven't already eaten), or yet in a positive one (I have eaten yet).",
+    "tip": "Already goes in positive sentences. Yet goes at the end of negative sentences and questions."
+  },
+  {
+    "id": "QR-P-01",
+    "type": "Pronunciation",
+    "topic": "Vowels",
+    "question": "Why do ship and sheep sound the same to me?",
+    "answer": "Spanish has one short i sound. English has a short sound in ship (/ɪ/) and a long sound in sheep (/iː/). The long one is tense: the lips spread and the sound is held longer.",
+    "examples": [
+      "ship /ɪ/ and sheep /iː/",
+      "bit /ɪ/ and beat /iː/"
+    ],
+    "mistake": "Saying both words with the same length and tongue position.",
+    "tip": "Say sheep with a bigger smile and hold it. Say ship relaxed and short."
+  },
+  {
+    "id": "QR-P-02",
+    "type": "Pronunciation",
+    "topic": "Vowels",
+    "question": "Why do cat and bed sound different in English?",
+    "answer": "Spanish has one a sound, and one e sound. English has the sound in cat (/æ/), which is between a and e, and a separate sound in bed (/ɛ/). The mouth opens more for cat.",
+    "examples": [
+      "cat /æ/ and bed /ɛ/",
+      "man /æ/ and men /ɛ/"
+    ],
+    "mistake": "Pronouncing cat with a pure Spanish a, so it sounds like the word for bed.",
+    "tip": "Drop the jaw more for cat. Keep the mouth smaller for bed."
+  },
+  {
+    "id": "QR-P-03",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "How do I say the th in think and this?",
+    "answer": "Think has a voiceless th (/θ/). This has a voiced th (/ð/). In both, the tongue tip is between the teeth. Spanish speakers often use t, d, or s instead.",
+    "examples": [
+      "think /θ/ (no voice)",
+      "this /ð/ (with voice)"
+    ],
+    "mistake": "Saying think as tink, or this as dis.",
+    "tip": "Put the tongue tip lightly between the teeth. Blow for think, and add voice for this."
+  },
+  {
+    "id": "QR-P-04",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why does very sound different from berry?",
+    "answer": "Spanish merges b and v into one sound. English /v/ is made with the upper teeth touching the lower lip, and the voice continues. English /b/ is made with both lips together, and the sound stops.",
+    "examples": [
+      "very /v/ (teeth on lip)",
+      "berry /b/ (lips together)"
+    ],
+    "mistake": "Saying very with two lips, so it sounds like berry.",
+    "tip": "For /v/, let the upper teeth rest on the lower lip, and keep the voice going."
+  },
+  {
+    "id": "QR-P-05",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why do chop and shop sound different?",
+    "answer": "Chop starts with /tʃ/, a t sound followed by sh. Shop starts with /ʃ/ alone, with the lips slightly rounded and the air flowing. Standard Spanish has ch (/tʃ/) but no sh sound (/ʃ/), so students often substitute ch.",
+    "examples": [
+      "shop /ʃ/",
+      "chop /tʃ/"
+    ],
+    "mistake": "Using ch for every sh, so shoe sounds like chew.",
+    "tip": "Say sh with air flowing and no stop. Add a t only for the ch sound."
+  },
+  {
+    "id": "QR-P-06",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why is the h silent in hour and honest, but pronounced in house?",
+    "answer": "In Spanish, h is always silent. In English, h is pronounced at the start of most words (house, hotel). A few words have a silent h (hour, honest, honour), and students need to learn those as exceptions.",
+    "examples": [
+      "house /h/ (pronounced)",
+      "hour /aʊə/ (silent h)"
+    ],
+    "mistake": "Dropping the h in house, or pronouncing the silent h in hour.",
+    "tip": "Breathe out before a word starting with h, unless it is one of the few silent-h words."
+  },
+  {
+    "id": "QR-P-07",
+    "type": "Pronunciation",
+    "topic": "Stress",
+    "question": "Why do we say PHOtograph, phoTOgraphy, and photoGRAPHic?",
+    "answer": "English stress moves between syllables when word endings change. Spanish marks stress with an accent, but English does not, so students need to learn the stressed syllable with each word.",
+    "examples": [
+      "PHOtograph / phoTOgraphy / photoGRAPHic",
+      "REcord (noun) / reCORD (verb)"
+    ],
+    "mistake": "Keeping equal stress on every syllable, as in Spanish.",
+    "tip": "Clap the stress as you say a new word. Stressed syllables are longer, louder, and higher."
+  },
+  {
+    "id": "QR-P-08",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why do walked, played, and wanted sound different at the end?",
+    "answer": "The -ed ending has three sounds. After voiceless sounds (walked) it is /t/. After voiced sounds (played) it is /d/. After t or d (wanted) it is /ɪd/, a separate syllable.",
+    "examples": [
+      "walked /wɔːkt/",
+      "played /pleɪd/",
+      "wanted /ˈwɒntɪd/"
+    ],
+    "mistake": "Pronouncing the full -ed ending every time, as in walk-ed, or dropping it completely.",
+    "tip": "Only wanted, needed, and similar verbs add a full extra syllable."
+  },
+  {
+    "id": "QR-P-09",
+    "type": "Pronunciation",
+    "topic": "Stress",
+    "question": "Why do we say /ə/ in about, problem, and to?",
+    "answer": "Unstressed syllables in English are weak and shorter, so their vowel often becomes the schwa /ə/. Spanish keeps every vowel clear, so the weak English vowel sounds unfamiliar.",
+    "examples": [
+      "about /əˈbaʊt/",
+      "problem /ˈprɒbləm/"
+    ],
+    "mistake": "Giving every vowel full sound, as in pro-ble-ma.",
+    "tip": "Make the stressed syllable strong and the rest quick and weak."
+  },
+  {
+    "id": "QR-P-10",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why does the r in very sound different from the r in rapid?",
+    "answer": "Spanish has a tapped r (a quick flick of the tongue) and a trilled rr. English r is made with the tongue curled back or spread, without touching the roof of the mouth.",
+    "examples": [
+      "red /r/ (no tongue contact)",
+      "pero /r/ (Spanish tap)"
+    ],
+    "mistake": "Tapping or trilling the r, as in a Spanish word.",
+    "tip": "Keep the tongue tip away from the roof of the mouth, and round the lips slightly."
+  },
+  {
+    "id": "QR-P-11",
+    "type": "Pronunciation",
+    "topic": "Consonants",
+    "question": "Why does wine sound different from guine?",
+    "answer": "English /w/ is made with rounded lips and no contact with the teeth. Spanish often adds a g sound (guaw) or uses a /b/ sound. The lips move first, then the vowel follows.",
+    "examples": [
+      "wine /w/",
+      "we /w/"
+    ],
+    "mistake": "Starting w with a hard g sound or with a b-like lip contact.",
+    "tip": "Round the lips as if to say oo, then move to the vowel."
+  },
+  {
+    "id": "QR-P-12",
+    "type": "Pronunciation",
+    "topic": "Vowels",
+    "question": "Why do we say the silent letters in knee, write, or island?",
+    "answer": "English has many silent letters from older spelling. The letters k, w, s, and b are often silent. Spanish spelling is more consistent, so these letters can seem unnecessary.",
+    "examples": [
+      "knee (silent k)",
+      "write (silent w)",
+      "island (silent s)"
+    ],
+    "mistake": "Pronouncing the silent letter, as in k-nee or wri-te.",
+    "tip": "Learn these words as groups: kn-, wr-, and -mb are often silent."
+  },
+  {
+    "id": "QR-F-01",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does actually not mean actualmente?",
+    "answer": "Actually means in fact or really. Actualmente means currently, and the English word for that is currently.",
+    "examples": [
+      "Actually, I think you are right. (en realidad)",
+      "Currently, the office is closed. (actualmente)"
+    ],
+    "mistake": "Saying I actually work in a bank to mean I currently work in a bank.",
+    "tip": "Use currently for actualmente, and actually for en realidad."
+  },
+  {
+    "id": "QR-F-02",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does embarrassed not mean embarazada?",
+    "answer": "Embarrassed means feeling shy or ashamed in public. Embarazada means pregnant. The English word for pregnant is pregnant.",
+    "examples": [
+      "I felt embarrassed when I forgot his name.",
+      "She is pregnant."
+    ],
+    "mistake": "Saying I am embarrassed to mean I am pregnant.",
+    "tip": "Embarrassed is a feeling. Pregnant is a condition."
+  },
+  {
+    "id": "QR-F-03",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does library not mean librería?",
+    "answer": "A library (biblioteca) is a place to borrow books. A librería is a bookshop, and the English word for that is bookshop.",
+    "examples": [
+      "I borrowed this book from the library.",
+      "I bought this book at the bookshop."
+    ],
+    "mistake": "Saying I went to the library to buy a book.",
+    "tip": "Use library for borrowing, and bookshop for buying."
+  },
+  {
+    "id": "QR-F-04",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does assist not mean asistir?",
+    "answer": "Assist means to help. Asistir means to attend or be present, and the English word for that is attend.",
+    "examples": [
+      "The assistant helped the manager. (assist)",
+      "I attended the meeting. (asistir)"
+    ],
+    "mistake": "Saying I assisted the meeting to mean I attended the meeting.",
+    "tip": "Use attend for events and meetings. Use assist for help."
+  },
+  {
+    "id": "QR-F-05",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does eventually not mean eventualmente?",
+    "answer": "Eventually means in the end, after a long time. Eventualmente means possibly or in some cases, and the English word for that is possibly.",
+    "examples": [
+      "Eventually, we found the right solution.",
+      "We may possibly need more time."
+    ],
+    "mistake": "Saying eventually for possibly.",
+    "tip": "Eventually shows time passing. Possibly shows uncertainty."
+  },
+  {
+    "id": "QR-F-06",
+    "type": "False friend",
+    "topic": "Word meaning",
+    "question": "Why does sensible not mean sensible in Spanish?",
+    "answer": "In English, sensible means reasonable or practical. In Spanish, sensible means sensitive. The English word for sensitive is sensitive.",
+    "examples": [
+      "It is a sensible choice to save money.",
+      "She is very sensitive about her weight."
+    ],
+    "mistake": "Saying she is sensible to mean she is sensitive.",
+    "tip": "Sensible describes good judgement. Sensitive describes feelings."
+  }
+]

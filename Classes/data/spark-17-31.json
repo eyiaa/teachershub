@@ -1,0 +1,812 @@
+[
+  {
+    "id": "SPARK-17",
+    "phase": "Spark",
+    "number": 17,
+    "cefr": "A2",
+    "title": "Everyday Routines and Changes: Present Simple and Present Continuous",
+    "canDo": "Can describe usual routines with the present simple and temporary changes happening now with the present continuous, using adverbs of frequency.",
+    "goal": "Say what you usually do with always, usually, sometimes, and never, and say what you are doing differently this week, contrasting the two tenses.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do recently? Tell me two things about your week. Then ask: What do you usually do on Mondays? What are you doing differently this week?",
+        "tutorAction": "Keep the warm-up relaxed. Accept short answers, expand one into a present simple sentence and one into a present continuous sentence, then move on."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Habit: subject + present simple + adverb of frequency + main verb (I usually work from home). Now: subject + am / is / are + verb-ing (I'm working at the office this week). Negative: I don't work / I'm not working. Questions: Do you work ...? / Are you working ...?",
+        "examples": [
+          "I usually work from home, but this week I'm working at the office.",
+          "She always takes the bus, but today she's walking.",
+          "We don't study on Sundays, but this weekend we're studying for a test.",
+          "Do you usually cook dinner? Are you cooking tonight?"
+        ],
+        "method": "Draw two columns on screen: Routine (every day, usually) and Right now (today, this week). Read one model sentence and ask which part is a habit and which part is a temporary change. Then gap-fill orally: I ___ (work) from home on Mondays. This week I ___ (work) at the office. Show where always, usually, sometimes, and never go: before the main verb, but after am, is, or are. Use a frequency scale from always to never to practise placement.",
+        "checkQuestion": "Which sentence is about a habit: I'm studying English or I study English every day?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Hi, I'm Lucia. I usually work from home on Monday, Tuesday, and Thursday. On Wednesdays, I go to the office. This week I'm working at the office every day because my manager is away. I always have coffee in the morning, but this week I'm drinking tea. I don't usually eat lunch at my desk, but today I'm eating a sandwich at my desk!",
+        "factCheck": "Ask: Where does Lucia usually work? (from home on Monday, Tuesday, and Thursday). Where is she working this week? (at the office every day). What does she usually drink in the morning? (coffee). What is she drinking this week? (tea).",
+        "toneCheck": "Ask: Is this a normal week for Lucia? How do you know? Accept a short answer such as no, because of this week and because her manager is away."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "What is different this week? The student describes three usual activities with adverbs of frequency, then three temporary changes with the present continuous. The tutor plays a friend and asks a follow-up question for each change, such as Why are you doing that this week?",
+        "phrases": [
+          "I usually ... / I always ... / I sometimes ...",
+          "This week, I'm ...",
+          "I don't usually ..., but today I'm ...",
+          "What are you doing differently this week?",
+          "Why are you doing that this week?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Respond naturally and prompt the student to say more rather than giving answers. Note one strength and one recurring gap. Count the routine and current contrasts the student makes, target four, and mark task completion, interaction, intelligibility, and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I am usually work from home.",
+          "This week I work at the office.",
+          "He is go to the office today."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-18",
+    "phase": "Spark",
+    "number": 18,
+    "cefr": "A2",
+    "title": "Talking About the Past: More Irregular Verbs",
+    "canDo": "Can tell a short story about a recent weekend or trip in the past simple, using regular verbs and common irregular verbs in order.",
+    "goal": "Use -ed endings for regular verbs and irregular forms such as took, bought, met, made, and felt, and link events with first, then, and after that.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last weekend? Then say: Last weekend, I visited my cousins. Ask: Where did you go? Who did you see?",
+        "tutorAction": "Accept any weekend, real or invented. Say the answer back in the past simple, then ask the student to repeat the verb form after you."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Regular verbs: base + -ed (worked, visited, watched, studied). Irregular verbs have their own past form (took, bought, met, made, felt). Time words: yesterday, last night, last weekend, last month.",
+        "examples": [
+          "Last Saturday I visited my cousins.",
+          "We cooked dinner and watched a movie.",
+          "I took the train to the city and bought a jacket.",
+          "I met my friend, and we felt very happy."
+        ],
+        "method": "Show verb pairs on screen: visit / visited, cook / cooked, watch / watched, study / studied (y changes to i), stop / stopped (double consonant). Then show irregular pairs: take / took, buy / bought, meet / met, make / made, feel / felt. The student reads each base verb and says the past form aloud, then builds one sentence with it. Point out that irregular forms must be learned in sets, so repeat each set of three.",
+        "checkQuestion": "What is the past form of buy: buyed or bought?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Last weekend, Tom visited his grandmother. He took the bus to her house on Saturday morning. They cooked lunch together and talked for hours. In the afternoon, Tom bought some flowers for her. In the evening, he met his cousins at a café. He felt tired but happy.",
+        "factCheck": "Ask: Who did Tom visit? (his grandmother). How did he travel? (by bus). What did he buy? (some flowers). Who did he meet in the evening? (his cousins). How did he feel? (tired but happy).",
+        "toneCheck": "Ask: Did Tom have a good weekend? Which words show it? (happy, talked for hours)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "My best weekend: the student tells the tutor about a recent weekend, real or invented, with at least five past actions in order. The tutor asks follow-up questions such as Who did you see? and How did you feel? The student links at least three events with first, then, and after that.",
+        "phrases": [
+          "Last weekend, I ...",
+          "I took / bought / met / made ...",
+          "First, I ... Then, I ... After that, I ...",
+          "How did you feel?",
+          "I felt happy / tired / bored."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Ask for the story, not perfect verb forms. Let the student finish each part before you respond. Count the past actions the student recounts, target five, and mark task completion, interaction, intelligibility, and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Last weekend I go to the market.",
+          "I buyed some bread.",
+          "Then I meet my friend and we are happy."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-19",
+    "phase": "Spark",
+    "number": 19,
+    "cefr": "A2",
+    "title": "Past Questions and Negatives: Asking About a Trip",
+    "canDo": "Can ask and answer simple questions about a past trip or event, and make negative sentences with didn't.",
+    "goal": "Ask Did you ...?, Where did you ...?, and What did you ...?, answer with Yes, I did or No, I didn't, and say what you did not do.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Last weekend, I visited my cousins. Then ask: Did you have a nice weekend? Where did you go?",
+        "tutorAction": "Use Did you ...? as the model for the lesson. Accept a yes or no answer, then ask one follow-up question with What or Where."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Did + subject + base verb (Did you go? Did she like it?). Question word + did + subject + base verb (Where did you stay? What did you eat?). Negative: subject + didn't + base verb (I didn't travel. She didn't like it). Short answers: Yes, I did. / No, I didn't.",
+        "examples": [
+          "Did you travel in July?",
+          "Where did you stay?",
+          "I didn't travel in July.",
+          "Did you enjoy the trip? Yes, I did."
+        ],
+        "method": "Show the question pattern as three boxes on screen: Did / subject / base verb. Point out that the verb stays in its base form after did. Compare She went with She didn't go, and with Did she go? Show a question-word chart: who, what, where, when. Ask the student about a past trip, then give your own answer with a negative, such as I didn't go to the beach. The student makes two negatives about their last holiday.",
+        "checkQuestion": "Do we say Did you went or Did you go?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this interview twice, slowly: Interviewer: Did you go on holiday last year? Maria: Yes, I did. I went to Portugal in August. Interviewer: Where did you stay? Maria: I stayed in a small hotel near the beach. Interviewer: Did you enjoy it? Maria: Yes, I did! But I didn't go swimming. I was too tired.",
+        "factCheck": "Ask: Where did Maria go? (Portugal). When did she go? (in August). Where did she stay? (a small hotel near the beach). Did she go swimming? (No, she didn't).",
+        "toneCheck": "Ask: Did Maria enjoy her holiday? Which words show it? (Yes, I did! and near the beach)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Interview the tutor: the student asks five past simple questions about a trip, such as Where did you go?, Did you like it?, and Who did you travel with? The tutor answers briefly and includes one sentence with didn't. The student asks one follow-up question after each answer.",
+        "phrases": [
+          "Did you ...?",
+          "Where did you ...? / What did you ...?",
+          "Yes, I did. / No, I didn't.",
+          "I didn't ...",
+          "How long did you stay?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Give short, clear answers so the student can ask the next question. Count the accurate follow-up questions the student asks, target five, and mark interaction and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Did you went to Spain?",
+          "I didn't went to the beach.",
+          "Where you stayed?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-20",
+    "phase": "Spark",
+    "number": 20,
+    "cefr": "A2",
+    "title": "Describing People and Places: Comparatives and Superlatives",
+    "canDo": "Can compare two people, places, or products with -er, more, and than, and name the best or biggest in a group.",
+    "goal": "Use bigger than, more expensive than, and better than, and say which place or thing is the cheapest or the best in a group.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Where do you live? Is it a city or a small town? Then ask: Which is bigger, your city or the capital? Show two city photos.",
+        "tutorAction": "Start with adjectives the student already knows, such as big and small. Accept a short answer and repeat it back as a full comparison."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Short adjectives: adjective + -er + than (bigger than, cheaper than). Long adjectives: more + adjective + than (more expensive than). Irregular: good, better, the best; bad, worse, the worst. Superlative: the + adjective + -est (the biggest), or the most + adjective (the most popular). Use in or of: the best in town, the best of the three.",
+        "examples": [
+          "My city is quieter than the capital.",
+          "This restaurant is the cheapest in town.",
+          "The bus is more comfortable than the train.",
+          "Of the three cafés, this one is the best."
+        ],
+        "method": "Show two pictures: a big city and a small town. Write adjectives on the board in three columns: short (big, cheap, cold), long (expensive, comfortable, popular), and irregular (good, bad). Model big to bigger, and happy to happier. Ask the student to compare the two pictures with than. For a superlative, show a group of three and ask which is the most popular. Remind the student that -est and most never go together.",
+        "checkQuestion": "Do we say more cheap than or cheaper than?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Ana and Tom live in different places. Ana lives in Lisbon. Lisbon is bigger than her old town, and the buses are more modern. Tom lives in a small village. It is quieter and cheaper than the city, but the shops are not as good. Tom says the people in his village are the friendliest in the region.",
+        "factCheck": "Ask: Which place is bigger, Lisbon or Ana's old town? (Lisbon). Which place is quieter? (Tom's village). Which place is cheaper? (Tom's village). What does Tom say about the people? (They are the friendliest in the region).",
+        "toneCheck": "Ask: Which person is proud of their home? Which words show it? (the friendliest people)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Which place is better for you? The tutor describes two places, such as two cafés or two towns. The student makes at least four comparisons with -er, more, and than, then chooses one place and gives a reason. Then the tutor names three places, and the student says which one is the best for a weekend.",
+        "phrases": [
+          "... is bigger / cheaper / quieter than ...",
+          "... is more expensive / modern than ...",
+          "This is the best / the cheapest ...",
+          "I prefer ... because it's ...",
+          "Which one is more ...?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use places the student knows, if they prefer. Give the student time to build each comparison before you offer any help. Count the supported comparisons, target four, and mark task completion and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "My city is more quiet than yours.",
+          "This is the more cheap restaurant.",
+          "The café is good than the bar."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-21",
+    "phase": "Spark",
+    "number": 21,
+    "cefr": "A2",
+    "title": "Plans and Arrangements: Going To and the Present Continuous",
+    "canDo": "Can describe intentions and fixed arrangements for the near future, and confirm a time and place for a meeting.",
+    "goal": "Say what you are going to do with going to, say what is arranged with the present continuous and a time phrase, and confirm plans with a partner.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last weekend? Then ask: What are you doing this weekend? Show a calendar with one appointment on Monday at nine.",
+        "tutorAction": "Accept a short answer, then say it back as a full sentence with going to or the present continuous. Do not explain the difference yet."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Going to: am / is / are + going to + base verb, for intentions and predictions based on present evidence (I'm going to visit my family). Present continuous for arrangements: am / is / are + verb-ing + time phrase (I'm meeting my friend at six). Negative: I'm not going to visit / I'm not meeting.",
+        "examples": [
+          "I'm going to visit my family this weekend.",
+          "I'm meeting my friend at six o'clock.",
+          "Look at those clouds. It's going to rain.",
+          "We aren't going to play tennis on Sunday."
+        ],
+        "method": "Show a calendar with three fixed appointments: a doctor visit, a meeting, and dinner with a friend. Use the present continuous for these: I'm seeing the doctor on Monday. Then show an intention with no appointment: I'm going to study more next month. Explain that the calendar fixes the time, while going to is a plan without a fixed time. Show a sky with clouds for a prediction: It's going to rain. Ask: What are you doing on Friday? What are you going to do next year?",
+        "checkQuestion": "Is I'm meeting my friend at six a fixed arrangement or a general plan?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this message twice, slowly: Hi Sam, this is Lucy. I'm going to visit my parents this weekend, so I'm not free on Saturday. I'm meeting Ana for lunch on Sunday at one o'clock. Are you going to come? We're going to have a picnic in the park. It's going to be sunny!",
+        "factCheck": "Ask: Where is Lucy going this weekend? (to visit her parents). When is she meeting Ana? (Sunday at one o'clock). What are they going to do? (have a picnic). What will the weather be? (sunny).",
+        "toneCheck": "Ask: Does Lucy want Sam to join them? Which words show it? (Are you going to come?, It's going to be sunny!)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Agree on a weekend plan: the student and the tutor are two friends. The student has one fixed appointment and one intention. The tutor asks about the student's plans. Together they agree on a meeting time and place, then confirm it. The student uses going to for the intention and the present continuous for the appointment.",
+        "phrases": [
+          "I'm going to ... this weekend.",
+          "I'm meeting ... at ...",
+          "Are you free on ...?",
+          "Shall we meet at ...?",
+          "Does ... work for you? See you then!"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use a real calendar if the student has one. Let the student negotiate the time, and offer a time only when they are stuck. Count the plans the student describes, target three, and mark whether the arrangement is confirmed."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I going to visit my friend.",
+          "I'm meet my friend at six.",
+          "It's going to rains tomorrow."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-22",
+    "phase": "Spark",
+    "number": 22,
+    "cefr": "A2",
+    "title": "Predictions and Decisions: Using Will",
+    "canDo": "Can make simple predictions about the future and make decisions, offers, and promises at the moment of speaking.",
+    "goal": "Use will for predictions (I think it will rain), decisions (I'll answer it), offers (I'll help you), and promises (I won't be late).",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What are you going to do next weekend? Then show a picture of dark clouds and ask: What do you think will happen this afternoon?",
+        "tutorAction": "Accept a guess, even an unlikely one. Say it back with I think it will ..., and ask the student what they think."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + will + base verb (It will rain. I will help you.). Contractions: I'll, you'll, it'll, won't. Use will for predictions based on opinion, and for decisions made while speaking. Negative: will not / won't. Questions: Will you ...? Yes, I will. / No, I won't. Add I think, I hope, or probably before will.",
+        "examples": [
+          "I think it will rain tomorrow. I'll bring an umbrella.",
+          "Oh, the phone is ringing. I'll answer it.",
+          "Don't worry. I won't be late.",
+          "Will you come to the party? Yes, I will."
+        ],
+        "method": "Show a weather picture for a prediction: ask What will happen? and model I think it will rain. Then show a ringing phone for a decision: I'll answer it. Contrast with going to, which uses evidence: Look at the clouds. It's going to rain. Practise the sound of 'll in I'll, you'll, and we'll. Practise short answers: Will you ...? Yes, I will.",
+        "checkQuestion": "The phone is ringing. Do we use will or going to for a decision made at this moment?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this conversation twice, slowly: Ben: Look at those dark clouds! Anna: I think it will rain soon. Ben: You're right. I'll take my umbrella. Anna: Do you want a lift? Ben: Oh, yes, please. That would be great. I'll wait for you at the bus stop. Anna: Don't worry, I won't be late!",
+        "factCheck": "Ask: What does Anna think will happen? (it will rain soon). What will Ben take? (his umbrella). Where will Ben wait? (at the bus stop). Will Anna be late? (No, she won't).",
+        "toneCheck": "Ask: Are Ben and Anna friendly? Which words show it? (Oh, yes, please, Don't worry, That would be great)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Predictions and decisions: the tutor describes everyday situations. The student makes four predictions about the future, such as the weather, the news, or next year, and responds to two immediate decisions. For example, the tutor says: I'm really hungry. The student offers help with I'll make some lunch.",
+        "phrases": [
+          "I think it will ...",
+          "I don't think it will ...",
+          "Probably, ... will ...",
+          "I'll ... / I won't ...",
+          "Will you ...? Yes, I will. / No, I won't."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Accept opinions even if they are unlikely. Count the predictions the student makes, target four, and check whether the student uses will for decisions made while speaking. Mark interaction and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I think it will to rain tomorrow.",
+          "I think it will rains tomorrow.",
+          "I won't going to be late."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-23",
+    "phase": "Spark",
+    "number": 23,
+    "cefr": "A2",
+    "title": "Food, Shopping, and Quantities: Some, Any, Much, and Many",
+    "canDo": "Can ask about and state quantities of food and everyday items using some, any, much, many, a few, and a little.",
+    "goal": "Use some and any with countable and uncountable nouns, ask How many and How much, and use a few and a little for small amounts.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Where do you buy food? Then show a fridge with milk, eggs, apples, and rice, and ask: What do you have at home? Is there any milk?",
+        "tutorAction": "Use the picture as the context. Accept lists of food words, and repeat them in a full sentence such as We have some eggs."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Countable nouns (eggs, apples, tomatoes): many, a few, some, any. Uncountable nouns (rice, milk, bread): much, a little, some, any. Some in positive sentences; any in questions and negatives. How many eggs? How much milk? A few and a little mean a small amount.",
+        "examples": [
+          "We need some rice and a few tomatoes.",
+          "How much milk do we have?",
+          "Is there any bread?",
+          "There aren't many eggs, but there's a little cheese."
+        ],
+        "method": "Sort food pictures into two columns: countable (eggs, apples, tomatoes, bananas) and uncountable (rice, milk, bread, water, cheese). Point out that uncountable nouns have no plural. Use the fridge picture: ask How many eggs are there? (a few) and How much milk is there? (a little). Show some for positive sentences and any for questions and negatives. The student completes: We need ___ rice. Do we have ___ tomatoes? There aren't ___ apples.",
+        "checkQuestion": "Do we say How much eggs or How many eggs?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this shopping conversation twice, slowly: Mum: Can you buy some bread, please? Son: Sure! Is there any milk in the fridge? Mum: No, there isn't any. Please buy a little milk and a few eggs. Also, get some apples. We don't have many apples, and we need some fruit for the week. Son: How much money do we have? Mum: Not much, so be careful!",
+        "factCheck": "Ask: What does Mum ask the son to buy first? (some bread). Is there any milk in the fridge? (No). How many eggs does she want? (a few). Do they have many apples? (No). How much money do they have? (not much).",
+        "toneCheck": "Ask: Is Mum worried about money? Which words show it? (Not much, so be careful)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Grocery order: the student has a shopping list of four items and a budget. The tutor is the shop assistant. The student orders the four items with the right quantities, using some, any, a few, a little, How many, or How much. Then the tutor asks if the student needs anything else, and the student asks Do you have any ...?",
+        "phrases": [
+          "I'd like some ... / Do you have any ...?",
+          "How much ... / How many ...?",
+          "A few ... / A little ...",
+          "Is there any ...? No, there isn't any.",
+          "That's all, thank you."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use a real shopping list or a picture menu. Let the student choose the quantities, and correct only errors that stop the shop assistant from understanding. Mark the grocery order on a 1 to 4 scale, including whether the quantities fit the list."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "How many milk do we need?",
+          "We need much eggs.",
+          "Is there some bread?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-24",
+    "phase": "Spark",
+    "number": 24,
+    "cefr": "A2",
+    "title": "Advice and Obligations: Should, Have To, and Don't Have To",
+    "canDo": "Can give simple advice with should and shouldn't, and explain everyday rules and obligations with have to and don't have to.",
+    "goal": "Say what someone should or shouldn't do, explain a rule at work or school with have to, and say what is not necessary with don't have to.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: How are you feeling today? Then show a picture of a tired student and ask: What should she do? Does she have to go to school today?",
+        "tutorAction": "Use the picture to model should. Accept any advice, then say it back as a full sentence with should."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Advice: should / shouldn't + base verb (You should rest. You shouldn't drive.). Obligation: have to / has to + base verb (I have to wear a uniform. She has to finish the report.). No need: don't have to / doesn't have to (You don't have to drive.). Questions: Do I have to ...? Should I ...?",
+        "examples": [
+          "You should rest. You have to wear a helmet.",
+          "You shouldn't drive when you feel tired.",
+          "I have to wear a uniform at work.",
+          "You don't have to drive. You can take the bus."
+        ],
+        "method": "Show three pictures: a helmet on a bike, a No Parking sign, and a person with a cold. Ask what the person should do, and model the answer. For rules, show two signs and ask: Do we have to follow this rule? Contrast have to, which is a rule or necessity, with should, which is a good idea. Explain that don't have to means it is not necessary, not that it is forbidden. The student completes: You ___ rest (should). I ___ wear a helmet (have to). You ___ drive (don't have to).",
+        "checkQuestion": "Does don't have to mean you are not allowed, or that you do not need to?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this conversation twice, slowly: Doctor: You look tired, Mark. You should sleep more and drink more water. Mark: Thanks. I have to work late every day. Doctor: You shouldn't work late every night. Try to finish earlier. Mark: OK. Do I have to take medicine? Doctor: No, you don't have to. But you should eat more vegetables.",
+        "factCheck": "Ask: What should Mark do more? (sleep more and drink more water). What does Mark have to do every day? (work late). Does Mark have to take medicine? (No). What should he eat more of? (vegetables).",
+        "toneCheck": "Ask: Is the doctor worried about Mark? Which words show it? (You look tired, You should sleep more)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Give advice and explain a rule: the tutor describes a problem, such as a sore back from sitting all day, or a new job with strict rules. The student gives three recommendations with should or shouldn't, and explains two obligations with have to or don't have to. The tutor then asks one follow-up question, such as Why?",
+        "phrases": [
+          "You should ... / You shouldn't ...",
+          "I have to ... / He has to ...",
+          "You don't have to ...",
+          "Why do I have to ...?",
+          "It's a good idea to ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use problems the student knows, such as study or work. Keep the advice short. Record three recommendations and two obligations on a 1 to 4 scale for accuracy and task completion, and note whether the student separates advice from obligation."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "You should resting more.",
+          "I has to wear a uniform.",
+          "You don't have drive."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-25",
+    "phase": "Spark",
+    "number": 25,
+    "cefr": "A2",
+    "title": "Experiences So Far: Have You Ever...? and Past Events",
+    "canDo": "Can ask and answer questions about life experiences with Have you ever ...? and I've never, and give dated details with the past simple.",
+    "goal": "Ask Have you ever ...?, answer Yes, I have or No, I haven't, say I've never ..., and say when something happened with the past simple.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last weekend? Then ask: Have you ever been to another country? Show a photo of a famous place.",
+        "tutorAction": "Accept any answer. If the student says yes, ask When did you go? to introduce the past simple contrast."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Have / has + past participle (have been, have tried, have seen). Life experience with no time: Have you ever tried sushi? Yes, I have. / No, I haven't. I've never ... Dated event: past simple with a time phrase (I tried it last year. I went there two years ago.)",
+        "examples": [
+          "Have you ever tried sushi? Yes, I have.",
+          "I tried it last year.",
+          "I've never travelled alone.",
+          "Have you ever been to Japan? No, I haven't."
+        ],
+        "method": "Show five experiences: been to another country, tried sushi, ridden a horse, learned to swim, seen a famous film. Model with your own answer: I have been to Spain. I went there two years ago. Explain the rule: no time word means present perfect; a time word such as last year or two years ago means past simple. Introduce the common participles with a matching task: go / gone, eat / eaten, see / seen, ride / ridden.",
+        "checkQuestion": "Which tense goes with the time phrase last year: the present perfect or the past simple?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this interview twice, slowly: Ana: Have you ever been to Italy? Leo: Yes, I have. I went to Rome two years ago. It was amazing! Ana: Have you ever tried pizza in Naples? Leo: Yes, I have. I ate it there last summer. Ana: Have you ever ridden a horse? Leo: No, I've never ridden a horse. I'd love to try.",
+        "factCheck": "Ask: Has Leo been to Italy? (Yes). When did he go to Rome? (two years ago). Where did he eat pizza? (in Naples). Has he ever ridden a horse? (No).",
+        "toneCheck": "Ask: Does Leo want to ride a horse? Which words show it? (I'd love to try)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Interview a classmate: the student asks the tutor four Have you ever ...? questions. The tutor answers, and includes at least one dated past event. The student then follows up on the date with When did you ...? or Where did you ...?",
+        "phrases": [
+          "Have you ever ...?",
+          "Yes, I have. / No, I haven't.",
+          "I've never ...",
+          "When did you ...?",
+          "I ... last year / two years ago."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Answer with a dated event so the student has a contrast to practise. Count the accurate experience questions, target four, and check whether the student uses the past simple after a time phrase. Mark accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Have you ever went to Japan?",
+          "I have went to Italy last year.",
+          "Did you ever tried sushi?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-26",
+    "phase": "Spark",
+    "number": 26,
+    "cefr": "A2",
+    "title": "Directions and Services: Prepositions of Movement and Polite Requests",
+    "canDo": "Can give directions in a town using imperatives and prepositions of movement, and make polite requests at a service counter.",
+    "goal": "Give four-step directions with go, turn, cross, and walk, use across, through, along, past, and towards, and ask politely with Could you ...?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Where is the nearest supermarket to your home? Then show a town map and ask: How do you get to the library from the bus stop?",
+        "tutorAction": "Accept an answer with gestures and simple words, such as left or straight. Then say the route back with imperatives, such as Go straight and turn left."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Imperatives have no subject: Go straight. Turn left at the bank. Cross the street. Walk along the river. Prepositions of movement: across, through, along, past, into, out of, towards. Polite requests: Could you tell me ...? / Would you help me, please? / Could I have ...?",
+        "examples": [
+          "Go straight and turn left at the bank.",
+          "Cross the street and walk past the café.",
+          "Walk along the river towards the park.",
+          "Excuse me, could you tell me how to get to the station, please?"
+        ],
+        "method": "Show a town map with a bank, café, river, park, and station. Trace each route with a finger as you say it. Teach the prepositions of movement with gestures: through the park, across the street, along the river, past the café, into the shop, out of the station, towards the bridge. Contrast the imperative Turn left with the polite request Could you tell me ...? Ask the student to give a four-step route from the bus stop to the station.",
+        "checkQuestion": "Do we say Go to straight or Go straight?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice, slowly: Visitor: Excuse me, could you tell me how to get to the station? Local: Of course. Go straight, then turn right at the post office. Walk along the river towards the bridge. Cross the bridge and go past the café. The station is on your left, next to the park. Visitor: Thank you so much. Could you say that again, please? Local: Sure. Go straight, turn right, walk along the river, and cross the bridge.",
+        "factCheck": "Ask: What does the visitor want? (the station). Where do they turn right? (at the post office). What do they walk along? (the river). Where is the station? (on the left, next to the park).",
+        "toneCheck": "Ask: Is the local helpful? Which words show it? (Of course, Sure)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Give directions from a station to a café in four steps, using imperatives and prepositions of movement on the map. The tutor follows the directions and asks Could you say that again, please? if needed. Then the tutor asks for a service, such as a table for two, and the student makes a polite request.",
+        "phrases": [
+          "Go straight. Turn left / right. Cross ...",
+          "Walk along / past / through / towards ...",
+          "Could you tell me how to get to ...?",
+          "Could you say that again, please?",
+          "Could I have a table for two, please?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the same map for every task. Treat asking for repetition as good communication, not as a mistake. Mark the four-step directions on a 1 to 4 scale for clarity and accuracy."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Go to straight and turn left.",
+          "Cross the street and walk pass the café.",
+          "Could you to tell me the way?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-27",
+    "phase": "Spark",
+    "number": 27,
+    "cefr": "A2",
+    "title": "Stories in Progress: Past Continuous with When and While",
+    "canDo": "Can describe an action in progress in the past and say what interrupted it, using the past continuous with when and while.",
+    "goal": "Use was or were with -ing for background actions and the past simple for interruptions, and link them with when and while.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last night? Then ask: What were you doing at eight o'clock last night? Tell me one thing you were doing.",
+        "tutorAction": "Accept a simple answer. Say it back as a past continuous sentence, such as You were cooking at eight o'clock."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Was / were + verb-ing for a background action: I was cooking dinner. They were watching TV. Past simple for the interruption: When the phone rang, I was cooking. While I was walking, it started to rain. Negative: wasn't / weren't + verb-ing. Question: What were you doing?",
+        "examples": [
+          "I was cooking when the phone rang.",
+          "While I was walking, it started to rain.",
+          "She wasn't working when the lights went out.",
+          "What were you doing when the teacher came in?"
+        ],
+        "method": "Draw a timeline with a long line for the background action and a short line for the interruption. Show four pictures: cooking when the phone rings, walking in the rain, sleeping when the lights go out, and reading when a friend arrives. Say the background action with was or were and -ing, then the interruption in the past simple. Show that when and while can start a sentence, with a comma after the first clause, or sit in the middle. The student makes two sentences from the pictures.",
+        "checkQuestion": "In the sentence I was cooking when the phone rang, which action is the background: I was cooking or the phone rang?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this story twice, slowly: Last night, Maria was cooking dinner when the power went out. She was surprised! While she was looking for a candle, her cat jumped on the table. Her friend Jon was walking to her house when he saw the lights go off in the whole street. He was worried, so he called her. When she answered, she was laughing.",
+        "factCheck": "Ask: What was Maria doing when the power went out? (cooking dinner). What was she looking for? (a candle). What did her cat do? (jumped on the table). What was Jon doing when he saw the lights? (walking to her house).",
+        "toneCheck": "Ask: How did Maria feel at first, and how did she feel at the end? Which words show it? (surprised, laughing)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Tell an interrupted-event story: the tutor shows four pictures, of a person cooking, a person walking in the rain, a person sleeping, and a person studying. The student tells a four-sentence story with when and while, such as While I was studying, the phone rang. The tutor asks What happened next? after each sentence.",
+        "phrases": [
+          "I was ... when ...",
+          "While I was ..., ...",
+          "When ..., I was ...",
+          "What were you doing when ...?",
+          "Then, ... / After that, ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Give the student time to build the story, and do not interrupt them. Check whether the story has four connected sentences, and mark task completion and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I was cook when the phone rang.",
+          "While I walking, it rained.",
+          "I was watching TV when the phone ring."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-28",
+    "phase": "Spark",
+    "number": 28,
+    "cefr": "A2",
+    "title": "Preferences and Reasons: Like, Love, Hate, and Would Rather",
+    "canDo": "Can say what they like, love, hate, and would rather do, and give a simple reason with because or so.",
+    "goal": "Use like, love, enjoy, and hate with -ing, use would rather with a base verb, and join a reason with because or so.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last weekend? Then ask: What do you enjoy doing in your free time? Show four pictures: a movie, hiking, cooking, and a concert.",
+        "tutorAction": "Accept one-word answers, such as football, and build them into a sentence: I enjoy playing football."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Like / love / enjoy / hate + verb-ing (I like cooking. She hates getting up early.). Would rather + base verb + than (I'd rather stay home than go out.). Reason: because + reason (I like hiking because it helps me relax.). Result: so + result (It was raining, so we stayed home.)",
+        "examples": [
+          "I enjoy hiking because it helps me relax.",
+          "I'd rather stay home tonight.",
+          "I hate getting up early, so I go to bed early.",
+          "She loves cooking because it's creative."
+        ],
+        "method": "Show four activity pictures. Model I love ... with -ing. Explain that like, love, enjoy, and hate are followed by -ing. Show that would rather is followed by a base verb: I'd rather watch a movie. Show that because gives a reason and so gives a result. The student completes: I enjoy ___ (cook). I'd rather ___ (stay) at home than ___ (go) out. I like swimming because ___.",
+        "checkQuestion": "After enjoy, do we say enjoy to read or enjoy reading?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Hi, I'm Sofia. I love music because it makes me happy. I enjoy going to concerts, but I hate queuing for tickets. This weekend, I'd rather stay home and listen to music than go to a big concert. My brother prefers football, so we often watch matches together on Saturday.",
+        "factCheck": "Ask: Why does Sofia love music? (it makes her happy). What does she hate? (queuing for tickets). What would she rather do this weekend? (stay home and listen to music). What does her brother prefer? (football).",
+        "toneCheck": "Ask: Does Sofia enjoy concerts? Which words show it? (I enjoy going to concerts, but I hate queuing)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Choose an activity together: the student and tutor choose a weekend activity from four options. The student says what they like, love, and hate about each option, with a reason using because. The student says which one they would rather do than the others. The tutor disagrees politely, and they agree on one activity.",
+        "phrases": [
+          "I love / like / enjoy ... -ing",
+          "I hate ... -ing",
+          "I'd rather ... than ...",
+          "... because ...",
+          "I'm not sure. I'd rather ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Disagree politely so the student has a reason to justify a choice. Count the preferences the student supports with a reason, target three, and mark task completion and accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I like to swimming.",
+          "I'd rather to stay home.",
+          "I love cook because is fun."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-29",
+    "phase": "Spark",
+    "number": 29,
+    "cefr": "A2",
+    "title": "Making Requests and Invitations: Can, Could, and Would",
+    "canDo": "Can make polite requests and invitations, accept or decline them politely with a reason, and ask for help in everyday situations.",
+    "goal": "Use Could you ...?, Can you ...?, and Would you like to ...? to ask for things and invite people, accept with I'd love to, and decline with I'm sorry, I can't.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What do you usually do on weekends? Then ask: Would you like to get a coffee this weekend? Show a picture of two friends in a café.",
+        "tutorAction": "Model the invitation first, then wait for the student to answer. Accept a yes or a no, and ask Why not? to lead into the next step."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Requests: Can you help me? / Could you help me, please? (more polite). Invitations: Would you like to + base verb? / Would you like a + noun? Responses: Yes, I'd love to! / I'm sorry, I can't. I have to work. / That sounds great, but ...",
+        "examples": [
+          "Could you help me, please? Of course!",
+          "Would you like to see a movie on Friday?",
+          "I'd love to, but I can't. I have to work.",
+          "Can I have a glass of water, please?"
+        ],
+        "method": "Show three request cards: help with a bag, a menu, and a phone number. Model Could you ...? and Can I ...? Show that Would you like ...? is an invitation. Give a yes response (I'd love to!) and a polite no (I'm sorry, I can't. I have to study.). The student practises with a role card: one invitation, one request for help, and one refusal.",
+        "checkQuestion": "Do we say Would you like go or Would you like to go?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this conversation twice, slowly: Ana: Hi, Tom. Would you like to come to my birthday party on Saturday? Tom: That sounds great! Thank you! Can I bring anything? Ana: Could you bring some music, please? Tom: Of course! Oh, but I'm sorry, I can't come until seven. I have to finish work first. Ana: No problem. Could you still come at seven?",
+        "factCheck": "Ask: What is Ana inviting Tom to? (her birthday party). What does she ask him to bring? (some music). Why can't Tom come before seven? (he has to finish work). What time can he come? (seven).",
+        "toneCheck": "Ask: Are Ana and Tom polite to each other? Which words show it? (Thank you, please, No problem)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Invite, accept, decline, and request: the student completes three role-plays. First, the student invites the tutor to lunch with Would you like to ...? Second, the student asks the tutor for help with Could you ...? Third, the student declines an invitation from the tutor, gives a reason, and suggests a different day.",
+        "phrases": [
+          "Would you like to ...?",
+          "I'd love to! / That sounds great!",
+          "I'm sorry, I can't. I have to ...",
+          "Could you help me, please?",
+          "What about Thursday instead?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Play a busy friend who accepts some invitations and declines others. Note whether the student completes all three role-plays and gives a reason when declining. Mark each role-play on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Would you like come to lunch?",
+          "Can you helping me, please?",
+          "I'm sorry, I no can."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-30",
+    "phase": "Spark",
+    "number": 30,
+    "cefr": "A2",
+    "title": "Describing Changes and Goals: Used To and Future Plans",
+    "canDo": "Can describe past habits and states that have changed, and talk about personal goals for the future in simple sentences.",
+    "goal": "Say what you used to do and what you do now with used to and now, and describe two personal goals with going to.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What do you do on Sundays? Then ask: What did you use to do as a child? Show a photo of a child playing outside.",
+        "tutorAction": "Accept any answer, even a short one, and expand it: You used to play outside. Then ask one question about the present."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Used to + base verb: a past habit or state that is no longer true (I used to take the bus). Negative: didn't use to (I didn't use to like coffee). Question: Did you use to ...? Now + present simple (Now I walk to work.). Future intention: going to + base verb (I'm going to study more next month.).",
+        "examples": [
+          "I used to take the bus, but now I walk.",
+          "She used to be shy, but now she speaks in public.",
+          "I didn't use to like coffee. Now I drink it every day.",
+          "I'm going to study more next month."
+        ],
+        "method": "Show a before-and-after picture: a person with a bike, then a person with a car. Say I used to ride a bike. Now I drive a car. Make the contrast clear: used to for past habits and the present simple for now. Show that the question form is Did you use to ...?, with no -ed ending. The student completes: I ___ (use to) live in a small town. Now I ___ (live) in the city. Then the student names one goal with I'm going to.",
+        "checkQuestion": "Do we say I used to plays or I used to play?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Hi, I'm Carlos. I used to be very shy. I didn't use to speak English in class. Now I speak with my friends every day, and I'm not afraid of mistakes. I'm going to take an English exam next year, and I'm going to practise every morning. I also want to read more books.",
+        "factCheck": "Ask: What was Carlos like before? (very shy). Did he speak English in class before? (No). What does he do now with his friends? (speaks English every day). What is he going to do next year? (take an English exam).",
+        "toneCheck": "Ask: Is Carlos more confident now? Which words show it? (I'm not afraid of mistakes)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Then and now: the student describes two changes in their life, things they used to do and do now, and two goals for the next year. The tutor asks one follow-up question for each change and goal, such as What made you change?",
+        "phrases": [
+          "I used to ..., but now I ...",
+          "I didn't use to ...",
+          "Now I ... every day.",
+          "I'm going to ... next year.",
+          "What made you change?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the student's real changes, or accept invented ones if the student prefers. Note whether the student describes two changes and two goals, and mark accuracy on a 1 to 4 scale."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I used to takes the bus.",
+          "I didn't used to like coffee.",
+          "I'm going study English next year."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-31",
+    "phase": "Spark",
+    "number": 31,
+    "cefr": "A2",
+    "title": "Integrated A2 Performance: Final Review and Challenge",
+    "canDo": "Can hold a short, connected conversation about past experiences, plans, and comparisons, and write a short message on the same topics.",
+    "goal": "Combine past, present, and future language in one interview, then write a message of 70 to 90 words.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Tell me about something you did recently. What are you doing this week? Which is better for you, your city or a city you visited?",
+        "tutorAction": "Keep the warm-up short. Accept a full answer, and give one brief compliment on something the student said accurately."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Review the A2 structures: past simple (I visited), past continuous (I was cooking when the phone rang), present perfect (Have you ever ...?), going to and will (I'm going to ... / I think it will ...), comparatives (bigger than), and modals (should, have to, could).",
+        "examples": [
+          "Last month I visited a new city. It was quieter than mine.",
+          "Next year I'm going to return.",
+          "Have you ever been to Lisbon? Yes, I have. I went there two years ago.",
+          "I used to be shy, but now I speak with my friends."
+        ],
+        "method": "Use one slide per structure. Show each one with one example and one question, and ask the student to produce a sentence for each without notes. Then mix the structures: ask a question that needs two tenses, such as What did you do last weekend, and what are you going to do next weekend? Score the performance with the rubric for task completion, fluency, accuracy, comprehension, and writing. Do not stop the student for small errors.",
+        "checkQuestion": "For a decision made at the moment of speaking, do we use going to or will?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this message twice, slowly: Hi Mia, last month I visited Porto with my brother. It was a lot of fun. We walked along the river, and we ate fish every day. The city was smaller than I expected, but the food was better than in my town. Next year, I'm going to go back in the summer. Have you ever been there? You should come with us!",
+        "factCheck": "Ask: When did the writer visit Porto? (last month). Who went with him? (his brother). What did they do along the river? (walked). What is the writer going to do next year? (go back in the summer).",
+        "toneCheck": "Ask: Does the writer like Porto? Which words show it? (It was a lot of fun, the food was better)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Integrated interview and message: the tutor interviews the student for about five minutes. The tutor asks about a past experience, a comparison of two places, and a future plan. Then the student writes a 70 to 90 word message to a friend about the same topics, using at least two linking words such as because, so, when, or while.",
+        "phrases": [
+          "Last ..., I ...",
+          "... is more ... than ...",
+          "I'm going to ... next ...",
+          "I think it will ...",
+          "Have you ever ...?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Run the interview as a real conversation, with follow-up questions. This is the final performance assessment for the A2 module. Score task completion, fluency, accuracy, comprehension, and writing on a 1 to 4 scale, note one strength and one recurring gap, and set one practice goal for the student."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Last month I visit a new city.",
+          "It was more quiet than mine.",
+          "Next year I going to return."
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "FLOW-21",
+    "phase": "Flow",
+    "number": 21,
+    "cefr": "B1",
+    "title": "Module 4: Work, Education, and Career Lexis",
+    "canDo": "Can talk about study, job applications, and workplace routines using common career vocabulary and phrasal verbs.",
+    "goal": "Use career and education vocabulary, including apply for, turn down, and give up, in simple, accurate sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What did you study, or what would you like to study, and why?",
+        "tutorAction": "Give a 15-second example: I studied business at university, but I would like to study design next. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Phrasal verbs: apply for (a job or course) / turn down (refuse an offer) / give up (stop trying); workplace nouns: a CV, a deadline, a promotion, a shift",
+        "examples": [
+          "I applied for a job at the design studio last week.",
+          "She turned down the offer because the salary was too low.",
+          "Don't give up. You can still apply for the next course."
+        ],
+        "method": "Show each phrasal verb with its meaning and an example. Ask guiding questions: Does apply for need a noun after it? Is turn down a refusal or an acceptance? Then ask the student to use two of the phrasal verbs to describe their own study or work.",
+        "checkQuestion": "If someone turns down an offer, do they accept it or refuse it?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Jake applied for a job in an online shop, but he turned down the first offer because the shift was too early. He nearly gave up, but then he found a better position with a flexible timetable.",
+        "factCheck": "Ask: What did Jake apply for? (a job in an online shop). Why did he turn down the first offer? (the shift was too early). What did he almost do? (give up).",
+        "toneCheck": "Ask: Is Jake disappointed or hopeful at the end? Ask the student to point to the phrase that shows the ending, such as found a better position."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Career story: the student tells the tutor about a time they applied for something, turned something down, or nearly gave up. The tutor asks one question: What did you do next?",
+        "phrases": [
+          "I applied for ...",
+          "I turned down ... because ...",
+          "I nearly gave up, but ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the story, and note vocabulary errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I applied the job at the company.",
+          "I turned the offer down because it was too low pay."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-22",
+    "phase": "Flow",
+    "number": 22,
+    "cefr": "B1",
+    "title": "Module 4: Job Interview Simulation Workshop",
+    "canDo": "Can answer and ask questions in a structured job interview about qualifications, experience, and future goals.",
+    "goal": "Answer interview questions about qualifications, past experience, and future ambitions in a mock interview.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Why do you think employers ask people about their strengths in an interview?",
+        "tutorAction": "Give a 15-second example: They want to know what you can bring to the team. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Interview answer frame: I have ... (qualification) / I worked as ... for ... (experience) / In the future, I would like to ... (ambition)",
+        "examples": [
+          "I have a degree in marketing and a certificate in digital design.",
+          "I worked as a receptionist for two years before I joined the team.",
+          "In the future, I would like to manage a small team."
+        ],
+        "method": "Show the three answer parts with an example answer. Ask guiding questions: Which tense do we use for past experience? Which phrase introduces a future goal? Then ask the student to answer the question Tell me about yourself using the three-part frame.",
+        "checkQuestion": "Which tense describes experience that you still have, such as I have a degree?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this interview transcript twice at a steady pace: Interviewer: What experience do you have? Candidate: I have worked in customer service for three years. I have also led a small team, and I would like to develop that skill further in the future.",
+        "factCheck": "Ask: How long has the candidate worked in customer service? (three years). What has the candidate also done? (led a small team). What would they like to develop? (that skill).",
+        "toneCheck": "Ask: Does the candidate sound confident or uncertain? Ask the student to point to the phrase that shows confidence, such as I have also led a small team."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Mock interview: the tutor plays the interviewer and asks three questions about qualifications, experience, and future goals. The student answers each question in two or three sentences, then asks the interviewer one question.",
+        "phrases": [
+          "I have ...",
+          "I worked as ... for ...",
+          "In the future, I would like to ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student answer each question fully before moving on, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I work in customer service for three years.",
+          "In the future I want to be a manager, I am sure I can."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-23",
+    "phase": "Flow",
+    "number": 23,
+    "cefr": "B1",
+    "title": "Module 5: Rules and Advice with Must, Have To, and Should",
+    "canDo": "Can explain rules and obligations, and give recommendations, using modal verbs with the correct meaning.",
+    "goal": "Use must, have to, mustn't, don't have to, should, and ought to to express obligations, prohibitions, and advice.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one rule at your workplace or school that you think is unnecessary?",
+        "tutorAction": "Give a 15-second example: We have to wear name badges, which I think is fine. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "must / have to (obligation); mustn't (prohibition: not allowed); don't have to (no obligation: it is optional); should / ought to (advice)",
+        "examples": [
+          "You must wear a seatbelt in the car.",
+          "You mustn't smoke inside the building.",
+          "You don't have to bring lunch, because the canteen is open. You should try the soup."
+        ],
+        "method": "Show each modal with an example. Ask guiding questions: Is it required, forbidden, optional, or only advice? Then ask the student to say one rule they must follow and one thing they should do more often.",
+        "checkQuestion": "In You don't have to bring lunch, is it forbidden, or is it just not necessary?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: At the gym, you must bring a towel, and you mustn't use the machines without training. You don't have to pay extra for the pool. You should book early on weekends, because it gets busy.",
+        "factCheck": "Ask: What must you bring? (a towel). What are you not allowed to do? (use the machines without training). Do you have to pay for the pool? (no, you don't have to pay extra).",
+        "toneCheck": "Ask: Are the gym's rules strict or friendly? Ask the student to point to the phrase that shows the level of the rule, such as mustn't."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Rules at home or work: the student tells the tutor one rule they must follow, one thing they do not have to do, and one piece of advice they would give a new colleague or flatmate.",
+        "phrases": [
+          "You must ...",
+          "You don't have to ...",
+          "I think you should ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student give all three points, and note modal errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "You mustn't to wear a uniform.",
+          "You don't must bring a coat."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-24",
+    "phase": "Flow",
+    "number": 24,
+    "cefr": "B1",
+    "title": "Module 5: Health, Lifestyle, and Symptoms",
+    "canDo": "Can describe symptoms, talk about fitness, diet, and stress, and understand basic advice about health.",
+    "goal": "Describe common symptoms and healthy habits using health vocabulary and simple sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What do you usually do to stay healthy, and what do you find difficult?",
+        "tutorAction": "Give a 15-second example: I go running twice a week, but I find it hard to sleep early. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I have got + symptom (a headache, a cough, a sore throat); I feel + adjective (tired, dizzy); a healthy habit: go for a run, cut down on sugar, get enough sleep",
+        "examples": [
+          "I have got a sore throat and I feel tired.",
+          "She feels dizzy when she gets up too fast.",
+          "He is trying to cut down on sugar and get more sleep."
+        ],
+        "method": "Show a picture of a person with symptoms and list the vocabulary. Ask concept-checking questions: Which verb is used with symptoms? Which adjective describes how you feel? Then ask the student to describe one symptom they had recently and one habit they want to change.",
+        "checkQuestion": "Do we say I have a headache or I feel a headache?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Ben has had a cough for a week and feels tired most days. His doctor told him to drink more water, cut down on coffee, and get more sleep. He has started going for short walks, which he says make him feel better.",
+        "factCheck": "Ask: How long has Ben had a cough? (a week). What did the doctor tell him to do? (drink more water, cut down on coffee, get more sleep). What has Ben started doing? (short walks).",
+        "toneCheck": "Ask: Does Ben feel better or worse than before? Ask the student to point to the phrase that shows his improvement, such as which make him feel better."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Health check: the student describes to the tutor, who plays a friend, how they have been feeling recently and one healthy habit they are trying. The tutor gives one piece of advice using should.",
+        "phrases": [
+          "I have got ...",
+          "I have been feeling ...",
+          "I am trying to ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student describe their health fully, and note vocabulary errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I have a feel tired all day.",
+          "I am trying to sleep more, but I am not success."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-25",
+    "phase": "Flow",
+    "number": 25,
+    "cefr": "B1",
+    "title": "Module 5: Doctor Visit and Advice Column Workshop",
+    "canDo": "Can describe symptoms to a doctor, understand advice, and write a short advice column response.",
+    "goal": "Role-play a doctor's visit and write a short advice response to a reader's health question.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: When did you last visit a doctor or pharmacist, and what did you need?",
+        "tutorAction": "Give a 15-second example: I went to the pharmacy for some cold medicine. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Doctor visit: How long have you had it? / Where does it hurt? / You should ... / You mustn't ... / Take this twice a day.",
+        "examples": [
+          "How long have you had the cough?",
+          "Where does it hurt, exactly?",
+          "You should rest, and you mustn't go to work until the fever goes down."
+        ],
+        "method": "Show the doctor questions and the advice sentences. Ask guiding questions: Who asks the questions? Which modal gives strong advice? Then ask the student to write one question a doctor might ask about a headache.",
+        "checkQuestion": "In You mustn't go to work, is the advice strong or optional?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this advice column reply twice at a steady pace: Dear Sally, your back pain may be from sitting too long. You should stretch every hour, and you don't have to stop working, but you mustn't lift heavy boxes for a week. If it continues, you should see a doctor.",
+        "factCheck": "Ask: What may be causing the back pain? (sitting too long). What should Sally do every hour? (stretch). What must she not do for a week? (lift heavy boxes).",
+        "toneCheck": "Ask: Is the writer strict or friendly? Ask the student to point to the phrase that shows the writer is reassuring, such as you don't have to stop working."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Doctor role-play: the student is a patient describing a symptom to the tutor, who plays the doctor. The doctor asks two questions and gives two pieces of advice. Then the student writes two sentences of advice to a friend with the same problem.",
+        "phrases": [
+          "It has been ... for ...",
+          "You should ...",
+          "You mustn't ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the patient describe the symptom fully, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "It hurts since two days.",
+          "You should to drink water and rest."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-26",
+    "phase": "Flow",
+    "number": 26,
+    "cefr": "B1",
+    "title": "Module 6: Deduction and Ability",
+    "canDo": "Can make logical guesses about the present, and talk about what someone is able or allowed to do.",
+    "goal": "Use must be, might or could be, can't be for present deduction, and can, could, be able to, and be allowed to for ability and permission.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a crowded train station on a Sunday. Ask: Why do you think there are so many people here?",
+        "tutorAction": "Give a 15-second example: It must be a holiday weekend. Let the student guess freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "must be (very sure); might or could be (possible); can't be (very sure it is not). Ability: can / could / be able to; permission: be allowed to",
+        "examples": [
+          "The lights are on, so she must be home.",
+          "That might be the bus. It could be late again.",
+          "He can't be at work, because his car is outside. He is able to speak three languages, and he is allowed to leave early on Fridays."
+        ],
+        "method": "Show a certainty scale: can't be, might be, must be. Ask guiding questions: How sure is the speaker? Is the situation present or past? Then ask the student to make one guess about a person they can see in the photo.",
+        "checkQuestion": "Does might be show more certainty or less certainty than must be?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: The office is empty, so everyone must be at the meeting. Anna could be in the training room, or she might be on a call. She can't be at lunch, because her bag is still here.",
+        "factCheck": "Ask: Where must everyone be? (at the meeting). Where could Anna be? (in the training room, or on a call). Where can't she be? (at lunch).",
+        "toneCheck": "Ask: How sure is the writer about where Anna is? Ask the student to point to the word that shows the writer is not certain, such as could or might."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Guess the situation: the tutor describes a scene (a parked car with its engine running, a closed shop with the lights on). The student makes three guesses using must be, might be, and can't be, and says what ability or permission a person might have.",
+        "phrases": [
+          "It must be ...",
+          "It might be ...",
+          "It can't be ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student make each guess fully, and challenge a guess with one question: How sure are you?"
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "She must to be at home.",
+          "He can't to speak French."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-27",
+    "phase": "Flow",
+    "number": 27,
+    "cefr": "B1",
+    "title": "Module 6: Travel, Accommodation, and Defining Relative Clauses",
+    "canDo": "Can describe places, bookings, and transit problems, identifying people and things with defining relative clauses.",
+    "goal": "Use who, which, that, where, and whose to define people, places, and things in travel contexts.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Describe the best hotel or place to stay that you have been to.",
+        "tutorAction": "Give a 15-second example: The hotel I liked was a small place that had a garden. Let the student describe it freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Defining relative clause: person (who / that), thing (which / that), place (where), possession (whose), with no commas: The man who checked us in was friendly.",
+        "examples": [
+          "The hotel which we booked was near the station.",
+          "This is the room where we stayed last year.",
+          "The guide whose tour we joined knew the city very well."
+        ],
+        "method": "Show each example with the noun and the defining clause highlighted. Ask guiding questions: Is the noun a person, a thing, a place, or a possession? Which pronoun fits? Then ask the student to define one place and one person from their trip, using a relative clause.",
+        "checkQuestion": "Do we use who or which to describe a person who checked us in?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: We stayed in a hotel that was close to the beach. The receptionist, who spoke four languages, gave us a room where we could see the sea. The taxi driver whose car was waiting took us to the station.",
+        "factCheck": "Ask: Where did they stay? (a hotel close to the beach). What could the receptionist speak? (four languages). What could they see from the room? (the sea).",
+        "toneCheck": "Ask: Did the trip sound comfortable or stressful? Ask the student to point to the phrase that shows the positive experience, such as where we could see the sea."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Trip description: the student describes a hotel or place they stayed at, using at least two defining relative clauses. The tutor asks one question: Would you go back there?",
+        "phrases": [
+          "The place where ...",
+          "The room which ...",
+          "The person who ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the description, and note relative pronoun errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The hotel which we stayed it was nice.",
+          "The receptionist who he spoke four languages was kind."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-28",
+    "phase": "Flow",
+    "number": 28,
+    "cefr": "B1",
+    "title": "Module 6: Travel Troubleshooting Workshop",
+    "canDo": "Can handle lost luggage, hotel complaints, and requests for directions in a new city.",
+    "goal": "Role-play a lost luggage report, a hotel complaint, and a request for detailed directions.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is the worst problem you have had while travelling?",
+        "tutorAction": "Give a 15-second example: My suitcase was lost for two days. Let the student describe the problem."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Complaint: I have a problem with ... / The room is not ... / Could you help me find ...? Directions: Go straight on, turn left at the bank, and it is on your right.",
+        "examples": [
+          "I have a problem with my suitcase. It has not arrived.",
+          "The room is not clean, and the heating does not work.",
+          "Could you tell me how to get to the museum? Go straight on, and it is next to the park."
+        ],
+        "method": "Show the complaint and direction phrases with examples. Ask guiding questions: Is the speaker complaining or asking for help? Which words describe the position of a place? Then ask the student to give directions from the station to the hotel.",
+        "checkQuestion": "In Turn left at the bank, which word tells you where the place is?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this dialogue twice at a steady pace: Guest: Excuse me, my suitcase has not arrived. Staff: I am sorry. It may be at the airport. Guest: Could you tell me when it will come? Staff: We will call you. It should arrive by tomorrow.",
+        "factCheck": "Ask: What has not arrived? (the suitcase). Where might it be? (at the airport). When should it arrive? (by tomorrow).",
+        "toneCheck": "Ask: Is the guest angry or calm? Ask the student to point to the polite phrase, such as Could you tell me."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Two situations: the student plays a guest with a lost suitcase and a hotel room problem, and the tutor plays the staff. Then the tutor asks the student for directions to a local place, and the student explains the route.",
+        "phrases": [
+          "I have a problem with ...",
+          "Could you tell me ...?",
+          "Go straight on, and turn left at ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each complaint and direction, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want to complain because my room is dirty.",
+          "Go straight and the bank is in left."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-29",
+    "phase": "Flow",
+    "number": 29,
+    "cefr": "B1",
+    "title": "Module 7: Comparatives, Superlatives, and Quantifiers",
+    "canDo": "Can compare options and describe quantities in shopping and service contexts.",
+    "goal": "Compare options using as ... as, much better, a bit cheaper, and use too, enough, so, such, plenty of, and several.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show two phones with different prices and features. Ask: Which phone would you choose, and why?",
+        "tutorAction": "Give a 15-second example: The blue phone is a bit cheaper, but the black one is much better. Let the student compare freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "as + adjective + as (equal); much / a bit / far + comparative (size of difference); too + adjective (more than needed); enough + noun (the right amount); so / such + adjective / noun (intensity); plenty of / several + noun (quantity)",
+        "examples": [
+          "This bag is as expensive as that one.",
+          "The new model is much better, but it is a bit more expensive.",
+          "The shop is too small, and there are not enough chairs. It was such a great sale, and there were plenty of bargains."
+        ],
+        "method": "Show each structure with a comparison. Ask concept-checking questions: Is the difference big or small? Does too mean more than needed? Then ask the student to compare two shops or phones using at least two of the structures.",
+        "checkQuestion": "In This phone is a bit cheaper, is the difference large or small?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: The first laptop is much better for work, but it is too heavy to carry. The second one is a bit cheaper and as fast as the first, and it has enough memory for most people. There were several models in the shop, and plenty of them were on sale.",
+        "factCheck": "Ask: Which laptop is much better for work? (the first). What is wrong with it? (it is too heavy). What is true about the second? (it is cheaper and as fast). How many models were in the shop? (several).",
+        "toneCheck": "Ask: Which laptop does the writer prefer overall? Ask the student to point to the phrase that shows the preference, such as much better."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Choose a product: the student compares two options (a holiday, a gym, or a phone plan) to the tutor, using at least two comparatives and one quantifier. The tutor asks: Which one would you choose?",
+        "phrases": [
+          "It is much ... than ...",
+          "It is a bit ... than ...",
+          "There are plenty of ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the comparison and the choice, and note comparative errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "This one is more cheap than that one.",
+          "The bag is too much heavy."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-30",
+    "phase": "Flow",
+    "number": 30,
+    "cefr": "B1",
+    "title": "Module 7: Consumer Lexis and Word Formation",
+    "canDo": "Can discuss banking, returns, and faulty goods, and form new words using common prefixes and suffixes.",
+    "goal": "Use consumer vocabulary and build words with un-, in-, dis-, re-, -able, -ment, and -ness.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Have you ever returned something to a shop? What was the problem?",
+        "tutorAction": "Give a 15-second example: I returned a jacket because it was faulty. Let the student describe the experience."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Prefixes: un- (not: unhappy), in- (not: incorrect), dis- (opposite: dislike), re- (again: refund, replace). Suffixes: -able (possible: washable), -ment (result: payment), -ness (quality: happiness)",
+        "examples": [
+          "The item was unusable, so I asked for a refund.",
+          "The bill is incorrect, and the payment was not processed.",
+          "The product is reliable, and its quality is excellent."
+        ],
+        "method": "Show a word list with the prefix or suffix in colour. Ask concept-checking questions: What does un- mean? Is payment a noun or a verb? Then ask the student to build three new words from base words such as use, correct, and happy.",
+        "checkQuestion": "If you add -able to wash, what does the new word mean?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: I bought a kettle online, but it was faulty. The payment had been taken twice, which was incorrect. I asked for a refund, and the company replaced the product quickly, which was a relief.",
+        "factCheck": "Ask: What was wrong with the kettle? (it was faulty). What was incorrect? (the payment, taken twice). What did the speaker ask for? (a refund). What did the company do? (replaced the product).",
+        "toneCheck": "Ask: Is the writer happy with the company's response? Ask the student to point to the phrase that shows the feeling, such as which was a relief."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Return problem: the student tells the tutor, who plays a shop assistant, about a faulty or wrong item and what they want the shop to do. The student must use at least two words with prefixes or suffixes.",
+        "phrases": [
+          "This item is faulty / unusable ...",
+          "I would like a refund ...",
+          "I am not satisfied with the ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student explain the problem and the request, and note word-formation errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The shirt is unhappy with the colour.",
+          "I want a refund for the payment that was disincorrect."
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "SPARK-02",
+    "phase": "Spark",
+    "number": 2,
+    "cefr": "A1",
+    "title": "My Daily Routine: Present Simple",
+    "canDo": "Can describe in simple terms daily routines and personal habits using present simple sentences.",
+    "goal": "Talk about your usual daily activities using I, you, we, and they with base verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a clock at 7 o'clock. Ask: What do you do in the morning?",
+        "tutorAction": "Give a 5-second example such as I wake up at seven. Let the student answer freely in one or two sentences."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject (I / you / we / they) + base verb + object or time",
+        "examples": [
+          "I wake up at seven. I eat breakfast.",
+          "You work in an office. We study English.",
+          "They play football on Sundays."
+        ],
+        "method": "Show the formula on screen. Read each example aloud and point to the verb. Ask the student to change one example to describe their own routine.",
+        "checkQuestion": "Do we add s to the verb after I, you, we, or they?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Sam wakes up at six. He drinks coffee and walks to work. He starts work at nine and finishes at five.",
+        "factCheck": "Ask: What time does Sam wake up? (six). What does he drink? (coffee). When does he finish work? (five o'clock).",
+        "toneCheck": "Ask: Does Sam sound happy or tired about his day? Accept a one-word answer and ask the student to point to the sentence that helped them decide."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Interview: the student asks you three questions from the screen: What time do you wake up? What do you eat for breakfast? Where do you work or study? You answer, then the student answers the same questions.",
+        "phrases": [
+          "I wake up at ...",
+          "I eat ... for breakfast.",
+          "I work in ... / I study ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the screen prompts, and praise each complete sentence before correcting anything."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I wakes up at seven.",
+          "She work in a school."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-03",
+    "phase": "Spark",
+    "number": 3,
+    "cefr": "A1",
+    "title": "Food I Like and Dislike",
+    "canDo": "Can express basic personal likes and dislikes using simple sentences about food.",
+    "goal": "Say what you like and do not like to eat using like, likes, and don't or doesn't.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show pictures of pizza, salad, and fish. Ask: Which of these do you eat often?",
+        "tutorAction": "Point to the pictures and give a short example such as I like pizza. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + like / likes / don't like / doesn't like + food",
+        "examples": [
+          "I like pasta. She likes chocolate.",
+          "I don't like fish. He doesn't like coffee.",
+          "We like music and tea."
+        ],
+        "method": "Show the four forms on screen with the food pictures. Ask the student which form follows he or she. Then ask them to make one like sentence and one don't like sentence about their own food.",
+        "checkQuestion": "Do we say he likes or he like, and do we say he doesn't like or he don't like?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Anna likes fruit and salad. She does not like sweets. Her brother Ben likes pizza, but he doesn't like vegetables.",
+        "factCheck": "Ask: What fruit does Anna like? (fruit, salad). What does Anna not like? (sweets). What does Ben not like? (vegetables).",
+        "toneCheck": "Ask: Is Ben happy about vegetables? Expect a simple answer such as no. Ask the student to find the word that shows this."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Food survey: the student asks you three food questions, starting with Do you like pizza? Then they report one fact they learned about you, such as You like pasta.",
+        "phrases": [
+          "I like ...",
+          "I don't like ...",
+          "He likes ... / She likes ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the food pictures on screen and encourage full sentences rather than one-word answers."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "He like pizza.",
+          "She don't like fish."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-04",
+    "phase": "Spark",
+    "number": 4,
+    "cefr": "A1",
+    "title": "Asking Questions: Who, What, Where",
+    "canDo": "Can ask and answer simple questions about personal details such as where someone lives and what they do.",
+    "goal": "Ask and answer short questions using who, what, and where with do or does.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a city. Ask: Where is this place?",
+        "tutorAction": "Model the answer It is in Paris. Let the student answer, even with one word."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Question word (who / what / where) + do or does + subject + base verb?",
+        "examples": [
+          "Where do you live? I live in Madrid.",
+          "What does she do? She is a nurse.",
+          "Who do you work with? I work with my friend."
+        ],
+        "method": "Show the question formula on screen. Read each question, then answer it. Ask the student to build one question from the formula about their job or home.",
+        "checkQuestion": "Do we use does or do with he, she, and it?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Listen to or read this short dialogue twice: A: Where do you live? B: I live in Lima. A: What do you do? B: I am a driver.",
+        "factCheck": "Ask: Where does B live? (Lima). What is B's job? (driver). Accept a single word.",
+        "toneCheck": "Ask: Are the two speakers friends or strangers? Accept friends or strangers and ask the student why, using one word from the dialogue."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Question cards: the student picks a card with a topic (home, job, family). They ask the tutor three questions using who, what, or where, then the tutor asks them the same questions.",
+        "phrases": [
+          "Where do you live?",
+          "What do you do?",
+          "Who do you live with?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Read questions slowly and wait patiently. Praise each question even if the word order needs help."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Where you live?",
+          "What she does work?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-05",
+    "phase": "Spark",
+    "number": 5,
+    "cefr": "A1",
+    "title": "My Family: Have and Has",
+    "canDo": "Can describe aspects of personal background and family using simple sentences.",
+    "goal": "Describe your family and possessions using have and has.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a family photo. Ask: Who is in this photo?",
+        "tutorAction": "Point to people in the photo and name them with a short example: This is my sister. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I / you / we / they have + noun; he / she / it has + noun",
+        "examples": [
+          "I have two brothers.",
+          "She has a red bicycle.",
+          "We have a small house."
+        ],
+        "method": "Show the two forms on screen. Point out that has is used only with he, she, and it. Ask the student to describe one person in their family with has or have.",
+        "checkQuestion": "Do we say she have or she has?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Mia has a big family. She has three sisters and one brother. Her parents have a small dog.",
+        "factCheck": "Ask: How many sisters does Mia have? (three). How many brothers? (one). What do her parents have? (a small dog).",
+        "toneCheck": "Ask: Does Mia sound proud of her family? Accept yes or no and ask the student to find a word that shows it, such as big."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Family show-and-tell: the student describes their family or a family photo to the tutor using three sentences with have or has. The tutor asks one follow-up question: How old is he?",
+        "phrases": [
+          "I have ...",
+          "He has ... / She has ...",
+          "We have ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the family photo on screen and ask one simple follow-up question to keep the student talking."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "She have a dog.",
+          "I has two sisters."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-06",
+    "phase": "Spark",
+    "number": 6,
+    "cefr": "A2",
+    "title": "Last Weekend: Past Simple with Regular Verbs",
+    "canDo": "Can describe past events and experiences using simple past sentences about familiar routine topics.",
+    "goal": "Describe what you did last weekend using regular past verbs ending in -ed.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a calendar with last weekend highlighted. Ask: What did you do last weekend?",
+        "tutorAction": "Give a 5-second example: I cleaned my room. Let the student answer freely in one or two sentences."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + regular verb + -ed (or -d / -ied) + object or time",
+        "examples": [
+          "I cleaned my room on Saturday.",
+          "She worked late yesterday.",
+          "They studied English last night."
+        ],
+        "method": "Show the formula and the three spelling patterns on screen (add -ed, add -d, change y to ied). Ask the student to find the regular verb in each example and say its past form.",
+        "checkQuestion": "What is the past form of the verb study?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Last Saturday, Ali cleaned his flat. Then he visited his grandmother. They talked and cooked lunch together.",
+        "factCheck": "Ask: What did Ali clean? (his flat). Who did he visit? (his grandmother). What did they cook? (lunch).",
+        "toneCheck": "Ask: Did Ali enjoy his day? Accept a simple answer and ask the student to point to a word that shows this, such as together."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Weekend chain: the tutor starts with I visited a museum. The student adds one sentence with a new regular verb, and the chain continues for four turns.",
+        "phrases": [
+          "I visited ...",
+          "I cleaned ...",
+          "We talked about ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Keep the chain moving and praise each new verb before correcting spelling or word form."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I visit my grandmother yesterday.",
+          "She studyed English."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-07",
+    "phase": "Spark",
+    "number": 7,
+    "cefr": "A2",
+    "title": "Yesterday's Trip: Past Simple Irregular Verbs",
+    "canDo": "Can describe past events such as a trip or a day out using common irregular past verbs.",
+    "goal": "Tell a short story about a trip using went, saw, had, and other common irregular past verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a train station. Ask: Have you ever travelled by train?",
+        "tutorAction": "Model a short answer: Yes, I went to Cordoba last year. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + irregular past form (went / saw / had / took / ate) + object or time",
+        "examples": [
+          "I went to the beach on Sunday.",
+          "We saw a beautiful sunset.",
+          "He had a sandwich for lunch."
+        ],
+        "method": "Show a list of five irregular verbs on screen with their past forms. Read each example aloud and ask the student to repeat the past form. Then ask them to say one sentence about a trip they took.",
+        "checkQuestion": "What is the past form of go, and is it regular or irregular?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Last summer, Rosa went to the coast. She saw dolphins and ate fresh fish. She took many photos and had a great time.",
+        "factCheck": "Ask: Where did Rosa go? (the coast). What did she see? (dolphins). What did she take? (photos).",
+        "toneCheck": "Ask: Did Rosa enjoy her trip? Accept a simple answer such as yes and ask the student to find the words that show it, such as great time."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Trip interview: the student tells the tutor about a real or imagined trip using at least three irregular past verbs. The tutor asks two follow-up questions: Where did you go? What did you see?",
+        "phrases": [
+          "I went to ...",
+          "I saw ...",
+          "I had a ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Give the student time to recall the past form before offering it, and praise the effort."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I go to the park yesterday.",
+          "We seen a film."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-08",
+    "phase": "Spark",
+    "number": 8,
+    "cefr": "A2",
+    "title": "My Plans: Going To for the Future",
+    "canDo": "Can talk about future plans and intentions using simple sentences about familiar topics.",
+    "goal": "Describe plans for the next week using am, is, or are going to with a base verb.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a weekly calendar with a few entries. Ask: What are you going to do this weekend?",
+        "tutorAction": "Give a short example: I am going to visit my friend. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + am / is / are + going to + base verb + time",
+        "examples": [
+          "I am going to study tonight.",
+          "She is going to visit her parents on Friday.",
+          "They are going to cook dinner together."
+        ],
+        "method": "Show the formula with the three forms of to be. Ask the student to find the form of to be in each example. Then ask them to build one plan sentence about their own week.",
+        "checkQuestion": "Which form of to be do we use with she?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Jon is going to start a new job next month. He is going to move to a new city. His sister is going to help him with the move.",
+        "factCheck": "Ask: What is Jon going to start? (a new job). Where is he going to move? (a new city). Who is going to help him? (his sister).",
+        "toneCheck": "Ask: Does Jon sound excited or worried about his plans? Accept a simple answer and ask the student to point to a word that shows it."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Plan partner: the student describes two plans for the next week to the tutor. The tutor responds with one question: What time are you going to start?",
+        "phrases": [
+          "I am going to ...",
+          "She is going to ...",
+          "We are going to ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the calendar on screen and let the student describe plans in full sentences before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I going to visit my aunt.",
+          "She going to cook dinner."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-09",
+    "phase": "Spark",
+    "number": 9,
+    "cefr": "A2",
+    "title": "Giving Reasons: Because, And, But, So",
+    "canDo": "Can give simple reasons and explanations for opinions and plans using basic connecting words.",
+    "goal": "Join two short sentences with because, and, but, or so to give reasons.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a rainy day with an umbrella. Ask: Do you like rainy days? Why?",
+        "tutorAction": "Give a short answer: I like rainy days because I like reading. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Sentence 1 + because / and / but / so + sentence 2",
+        "examples": [
+          "I stayed home because it was raining.",
+          "I like tea, and she likes coffee.",
+          "I wanted to go out, but I was tired."
+        ],
+        "method": "Show the four connectors on screen with one example each. Ask the student to find the connector in each sentence and say what it does (reason, addition, contrast, result). Ask them to join two sentences with because.",
+        "checkQuestion": "Which connector shows a reason: because, and, or but?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: Maria was late for work because the bus was slow. She was tired, so she drank a coffee. But she was happy because her boss was kind.",
+        "factCheck": "Ask: Why was Maria late? (the bus was slow). What did she drink? (a coffee). Why was she happy? (her boss was kind).",
+        "toneCheck": "Ask: Is the word but showing a surprise or a difference? Accept a simple answer and ask the student to explain using the sentence."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Opinion and reason: the student shares one opinion about a topic (weekends, school, travel) and gives a reason with because. The tutor then asks one follow-up with but or so.",
+        "phrases": [
+          "I like ... because ...",
+          "I want to ..., so ...",
+          "It is fun, but ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student finish each sentence before offering a connector, and praise the attempt."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I stayed home, because it rained.",
+          "I was tired so I went to bed because."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-10",
+    "phase": "Spark",
+    "number": 10,
+    "cefr": "A2",
+    "title": "Comparing Places: Comparatives",
+    "canDo": "Can compare places, things, and people using simple adjectives in short, direct sentences.",
+    "goal": "Compare two places or things using bigger, more expensive, and than.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show two photos: a small village and a large city. Ask: Which place do you prefer?",
+        "tutorAction": "Give a short example: The city is bigger than the village. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Short adjective + -er + than (bigger, cheaper); more + long adjective + than (more expensive than)",
+        "examples": [
+          "My house is bigger than your house.",
+          "This bag is cheaper than that one.",
+          "The train is more comfortable than the bus."
+        ],
+        "method": "Show the two patterns on screen. Ask the student to sort the adjectives in the examples into short or long groups. Then ask them to compare two places they know.",
+        "checkQuestion": "Do we say more big or bigger for a short adjective?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice: The new park is bigger than the old one. The café is cheaper than the restaurant, and the food is more delicious.",
+        "factCheck": "Ask: Which park is bigger? (the new park). Which place is cheaper? (the café). What is more delicious? (the food).",
+        "toneCheck": "Ask: Does the speaker like the new park? Accept a simple answer and ask the student to find the word that shows their opinion, such as delicious."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Compare and choose: the student compares two options (two shops, two towns, or two phones) to the tutor using a comparative. The tutor asks which one they would choose and why.",
+        "phrases": [
+          "... is bigger than ...",
+          "... is cheaper than ...",
+          "... is more expensive than ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the two photos on screen and give the student time to choose the right comparative form."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "The city is more big than the village.",
+          "This shop is more cheap than that one."
+        ]
+      }
+    }
+  }
+]

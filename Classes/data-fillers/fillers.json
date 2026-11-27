@@ -1,0 +1,752 @@
+[
+  {
+    "id": "SPARK-SPK-01",
+    "name": "Name and Like Exchange",
+    "level": "Spark",
+    "skill": "Speaking",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say: My name is ... and I like ... (for example, pizza).",
+      "The student repeats your sentence, then says their own name and one like.",
+      "Repeat the student's sentence back, adding one more like about yourself."
+    ],
+    "variation": "Replace the like with a job or a city."
+  },
+  {
+    "id": "SPARK-SPK-02",
+    "name": "Yes or No Questions",
+    "level": "Spark",
+    "skill": "Speaking",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Ask a yes or no question about the topic, such as Do you like coffee?",
+      "The student answers with a full sentence: Yes, I do. / No, I don't.",
+      "The student then asks you the next question."
+    ],
+    "variation": "Ask the student to add one more detail after each answer."
+  },
+  {
+    "id": "SPARK-SPK-03",
+    "name": "Describe the Room",
+    "level": "Spark",
+    "skill": "Speaking",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Point to an object in the room and say: There is a ...",
+      "The student says the name of the object and one word describing it.",
+      "Take turns until the student has named three objects."
+    ],
+    "variation": "Use There are for two or more objects."
+  },
+  {
+    "id": "SPARK-SPK-04",
+    "name": "Question Ball",
+    "level": "Spark",
+    "skill": "Speaking",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "A soft ball or a rolled-up paper ball",
+    "steps": [
+      "Toss the ball to the student and ask a simple question: What is your job?",
+      "The student answers in a full sentence, then asks you a question and tosses the ball back.",
+      "Keep passing the ball until the time is up."
+    ],
+    "variation": "Ask about the past: What did you do yesterday?"
+  },
+  {
+    "id": "SPARK-LIS-01",
+    "name": "Hear and Tick",
+    "level": "Spark",
+    "skill": "Listening",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Read a list of five foods slowly, mixing in two that are not on the list.",
+      "The student ticks each food they hear.",
+      "Check together by asking: Did you hear bread?"
+    ],
+    "variation": "Use shopping items, or days of the week."
+  },
+  {
+    "id": "SPARK-LIS-02",
+    "name": "Numbers Dictation",
+    "level": "Spark",
+    "skill": "Listening",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "Paper and pen",
+    "steps": [
+      "Read out three prices, such as 12 pounds, 7 pounds 50, and 20 pounds.",
+      "The student writes down the numbers they hear.",
+      "The student reads the numbers back to you."
+    ],
+    "variation": "Read phone numbers, and ask the student to repeat them."
+  },
+  {
+    "id": "SPARK-LIS-03",
+    "name": "Point to the Picture",
+    "level": "Spark",
+    "skill": "Listening",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Three simple pictures on screen or on paper",
+    "steps": [
+      "Describe one picture in two or three short sentences, without naming it.",
+      "The student points to the picture you describe.",
+      "Then the student describes a second picture for you to find."
+    ],
+    "variation": "Describe a picture with a mistake, and ask the student to say what is wrong."
+  },
+  {
+    "id": "SPARK-VOC-01",
+    "name": "Word Sort",
+    "level": "Spark",
+    "skill": "Vocabulary",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Cards with 12 words in three groups (food, travel, work)",
+    "steps": [
+      "Shuffle the word cards and place them on the table in front of the student.",
+      "The student sorts the cards into three piles and names each pile.",
+      "Check together, then the student says one sentence with a word from each pile."
+    ],
+    "variation": "Remove the pile names, and ask the student to name each group."
+  },
+  {
+    "id": "SPARK-VOC-02",
+    "name": "Mime and Guess",
+    "level": "Spark",
+    "skill": "Vocabulary",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Act out a daily action, such as brushing your teeth.",
+      "The student guesses the action, and says: You are brushing your teeth.",
+      "Then the student acts out an action for you to guess."
+    ],
+    "variation": "Act out a job, and ask the student to say the job name."
+  },
+  {
+    "id": "SPARK-VOC-03",
+    "name": "Word Chain",
+    "level": "Spark",
+    "skill": "Vocabulary",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a word, such as table.",
+      "The student says a new word that starts with the last letter of the previous one (for example, e: egg).",
+      "Take turns until each of you has said three words."
+    ],
+    "variation": "Use a topic, such as food only."
+  },
+  {
+    "id": "SPARK-VOC-04",
+    "name": "Odd One Out",
+    "level": "Spark",
+    "skill": "Vocabulary",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say four words, such as apple, banana, bread, and orange.",
+      "The student chooses the odd one out and explains why in one sentence: Bread is not a fruit.",
+      "Repeat with a new set of words."
+    ],
+    "variation": "Ask the student to create the next set of words for you."
+  },
+  {
+    "id": "SPARK-GRM-01",
+    "name": "Is It Right?",
+    "level": "Spark",
+    "skill": "Grammar",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a sentence, such as She work in a bank.",
+      "The student gives a thumbs up if it is correct, and a thumbs down if it is not.",
+      "For a wrong sentence, the student says the correction."
+    ],
+    "variation": "Use a mix of correct and incorrect sentences on one target structure."
+  },
+  {
+    "id": "SPARK-GRM-02",
+    "name": "Gap Race",
+    "level": "Spark",
+    "skill": "Grammar",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Five sentences with a gap, written on the screen or a whiteboard",
+    "steps": [
+      "Show five sentences with one gap each, such as I ___ from Peru.",
+      "The student fills each gap with the correct form of to be, one sentence at a time.",
+      "Keep a score, and try to beat it in the next round."
+    ],
+    "variation": "Use present simple verbs in the gaps instead."
+  },
+  {
+    "id": "SPARK-GRM-03",
+    "name": "Pronoun Pass",
+    "level": "Spark",
+    "skill": "Grammar",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a name, such as Maria, and ask the student to replace it with a pronoun: She.",
+      "The student makes a sentence with the pronoun: She is a nurse.",
+      "Then give a new name for the student to replace."
+    ],
+    "variation": "Use plural nouns, such as the students, and replace them with they."
+  },
+  {
+    "id": "SPARK-DBT-01",
+    "name": "Would You Rather",
+    "level": "Spark",
+    "skill": "Debate",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Ask a choice question: Would you rather have coffee or tea?",
+      "The student chooses and says: I would rather have ... because ...",
+      "You choose the other option and give your reason."
+    ],
+    "variation": "Ask the student to choose between two places to work."
+  },
+  {
+    "id": "SPARK-DBT-02",
+    "name": "Agree or Disagree Cards",
+    "level": "Spark",
+    "skill": "Debate",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Two cards: one that says Agree and one that says Disagree",
+    "steps": [
+      "Read a simple statement, such as Cats are better than dogs.",
+      "The student holds up the card that matches their view and gives one reason with because.",
+      "You take the other side and give your reason."
+    ],
+    "variation": "Add a third card that says Not sure."
+  },
+  {
+    "id": "SPARK-DBT-03",
+    "name": "Best Place to Live",
+    "level": "Spark",
+    "skill": "Debate",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Ask: Which city is the best place to live?",
+      "The student names one city and one reason: It is a good city because it is quiet.",
+      "You name another city with a reason. The student chooses the better reason."
+    ],
+    "variation": "Ask about the best place to study or the best job for the student."
+  },
+  {
+    "id": "FLOW-SPK-01",
+    "name": "Two Truths and a Lie",
+    "level": "Flow",
+    "skill": "Speaking",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "The student says three sentences about their life: two true, one false.",
+      "You ask questions to find the lie.",
+      "Then you do the same, and the student finds your lie."
+    ],
+    "variation": "Ask the student to give reasons for the true statements."
+  },
+  {
+    "id": "FLOW-SPK-02",
+    "name": "Describe It, Don't Name It",
+    "level": "Flow",
+    "skill": "Speaking",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Small objects or pictures",
+    "steps": [
+      "Show an object. The student describes it without naming it, using relative clauses: It is something that ...",
+      "You guess the object.",
+      "Swap roles: you describe an object and the student guesses."
+    ],
+    "variation": "Describe a place instead of an object, using where."
+  },
+  {
+    "id": "FLOW-SPK-03",
+    "name": "Story Relay",
+    "level": "Flow",
+    "skill": "Speaking",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Start a short story with one sentence, such as It started to rain.",
+      "Take turns adding one sentence each, starting with a linking word such as However or Later.",
+      "End the story after about four sentences each."
+    ],
+    "variation": "Give the student a time expression to use, such as the next day."
+  },
+  {
+    "id": "FLOW-SPK-04",
+    "name": "Yes, And",
+    "level": "Flow",
+    "skill": "Speaking",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a statement, such as I went to the park.",
+      "The student replies: Yes, and I ... (adding a detail).",
+      "Continue back and forth, adding one detail each time."
+    ],
+    "variation": "Ask the student to add a reason with because each time."
+  },
+  {
+    "id": "FLOW-LIS-01",
+    "name": "Gist Then Detail",
+    "level": "Flow",
+    "skill": "Listening",
+    "minutes": 10,
+    "prep": "Few minutes",
+    "materials": "A 60-second audio clip or short text",
+    "steps": [
+      "Play the clip once. Ask: What is the main idea?",
+      "Play it again. Ask two detail questions.",
+      "The student checks their answers before you give the answers."
+    ],
+    "variation": "Ask the student to write one sentence summarising the main idea."
+  },
+  {
+    "id": "FLOW-LIS-02",
+    "name": "Spot the Mistake",
+    "level": "Flow",
+    "skill": "Listening",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "A short text with three factual errors",
+    "steps": [
+      "Read the text aloud. The student listens and notes any mistakes.",
+      "Read it again. The student names each mistake and gives the correct fact.",
+      "Check the answers together."
+    ],
+    "variation": "Use a short news summary about a local event."
+  },
+  {
+    "id": "FLOW-LIS-03",
+    "name": "Guess the Speaker",
+    "level": "Flow",
+    "skill": "Listening",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Read three short messages aloud, such as a phone message to a doctor.",
+      "The student guesses the speaker's job or relationship to the listener.",
+      "The student gives one clue from the message for each guess."
+    ],
+    "variation": "Ask the student to write a short message for you to guess."
+  },
+  {
+    "id": "FLOW-VOC-01",
+    "name": "Collocation Bingo",
+    "level": "Flow",
+    "skill": "Vocabulary",
+    "minutes": 10,
+    "prep": "Few minutes",
+    "materials": "A card with six collocations (such as make a decision, take a break)",
+    "steps": [
+      "Read a definition or example sentence for one collocation.",
+      "The student crosses it off the card if they have it.",
+      "When the student completes a line, they use the collocations from that line in one sentence."
+    ],
+    "variation": "Use phrasal verbs instead of collocations."
+  },
+  {
+    "id": "FLOW-VOC-02",
+    "name": "Synonym Swap",
+    "level": "Flow",
+    "skill": "Vocabulary",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a sentence with a basic word, such as The film was very good.",
+      "The student replaces the basic word with a stronger one: The film was excellent.",
+      "The student says one more sentence using the new word."
+    ],
+    "variation": "Ask the student to replace three basic words in a short paragraph."
+  },
+  {
+    "id": "FLOW-VOC-03",
+    "name": "Phrasal Verb Chain",
+    "level": "Flow",
+    "skill": "Vocabulary",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a phrasal verb, such as look after.",
+      "The student gives its meaning and makes a sentence.",
+      "The student gives you a new phrasal verb, and you repeat the process."
+    ],
+    "variation": "Ask the student to use each phrasal verb in a question."
+  },
+  {
+    "id": "FLOW-VOC-04",
+    "name": "Word Family",
+    "level": "Flow",
+    "skill": "Vocabulary",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "A list of five base words on the screen",
+    "steps": [
+      "Give a base word, such as success.",
+      "The student makes a verb, an adjective, and an adverb from it (succeed, successful, successfully).",
+      "The student uses two of the new words in sentences."
+    ],
+    "variation": "Use words with prefixes, such as possible and impossible."
+  },
+  {
+    "id": "FLOW-GRM-01",
+    "name": "Tense Timeline",
+    "level": "Flow",
+    "skill": "Grammar",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "A timeline drawn on the screen or a whiteboard, with past, present, and future",
+    "steps": [
+      "Read five sentences in different tenses.",
+      "The student says where each sentence goes on the timeline.",
+      "Check the answers by pointing to the timeline."
+    ],
+    "variation": "Ask the student to write sentences for their own timeline."
+  },
+  {
+    "id": "FLOW-GRM-02",
+    "name": "Mistake Hunt",
+    "level": "Flow",
+    "skill": "Grammar",
+    "minutes": 10,
+    "prep": "Few minutes",
+    "materials": "Five sentences with one error each, on the screen",
+    "steps": [
+      "The student finds the error in each sentence and says the correction.",
+      "You and the student discuss whether each correction is right.",
+      "The student makes one new sentence with the corrected form."
+    ],
+    "variation": "Ask the student to write the mistakes for you to find."
+  },
+  {
+    "id": "FLOW-GRM-03",
+    "name": "Conditional Stems",
+    "level": "Flow",
+    "skill": "Grammar",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Cards with the start of a first or second conditional",
+    "steps": [
+      "Give the student the cards, such as If it rains, ... or If I had more time, ...",
+      "The student completes each sentence with a result.",
+      "The student says whether it is a first or second conditional."
+    ],
+    "variation": "Swap cards with the student and complete each other's sentences."
+  },
+  {
+    "id": "FLOW-DBT-01",
+    "name": "Agree or Disagree Scale",
+    "level": "Flow",
+    "skill": "Debate",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "Four cards: Strongly agree, Agree, Disagree, Strongly disagree",
+    "steps": [
+      "Read a statement, such as Students should wear uniforms.",
+      "The student places a card on the table that matches their view, and gives one reason.",
+      "You argue for the view the student did not choose. The student may change their card after hearing you."
+    ],
+    "variation": "Ask the student to argue for the view they did not choose."
+  },
+  {
+    "id": "FLOW-DBT-02",
+    "name": "Pros and Cons Sprint",
+    "level": "Flow",
+    "skill": "Debate",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "A topic written on the screen",
+    "steps": [
+      "Give the student one minute to list as many pros and cons as they can.",
+      "The student reads their best pro and best con.",
+      "Decide together which side had the stronger argument."
+    ],
+    "variation": "Ask the student to link one pro and one con with although."
+  },
+  {
+    "id": "FLOW-DBT-03",
+    "name": "Devil's Advocate",
+    "level": "Flow",
+    "skill": "Debate",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "State a view, such as Online study is better than classroom study.",
+      "The student argues against your view for two minutes, using however and moreover.",
+      "Decide together whether the argument was persuasive."
+    ],
+    "variation": "Ask the student to defend a view that you choose."
+  },
+  {
+    "id": "DRIVE-SPK-01",
+    "name": "One-Minute Hot Seat",
+    "level": "Drive",
+    "skill": "Speaking",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Choose a topic. The student answers your quick questions about it for one minute.",
+      "Ask follow-up questions that need more than a simple answer.",
+      "Swap roles: the student asks you questions on the same topic."
+    ],
+    "variation": "Ask the student to argue one position for the whole minute."
+  },
+  {
+    "id": "DRIVE-SPK-02",
+    "name": "Rephrase This",
+    "level": "Drive",
+    "skill": "Speaking",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Read a complex sentence aloud, such as The initiative was undermined by a lack of funding.",
+      "The student explains it in simple English, then in formal English.",
+      "Compare the two versions together."
+    ],
+    "variation": "Use a sentence from a news article."
+  },
+  {
+    "id": "DRIVE-SPK-03",
+    "name": "The Pitch in 60 Seconds",
+    "level": "Drive",
+    "skill": "Speaking",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Name an everyday item, such as a reusable water bottle.",
+      "The student has one minute to persuade you to buy it.",
+      "You ask one sceptical question, and the student answers it."
+    ],
+    "variation": "Ask the student to pitch an idea to a board of directors, and you play the board."
+  },
+  {
+    "id": "DRIVE-SPK-04",
+    "name": "Interrupt Politely",
+    "level": "Drive",
+    "skill": "Speaking",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "You and the student start a short discussion on a topic.",
+      "The student interrupts you politely: Sorry to interrupt, but could I add something?",
+      "You hand back the floor with a phrase such as Go ahead."
+    ],
+    "variation": "Ask the student to disagree while acknowledging your point."
+  },
+  {
+    "id": "DRIVE-LIS-01",
+    "name": "Accent Round",
+    "level": "Drive",
+    "skill": "Listening",
+    "minutes": 10,
+    "prep": "Few minutes",
+    "materials": "Three short audio clips with different accents",
+    "steps": [
+      "Play each clip once. The student guesses the speaker's region or background.",
+      "Play it again. The student notes two features that helped the guess.",
+      "Discuss which accent was easiest for the student and why."
+    ],
+    "variation": "Ask the student to recreate one speaker's intonation."
+  },
+  {
+    "id": "DRIVE-LIS-02",
+    "name": "Tone Detective",
+    "level": "Drive",
+    "skill": "Listening",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Three short remarks, written or recorded",
+    "steps": [
+      "Read each remark, such as Oh, great, another meeting on a Friday.",
+      "The student says whether the speaker is sincere, sarcastic, or neutral.",
+      "The student points to the words that show the tone."
+    ],
+    "variation": "Ask the student to write a sarcastic remark for you to identify."
+  },
+  {
+    "id": "DRIVE-LIS-03",
+    "name": "Summary Race",
+    "level": "Drive",
+    "skill": "Listening",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "A two-minute talk, played or read aloud",
+    "steps": [
+      "Play the talk once without stopping.",
+      "The student writes a three-point summary in two minutes.",
+      "Compare the summary with the main argument of the talk."
+    ],
+    "variation": "Ask the student to summarise in one sentence."
+  },
+  {
+    "id": "DRIVE-VOC-01",
+    "name": "Idiom Charades",
+    "level": "Drive",
+    "skill": "Vocabulary",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Act out an idiom without speaking, such as on the fence.",
+      "The student guesses the idiom and says what it means.",
+      "The student uses the idiom in a sentence, then acts out one for you."
+    ],
+    "variation": "Use idioms about work, such as bite the bullet."
+  },
+  {
+    "id": "DRIVE-VOC-02",
+    "name": "Upgrade the Word",
+    "level": "Drive",
+    "skill": "Vocabulary",
+    "minutes": 7,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a weak sentence, such as We made a decision quickly.",
+      "The student replaces the weak words with precise ones, such as We reached a verdict swiftly.",
+      "Compare the two versions and choose the more precise one."
+    ],
+    "variation": "Ask the student to upgrade a sentence from their own work."
+  },
+  {
+    "id": "DRIVE-VOC-03",
+    "name": "Register Shift",
+    "level": "Drive",
+    "skill": "Vocabulary",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Say a casual message, such as Hey, can we move the meeting?",
+      "The student rewrites it in a formal register, then in a casual register again.",
+      "Discuss which words signal each register."
+    ],
+    "variation": "Use an email message to a client."
+  },
+  {
+    "id": "DRIVE-GRM-01",
+    "name": "Mixed Conditional Stories",
+    "level": "Drive",
+    "skill": "Grammar",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Start with a past condition: If I had studied law, ...",
+      "The student adds the present result: ... I would be a lawyer now.",
+      "Check together that the mixed conditional is correct, then take turns extending the story."
+    ],
+    "variation": "Ask the student to create the reverse mixed conditional."
+  },
+  {
+    "id": "DRIVE-GRM-02",
+    "name": "Passive Headlines",
+    "level": "Drive",
+    "skill": "Grammar",
+    "minutes": 7,
+    "prep": "Few minutes",
+    "materials": "Five active news headlines on the screen",
+    "steps": [
+      "Read a headline, such as The council approved the new budget.",
+      "The student rewrites it in the passive: The new budget was approved by the council.",
+      "Discuss when the passive is more useful in news writing."
+    ],
+    "variation": "Ask the student to write a headline in the passive, and you make it active."
+  },
+  {
+    "id": "DRIVE-GRM-03",
+    "name": "Inversion Starters",
+    "level": "Drive",
+    "skill": "Grammar",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Give a starter: Rarely have I ...",
+      "The student completes the sentence using an inverted structure.",
+      "Repeat with Not only did ... or Seldom have I ...."
+    ],
+    "variation": "Ask the student to use one inversion in a personal story."
+  },
+  {
+    "id": "DRIVE-DBT-01",
+    "name": "Motion Debate",
+    "level": "Drive",
+    "skill": "Debate",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "A motion written on the screen, such as This house would ban advertising to children",
+    "steps": [
+      "The student takes one side and you take the other. Each has one minute to prepare.",
+      "Each of you speaks for two minutes, using hedging and at least one concession.",
+      "Decide together which side argued more convincingly."
+    ],
+    "variation": "Ask the student to argue the side that does not match their own view."
+  },
+  {
+    "id": "DRIVE-DBT-02",
+    "name": "Pick a Side in 30 Seconds",
+    "level": "Drive",
+    "skill": "Debate",
+    "minutes": 5,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "Read a contested statement, such as Remote work is better for everyone.",
+      "The student takes a side and gives one argument in 30 seconds.",
+      "You challenge the argument with a counter-point."
+    ],
+    "variation": "Ask the student to change sides after your challenge."
+  },
+  {
+    "id": "DRIVE-DBT-03",
+    "name": "Counter-Argument Chain",
+    "level": "Drive",
+    "skill": "Debate",
+    "minutes": 10,
+    "prep": "None",
+    "materials": "None",
+    "steps": [
+      "State a view, such as Schools should teach financial skills.",
+      "The student and you take turns countering the previous speaker, starting with a concession: That is fair, but ...",
+      "Continue for five rounds, then summarise the strongest counter-argument together."
+    ],
+    "variation": "Limit each counter to one sentence."
+  }
+]

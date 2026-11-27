@@ -1,0 +1,614 @@
+[
+  {
+    "id": "DRIVE-INTERVIEW-01",
+    "phase": "Drive",
+    "number": 1,
+    "pathway": "Job Interviews",
+    "cefr": "B2",
+    "title": "Job Interviews 1: Selling Your Experience with Results",
+    "canDo": "Can describe professional experience in detail, linking past activity to measurable results and present relevance.",
+    "goal": "Describe ongoing experience and its results using present perfect continuous and relative clauses.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Think of your most valuable professional contribution. What was the impact, in numbers if possible?",
+        "tutorAction": "Give a brief example with a measurable result, then challenge the student to state the impact in one sentence."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Subject + have / has been + verb-ing (ongoing experience) + relative clause (who / which / that) giving the result",
+        "examples": [
+          "I have been leading the regional sales team for three years, which has increased revenue by a fifth.",
+          "She has been managing client accounts that generated most of the company's growth last year.",
+          "We have been working on a process that has cut delivery times in half."
+        ],
+        "method": "Show the example sentences with the ongoing activity and the relative clause highlighted. Ask guiding questions: Is the activity still continuing? What does the relative clause add? Then ask the student to rewrite one of their achievements with present perfect continuous.",
+        "checkQuestion": "In I have been leading the team, is the activity finished or still happening?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this interview answer twice at native speed: For the past four years, I have been overseeing supplier relationships, which has reduced procurement costs by about twelve percent. Most of that saving came from renegotiating contracts that had been expensive for a decade.",
+        "factCheck": "Ask: How long has the candidate been overseeing supplier relationships? (four years). What has this reduced? (procurement costs, by about twelve percent). What was the source of most of the saving? (renegotiating expensive contracts).",
+        "toneCheck": "Ask: Does the candidate sound confident or cautious about the figure? Ask the student to point to the word that shows the figure is an estimate, such as about."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Achievement pitch: the tutor plays a hiring manager and asks: Walk me through your most significant contribution in your current role. The student gives a two-minute answer using present perfect continuous for ongoing work, a relative clause for the result, and one figure. The tutor then challenges the claim: How did you measure that?",
+        "phrases": [
+          "I have been ... for ...",
+          "which has ...",
+          "That result came from ..."
+        ],
+        "mandate": "Act as a coach and a sceptical hiring manager. Challenge the student to justify each claim, and share one more precise phrase in the chat when a result is stated vaguely."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I am working here for three years, and it saves money.",
+          "I have been managing the team, which I did a big change."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-INTERVIEW-02",
+    "phase": "Drive",
+    "number": 2,
+    "pathway": "Job Interviews",
+    "cefr": "B2",
+    "title": "Job Interviews 2: Handling Tricky Questions",
+    "canDo": "Can answer difficult interview questions about weaknesses and gaps in experience honestly, without sounding defensive.",
+    "goal": "Answer questions about weaknesses and gaps using hedging and second conditional forms to show self-awareness.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is your biggest weakness as a professional?",
+        "tutorAction": "Let the student answer instantly, then challenge them with: Would you say that is a weakness or a strength in disguise?"
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Hedged admission + action taken: I would argue that I ... / I tend to ... / If I were in the role again, I would ... (second conditional, a reflective hypothetical)",
+        "examples": [
+          "I would argue that my main weakness has been delegating too late.",
+          "I tend to take on too much, so I now review my priorities every Monday.",
+          "If I were starting that project again, I would involve the finance team from day one."
+        ],
+        "method": "Show the frame with the three parts labelled. Ask guiding questions: Does this sentence admit a weakness? Does it describe a change? Which form shows a reflection on the past? Then ask the student to answer the warm-up question using the frame.",
+        "checkQuestion": "In If I were starting that project again, is the speaker describing the past or a hypothetical present?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this interview answer twice at native speed: I would say my biggest gap is in budgeting for large projects, though I have addressed it. If I had been better prepared in my last role, I would have avoided the overspend. I now run a cost review before every launch.",
+        "factCheck": "Ask: What is the speaker's biggest gap? (budgeting for large projects). What would they have avoided? (the overspend). What do they do now? (run a cost review before every launch).",
+        "toneCheck": "Ask: Does the speaker sound defensive or reflective? Ask the student to point to the phrase that shows reflection, such as I would say my biggest gap."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Difficult question round: the tutor plays a hiring manager and asks three questions: What is your biggest weakness? Why is there a gap in your CV? What would your last manager say about you? The student answers each in about one minute, admits something honestly, and describes what they have changed.",
+        "phrases": [
+          "I would argue that ...",
+          "I tend to ..., so I now ...",
+          "If I were in that position again, I would ..."
+        ],
+        "mandate": "Act as a firm but fair hiring manager. Press for specifics when an answer is vague, and share one more precise hedge live in the chat when the student sounds defensive."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "My weakness is I am too perfectionist, which is a strength really.",
+          "If I was in your place, I will do it differently."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-INTERVIEW-03",
+    "phase": "Drive",
+    "number": 3,
+    "pathway": "Job Interviews",
+    "cefr": "B2",
+    "title": "Job Interviews 3: Discussing Salary and Conditions",
+    "canDo": "Can discuss pay, benefits, and working conditions, making conditional offers and reaching a workable agreement.",
+    "goal": "Negotiate terms using provided that, as long as, and conditional offers, while keeping the tone collaborative.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What matters most to you in a job offer, beyond the salary?",
+        "tutorAction": "Let the student answer, then ask them to rank their priorities in order and explain the top one."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "I am willing to + verb, provided that + condition / I can accept + offer, as long as + condition / Would it be possible to + verb + if + condition?",
+        "examples": [
+          "I am willing to accept the salary, provided that the training budget is included.",
+          "I can accept a flexible schedule, as long as I have two fixed days in the office.",
+          "Would it be possible to review the salary in six months, if I meet the targets?"
+        ],
+        "method": "Show each frame with a short negotiation example. Ask guiding questions: What is offered? What is the condition? Is the proposal firm or open to discussion? Then ask the student to rewrite one of their demands as a conditional offer.",
+        "checkQuestion": "In I am willing to accept the salary, provided that the training budget is included, which part is the condition?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this negotiation transcript twice at native speed: Candidate: I am willing to accept a salary slightly below my expectation, provided that the company covers my certification fees. Recruiter: We could consider that, as long as you commit to two years with us. Candidate: That seems fair, if we can review the arrangement after one year.",
+        "factCheck": "Ask: What is the candidate willing to accept? (a salary slightly below expectation). What does the candidate want covered? (certification fees). What is the recruiter's condition? (a commitment to two years).",
+        "toneCheck": "Ask: Is the tone cooperative or competitive? Ask the student to point to the phrase that shows a willingness to compromise, such as That seems fair."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Offer negotiation: the tutor plays a recruiter who has offered a salary and a fixed working pattern. The student responds with at least two conditional offers, asks about one benefit, and proposes a review date. The tutor counters with a condition of their own, and the student closes with a summary of the terms.",
+        "phrases": [
+          "I am willing to ..., provided that ...",
+          "I can accept ..., as long as ...",
+          "Would it be possible to ...?"
+        ],
+        "mandate": "Act as a recruiter who needs to balance budget and retention. Make realistic counter-offers, and share one stronger negotiation phrase in the chat when the student makes an unconditional demand."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want the salary higher, or I will not accept the job.",
+          "I accept if you give me the flexible hours."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-INTERVIEW-04",
+    "phase": "Drive",
+    "number": 4,
+    "pathway": "Job Interviews",
+    "cefr": "B2",
+    "title": "Job Interviews 4: Full Mock Interview and Self-Review",
+    "canDo": "Can take part in a complete professional interview, then assess their own performance and set goals for improvement.",
+    "goal": "Complete a full mock interview using mixed conditionals and reflective language, then review your own performance.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: If you had taken a different career path ten years ago, where would you be today?",
+        "tutorAction": "Let the student speculate for about one minute, then ask one question about the present effect."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Mixed conditional: If + past perfect, would + base verb (past cause, present result) / Had I + past participle, I would be + now (inverted form)",
+        "examples": [
+          "If I had taken that offer, I would be leading the Madrid office now.",
+          "Had I pursued finance, I would probably be working in investment today.",
+          "I would have handled the launch differently, had I known the market was shifting."
+        ],
+        "method": "Show a mixed conditional on a timeline with the past cause and the present result. Ask guiding questions: When did the cause happen? When is the result felt? Then ask the student to say one past decision and its present effect.",
+        "checkQuestion": "In Had I pursued finance, I would be working in investment, which part describes the past and which the present?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this self-assessment twice at native speed: Looking back, I answered the technical questions well, but I rushed the answers about leadership. Had I slowed down, I would have given clearer examples. Next time, I will prepare two stories that show how I manage conflict.",
+        "factCheck": "Ask: Which questions did the speaker answer well? (the technical questions). What did they rush? (the answers about leadership). What will they prepare next time? (two stories about managing conflict).",
+        "toneCheck": "Ask: Is the speaker self-critical or constructive? Ask the student to point to the phrase that shows a plan for improvement, such as Next time, I will prepare."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Full mock interview: the tutor plays a senior hiring manager and runs a complete interview: an opening, two technical questions, one difficult question, and a closing. After the interview, the student assesses their own performance for two minutes: one strength, one area to improve, and one specific goal.",
+        "phrases": [
+          "Looking back, I ...",
+          "Had I ..., I would have ...",
+          "Next time, I will ..."
+        ],
+        "mandate": "Act as a senior hiring manager. Keep the interview realistic, do not interrupt the student's answers, and after the self-review give one specific observation the student did not notice."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "If I took that offer, I would be in Madrid now.",
+          "I think I did well, I was good, next time I do better."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-FLUENCY-01",
+    "phase": "Drive",
+    "number": 1,
+    "pathway": "Fluency",
+    "cefr": "B2",
+    "title": "Fluency 1: Discourse Markers for Natural Speech",
+    "canDo": "Can structure extended speech with discourse markers, so that contrasts, additions, and conclusions flow naturally.",
+    "goal": "Use however, nevertheless, moreover, and that said to signal the logic of an argument in speech.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this statement: Remote work is good for productivity. Ask: Do you agree? Give a view in thirty seconds.",
+        "tutorAction": "Let the student speak for about thirty seconds, then offer a counter-point and listen for their first discourse marker."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Point + marker signalling its role: However (contrast) / Moreover (addition) / Nevertheless (concession) / That said (qualification)",
+        "examples": [
+          "The plan is ambitious. However, the budget does not support it yet.",
+          "The results were strong. Moreover, customer feedback was very positive.",
+          "The risks are real. Nevertheless, I believe the project is worth the investment."
+        ],
+        "method": "Show each marker with its role. Ask guiding questions: Does this marker add, contrast, or concede? Then ask the student to take their warm-up view and add one contrast and one addition with suitable markers.",
+        "checkQuestion": "Does nevertheless introduce agreement or a concession?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this presentation extract twice at native speed: The pilot programme was successful in most departments. However, the finance team reported delays. Moreover, two managers argued that the training was too short. That said, the overall results justify a wider rollout.",
+        "factCheck": "Ask: How successful was the pilot? (in most departments). What did the finance team report? (delays). What did two managers argue? (the training was too short). What is the conclusion? (a wider rollout is justified).",
+        "toneCheck": "Ask: Is the speaker for or against the wider rollout? Ask the student to point to the marker that shows the concluding judgement, such as That said."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Balanced view: the student takes a side on a workplace change (flexible hours, open-plan offices, a new software system) and speaks for about two minutes. The tutor argues the other side, and the student replies with at least two markers: one concession and one counter-point.",
+        "phrases": [
+          "However, ...",
+          "Moreover, ...",
+          "That said, ..."
+        ],
+        "mandate": "Act as a discussion partner who disagrees. Let the student finish each contribution, and share one more precise discourse marker in the chat when the student repeats however or but."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The idea is good, but but the budget is small.",
+          "It is risky, and also it is good, and also the people like it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-FLUENCY-02",
+    "phase": "Drive",
+    "number": 2,
+    "pathway": "Fluency",
+    "cefr": "B2",
+    "title": "Fluency 2: Agreeing and Disagreeing Politely",
+    "canDo": "Can agree, disagree, and interrupt politely in meetings, keeping the discussion productive.",
+    "goal": "Express agreement and disagreement diplomatically, and interrupt a meeting without causing offence.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this statement from a colleague: We should cancel the training programme to save money. Ask: How would you respond in a meeting?",
+        "tutorAction": "Let the student respond instantly, then take the colleague's role and push back once."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Agreement: I take your point, and I would add that ... / Disagreement: I see your point, but ... / Interrupting: Sorry to interrupt, but could I add something? / Softening: I'm not entirely convinced that ...",
+        "examples": [
+          "I take your point, and I would add that cutting training could affect retention.",
+          "I see your point, but the savings would be small compared with the cost of replacing staff.",
+          "Sorry to interrupt, but could I add something about the timeline?"
+        ],
+        "method": "Show each function with a blunt version and a diplomatic version. Ask guiding questions: What does the speaker concede? Where is the disagreement stated? Then ask the student to rewrite one blunt objection from the warm-up as a diplomatic disagreement.",
+        "checkQuestion": "In I see your point, but, does the speaker agree fully, or disagree while acknowledging the other view?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this meeting transcript twice at native speed: Manager: I take your point about the costs, but I'm not entirely convinced that cutting the programme is the answer. Analyst: Sorry to interrupt, but the figures do show a short-term saving. Manager: That's fair. Could we look at a smaller version?",
+        "factCheck": "Ask: What does the manager take on board? (the point about costs). What is the manager not convinced of? (that cutting the programme is the answer). What does the analyst add? (a short-term saving). What does the manager propose? (a smaller version).",
+        "toneCheck": "Ask: Is the discussion cooperative or confrontational? Ask the student to point to the phrase that shows the manager is open to a compromise, such as That's fair."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Meeting role-play: the tutor plays a colleague who proposes a change to a project budget. The student must agree with one point, disagree with another politely, interrupt once, and propose a compromise.",
+        "phrases": [
+          "I take your point, and ...",
+          "I see your point, but ...",
+          "Sorry to interrupt, but ..."
+        ],
+        "mandate": "Act as a colleague who pushes back on the student's compromise. Respond to each polite interruption, and share one more diplomatic phrase in the chat when the student disagrees bluntly."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "No, that is wrong, the budget is fine.",
+          "You are not right, I will talk now."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-FLUENCY-03",
+    "phase": "Drive",
+    "number": 3,
+    "pathway": "Fluency",
+    "cefr": "B2",
+    "title": "Fluency 3: Telling Stories with Pace and Emphasis",
+    "canDo": "Can tell an extended story at a natural pace, using narrative tenses and emphasis to hold the listener's attention.",
+    "goal": "Tell a work anecdote using narrative tenses and emphatic structures, with clear pacing.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is the most surprising thing that has happened to you at work?",
+        "tutorAction": "Let the student start the story, then ask them to give the outcome before the details."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Narrative tenses (past simple for events, past continuous for background, past perfect for earlier events) + emphasis (Little did we know ... / Not only did ..., but ...)",
+        "examples": [
+          "We were preparing the launch when the system crashed.",
+          "The client had already signed when we discovered the error.",
+          "Little did we know that the delay would lead to a better product."
+        ],
+        "method": "Show the three narrative tenses on a timeline. Ask guiding questions: Which action came first? Which was happening at the time? Then ask the student to tell the warm-up story using at least two narrative tenses and one emphatic phrase.",
+        "checkQuestion": "In The client had already signed when we discovered the error, which event happened first?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this anecdote twice at native speed: We were finalising the contract when the supplier called. They had discovered a fault in the batch. Little did we know that the problem would become the best lesson of the year, because it forced us to review every supplier.",
+        "factCheck": "Ask: What were they finalising? (the contract). Who called? (the supplier). What had the supplier discovered? (a fault in the batch). What did the problem lead to? (a review of every supplier).",
+        "toneCheck": "Ask: Does the speaker look back on the event with humour, regret, or pride? Ask the student to point to the phrase that signals the twist, such as Little did we know."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Work anecdote: the student tells a two-minute story about a surprising work event, using narrative tenses and at least one emphatic phrase. The tutor reacts as a listener and asks one question at the end: What did you do next?",
+        "phrases": [
+          "We were ... when ...",
+          "Little did we know ...",
+          "Not only did ..., but ..."
+        ],
+        "mandate": "Act as an engaged listener. Let the story unfold without interruption, react naturally, and share one more precise narrative phrase in the chat when the student uses a basic past tense for background."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We are finishing the contract when the supplier called us.",
+          "The client signed before we discover the error."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-FLUENCY-04",
+    "phase": "Drive",
+    "number": 4,
+    "pathway": "Fluency",
+    "cefr": "B2",
+    "title": "Fluency 4: Timed Opinion with a Concession",
+    "canDo": "Can give a structured opinion under time pressure, acknowledging the strongest counter-argument before answering it.",
+    "goal": "Give a 90-second opinion with a claim, a reason, an example, and a fair concession.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this statement: Companies should measure success by profit alone. Ask: Give your position in thirty seconds.",
+        "tutorAction": "Start a thirty-second timer, then ask the student to name the strongest counter-argument."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Claim + reason + example + concession + response: I would argue that ... / The strongest reason is ... / Admittedly, ... / Nevertheless, ...",
+        "examples": [
+          "I would argue that profit is necessary but not sufficient.",
+          "Admittedly, a focus on profit can drive efficiency, and it does reward investors.",
+          "Nevertheless, a business that ignores its staff and customers rarely lasts long."
+        ],
+        "method": "Show the five-part frame with the example phrases. Ask guiding questions: Which part states the claim? Where does the concession appear, and how is it answered? Then ask the student to speak for 90 seconds on the warm-up statement using the frame.",
+        "checkQuestion": "In Admittedly, a focus on profit can drive efficiency, does the speaker accept the counter-argument, or reject it?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this opinion extract twice at native speed: Critics argue that measuring firms by profit alone encourages short-term thinking. Admittedly, shareholders have a legitimate claim to returns. Nevertheless, long-term profitability depends on trust, and trust depends on how a company treats its people.",
+        "factCheck": "Ask: What do critics argue? (profit alone encourages short-term thinking). What do shareholders have? (a legitimate claim to returns). What does long-term profitability depend on? (trust).",
+        "toneCheck": "Ask: Does the writer accept the shareholders' view fully? Ask the student to point to the phrase that concedes a point before answering it, such as Admittedly."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Timed opinion: the tutor gives a new business statement. The student speaks for 90 seconds using the five-part frame, then the tutor challenges the concession with one counter-argument. The student responds in 30 seconds, then repeats the full answer once with a faster, smoother delivery.",
+        "phrases": [
+          "I would argue that ...",
+          "Admittedly, ...",
+          "Nevertheless, ..."
+        ],
+        "mandate": "Keep time visibly. Do not interrupt the 90 seconds. After the response round, note one fluency gain and one priority for the next attempt."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I think profit is important, but people is important too, so yes.",
+          "Admittedly the profit good, and also the staff is good, and in fact very good."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-PRESENTATION-01",
+    "phase": "Drive",
+    "number": 1,
+    "pathway": "Presentation Skills",
+    "cefr": "B2",
+    "title": "Presentation Skills 1: Persuasive Openings and Hooks",
+    "canDo": "Can open a business presentation with a hook that engages the audience and sets up a clear, persuasive argument.",
+    "goal": "Open a presentation with a rhetorical question, a striking statistic, or a vivid scenario, and state a clear thesis.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this topic: Should the company move its entire operation to remote work? Ask: What would be your opening line to a board?",
+        "tutorAction": "Let the student write or say one opening line, then ask them to make it more striking."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Hook (rhetorical question / striking figure / vivid scenario) + thesis (My recommendation is that ... / I will argue that ...) + roadmap (I will cover three points)",
+        "examples": [
+          "How much of our budget disappears into empty desks every month?",
+          "Imagine a team that never has to commute, yet meets its targets every quarter.",
+          "My recommendation is that we move to a hybrid model, and I will cover three reasons."
+        ],
+        "method": "Show the three hooks with the thesis and roadmap. Ask guiding questions: Which hook would catch the attention of a busy board? Where does the thesis appear? Then ask the student to write a hook, a thesis, and a roadmap for the warm-up topic.",
+        "checkQuestion": "Which part of the opening states the recommendation the speaker will defend?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this presentation opening twice at native speed: Imagine a company that spends millions on offices no one uses. Our proposal is simple: reduce the floor space and invest in flexible tools. I will argue that this is the most cost-effective choice, and I will cover three reasons.",
+        "factCheck": "Ask: What does the company spend millions on? (offices no one uses). What is the proposal? (reduce floor space and invest in flexible tools). How many reasons will the speaker cover? (three).",
+        "toneCheck": "Ask: Is the speaker cautious or persuasive? Ask the student to point to the phrase that signals the argument, such as I will argue that."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Opening challenge: the student writes and delivers a 60-second opening for a business recommendation of their choice, using a hook, a thesis, and a roadmap. The tutor plays a sceptical board member and asks one challenging question after the opening.",
+        "phrases": [
+          "How much of ... ?",
+          "Imagine ...",
+          "My recommendation is that ..., and I will cover ..."
+        ],
+        "mandate": "Act as a sceptical board member. Respond to the opening with a challenge, and share one stronger hook in the chat when the student opens with a flat statement."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Today I will talk about remote work and I have some ideas.",
+          "Imagine, the office is big and the money is a lot."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-PRESENTATION-02",
+    "phase": "Drive",
+    "number": 2,
+    "pathway": "Presentation Skills",
+    "cefr": "B2",
+    "title": "Presentation Skills 2: Describing Data with Precise Hedging",
+    "canDo": "Can describe data and trends accurately, hedging figures and claims where the evidence is limited.",
+    "goal": "Describe trends and figures using roughly, approximately, a marked increase, and passive reporting structures.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a simple line graph of monthly revenue with a dip in the middle. Ask: What is the main trend you see, and how confident are you in it?",
+        "tutorAction": "Let the student describe the trend, then ask how they would qualify it if the data were preliminary."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Trend + precise verb or noun (a marked increase, a slight decline, levelled off) + hedge (roughly, approximately, it appears that) + passive reporting (it has been estimated that ...)",
+        "examples": [
+          "Revenue rose by approximately fifteen percent in the second quarter.",
+          "There was a marked decline in demand, although it appears to have levelled off.",
+          "It has been estimated that the trend will continue, provided that the market stays stable."
+        ],
+        "method": "Show a trend with a precise description and a hedged version. Ask guiding questions: Is the figure exact or approximate? Does the hedge show uncertainty about the trend or about the figure? Then ask the student to describe the graph with one precise verb and one hedge.",
+        "checkQuestion": "In approximately fifteen percent, is the figure exact or an estimate?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this data commentary twice at native speed: Sales rose by roughly eight percent in the first half of the year, although the increase was uneven. It has been suggested that the recovery will continue, but the sample of customers was small, so the findings should be treated with caution.",
+        "factCheck": "Ask: By how much did sales rise? (roughly eight percent). What was uneven? (the increase). Why should the findings be treated with caution? (the sample of customers was small).",
+        "toneCheck": "Ask: Is the writer confident or cautious about the recovery? Ask the student to point to the phrases that show caution, such as it has been suggested and should be treated with caution."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Data briefing: the tutor shares a simple table of three quarterly figures with one anomaly. The student describes the trends using precise verbs, qualifies each claim, and explains what further data would be needed before making a recommendation. The tutor, as a finance director, asks: How confident are you in that conclusion?",
+        "phrases": [
+          "Approximately ...",
+          "There was a marked ...",
+          "It appears that ..., although ..."
+        ],
+        "mandate": "Act as a finance director who questions every claim. Press for the source of each figure, and share one more precise hedging phrase in the chat when the student overstates a trend."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Sales are going up a lot, it is definitely the best quarter.",
+          "The data shows the recovery will happen for sure."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-PRESENTATION-03",
+    "phase": "Drive",
+    "number": 3,
+    "pathway": "Presentation Skills",
+    "cefr": "B2",
+    "title": "Presentation Skills 3: Handling Challenging Questions",
+    "canDo": "Can respond to difficult audience questions by acknowledging the point, clarifying, and defending the position with evidence.",
+    "goal": "Respond to a hostile or challenging question using acknowledge, clarify, and defend, without losing control of the talk.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question from an audience member: Your plan will cost more than the current system. Why should we accept it?",
+        "tutorAction": "Let the student respond instantly, then ask them to name the evidence they would use."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Acknowledge (That's a fair point, though ...) + clarify (Are you asking about ...?) + defend (The evidence suggests ... / I would argue that ...) + check (Does that address your concern?)",
+        "examples": [
+          "That's a fair point, though the long-term savings are significant.",
+          "Are you asking about the upfront cost or the overall return?",
+          "The evidence suggests that the investment would pay back within three years."
+        ],
+        "method": "Show the four-step frame with the example phrases. Ask guiding questions: Which step recognises the audience's concern? Which step defends the position with evidence? Then ask the student to answer the warm-up question using all four steps.",
+        "checkQuestion": "Which step checks that the audience member's concern has been addressed?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this exchange twice at native speed: Audience member: Your figures assume that demand will grow, which may not happen. Presenter: That's a fair point. Are you asking about the risk if demand stays flat? The evidence suggests that even with flat demand, the project would break even within four years. Does that address your concern?",
+        "factCheck": "Ask: What does the audience member question? (the assumption that demand will grow). What does the presenter ask for clarification? (the risk if demand stays flat). How long until break-even with flat demand? (four years).",
+        "toneCheck": "Ask: Is the presenter defensive or open? Ask the student to point to the phrase that invites further discussion, such as Does that address your concern?"
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Hostile question round: the tutor plays an audience member who challenges the student's recommendation from the previous class. The tutor asks two difficult questions in a row. The student uses the four-step frame for each, and stays calm and specific.",
+        "phrases": [
+          "That's a fair point, though ...",
+          "Are you asking about ...?",
+          "The evidence suggests that ..."
+        ],
+        "mandate": "Act as a challenging audience member. Interrupt once to press a point, then allow the student to finish. Share one more composed phrase in the chat when the student becomes defensive."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "No, you are wrong, the plan is good.",
+          "The cost is high but it is worth, so we do it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-PRESENTATION-04",
+    "phase": "Drive",
+    "number": 4,
+    "pathway": "Presentation Skills",
+    "cefr": "B2",
+    "title": "Presentation Skills 4: Full Seven-Minute Talk with Debrief",
+    "canDo": "Can deliver a complete seven-minute business presentation with a persuasive structure, precise data language, and a clear call to action, then reflect on feedback.",
+    "goal": "Deliver a seven-minute recommendation with hook, evidence, a handled question, and a closing call to action, then reflect on the performance.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is the one decision you most want this audience to make today?",
+        "tutorAction": "Let the student state the decision in one sentence, then ask what would make the audience hesitate."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Hook + thesis + three evidence points (with data language) + one anticipated objection + call to action (I would urge you to ... / Not only will this ..., but it will also ...)",
+        "examples": [
+          "I would urge you to approve the pilot this quarter.",
+          "Not only will this reduce costs, but it will also improve retention.",
+          "The objection that this is too expensive is fair, though the evidence suggests the return is faster than expected."
+        ],
+        "method": "Show the talk structure as a seven-minute sequence with time markers. Ask guiding questions: Where does the objection appear? Which sentence makes the call to action? Then ask the student to outline their own talk with the same structure.",
+        "checkQuestion": "Where in the talk should the anticipated objection appear, and why?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this peer feedback twice at native speed: Your opening was strong, and the data was presented clearly. However, you rushed the objection, so the audience did not feel it was taken seriously. I would urge you to slow down at that point. Not only would that help, but it would also make the close more persuasive.",
+        "factCheck": "Ask: What was strong? (the opening and the clear data). What was rushed? (the objection). What does the reviewer recommend? (slowing down at that point). What would that also do? (make the close more persuasive).",
+        "toneCheck": "Ask: Is the feedback constructive or harsh? Ask the student to point to the phrase that balances praise and criticism, such as However, you rushed the objection."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Seven-minute talk and debrief: the student delivers a recommendation to the tutor, who plays a board member. After the talk, the tutor asks one question about the call to action. The student then gives a two-minute self-debrief: one strength, one improvement, and one specific change for the next delivery.",
+        "phrases": [
+          "I would urge you to ...",
+          "Not only will ..., but it will also ...",
+          "The next time I present this, I will ..."
+        ],
+        "mandate": "Act as a board member. Listen to the full talk without interrupting, ask one question about the call to action, and after the self-debrief give one observation the student did not mention."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I think you should approve it because it is good and it saves money.",
+          "The objection is not important, so I skip it."
+        ]
+      }
+    }
+  }
+]

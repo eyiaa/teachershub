@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DRIVE-38",
+    "phase": "Drive",
+    "number": 38,
+    "cefr": "B2",
+    "title": "Module 10: Lexis of Cognition and Emotion",
+    "canDo": "Can discuss cognitive biases, motivation, and emotional responses using precise psychological vocabulary.",
+    "goal": "Use cognition and emotion vocabulary such as bias, motivation, and trigger accurately in discussion.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: Why do people often stick with a decision even when the evidence says it is wrong?",
+        "tutorAction": "Let the student give one reason quickly, then ask them to name the mechanism behind it."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Cognitive bias (a systematic error in thinking) / motivation (the reason for acting) / emotional trigger (something that provokes a strong response) / to rationalise (to find reasons after the fact)",
+        "examples": [
+          "Confirmation bias leads people to seek evidence that supports what they already believe.",
+          "Her motivation came from a need for security rather than from status.",
+          "The criticism was an emotional trigger, and he responded defensively."
+        ],
+        "method": "Show each term with a plain definition and an example. Ask concept-checking questions: Is a bias conscious or automatic? Does rationalise happen before or after the decision? Then ask the student to describe one bias they have noticed in themselves or others.",
+        "checkQuestion": "Does rationalise describe a reason given before a decision or after it?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Managers often rationalise a failed project by pointing to bad luck. Yet the research suggests that confirmation bias plays a larger role, because people tend to notice the evidence that supports their earlier choice.",
+        "factCheck": "Ask: How do managers often explain a failed project? (bad luck). What bias does the research suggest is more important? (confirmation bias).",
+        "toneCheck": "Ask: Does the writer accept the managers' explanation? Ask the student to point to the word that signals the disagreement, such as Yet."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Decision review: the student describes a decision they regret or one they are proud of, and explains which bias or motivation shaped it. The tutor asks one question: Would you make the same decision again?",
+        "phrases": [
+          "I think my motivation was ...",
+          "In hindsight, I was influenced by ...",
+          "It may have been a case of ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student explain the reasoning fully, and share one more precise term live in the chat when they use a general word such as feeling."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "He was angry because he has a bias.",
+          "I did the decision because I wanted to rationalise it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-39",
+    "phase": "Drive",
+    "number": 39,
+    "cefr": "B2",
+    "title": "Module 10: Figurative Language and Metaphor",
+    "canDo": "Can understand and use common conceptual metaphors and idioms naturally in everyday and professional conversation.",
+    "goal": "Recognise and use conceptual metaphors such as building a case and a sea of change in natural speech.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this sentence on screen: The new manager is a breath of fresh air. Ask: What does this mean, and what is the image?",
+        "tutorAction": "Let the student explain the meaning, then ask what kind of image the metaphor creates."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Conceptual metaphor (an idea understood through another domain): ARGUMENT IS WAR (build a case, shoot down an idea); CHANGE IS WEATHER (a sea of change, a storm of criticism)",
+        "examples": [
+          "She built a strong case for the new budget.",
+          "The proposal was shot down in the first meeting.",
+          "The company is in the middle of a sea of change."
+        ],
+        "method": "Show each example with its source domain (war, weather, building) and its target meaning. Ask guiding questions: What is the image? What is the real idea? Then ask the student to use one metaphor from the screen in a sentence about their work.",
+        "checkQuestion": "In shot down an idea, which source domain is the metaphor drawn from?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The debate was a storm of criticism, but the chair kept her head above water. She built a careful case, and by the end the proposal had gained real momentum.",
+        "factCheck": "Ask: What kind of criticism was there? (a storm of criticism). What did the chair do? (kept her head above water, and built a careful case). What did the proposal gain? (real momentum).",
+        "toneCheck": "Ask: Is the writer's view of the chair positive or negative? Ask the student to point to the metaphor that shows the chair coped under pressure, such as kept her head above water."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Metaphor story: the student describes a recent work or school situation using at least two metaphors from the theory slide. The tutor responds with one metaphor of their own and asks: What does that image tell us about the situation?",
+        "phrases": [
+          "We are facing a sea of change ...",
+          "She built a strong case for ...",
+          "The idea was shot down because ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student use metaphors naturally, and share one more fitting image live in the chat when they use a literal phrase where a metaphor would sound more natural."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The project was a big storm of the work.",
+          "She made a strong box of arguments."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-40",
+    "phase": "Drive",
+    "number": 40,
+    "cefr": "B2",
+    "title": "Module 10: Behavioural Analysis Workshop",
+    "canDo": "Can analyse an interpersonal conflict or decision-making scenario, identifying motives, triggers, and likely outcomes.",
+    "goal": "Analyse an interpersonal conflict, identifying motives, triggers, and possible outcomes in precise language.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this short scenario: Two colleagues disagree in a meeting, and one leaves the room. Ask: What do you think happened, and why?",
+        "tutorAction": "Let the student offer one explanation, then ask what other explanation is also possible."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Motive (why someone acts) / trigger (what sets off a reaction) / likely outcome (what is probable next) / Framing: It is probably motivated by ..., which may have triggered ...",
+        "examples": [
+          "The colleague's motive was probably a wish to protect her team.",
+          "The comment acted as a trigger for the walk-out.",
+          "The likely outcome is a tense working relationship unless they meet."
+        ],
+        "method": "Show the scenario with each part labelled: motive, trigger, outcome. Ask guiding questions: Is this a fact or an inference? What would change the analysis? Then ask the student to name one motive and one trigger in the warm-up scenario.",
+        "checkQuestion": "Is saying the motive was probably to protect her team a fact or an inference?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: In the dispute, the manager's rigid tone seems to have been the trigger, while the team's frustration probably stemmed from months of unclear priorities. Unless both sides clarify their goals, the working relationship is likely to deteriorate.",
+        "factCheck": "Ask: What seems to have been the trigger? (the manager's rigid tone). What did the team's frustration probably stem from? (months of unclear priorities). What is likely to happen unless the sides clarify goals? (the relationship will deteriorate).",
+        "toneCheck": "Ask: Does the writer blame one side? Ask the student to point to the hedge that shows the inference, such as seems to and probably."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Scenario analysis: the student analyses a scenario the tutor describes (a team member refuses a new process) by identifying motive, trigger, and likely outcome. The tutor, as the manager, asks: What would you do first?",
+        "phrases": [
+          "The motive is probably ...",
+          "This may have been triggered by ...",
+          "The likely outcome is ..."
+        ],
+        "mandate": "Act as the manager and a sceptical colleague. Challenge the student to separate fact from inference, and share one more precise hedge live in the chat when they state an inference as fact."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "He is angry because he is a bad person.",
+          "The team will be unhappy for ever, it will happen."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-41",
+    "phase": "Drive",
+    "number": 41,
+    "cefr": "B2",
+    "title": "Module 11: Lexis of Strategy and Economics",
+    "canDo": "Can discuss corporate strategy, market trends, crisis management, and leadership styles using precise business vocabulary.",
+    "goal": "Use strategy and economics vocabulary such as market share, downturn, and leadership style accurately in discussion.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What makes a company lose its market share over time?",
+        "tutorAction": "Let the student give one or two reasons, then ask which of them is internal and which is external."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Market share (the percentage of a market a firm holds) / downturn (a period of falling activity) / to diversify (to spread risk across products or markets) / a hands-on leadership style (a leader who closely directs teams)",
+        "examples": [
+          "The firm lost market share after a prolonged downturn.",
+          "To diversify, the company entered two new markets.",
+          "Her hands-on style worked well in a crisis but less well in growth."
+        ],
+        "method": "Show each term with a short definition and a business example. Ask concept-checking questions: Is market share a number or a feeling? Does diversify reduce risk or increase it? Then ask the student to describe one business trend using two of the terms.",
+        "checkQuestion": "Does diversifying a business spread its risk or concentrate it?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The company's market share fell during the downturn. The board wants to diversify into services, and the new chief executive has a hands-on style that some staff find demanding.",
+        "factCheck": "Ask: What fell during the downturn? (market share). What does the board want to do? (diversify into services). How would you describe the new chief executive? (hands-on).",
+        "toneCheck": "Ask: Is the writer approving of the chief executive's style? Ask the student to point to the phrase that shows the mixed view, such as some staff find demanding."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Strategy briefing: the student briefs the tutor, as a board member, on a company's options after a downturn, using at least three target terms. The tutor asks: Which option carries the least risk?",
+        "phrases": [
+          "The firm needs to recover market share by ...",
+          "Diversifying would ...",
+          "Given the downturn, we should ..."
+        ],
+        "mandate": "Act as a board member and coach. Challenge the student to justify each option with a business reason, and share one more precise business term live in the chat when they use a vague word such as things."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The company has less customers, so it lost the share.",
+          "We should do the business in more places to be safe."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-42",
+    "phase": "Drive",
+    "number": 42,
+    "cefr": "B2",
+    "title": "Module 11: Diplomatic Disagreement and Concession",
+    "canDo": "Can push back politely, make concessions, and move a discussion toward consensus in a professional setting.",
+    "goal": "Disagree diplomatically, make a concession, and propose a conditional compromise.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this statement from a colleague: We should cut the training budget to fund the launch. Ask: How would you respond without simply saying no?",
+        "tutorAction": "Let the student respond, then play the colleague and push back once."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Disagreement frame: I see your point, but ... / I would be reluctant to ... / I am prepared to ..., provided that ... / Could we find a middle ground?",
+        "examples": [
+          "I see your point, but cutting training could hurt retention.",
+          "I would be reluctant to cut training entirely.",
+          "I am prepared to reduce the budget, provided that the core courses continue."
+        ],
+        "method": "Show a blunt disagreement and its diplomatic version. Ask guiding questions: What does the speaker concede? What is the condition? Then ask the student to rewrite one blunt objection from the warm-up as a diplomatic disagreement with a concession.",
+        "checkQuestion": "In I am prepared to reduce the budget, provided that the core courses continue, which part is the condition?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this meeting transcript twice at native speed: Manager: I see your point about the launch, but the training budget is needed. Colleague: Fair enough. I would be reluctant to cut it entirely, though I am prepared to reduce it, provided that the safety courses remain.",
+        "factCheck": "Ask: What does the manager say the training budget is? (needed). What is the colleague reluctant to do? (cut it entirely). What is the colleague prepared to do? (reduce it, provided that the safety courses remain).",
+        "toneCheck": "Ask: Is the colleague cooperative or resistant? Ask the student to point to the phrase that shows cooperation, such as Fair enough."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Compromise talk: the student negotiates a budget or timeline disagreement with the tutor, making at least one concession and at least one conditional offer. The tutor asks: Could we find a middle ground?",
+        "phrases": [
+          "I see your point, but ...",
+          "I am prepared to ..., provided that ...",
+          "Could we find a middle ground on ...?"
+        ],
+        "mandate": "Act as a colleague who pushes back. Respond to each concession and offer, and share one more diplomatic phrase live in the chat when the student disagrees bluntly."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "No, we cannot cut the budget.",
+          "I will agree if you do what I say."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-43",
+    "phase": "Drive",
+    "number": 43,
+    "cefr": "B2",
+    "title": "Module 11: Live Negotiation Simulation Workshop",
+    "canDo": "Can take part in a multi-party negotiation, using concession, hedging, and conditional framing to reach a workable agreement.",
+    "goal": "Negotiate a multi-party agreement, using concessions, hedges, and conditional offers.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this scenario: Three departments must share one new office. Each wants the best floor. Ask: What would you propose first?",
+        "tutorAction": "Let the student make an opening proposal, then ask how each department would react."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Opening position + conditional offer (I could ..., on condition that ...) + hedged compromise (it might be workable if ...) + consensus check (Are we all comfortable with that?)",
+        "examples": [
+          "I could move my team to the second floor, on condition that we keep the meeting room.",
+          "It might be workable if we rotate the best desks each quarter.",
+          "Are we all comfortable with that, or do we need to adjust it?"
+        ],
+        "method": "Show the four moves with the scenario. Ask guiding questions: What is offered? What is required in return? Then ask the student to make one conditional offer for the warm-up scenario.",
+        "checkQuestion": "Is it workable if we rotate the desks a firm offer or a tentative suggestion?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this negotiation transcript twice at native speed: Sales: We need the top floor for client visits. Finance: We could share it, on condition that the sales team uses it only on Tuesdays and Thursdays. Operations: That might be workable if we also rotate the storage space. Are we all comfortable with that?",
+        "factCheck": "Ask: What does sales need the top floor for? (client visits). What is finance's condition? (sales uses it only on Tuesdays and Thursdays). What does operations suggest? (rotating the storage space).",
+        "toneCheck": "Ask: Does the transcript show agreement or tension? Ask the student to point to the phrase that shows a tentative offer, such as might be workable."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Multi-party negotiation: the student negotiates the office scenario with two roles played by the tutor (one as finance, one as operations). The student must make at least one conditional offer, one hedged compromise, and one consensus check.",
+        "phrases": [
+          "I could ..., on condition that ...",
+          "It might be workable if ...",
+          "Are we all comfortable with that?"
+        ],
+        "mandate": "Act as the two other departments. Respond with realistic objections and concessions, and share one more precise negotiation phrase live in the chat when the student makes a firm demand without a condition."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We take the top floor, that is it.",
+          "I want the floor and you can have the storage."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-44",
+    "phase": "Drive",
+    "number": 44,
+    "cefr": "B2",
+    "title": "Module 12: Lexis of Aesthetics and Critique",
+    "canDo": "Can analyse symbolism, artistic movements, cultural appropriation, and media messages using precise critical vocabulary.",
+    "goal": "Use critical vocabulary such as symbolism, movement, and appropriation to analyse a work of art or media.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a painting with a dark sky over a small village. Ask: What mood does the artist create, and how?",
+        "tutorAction": "Let the student describe the mood, then ask them to point to one visual detail that creates it."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Symbolism (an object standing for an idea) / movement (a shared style in a period) / cultural appropriation (borrowing from a culture without understanding or credit) / to subvert (to challenge a convention)",
+        "examples": [
+          "The dark sky is a symbol of uncertainty in the village.",
+          "The painting belongs to the late nineteenth-century realist movement.",
+          "Critics debated whether the designer's use of the pattern was cultural appropriation."
+        ],
+        "method": "Show each term with an example from art or media. Ask guiding questions: Does the object stand for an idea? Is the borrowing respectful or not? Then ask the student to describe one symbol they see in the warm-up painting.",
+        "checkQuestion": "Does subvert mean to follow a convention or to challenge it?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this review twice at native speed: The director's use of red throughout the film works as a symbol of danger, yet it also subverts the usual association with passion. Critics have debated whether the film's borrowing from folk traditions amounts to cultural appropriation.",
+        "factCheck": "Ask: What does the red symbolise? (danger). What does the film subvert? (the usual association with passion). What have critics debated? (whether the borrowing is cultural appropriation).",
+        "toneCheck": "Ask: Does the reviewer approve of the director's choices? Ask the student to point to the phrase that shows balance, such as yet it also subverts."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Critical review: the student gives a short critical review of a film, painting, or advert to the tutor, using at least three target terms and one balanced judgement. The tutor asks: What would a critic who disagrees say?",
+        "phrases": [
+          "The symbolism works because ...",
+          "This subverts the convention of ...",
+          "A critic might argue that ..."
+        ],
+        "mandate": "Act as a critic who disagrees. Challenge the student to support each judgement with evidence, and share one more precise critical term live in the chat when they use a general word such as good."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The painting is very good because it has a lot of colours.",
+          "The film does a thing with red that is different."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-45",
+    "phase": "Drive",
+    "number": 45,
+    "cefr": "B2",
+    "title": "Module 12: Fast Speech and Native Rhythm",
+    "canDo": "Can understand connected speech, including elision, assimilation, and weak forms, in unscripted audio from different accents.",
+    "goal": "Recognise elision, assimilation, and weak forms in fast, unscripted speech, and reproduce them in your own speech.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Play a short unscripted clip of two people talking quickly, or read this line aloud: I'm gonna have to ask whether you've got a minute. Ask: What did you hear that was hard to catch?",
+        "tutorAction": "Let the student name one hard part, then model the line slowly and then at normal speed."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Elision (a sound is dropped: next day → nex day); assimilation (a sound changes to match the next: good boy → goob boy); weak forms (unstressed words shrink: can → kən, to → tə)",
+        "examples": [
+          "Did you go? → Didja go?",
+          "I need to go. → I need tə go.",
+          "Last week → las week (the t is dropped)."
+        ],
+        "method": "Play or read each example twice: once slowly with full forms and once at natural speed. Ask guiding questions: Which sound disappears? Which word becomes unstressed? Then ask the student to say one sentence from the warm-up at natural speed.",
+        "checkQuestion": "In I need to go, does to take its full vowel or a weak form at natural speed?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Play a 45-second unscripted clip from a casual interview with a British or Australian speaker, or read this transcript twice at natural speed: Wanna grab a coffee after? I'd love to, but I've gotta finish the report first. Maybe later on, if you're around?",
+        "factCheck": "Ask: What does the speaker want to do? (grab a coffee). Why can they not go now? (they have to finish a report). When might they go? (later on).",
+        "toneCheck": "Ask: Is the speaker keen or reluctant? Ask the student to point to the phrase that shows the reluctance, such as I'd love to, but."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Shadow and respond: the student listens to the tutor read a short unscripted paragraph at natural speed, then repeats it with natural elision and weak forms. The student then answers two questions about it in natural, fast speech.",
+        "phrases": [
+          "Wanna ...?",
+          "I've gotta ...",
+          "Maybe later, if you're around?"
+        ],
+        "mandate": "Act as a natural-speed conversation partner. Speak at native pace, and share one reduced form live in the chat each time the student speaks with full, slow forms."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want to go to the cinema, do you want to come?",
+          "I have got to finish the report, maybe later if you are around."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-46",
+    "phase": "Drive",
+    "number": 46,
+    "cefr": "B2",
+    "title": "Module 12: Bridge Readiness Check",
+    "canDo": "Can speak at length on an unprepared abstract topic, read and summarise a complex text in formal register, and self-assess progress across the bridge programme.",
+    "goal": "Complete a timed readiness check covering an unprepared long turn, a formal summary, and an abstract discussion, then review feedback.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this unprepared question: Is it possible to be objective about the society you live in? Ask the student to answer in sixty seconds.",
+        "tutorAction": "Start a one-minute timer. Let the student speak without interruption. Note two strengths and two priorities for feedback."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Readiness rubric: range of structures (conditionals, inversion, clefts, participles); precision of vocabulary (collocation, metaphor, abstract verbs); cohesion (discourse markers, referencing); formal register",
+        "examples": [
+          "Range: Had the data been clearer, we would have reached a firmer conclusion.",
+          "Precision: The proposal was shot down because it overlooked the risks.",
+          "Cohesion: Nonetheless, the committee approved the change, albeit with reservations."
+        ],
+        "method": "Show the four rubric areas with one example each. Ask the student which area they feel strongest in, and which needs the most work. Agree on one priority for the summary task.",
+        "checkQuestion": "Which of the four rubric areas do you think needs the most practice before the next lesson?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text once at native speed, then again at normal speed: The city's new housing policy aims to increase supply, yet many residents argue that it will mainly benefit developers. Whether the policy succeeds will depend on how well the council enforces its conditions and how honestly it reports the results.",
+        "factCheck": "Ask: What does the housing policy aim to do? (increase supply). Who do many residents think will benefit? (developers). What will decide success? (enforcement of conditions and honest reporting).",
+        "toneCheck": "Ask the student to write a two-sentence formal summary of the text, without copying phrases. Check for register, accuracy, and a neutral tone."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Abstract discussion: the student speaks for two minutes on an unprepared abstract question chosen by the tutor, then debates the tutor for about six minutes. The tutor finishes by asking the student to summarise their own strongest point.",
+        "phrases": [
+          "On reflection, ...",
+          "I would qualify that by saying ...",
+          "The strongest point I would make is ..."
+        ],
+        "mandate": "Act as a neutral examiner. Do not interrupt the two-minute turn. Note examples of each rubric area for the feedback, and share feedback only after the student has finished."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The policy is good for everyone, and the people will be happy, I think.",
+          "The developers will benefit because they are the people who build."
+        ]
+      }
+    }
+  }
+]

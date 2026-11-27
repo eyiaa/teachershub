@@ -1,0 +1,428 @@
+[
+  {
+    "id": "SPARK-01",
+    "phase": "Spark",
+    "number": 1,
+    "cefr": "Pre-A1",
+    "title": "My First English Words: Letters, Numbers, and Classroom English",
+    "canDo": "Can recognise the English alphabet, numbers 0 to 100, colours, days, and months, and answer very simple questions about name, age, and country with support.",
+    "goal": "Spell your first name, count to 100, and say hello, your name, your age, and your country.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a slide with Hello, Good morning, How are you?, Nice to meet you, and Goodbye. Say: Hello! My name is Anna. Ask: What is your name?",
+        "tutorAction": "Greet the student with a smile and gestures. Model each greeting once, then let the student say hello and their name. Note what English the student already knows."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Alphabet A to Z (vowels A, E, I, O, U) + numbers 0 to 20, then tens to 100 (21 = twenty-one) + My name is ... / I am ... years old. / I am from ...",
+        "examples": [
+          "My name is Sara. S-A-R-A.",
+          "I am twenty-five years old.",
+          "I am from Mexico. My birthday is in May."
+        ],
+        "method": "Go through the alphabet in groups of five letters. The student repeats, then spells their first name. Count 0 to 20 together, count by tens to 100, and build three numbers such as 21, 35, and 48. Show colours and shapes, objects (book, pen, phone), the days of the week, and the months on one slide each, and ask the student to point and say the word. Teach six classroom words: listen, repeat, read, write, look, point. Finish with the three personal sentences.",
+        "checkQuestion": "How do you spell your name? How old are you? Which month is your birthday?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short text twice, slowly: Hello! My name is Tom. T-O-M. I am thirty years old. I am from Canada. My birthday is in May. My favorite color is blue.",
+        "factCheck": "Ask: What is his name? (Tom). How do you spell it? (T-O-M). How old is he? (thirty). Where is he from? (Canada). When is his birthday? (May). Accept one-word answers.",
+        "toneCheck": "Ask: Is Tom friendly? Accept a gesture, a smile, or one word such as yes or happy."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "First English challenge: the tutor gives quick prompts and the student answers. Spell your name. Say five numbers the tutor writes. Name three colours on screen. Say today's day and your birthday month. Follow three classroom instructions: listen, repeat, point. Then introduce yourself with hello, your name, your age, and your country.",
+        "phrases": [
+          "Hello! My name is ...",
+          "I am ... years old.",
+          "I am from ...",
+          "Can you repeat, please?",
+          "I don't understand."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use gestures and pictures instead of translation. Praise every attempt, and note which tasks the student did alone, with help, or not yet, to see which basics need more practice."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "My name Sara.",
+          "I have twenty-five years.",
+          "My birthday is on May."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-02",
+    "phase": "Spark",
+    "number": 2,
+    "cefr": "A1",
+    "title": "Hello! Nice to Meet You: Greetings and Introductions",
+    "canDo": "Can greet people, introduce himself or herself with name and country, and ask someone's name and origin in a short, guided exchange.",
+    "goal": "Greet someone, say your name and country with I am and My name is, and ask What's your name? and Where are you from?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show four greetings: Hello! Hi! Good morning! Good afternoon! Say: Hello! Welcome! My name is Alex. Say hello to me.",
+        "tutorAction": "Greet the student warmly and use facial expressions and gestures. Let the student repeat the greetings and say hello back. Check how comfortable the student is with basic English."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I am (I'm) / You are (You're) / He is (He's) / She is (She's) + name or country. What's your name? My name is ... / Where are you from? I am from ...",
+        "examples": [
+          "I am Mario. I'm from Italy.",
+          "He is Peter. He's from Canada.",
+          "She is Elena. She's from Peru.",
+          "What's your name? My name is Sarah."
+        ],
+        "method": "Point to yourself, to the student, and to a photo to show I am, you are, he is, and she is. Show that What's means What is. Do this gap-fill orally: I ___ a student. She ___ from France. You ___ my friend. He ___ from Japan. Then the student makes two sentences about themselves. Show the pattern with examples, not grammar words.",
+        "checkQuestion": "Which word goes with she: am, is, or are?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice at a slow, steady pace: A: Hello! Good morning! B: Hi! Good morning! A: What's your name? B: My name is Maria. What's your name? A: I am Alex. Nice to meet you! B: Nice to meet you, too! Where are you from? A: I am from Canada. And you? B: I am from Mexico.",
+        "factCheck": "Ask: What is the woman's name? (Maria). Where is Alex from? (Canada). Where is Maria from? (Mexico).",
+        "toneCheck": "Ask: Are Alex and Maria friendly? Which words show it? (Good morning, Nice to meet you)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Meeting someone new: you are at an online meetup. The student greets the tutor, says their name and country, asks the tutor's name and country, says Nice to meet you, and says goodbye. Do it twice: first the tutor starts, then the student starts. Finish with a challenge: the student does it once more with no help from the slide.",
+        "phrases": [
+          "Hello! / Hi! / Good morning!",
+          "What's your name? My name is ...",
+          "Where are you from? I am from ...",
+          "Nice to meet you. Nice to meet you, too!",
+          "Goodbye! See you later! Have a nice day!"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Set the scene, then let the student lead. Do not interrupt. Recast gently by saying the correct sentence back, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I Maria. I from Mexico.",
+          "My name are Maria.",
+          "Where you are from?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-03",
+    "phase": "Spark",
+    "number": 3,
+    "cefr": "A1",
+    "title": "Let's Talk About You: Age, Job, and Personal Information",
+    "canDo": "Can ask and answer simple questions about age, job, and where someone lives, and give basic information about another person.",
+    "goal": "Ask and answer How old are you?, What do you do?, and Are you a ...?, and introduce another person with he is and she is.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review the last class: What's your name? Where are you from? Where do you live? Then the student asks you the same questions.",
+        "tutorAction": "Keep it conversational. Check that the student remembers the language without a script, and do not reteach the last lesson unless needed."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "How old are you? I'm 25 (years old). / What do you do? I'm a / an + job. / Are you a student? Yes, I am. / No, I'm not.",
+        "examples": [
+          "I'm thirty years old.",
+          "I'm a teacher. She is an engineer.",
+          "Are you a doctor? No, I'm not. I'm a manager."
+        ],
+        "method": "Model each question with your own answer, then give the short, natural answer. Show jobs with pictures: student, teacher, engineer, doctor, manager. Use a and an naturally, and give the student the word for their own job if it is missing. The student may use a made-up age. Practise the yes/no questions, then switch roles.",
+        "checkQuestion": "Do we say I'm engineer or I'm an engineer?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read these two profiles twice, slowly: This is Anna. She is 28 years old. She is from Canada. She is a doctor. This is David. He is 35. He is from Mexico. He is an engineer.",
+        "factCheck": "Ask: How old is Anna? (28). Where is she from? (Canada). What does David do? (He is an engineer.) How old is David? (35).",
+        "toneCheck": "Ask: Is this a story, or information about two people? Accept simple answers such as information."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Meeting a new classmate: the student and tutor are new classmates in an online English course. The student greets, introduces themselves, and asks five questions about name, country, where you live, age, and job. Round 1: the tutor asks. Round 2: the student asks. Round 3: the student asks without reading. Then the student introduces Anna or David in full sentences.",
+        "phrases": [
+          "How old are you? I'm ...",
+          "What do you do? I'm a ... / I'm an ...",
+          "Where do you live? I live in ...",
+          "Are you a ...? Yes, I am. / No, I'm not.",
+          "This is ... She is ... / He is ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Reduce support each round. Let the student think before you help, and give feedback after the role-play, not during it."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I have 28 years.",
+          "She is doctor.",
+          "Are you a student? Yes, I'm."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-04",
+    "phase": "Spark",
+    "number": 4,
+    "cefr": "A1",
+    "title": "My Family and Friends: My, His, Her, and Describing People",
+    "canDo": "Can introduce family members and friends and describe them in simple sentences with basic adjectives.",
+    "goal": "Introduce two people with This is my ... and His name is ... or Her name is ..., and describe them with simple adjectives.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What's your name? Where are you from? How old are you? What do you do? Then the student asks you two questions.",
+        "tutorAction": "Keep it short. Watch what the student remembers, and do not repeat earlier grammar explanations."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "This is my + family word. + His / Her name is ... + He / She is + adjective (kind, funny, friendly, tall, young, happy).",
+        "examples": [
+          "This is my mother. Her name is Maria.",
+          "This is my father. His name is Carlos.",
+          "My sister is friendly. My brother is funny."
+        ],
+        "method": "Show a simple family tree with mother, father, sister, brother, grandmother, grandfather, daughter, and son. Model one introduction. Practise my, your, his, and her: This is Anna. ___ mother is a teacher. This is David. ___ brother is a student. Ask the student who the person is before they choose the word. Then add one adjective. The student may use an imaginary family.",
+        "checkQuestion": "This is David. Is it his brother or her brother?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: This is my friend Daniel. He is 25 years old. He is from Guatemala. He is a student. He is funny and friendly. His sister is Ana. She is a nurse.",
+        "factCheck": "Ask: How old is Daniel? (25). Where is he from? (Guatemala). What is his sister's name? (Ana). What does she do? (She is a nurse.)",
+        "toneCheck": "Ask: Does the speaker like Daniel? Which words show it? (funny, friendly)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Talking about family and friends: the student introduces two family members or friends. For each person, they give the relationship, the name, one fact, and one adjective. Then the student asks the tutor three questions, such as: Do you have a brother or sister? What's your mother's name? How old is your brother? Is your best friend funny?",
+        "phrases": [
+          "This is my ...",
+          "His name is ... / Her name is ...",
+          "He is ... / She is ... (kind, funny, tall)",
+          "Do you have a brother or sister? Yes, I do. / No, I don't."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Respect privacy and offer an imaginary family. Treat Do you have ...? as a fixed question, without explaining do. Note repeated errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "This is my sister. His name is Sofia.",
+          "My brother is a funny.",
+          "My mother she is kind."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-05",
+    "phase": "Spark",
+    "number": 5,
+    "cefr": "A1",
+    "title": "My Daily Routine: Present Simple and Telling the Time",
+    "canDo": "Can describe a daily routine in simple sentences with times and sequence words, and ask someone about their routine.",
+    "goal": "Describe your day with I + verb, say times with at, and ask What time do you ...? and Do you ...?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Tell me about a family member or friend. Then ask: What do you do every day? Give your own example: I work every day.",
+        "tutorAction": "Accept one word or a short phrase. Say it back as a full sentence without explaining the grammar."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I + verb + at + time / in the morning / in the afternoon / in the evening / at night. What time do you ...? Do you ...? Yes, I do. / No, I don't. Sequence words: First, Then, Next, Finally.",
+        "examples": [
+          "I wake up at six o'clock.",
+          "I have breakfast at seven thirty.",
+          "First, I take a shower. Then, I have breakfast.",
+          "Do you work in the afternoon? Yes, I do."
+        ],
+        "method": "Show pictures of a day: wake up, take a shower, get dressed, have breakfast, have lunch, work or study, go home, have dinner, go to bed. Show four clock times: 6:00 six o'clock, 7:30 seven thirty, 12:00 twelve o'clock, 9:15 nine fifteen. The student completes sentences with their own times. Use only I and you, and do not teach he or she with -s yet.",
+        "checkQuestion": "Do we say I wake up at six or I wake up in six?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: My name is Leo. I wake up at six o'clock. First, I take a shower. Then, I have breakfast at seven. I work in the morning. I have lunch at one o'clock. In the evening, I have dinner and watch TV. I go to bed at ten thirty.",
+        "factCheck": "Ask: What time does Leo wake up? (six o'clock). When does he have lunch? (one o'clock). What does he do in the evening? (has dinner and watches TV). Accept short answers.",
+        "toneCheck": "Ask: Is Leo's day busy or relaxed? Accept a simple answer and one reason."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "A day in my life: the student tells the tutor about a typical day, with at least five activities, two times, and two sequence words. Then the student asks the tutor three questions, such as: What time do you wake up? Do you study every day? What do you do in the evening?",
+        "phrases": [
+          "I wake up at ...",
+          "I have breakfast / lunch / dinner at ...",
+          "First, ... Then, ... Next, ... Finally, ...",
+          "What time do you ...?",
+          "Do you ...? Yes, I do. / No, I don't."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student describe their real routine in their own order. Do not interrupt for small errors; note them for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I wake up in six o'clock.",
+          "I go to the bed at ten.",
+          "You study every day? Yes, I study."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-06",
+    "phase": "Spark",
+    "number": 6,
+    "cefr": "A1",
+    "title": "My Free Time and Hobbies: Likes, Dislikes, and How Often",
+    "canDo": "Can talk about hobbies and free-time activities, saying what he or she likes and does not like and how often he or she does them.",
+    "goal": "Say what you love, like, and don't like with a noun or verb-ing, say how often you do it, and ask Do you like ...?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What do you do every day? Then ask: What do you do on weekends? Give an example: I read books on Sunday.",
+        "tutorAction": "Accept a word or a short phrase and say it back as a full sentence. Do not correct every error yet."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I love / like / don't like + noun or verb-ing (I like music. I like listening to music.) + every day / on weekends / sometimes / never / once a week. Join ideas with and and but.",
+        "examples": [
+          "I love watching movies.",
+          "I listen to music every day.",
+          "I don't like cooking.",
+          "I like reading, but I don't like running."
+        ],
+        "method": "Show hobby pictures: read books, watch movies, listen to music, cook, play video games, play soccer, go for a walk, spend time with friends, travel. Model two examples, then the student completes: I love ___. I like ___ in my free time. I don't like ___. Accept both I like books and I like reading, without explaining -ing rules. Add frequency phrases, then one sentence with but.",
+        "checkQuestion": "Do we say I like read books or I like reading books?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Hi, I'm Mia. In my free time, I love reading books. I listen to music every day. On Saturday morning, I go for a walk in the park. I like watching movies, but I don't like playing video games. I never cook!",
+        "factCheck": "Ask: What does Mia love? (reading books). How often does she listen to music? (every day). What does she do on Saturday morning? (goes for a walk in the park). What does she never do? (cook).",
+        "toneCheck": "Ask: Does Mia like cooking? How do you know? (I never cook!)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Talking about hobbies with a friend: the student names three hobbies they love or like, one thing they don't like, and how often they do their favorite hobby. Then the student asks the tutor: What do you like to do in your free time? What is your favorite hobby? Do you like playing soccer?",
+        "phrases": [
+          "I love ... / I like ... / I don't like ...",
+          "I ... every day / on weekends / sometimes.",
+          "What do you like to do in your free time?",
+          "Do you like ...? Yes, I do. / No, I don't.",
+          "My favorite hobby is ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student share their real preferences. Encourage a short answer plus one detail, such as Yes, I do. I play on Saturdays. Note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I like read books.",
+          "I don't like cook.",
+          "Sometimes I am play soccer."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-07",
+    "phase": "Spark",
+    "number": 7,
+    "cefr": "A1",
+    "title": "Food and Drinks: What Do You Like to Eat?",
+    "canDo": "Can talk about food preferences and daily meals, and order simple food and drinks politely.",
+    "goal": "Say what you eat for each meal, use a, an, and some with food, and order with I'd like ..., please.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What do you like doing in your free time? Do you like cooking? Then ask: What's your favorite food?",
+        "tutorAction": "Let the student name one food. Say it back as a full sentence, such as You like pizza."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "For breakfast / lunch / dinner, I have ... + a / an + things you can count (an apple, two eggs) or some + things you can't count (some rice, some water) + Would you like ...? I'd like ..., please.",
+        "examples": [
+          "I have eggs and bread for breakfast.",
+          "I'd like an apple and some water, please.",
+          "I prefer tea, but I like coffee too."
+        ],
+        "method": "Show food and drink pictures: bread, rice, chicken, eggs, fruit, vegetables, water, milk, coffee, tea, juice. The student says what they eat for each meal. Show two columns: things you can count (an apple, two bananas) and things you can't count (some rice, some milk). Practise: an apple or some apple? two eggs or two egg? a water or some water? Then model Would you like ...? and I'd like ...",
+        "checkQuestion": "Do we say a water or some water?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this café dialogue twice, slowly: Server: Hello! Would you like something to drink? Customer: Yes, please. I'd like some orange juice. Server: Would you like something to eat? Customer: Yes, please. I'd like a chicken sandwich. Server: Here you are. Customer: Thank you!",
+        "factCheck": "Ask: What drink does the customer order? (orange juice). What food does the customer order? (a chicken sandwich).",
+        "toneCheck": "Ask: Is the customer polite? Which words show it? (please, thank you)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "At a café: the tutor is the server. The student greets the server, orders one food and one drink with I'd like ..., and uses please and thank you. Then switch roles. Finish with the student's food profile: three foods they usually eat, two drinks they enjoy, one food they don't like, and one sentence with prefer.",
+        "phrases": [
+          "For breakfast, I have ...",
+          "I like ... / I don't like ... / I prefer ...",
+          "Would you like ...? Yes, please. / No, thank you.",
+          "I'd like a ... / some ..., please."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Respect food and cultural choices. Model the polite forms once, then let the student order alone. Note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I want a water.",
+          "I'd like two egg, please.",
+          "For breakfast, I eat a rice."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-08",
+    "phase": "Spark",
+    "number": 8,
+    "cefr": "A1",
+    "title": "Shopping and Prices: How Much Is It?",
+    "canDo": "Can ask about prices and products in a shop, understand simple prices, and buy an item politely.",
+    "goal": "Ask How much is it? and How much are they?, point to products with this, that, these, and those, and buy something with Can I have ...?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What's your favorite food? What do you usually drink? Then ask: Where do you usually buy food? Name two things you buy at a store.",
+        "tutorAction": "Link food to shopping. Accept short answers and expand them into full sentences."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "How much is this / that + one item? It's ... / How much are these / those + two or more items? They're ... + Do you have ...? Can I have ...? I'd like ..., please.",
+        "examples": [
+          "How much is this book? It's twelve dollars.",
+          "How much are these shoes? They're twenty-five dollars.",
+          "That bag is black. Those books are expensive.",
+          "Do you have a blue T-shirt? Yes, we do."
+        ],
+        "method": "Show stores (supermarket, clothing store, bookstore, pharmacy) and products (bread, milk, T-shirt, shoes, book, bag). Read prices together: $5.00 is five dollars, and $18.50 is eighteen dollars and fifty cents. Use gestures to show near and far, and one and many. Gap-fill: ___ book is $10 (one, near). ___ shoes are $30 (many, near). ___ bag is $20 (one, far). ___ books are $15 (many, far).",
+        "checkQuestion": "One item near you: this or these? Many items far away: that or those?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this shop dialogue twice, slowly: Salesperson: Hello! Can I help you? Customer: Yes, please. Do you have a blue T-shirt? Salesperson: Yes, we do. Customer: How much is it? Salesperson: It's fifteen dollars. Customer: Great! And how much are those shoes? Salesperson: They're forty-five dollars. Customer: I'd like the T-shirt, please.",
+        "factCheck": "Ask: What color is the T-shirt? (blue). How much is it? (fifteen dollars). How much are the shoes? (forty-five dollars). What does the customer buy? (the T-shirt).",
+        "toneCheck": "Ask: Do you think the shoes are cheap or expensive for the customer? Why? Accept a simple reason."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "At a clothing store: the tutor is the salesperson. The student greets, asks if a product is available, asks the price of two items, points to one with this, that, these, or those, chooses one, buys it politely, and says thank you. Then switch roles. Use these prices: blue T-shirt $15, black T-shirt $20, small bag $25, large bag $40.",
+        "phrases": [
+          "Do you have a ...?",
+          "How much is this ...? / How much are these ...?",
+          "It's ... dollars. / They're ... dollars.",
+          "Can I have this one, please? / I'd like ..., please.",
+          "Thank you! You're welcome."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Say prices clearly and check that the student understands them. Let the student make their own choices. Note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "How much is these shoes?",
+          "This shoes are twenty dollars.",
+          "Is fifteen dollars."
+        ]
+      }
+    }
+  }
+]

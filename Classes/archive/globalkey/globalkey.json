@@ -1,0 +1,542 @@
+[
+  {
+    "id": "GLOBALKEY-01",
+    "phase": "Global Key",
+    "number": 1,
+    "cefr": "A1",
+    "title": "Shopping Basics: How Much Is It?",
+    "canDo": "Can ask about prices and understand simple numbers and short, direct instructions in a shop.",
+    "goal": "Ask how much things cost and understand simple price answers across all three pillars.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a market stall with price tags. Ask: What is your favourite food to buy at a market?",
+        "tutorAction": "Give a short example: I buy apples. Let the student answer, even with one word."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "How much is + singular noun? / How much are + plural noun? Answer: It is + price. / They are + price.",
+        "examples": [
+          "How much is the bread? It is two euros.",
+          "How much are the apples? They are one euro fifty.",
+          "How much is the coffee? It is three dollars."
+        ],
+        "method": "Show the question formula with a singular and plural example. Ask concept-checking questions: Is bread singular or plural? Which verb do we use for apples? Then ask the student to ask about one item on the screen.",
+        "checkQuestion": "Do we say how much is the apples or how much are the apples?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short dialogue twice at a steady pace: Customer: Excuse me, how much is the milk? Shop worker: It is one pound twenty. Customer: And how much are the eggs? Shop worker: They are two pounds.",
+        "factCheck": "Ask: How much is the milk? (one pound twenty). How much are the eggs? (two pounds).",
+        "toneCheck": "Ask: Is the customer polite or rude? Accept a simple answer and ask the student to point to the word that shows politeness, such as Excuse me."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Shop role-play: the student is a customer and asks the tutor, who plays the shop worker, about three items on the screen. Then they swap roles. The student must ask at least two price questions.",
+        "phrases": [
+          "How much is ...?",
+          "How much are ...?",
+          "Thank you, that is fine."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the screen prices and praise each complete question before correcting anything."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "How much the bread is?",
+          "How much is the eggs?"
+        ],
+        "upgrades": [
+          { "accurate": "How much the bread is?", "native": "How much is the bread?" },
+          { "accurate": "How much is the eggs?", "native": "How much are the eggs?" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-02",
+    "phase": "Global Key",
+    "number": 2,
+    "cefr": "A1",
+    "title": "Telling the Time and Making Plans",
+    "canDo": "Can understand and ask about times and simple timetables for everyday activities.",
+    "goal": "Say and ask what time something happens using at with times and simple time expressions.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a clock at half past eight. Ask: What time do you start work or school?",
+        "tutorAction": "Model a short answer: I start at eight thirty. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "What time is it? It is + time. / The class starts at + time.",
+        "examples": [
+          "What time is it? It is half past eight.",
+          "The class starts at nine o'clock.",
+          "The shop closes at six in the evening."
+        ],
+        "method": "Show the clock on screen and the question formula. Ask concept-checking questions: Do we use at before a time? What words describe half past? Then ask the student to say the time shown on the clock.",
+        "checkQuestion": "Do we say the class starts in nine or at nine?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this timetable aloud twice at a steady pace: Bus 12 leaves at 7:15. Bus 14 leaves at 8:30. The last bus leaves at 10 at night.",
+        "factCheck": "Ask: When does Bus 12 leave? (7:15). When does the last bus leave? (10 at night).",
+        "toneCheck": "Ask: Is the timetable information urgent or routine? Accept a simple answer and ask the student to point to the word that shows timing, such as last."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Timetable question: the student asks the tutor about the bus times on screen, then they swap. The student must ask two questions using What time and reply with a time using at.",
+        "phrases": [
+          "What time does ... leave?",
+          "It leaves at ...",
+          "The next one is at ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the screen timetable and praise each complete question."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "The bus leaves in eight thirty.",
+          "What time is the class?"
+        ],
+        "upgrades": [
+          { "accurate": "The bus leaves in eight thirty.", "native": "The bus leaves at half past eight." },
+          { "accurate": "What time is the class?", "native": "What time does the class start?" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-03",
+    "phase": "Global Key",
+    "number": 3,
+    "cefr": "A1",
+    "title": "Around Town: There Is and There Are",
+    "canDo": "Can describe places in a town and give simple directions using basic prepositions.",
+    "goal": "Describe what is in a place and where things are using there is, there are, and next to.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a street picture with a bank, a park, and a café. Ask: What is in your neighbourhood?",
+        "tutorAction": "Point to the picture and give a short example: There is a park near my house. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "There is + singular noun / There are + plural noun + place (in, on, next to)",
+        "examples": [
+          "There is a bank on the main street.",
+          "There are two cafés next to the park.",
+          "There is a bus stop near the school."
+        ],
+        "method": "Show the street picture with labels. Ask concept-checking questions: Is the noun singular or plural? Which form do we use with two cafés? Then ask the student to describe one place in the picture.",
+        "checkQuestion": "Do we say there is two cafés or there are two cafés?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this description twice at a steady pace: In our town, there is a big library. There are three shops on the high street. The post office is next to the bank.",
+        "factCheck": "Ask: How many shops are on the high street? (three). What is next to the bank? (the post office).",
+        "toneCheck": "Ask: Does the speaker like the town? Accept a simple answer and ask the student to point to the word that shows the opinion, such as big."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Town guide: the student describes three places in the picture to the tutor using there is or there are, then gives directions from the bank to the café using next to.",
+        "phrases": [
+          "There is a ...",
+          "There are ...",
+          "It is next to ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the street picture on screen and praise each complete description before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "There is two shops.",
+          "The café is next the park."
+        ],
+        "upgrades": [
+          { "accurate": "There is two shops.", "native": "There are two shops." },
+          { "accurate": "The café is next the park.", "native": "The café is next to the park." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-04",
+    "phase": "Global Key",
+    "number": 4,
+    "cefr": "A1",
+    "title": "Skills and Abilities: Can and Can't",
+    "canDo": "Can talk about personal abilities and skills in simple sentences and understand short descriptions of them.",
+    "goal": "Say what you can and cannot do using can and can't with a base verb.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of someone swimming and someone cooking. Ask: Can you swim? Can you cook?",
+        "tutorAction": "Model a short answer: I can swim, but I can't cook well. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + can / can't + base verb (no to, no s)",
+        "examples": [
+          "I can speak two languages.",
+          "She can drive, but she can't ride a bike.",
+          "We can't come to the party on Friday."
+        ],
+        "method": "Show the formula with the two example types. Ask concept-checking questions: Which verb form follows can? Do we add s after she? Then ask the student to say one thing they can do and one they can't do.",
+        "checkQuestion": "Do we say she can drives or she can drive?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Tom is a very good cook. He can make pasta and soup. He can't swim, but he can run very fast.",
+        "factCheck": "Ask: What can Tom make? (pasta and soup). What can't Tom do? (swim). What can he do very fast? (run).",
+        "toneCheck": "Ask: Does Tom seem proud of his skills? Accept a simple answer and ask the student to point to the word that shows the feeling, such as very good."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Skills exchange: the student tells the tutor three things they can do and one thing they cannot do. The tutor asks one follow-up question: Can you show me?",
+        "phrases": [
+          "I can ...",
+          "I can't ...",
+          "Can you ...?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the screen pictures to prompt the student, and praise each complete sentence."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "She can drives a car.",
+          "I cans speak English."
+        ],
+        "upgrades": [
+          { "accurate": "She can drives a car.", "native": "She can drive a car." },
+          { "accurate": "I cans speak English.", "native": "I can speak English." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-05",
+    "phase": "Global Key",
+    "number": 5,
+    "cefr": "A1",
+    "title": "Weather and Seasons: It Is Hot and It Is Cold",
+    "canDo": "Can describe the weather and seasons using simple adjectives and understand a short forecast.",
+    "goal": "Describe the weather and seasons using it is with simple adjectives.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a sunny beach and a snowy street. Ask: Which weather do you prefer?",
+        "tutorAction": "Give a short example: I prefer sunny days. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "It is + adjective (hot, cold, rainy, windy, sunny) / In + season",
+        "examples": [
+          "It is hot in summer.",
+          "It is cold and windy today.",
+          "In winter, it is often rainy."
+        ],
+        "method": "Show the weather adjectives with matching pictures. Ask concept-checking questions: Do we use it is for weather? Which season has snow? Then ask the student to describe today's weather using two adjectives.",
+        "checkQuestion": "Do we say the weather is hot or it weather is hot?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this forecast twice at a steady pace: Tomorrow it will be sunny in the morning. In the afternoon, it will be windy and cold. There is a chance of rain in the evening.",
+        "factCheck": "Ask: What will the weather be in the morning? (sunny). What will the afternoon be like? (windy and cold). When is the chance of rain? (in the evening).",
+        "toneCheck": "Ask: Does the forecast sound good or bad for a day out? Accept a simple answer and ask the student to point to a word that shows it, such as chance."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Weather report: the student gives a short weather report for tomorrow to the tutor, using three adjectives, then describes their favourite season with it is.",
+        "phrases": [
+          "It is sunny / cold / windy.",
+          "In summer, it is ...",
+          "I like it when it is ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the weather pictures on screen and praise each complete report."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "The weather is very hot in summer and it is good.",
+          "It sunny today."
+        ],
+        "upgrades": [
+          { "accurate": "The weather is very hot in summer and it is good.", "native": "It is very hot in summer, and I like it." },
+          { "accurate": "It sunny today.", "native": "It is sunny today." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-06",
+    "phase": "Global Key",
+    "number": 6,
+    "cefr": "A2",
+    "title": "Yesterday Was Busy: Past Simple of To Be and Regular Verbs",
+    "canDo": "Can describe past events and experiences using simple sentences about familiar topics.",
+    "goal": "Describe yesterday using was, were, and regular past verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a calendar with yesterday highlighted. Ask: What did you do yesterday?",
+        "tutorAction": "Give a short example: I worked in the morning. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I / he / she / it + was; we / you / they + were; verb + ed for regular verbs (worked, played)",
+        "examples": [
+          "I was at home yesterday.",
+          "They were late for the meeting.",
+          "We worked in the garden and cooked lunch."
+        ],
+        "method": "Show the was and were forms with the regular past verb formula. Ask concept-checking questions: Which form follows they? Is worked a present or past form? Then ask the student to say one thing they did yesterday.",
+        "checkQuestion": "Do we say they was late or they were late?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Yesterday was a busy day for Ana. She was at work until five. Then she walked home and cooked dinner with her brother.",
+        "factCheck": "Ask: When was Ana at work? (until five). What did she do after work? (walked home and cooked dinner).",
+        "toneCheck": "Ask: Was Ana's day relaxed or busy? Accept a simple answer and ask the student to point to a word that shows it, such as busy."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Yesterday story: the student tells the tutor about yesterday in three sentences, using was or were in one and two regular past verbs. The tutor asks: What did you do after that?",
+        "phrases": [
+          "Yesterday I was ...",
+          "Then I worked ...",
+          "After that, I ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Give the student time to finish each sentence and praise each complete past sentence."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Yesterday I am at home.",
+          "I walk to school yesterday."
+        ],
+        "upgrades": [
+          { "accurate": "Yesterday I am at home.", "native": "Yesterday I was at home." },
+          { "accurate": "I walk to school yesterday.", "native": "I walked to school yesterday." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-07",
+    "phase": "Global Key",
+    "number": 7,
+    "cefr": "A2",
+    "title": "Ordering Food: Would Like",
+    "canDo": "Can order food, make polite requests, and understand a simple menu in a café or restaurant.",
+    "goal": "Order food politely using would like and understand simple menu descriptions.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a café menu with three drinks and three snacks. Ask: What would you like to order today?",
+        "tutorAction": "Give a short example: I would like a coffee, please. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I / We / He / She would like + noun (or to + verb), please.",
+        "examples": [
+          "I would like a sandwich, please.",
+          "She would like a cup of tea.",
+          "We would like to pay now."
+        ],
+        "method": "Show the would like formula and the menu. Ask concept-checking questions: Is would like polite or rude? Do we use to before a verb? Then ask the student to order one item from the menu.",
+        "checkQuestion": "After would like, do we use a noun or a verb with to?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice at a steady pace: Waiter: What would you like? Customer: I would like the soup, please. Waiter: Would you like something to drink? Customer: Yes, I would like a glass of water.",
+        "factCheck": "Ask: What does the customer order first? (the soup). What does the customer order to drink? (a glass of water).",
+        "toneCheck": "Ask: Is the customer polite? Accept a simple answer and ask the student to point to the phrase that shows politeness, such as please."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Café role-play: the student is a customer and orders two items from the screen menu from the tutor, who plays the waiter. Then they swap roles. The waiter asks: Would you like anything else?",
+        "phrases": [
+          "I would like ..., please.",
+          "Could I have ...?",
+          "Yes, I would like ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the menu on screen and praise each polite order before correcting anything."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I want a coffee, please, and I would like the cake.",
+          "I would like go to pay."
+        ],
+        "upgrades": [
+          { "accurate": "I want a coffee, please, and I would like the cake.", "native": "I would like a coffee and the cake, please." },
+          { "accurate": "I would like go to pay.", "native": "I would like to pay." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-08",
+    "phase": "Global Key",
+    "number": 8,
+    "cefr": "A2",
+    "title": "Feeling Unwell: Should and Shouldn't",
+    "canDo": "Can give and understand simple advice about health, and describe common symptoms and needs.",
+    "goal": "Describe a health problem and give simple advice using should and shouldn't.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a person with a headache. Ask: What should this person do?",
+        "tutorAction": "Give a short example: They should rest. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + should / shouldn't + base verb (advice)",
+        "examples": [
+          "You should drink more water when it is hot.",
+          "You shouldn't stay up late before a test.",
+          "She should see a doctor if the pain continues."
+        ],
+        "method": "Show the should and shouldn't formula. Ask concept-checking questions: Is it advice or a strong rule? Which verb form follows should? Then ask the student to give one piece of advice for the picture.",
+        "checkQuestion": "Do we say you should to drink or you should drink?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short health text twice at a steady pace: If you have a cold, you should rest and drink warm drinks. You shouldn't go to work if you have a fever. If the cough lasts more than a week, you should see a doctor.",
+        "factCheck": "Ask: What should you do with a cold? (rest and drink warm drinks). When shouldn't you go to work? (with a fever). When should you see a doctor? (if the cough lasts more than a week).",
+        "toneCheck": "Ask: Is the text giving strict orders or friendly advice? Accept a simple answer and ask the student to point to the word that shows it, such as should."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Health advice: the student describes a common problem (a headache, a sore throat, tiredness) to the tutor, who asks what they should do. The student gives two pieces of advice to the tutor using should or shouldn't.",
+        "phrases": [
+          "You should ...",
+          "You shouldn't ...",
+          "I think you should ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the health picture on screen and praise each piece of advice before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "You should to rest.",
+          "You shouldn't to drink coffee at night."
+        ],
+        "upgrades": [
+          { "accurate": "You should to rest.", "native": "You should rest." },
+          { "accurate": "You shouldn't to drink coffee at night.", "native": "You shouldn't drink coffee at night." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-09",
+    "phase": "Global Key",
+    "number": 9,
+    "cefr": "A2",
+    "title": "At Work Right Now: Present Continuous",
+    "canDo": "Can describe what people are doing now at work or in a familiar place using simple present continuous sentences.",
+    "goal": "Describe actions happening now using am, is, or are with the -ing form.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of an office with people working. Ask: What are the people doing right now?",
+        "tutorAction": "Give a short example: The woman is typing an email. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + am / is / are + verb-ing (happening now or around now)",
+        "examples": [
+          "I am writing a report at the moment.",
+          "He is talking on the phone.",
+          "They are having a meeting in the room."
+        ],
+        "method": "Show the formula with the office picture. Ask concept-checking questions: Is this happening now? Which form of to be follows he? Then ask the student to describe one person in the picture.",
+        "checkQuestion": "Do we say he is work or he is working?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: It is ten o'clock at the hotel. The manager is checking the reservations. Two receptionists are answering the phones, and a cleaner is preparing the rooms.",
+        "factCheck": "Ask: What is the manager doing? (checking the reservations). What are the receptionists doing? (answering the phones).",
+        "toneCheck": "Ask: Does the text describe a calm or busy place? Accept a simple answer and ask the student to point to the phrase that shows it, such as are answering the phones."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Picture description: the student describes three people in the office picture to the tutor, using the present continuous. The tutor asks: What is the person next to them doing?",
+        "phrases": [
+          "He is ...",
+          "They are ...",
+          "She is ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the office picture on screen and praise each complete description before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "She is work on the computer.",
+          "They are write an email."
+        ],
+        "upgrades": [
+          { "accurate": "She is work on the computer.", "native": "She is working on the computer." },
+          { "accurate": "They are write an email.", "native": "They are writing an email." }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GLOBALKEY-10",
+    "phase": "Global Key",
+    "number": 10,
+    "cefr": "A2",
+    "title": "Holidays and Habits: Adverbs of Frequency",
+    "canDo": "Can talk about holidays, habits, and routines using simple sentences and understand a short personal description.",
+    "goal": "Describe how often you do things on holiday using always, usually, sometimes, and never.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a beach holiday. Ask: Do you go on holiday often?",
+        "tutorAction": "Give a short example: I usually go to the beach in summer. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + adverb of frequency (always, usually, often, sometimes, never) + verb; adverb goes before the main verb but after am / is / are",
+        "examples": [
+          "I always take a camera on holiday.",
+          "We usually visit the coast in summer.",
+          "She is never late for the train."
+        ],
+        "method": "Show the adverb scale from always to never. Ask concept-checking questions: Where does the adverb go with the verb to be? Where does it go with other verbs? Then ask the student to rank their holiday habits using two adverbs.",
+        "checkQuestion": "Where does never go in the sentence She is never late?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Mark usually goes on holiday in August. He always visits his family first. Sometimes he goes hiking, but he is never bored on the coast.",
+        "factCheck": "Ask: When does Mark usually go on holiday? (August). What does he always do first? (visit his family). What does he sometimes do? (go hiking).",
+        "toneCheck": "Ask: Does Mark enjoy his holidays? Accept a simple answer and ask the student to point to the phrase that shows it, such as never bored."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Holiday habits interview: the student tells the tutor how often they do four things on holiday (swim, take photos, cook, relax), using adverbs of frequency. The tutor asks one follow-up question: Why do you like that?",
+        "phrases": [
+          "I always ...",
+          "I usually ...",
+          "I sometimes ... but I never ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the beach picture on screen and praise each complete sentence before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I go always to the beach.",
+          "She never is late."
+        ],
+        "upgrades": [
+          { "accurate": "I go always to the beach.", "native": "I always go to the beach." },
+          { "accurate": "She never is late.", "native": "She is never late." }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Spark classes &middot; Teachers Hub</title>
+<style>
+body{font-family:Calibri,Arial,Helvetica,sans-serif;color:#222222;font-size:11pt;line-height:1.5;max-width:900px;margin:28px auto;padding:0 24px;background:#FFFFFF}
+a{color:#1F4E79}
+a:hover{color:#D9731E}
+.kicker{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;margin:0 0 6px}
+h1{color:#1F4E79;font-size:22pt;margin:0 0 12px;padding-bottom:10px;border-bottom:3px solid #D9731E}
+h2{color:#1F4E79;font-size:13pt;margin:26px 0 10px;padding-bottom:4px;border-bottom:1px solid #C9D8E8}
+h3{color:#D9731E;font-size:10pt;text-transform:uppercase;letter-spacing:1px;margin:16px 0 6px}
+.lead{margin:4px 0 12px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid #C9D8E8;margin:18px 0 6px}
+.tab{background:none;border:none;border-bottom:3px solid transparent;padding:10px 16px;font-size:11pt;font-family:inherit;color:#5F6B7A;cursor:pointer;margin-bottom:-1px}
+.tab:hover{color:#1F4E79}
+.tab[aria-selected=true]{color:#1F4E79;font-weight:bold;border-bottom-color:#D9731E}
+.tab:focus{outline:2px solid #C9D8E8;outline-offset:2px}
+.cards{display:flex;flex-wrap:wrap;gap:14px;margin:6px 0 4px}
+.card{flex:1 1 230px;background:#EAF1F8;border-top:4px solid #D9731E;padding:14px 16px;text-decoration:none;color:#222222;display:block}
+.card:hover{background:#FDF1E7}
+.card .name{color:#1F4E79;font-size:15pt;font-weight:bold}
+.card .cefr{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin:2px 0 6px}
+.card .count{color:#5F6B7A;font-size:9.5pt;margin-top:8px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 6px}
+#q{flex:2 1 320px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;outline:none;font-family:inherit}
+#topic{flex:1 1 220px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit}
+#q:focus,#topic:focus{border-color:#1F4E79;box-shadow:0 0 0 2px #EAF1F8}
+#count{color:#5F6B7A;font-size:9.5pt;margin:8px 0 10px}
+table.idx{border-collapse:collapse;width:100%;font-size:10.5pt}
+table.idx th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:8px 10px;cursor:pointer;user-select:none;white-space:nowrap}
+table.idx th:focus{outline:2px solid #D9731E;outline-offset:-2px}
+table.idx th[aria-sort=ascending]::after{content:" \25B2";color:#D9731E}
+table.idx th[aria-sort=descending]::after{content:" \25BC";color:#D9731E}
+table.idx td{padding:8px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+table.idx tr:hover td{background:#EAF1F8}
+a.cid{color:#1F4E79;font-weight:bold;text-decoration:none}
+a.ctitle{color:#222222;text-decoration:none}
+.topics{color:#5F6B7A;font-size:9.5pt}
+.empty{color:#5F6B7A;padding:14px 0;display:none}
+[hidden]{display:none !important}
+.nav{margin:0 0 14px;user-select:none;-webkit-user-select:none}
+.btn{display:inline-block;background:#1F4E79;color:#FFFFFF;text-decoration:none;padding:6px 12px;border-radius:3px;font-size:9.5pt;margin-right:8px;margin-bottom:6px}
+.btn:hover{background:#D9731E;color:#FFFFFF}
+.grid{width:100%;border-collapse:collapse;font-size:10pt;margin:6px 0 10px}
+.grid th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:7px 10px;font-weight:bold;vertical-align:top}
+.grid td{padding:7px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+.grid tr:nth-child(even) td{background:#EAF1F8}
+.note{background:#EAF1F8;border-left:4px solid #1F4E79;padding:10px 14px;margin:10px 0}
+.warn{background:#FDF1E7;border-left:4px solid #D9731E;padding:10px 14px;margin:10px 0}
+details{border:1px solid #C9D8E8;border-radius:4px;margin:10px 0;padding:0}
+summary{cursor:pointer;color:#1F4E79;font-weight:bold;padding:12px 14px;font-size:12pt}
+details[open] summary{border-bottom:1px solid #C9D8E8}
+details > div{padding:6px 14px 14px}
+details details{margin:8px 0}
+details details summary{font-size:11pt;padding:10px 12px}
+.sel{padding:8px 10px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit;min-width:220px}
+.pb-btn{background:#1F4E79;color:#FFFFFF;border:none;padding:6px 10px;border-radius:3px;font-family:inherit;font-size:10pt;cursor:pointer;margin:2px 4px 2px 0}
+.pb-btn:hover{background:#D9731E}
+.pb-week td{background:#EAF1F8;color:#1F4E79;font-weight:bold}
+.pb-check{margin-right:14px;display:inline-block}
+.fb-card{border:1px solid #C9D8E8;border-left:5px solid #D9731E;border-radius:4px;padding:12px 14px;margin:10px 0}
+.fb-meta{color:#5F6B7A;font-size:9.5pt;font-weight:normal}
+@media print{body *{visibility:hidden}#pb-plan,#pb-plan *{visibility:visible}#pb-plan{position:absolute;left:0;top:0;width:100%}.no-print{display:none !important}}
+#score-go{background:#1F4E79;color:#FFFFFF;border:none;padding:10px 18px;font-size:11pt;font-family:inherit;border-radius:3px;cursor:pointer}
+#score-go:hover{background:#D9731E}
+.footer{color:#5F6B7A;font-size:8.5pt;margin-top:28px;border-top:1px solid #C9D8E8;padding-top:8px}
+</style></head>
+<body>
+<nav class="nav"><a class="btn" href="../index.html">&larr; Teachers Hub</a></nav>
+<p class="kicker">Spark &middot; A1 to A2</p>
+<h1>Spark classes</h1>
+<p class="lead">Foundations: basic sentence patterns and everyday topics (A1), then A2 bridge classes 17 to 31. 31 core classes. Search by topic or filter by grammar topic. Open a class to copy it into Google Docs.</p>
+<details open>
+<summary>Core classes: 31</summary>
+<div>
+<div class="controls">
+<input id="q" type="search" placeholder="Search topics, titles, or IDs, e.g. conditional, passive, FLOW-12" autocomplete="off" aria-label="Search classes">
+<select id="topic" aria-label="Filter by grammar topic"><option value="">All grammar topics</option><option value="Comparatives">Comparatives</option><option value="Future">Future</option><option value="Linking words">Linking words</option><option value="Modals">Modals</option><option value="Past continuous">Past continuous</option><option value="Past simple">Past simple</option><option value="Prepositions">Prepositions</option><option value="Present continuous">Present continuous</option><option value="Present perfect">Present perfect</option><option value="Present simple">Present simple</option><option value="Pronunciation">Pronunciation</option><option value="Quantifiers">Quantifiers</option><option value="Questions">Questions</option><option value="To be">To be</option><option value="Used to">Used to</option><option value="Verb patterns">Verb patterns</option><option value="Vocabulary">Vocabulary</option></select>
+</div>
+<p id="count">Showing 31 of 31 classes</p>
+<table id="idx" class="idx">
+<thead><tr><th>Class</th><th>CEFR</th><th>Title</th><th>Grammar topics</th></tr></thead>
+<tbody>
+<tr data-search="spark-01 my first english words: letters, numbers, and classroom english spark pre-a1 spell your first name, count to 100, and say hello, your name, your age, and your country. can recognise the english alphabet, numbers 0 to 100, colours, days, and months, and answer very simple questions about name, age, and country with support. vocabulary pronunciation" data-topics="Vocabulary|Pronunciation">
+<td data-sort="0-001"><a href="SPARK-01.html" class="cid">SPARK-01</a></td>
+<td data-sort="Pre-A1">Pre-A1</td>
+<td data-sort="my first english words: letters, numbers, and classroom english"><a href="SPARK-01.html" class="ctitle">My First English Words: Letters, Numbers, and Classroom English</a></td>
+<td data-sort="vocabulary, pronunciation" class="topics">Vocabulary · Pronunciation</td>
+</tr>
+<tr data-search="spark-02 hello! nice to meet you: greetings and introductions spark a1 greet someone, say your name and country with i am and my name is, and ask what's your name? and where are you from? can greet people, introduce himself or herself with name and country, and ask someone's name and origin in a short, guided exchange. to be questions" data-topics="To be|Questions">
+<td data-sort="0-002"><a href="SPARK-02.html" class="cid">SPARK-02</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="hello! nice to meet you: greetings and introductions"><a href="SPARK-02.html" class="ctitle">Hello! Nice to Meet You: Greetings and Introductions</a></td>
+<td data-sort="to be, questions" class="topics">To be · Questions</td>
+</tr>
+<tr data-search="spark-03 let's talk about you: age, job, and personal information spark a1 ask and answer how old are you?, what do you do?, and are you a ...?, and introduce another person with he is and she is. can ask and answer simple questions about age, job, and where someone lives, and give basic information about another person. to be questions" data-topics="To be|Questions">
+<td data-sort="0-003"><a href="SPARK-03.html" class="cid">SPARK-03</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="let's talk about you: age, job, and personal information"><a href="SPARK-03.html" class="ctitle">Let's Talk About You: Age, Job, and Personal Information</a></td>
+<td data-sort="to be, questions" class="topics">To be · Questions</td>
+</tr>
+<tr data-search="spark-04 my family and friends: my, his, her, and describing people spark a1 introduce two people with this is my ... and his name is ... or her name is ..., and describe them with simple adjectives. can introduce family members and friends and describe them in simple sentences with basic adjectives. to be vocabulary" data-topics="To be|Vocabulary">
+<td data-sort="0-004"><a href="SPARK-04.html" class="cid">SPARK-04</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my family and friends: my, his, her, and describing people"><a href="SPARK-04.html" class="ctitle">My Family and Friends: My, His, Her, and Describing People</a></td>
+<td data-sort="to be, vocabulary" class="topics">To be · Vocabulary</td>
+</tr>
+<tr data-search="spark-05 my daily routine: present simple and telling the time spark a1 describe your day with i + verb, say times with at, and ask what time do you ...? and do you ...? can describe a daily routine in simple sentences with times and sequence words, and ask someone about their routine. present simple questions" data-topics="Present simple|Questions">
+<td data-sort="0-005"><a href="SPARK-05.html" class="cid">SPARK-05</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my daily routine: present simple and telling the time"><a href="SPARK-05.html" class="ctitle">My Daily Routine: Present Simple and Telling the Time</a></td>
+<td data-sort="present simple, questions" class="topics">Present simple · Questions</td>
+</tr>
+<tr data-search="spark-06 my free time and hobbies: likes, dislikes, and how often spark a1 say what you love, like, and don't like with a noun or verb-ing, say how often you do it, and ask do you like ...? can talk about hobbies and free-time activities, saying what he or she likes and does not like and how often he or she does them. present simple verb patterns" data-topics="Present simple|Verb patterns">
+<td data-sort="0-006"><a href="SPARK-06.html" class="cid">SPARK-06</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my free time and hobbies: likes, dislikes, and how often"><a href="SPARK-06.html" class="ctitle">My Free Time and Hobbies: Likes, Dislikes, and How Often</a></td>
+<td data-sort="present simple, verb patterns" class="topics">Present simple · Verb patterns</td>
+</tr>
+<tr data-search="spark-07 food and drinks: what do you like to eat? spark a1 say what you eat for each meal, use a, an, and some with food, and order with i'd like ..., please. can talk about food preferences and daily meals, and order simple food and drinks politely. quantifiers modals" data-topics="Quantifiers|Modals">
+<td data-sort="0-007"><a href="SPARK-07.html" class="cid">SPARK-07</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="food and drinks: what do you like to eat?"><a href="SPARK-07.html" class="ctitle">Food and Drinks: What Do You Like to Eat?</a></td>
+<td data-sort="quantifiers, modals" class="topics">Quantifiers · Modals</td>
+</tr>
+<tr data-search="spark-08 shopping and prices: how much is it? spark a1 ask how much is it? and how much are they?, point to products with this, that, these, and those, and buy something with can i have ...? can ask about prices and products in a shop, understand simple prices, and buy an item politely. questions vocabulary" data-topics="Questions|Vocabulary">
+<td data-sort="0-008"><a href="SPARK-08.html" class="cid">SPARK-08</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="shopping and prices: how much is it?"><a href="SPARK-08.html" class="ctitle">Shopping and Prices: How Much Is It?</a></td>
+<td data-sort="questions, vocabulary" class="topics">Questions · Vocabulary</td>
+</tr>
+<tr data-search="spark-09 my home and neighborhood: there is, there are, and where things are spark a1 describe rooms with there is and there are, and say where things are with in, on, under, next to, and between. can describe a home and neighborhood and say where things are, using there is, there are, and simple prepositions of place. prepositions vocabulary" data-topics="Prepositions|Vocabulary">
+<td data-sort="0-009"><a href="SPARK-09.html" class="cid">SPARK-09</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my home and neighborhood: there is, there are, and where things are"><a href="SPARK-09.html" class="ctitle">My Home and Neighborhood: There Is, There Are, and Where Things Are</a></td>
+<td data-sort="prepositions, vocabulary" class="topics">Prepositions · Vocabulary</td>
+</tr>
+<tr data-search="spark-10 getting around town: asking for and giving directions spark a1 ask excuse me, where is ...?, give directions with go straight, turn left, and turn right, and describe places with next to, across from, and between. can ask for and give simple directions to places in a town, and follow short spoken directions on a map. prepositions questions" data-topics="Prepositions|Questions">
+<td data-sort="0-010"><a href="SPARK-10.html" class="cid">SPARK-10</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="getting around town: asking for and giving directions"><a href="SPARK-10.html" class="ctitle">Getting Around Town: Asking for and Giving Directions</a></td>
+<td data-sort="prepositions, questions" class="topics">Prepositions · Questions</td>
+</tr>
+<tr data-search="spark-11 weather and seasons: what's the weather like? spark a1 describe the weather with it's + adjective or it's raining, talk about the seasons, and give a simple reason with when or because. can describe the weather and seasons in simple terms, and choose clothes or activities that suit the weather. vocabulary linking words" data-topics="Vocabulary|Linking words">
+<td data-sort="0-011"><a href="SPARK-11.html" class="cid">SPARK-11</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="weather and seasons: what's the weather like?"><a href="SPARK-11.html" class="ctitle">Weather and Seasons: What's the Weather Like?</a></td>
+<td data-sort="vocabulary, linking words" class="topics">Vocabulary · Linking words</td>
+</tr>
+<tr data-search="spark-12 yesterday and last weekend: talking about the past spark a1 say what you did with regular -ed verbs and with went, ate, had, saw, and did, make negatives with didn't, and ask did you ...? and what did you do? can describe completed everyday activities in the past simple and ask someone about their weekend. past simple questions" data-topics="Past simple|Questions">
+<td data-sort="0-012"><a href="SPARK-12.html" class="cid">SPARK-12</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="yesterday and last weekend: talking about the past"><a href="SPARK-12.html" class="ctitle">Yesterday and Last Weekend: Talking About the Past</a></td>
+<td data-sort="past simple, questions" class="topics">Past simple · Questions</td>
+</tr>
+<tr data-search="spark-13 my future plans: what are you going to do? spark a1 say your plans with am, is, or are going to + verb, ask what are you going to do? and are you going to ...?, and agree on a plan. can talk about future plans with going to, and make a simple plan with another person, agreeing on a day and time. future questions" data-topics="Future|Questions">
+<td data-sort="0-013"><a href="SPARK-13.html" class="cid">SPARK-13</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my future plans: what are you going to do?"><a href="SPARK-13.html" class="ctitle">My Future Plans: What Are You Going to Do?</a></td>
+<td data-sort="future, questions" class="topics">Future · Questions</td>
+</tr>
+<tr data-search="spark-14 health and everyday problems: how are you feeling? spark a1 describe how you feel with i feel ..., i have a ..., and my ... hurts, ask what's wrong?, and suggest you should ... can describe simple symptoms and how he or she feels, ask for basic help, and give a simple suggestion with should. modals vocabulary" data-topics="Modals|Vocabulary">
+<td data-sort="0-014"><a href="SPARK-14.html" class="cid">SPARK-14</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="health and everyday problems: how are you feeling?"><a href="SPARK-14.html" class="ctitle">Health and Everyday Problems: How Are You Feeling?</a></td>
+<td data-sort="modals, vocabulary" class="topics">Modals · Vocabulary</td>
+</tr>
+<tr data-search="spark-15 everyday communication: invitations, requests, and social plans spark a1 invite with would you like to ...?, accept or decline politely with a reason, make requests with can you ...? and could you ...?, and agree on a plan with let's ... can make, accept, and politely decline simple invitations, make polite requests, and agree on a time and place to meet. modals questions" data-topics="Modals|Questions">
+<td data-sort="0-015"><a href="SPARK-15.html" class="cid">SPARK-15</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="everyday communication: invitations, requests, and social plans"><a href="SPARK-15.html" class="ctitle">Everyday Communication: Invitations, Requests, and Social Plans</a></td>
+<td data-sort="modals, questions" class="topics">Modals · Questions</td>
+</tr>
+<tr data-search="spark-16 my english in action: final a1 communication challenge spark a1 complete four short challenges with the english from the course, then set one goal for the next stage. can combine familiar a1 language to introduce himself or herself, describe everyday life, handle a simple everyday situation, and talk about the past and the future. to be present simple past simple future" data-topics="To be|Present simple|Past simple|Future">
+<td data-sort="0-016"><a href="SPARK-16.html" class="cid">SPARK-16</a></td>
+<td data-sort="A1">A1</td>
+<td data-sort="my english in action: final a1 communication challenge"><a href="SPARK-16.html" class="ctitle">My English in Action: Final A1 Communication Challenge</a></td>
+<td data-sort="to be, present simple, past simple, future" class="topics">To be · Present simple · Past simple · Future</td>
+</tr>
+<tr data-search="spark-17 everyday routines and changes: present simple and present continuous spark a2 say what you usually do with always, usually, sometimes, and never, and say what you are doing differently this week, contrasting the two tenses. can describe usual routines with the present simple and temporary changes happening now with the present continuous, using adverbs of frequency. present simple present continuous" data-topics="Present simple|Present continuous">
+<td data-sort="0-017"><a href="SPARK-17.html" class="cid">SPARK-17</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="everyday routines and changes: present simple and present continuous"><a href="SPARK-17.html" class="ctitle">Everyday Routines and Changes: Present Simple and Present Continuous</a></td>
+<td data-sort="present simple, present continuous" class="topics">Present simple · Present continuous</td>
+</tr>
+<tr data-search="spark-18 talking about the past: more irregular verbs spark a2 use -ed endings for regular verbs and irregular forms such as took, bought, met, made, and felt, and link events with first, then, and after that. can tell a short story about a recent weekend or trip in the past simple, using regular verbs and common irregular verbs in order. past simple linking words" data-topics="Past simple|Linking words">
+<td data-sort="0-018"><a href="SPARK-18.html" class="cid">SPARK-18</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="talking about the past: more irregular verbs"><a href="SPARK-18.html" class="ctitle">Talking About the Past: More Irregular Verbs</a></td>
+<td data-sort="past simple, linking words" class="topics">Past simple · Linking words</td>
+</tr>
+<tr data-search="spark-19 past questions and negatives: asking about a trip spark a2 ask did you ...?, where did you ...?, and what did you ...?, answer with yes, i did or no, i didn't, and say what you did not do. can ask and answer simple questions about a past trip or event, and make negative sentences with didn't. past simple questions" data-topics="Past simple|Questions">
+<td data-sort="0-019"><a href="SPARK-19.html" class="cid">SPARK-19</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="past questions and negatives: asking about a trip"><a href="SPARK-19.html" class="ctitle">Past Questions and Negatives: Asking About a Trip</a></td>
+<td data-sort="past simple, questions" class="topics">Past simple · Questions</td>
+</tr>
+<tr data-search="spark-20 describing people and places: comparatives and superlatives spark a2 use bigger than, more expensive than, and better than, and say which place or thing is the cheapest or the best in a group. can compare two people, places, or products with -er, more, and than, and name the best or biggest in a group. comparatives" data-topics="Comparatives">
+<td data-sort="0-020"><a href="SPARK-20.html" class="cid">SPARK-20</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="describing people and places: comparatives and superlatives"><a href="SPARK-20.html" class="ctitle">Describing People and Places: Comparatives and Superlatives</a></td>
+<td data-sort="comparatives" class="topics">Comparatives</td>
+</tr>
+<tr data-search="spark-21 plans and arrangements: going to and the present continuous spark a2 say what you are going to do with going to, say what is arranged with the present continuous and a time phrase, and confirm plans with a partner. can describe intentions and fixed arrangements for the near future, and confirm a time and place for a meeting. future present continuous" data-topics="Future|Present continuous">
+<td data-sort="0-021"><a href="SPARK-21.html" class="cid">SPARK-21</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="plans and arrangements: going to and the present continuous"><a href="SPARK-21.html" class="ctitle">Plans and Arrangements: Going To and the Present Continuous</a></td>
+<td data-sort="future, present continuous" class="topics">Future · Present continuous</td>
+</tr>
+<tr data-search="spark-22 predictions and decisions: using will spark a2 use will for predictions (i think it will rain), decisions (i'll answer it), offers (i'll help you), and promises (i won't be late). can make simple predictions about the future and make decisions, offers, and promises at the moment of speaking. future" data-topics="Future">
+<td data-sort="0-022"><a href="SPARK-22.html" class="cid">SPARK-22</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="predictions and decisions: using will"><a href="SPARK-22.html" class="ctitle">Predictions and Decisions: Using Will</a></td>
+<td data-sort="future" class="topics">Future</td>
+</tr>
+<tr data-search="spark-23 food, shopping, and quantities: some, any, much, and many spark a2 use some and any with countable and uncountable nouns, ask how many and how much, and use a few and a little for small amounts. can ask about and state quantities of food and everyday items using some, any, much, many, a few, and a little. quantifiers vocabulary" data-topics="Quantifiers|Vocabulary">
+<td data-sort="0-023"><a href="SPARK-23.html" class="cid">SPARK-23</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="food, shopping, and quantities: some, any, much, and many"><a href="SPARK-23.html" class="ctitle">Food, Shopping, and Quantities: Some, Any, Much, and Many</a></td>
+<td data-sort="quantifiers, vocabulary" class="topics">Quantifiers · Vocabulary</td>
+</tr>
+<tr data-search="spark-24 advice and obligations: should, have to, and don't have to spark a2 say what someone should or shouldn't do, explain a rule at work or school with have to, and say what is not necessary with don't have to. can give simple advice with should and shouldn't, and explain everyday rules and obligations with have to and don't have to. modals" data-topics="Modals">
+<td data-sort="0-024"><a href="SPARK-24.html" class="cid">SPARK-24</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="advice and obligations: should, have to, and don't have to"><a href="SPARK-24.html" class="ctitle">Advice and Obligations: Should, Have To, and Don't Have To</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="spark-25 experiences so far: have you ever...? and past events spark a2 ask have you ever ...?, answer yes, i have or no, i haven't, say i've never ..., and say when something happened with the past simple. can ask and answer questions about life experiences with have you ever ...? and i've never, and give dated details with the past simple. present perfect past simple" data-topics="Present perfect|Past simple">
+<td data-sort="0-025"><a href="SPARK-25.html" class="cid">SPARK-25</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="experiences so far: have you ever...? and past events"><a href="SPARK-25.html" class="ctitle">Experiences So Far: Have You Ever...? and Past Events</a></td>
+<td data-sort="present perfect, past simple" class="topics">Present perfect · Past simple</td>
+</tr>
+<tr data-search="spark-26 directions and services: prepositions of movement and polite requests spark a2 give four-step directions with go, turn, cross, and walk, use across, through, along, past, and towards, and ask politely with could you ...? can give directions in a town using imperatives and prepositions of movement, and make polite requests at a service counter. prepositions modals" data-topics="Prepositions|Modals">
+<td data-sort="0-026"><a href="SPARK-26.html" class="cid">SPARK-26</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="directions and services: prepositions of movement and polite requests"><a href="SPARK-26.html" class="ctitle">Directions and Services: Prepositions of Movement and Polite Requests</a></td>
+<td data-sort="prepositions, modals" class="topics">Prepositions · Modals</td>
+</tr>
+<tr data-search="spark-27 stories in progress: past continuous with when and while spark a2 use was or were with -ing for background actions and the past simple for interruptions, and link them with when and while. can describe an action in progress in the past and say what interrupted it, using the past continuous with when and while. past continuous linking words" data-topics="Past continuous|Linking words">
+<td data-sort="0-027"><a href="SPARK-27.html" class="cid">SPARK-27</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="stories in progress: past continuous with when and while"><a href="SPARK-27.html" class="ctitle">Stories in Progress: Past Continuous with When and While</a></td>
+<td data-sort="past continuous, linking words" class="topics">Past continuous · Linking words</td>
+</tr>
+<tr data-search="spark-28 preferences and reasons: like, love, hate, and would rather spark a2 use like, love, enjoy, and hate with -ing, use would rather with a base verb, and join a reason with because or so. can say what they like, love, hate, and would rather do, and give a simple reason with because or so. verb patterns linking words" data-topics="Verb patterns|Linking words">
+<td data-sort="0-028"><a href="SPARK-28.html" class="cid">SPARK-28</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="preferences and reasons: like, love, hate, and would rather"><a href="SPARK-28.html" class="ctitle">Preferences and Reasons: Like, Love, Hate, and Would Rather</a></td>
+<td data-sort="verb patterns, linking words" class="topics">Verb patterns · Linking words</td>
+</tr>
+<tr data-search="spark-29 making requests and invitations: can, could, and would spark a2 use could you ...?, can you ...?, and would you like to ...? to ask for things and invite people, accept with i'd love to, and decline with i'm sorry, i can't. can make polite requests and invitations, accept or decline them politely with a reason, and ask for help in everyday situations. modals questions" data-topics="Modals|Questions">
+<td data-sort="0-029"><a href="SPARK-29.html" class="cid">SPARK-29</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="making requests and invitations: can, could, and would"><a href="SPARK-29.html" class="ctitle">Making Requests and Invitations: Can, Could, and Would</a></td>
+<td data-sort="modals, questions" class="topics">Modals · Questions</td>
+</tr>
+<tr data-search="spark-30 describing changes and goals: used to and future plans spark a2 say what you used to do and what you do now with used to and now, and describe two personal goals with going to. can describe past habits and states that have changed, and talk about personal goals for the future in simple sentences. used to future" data-topics="Used to|Future">
+<td data-sort="0-030"><a href="SPARK-30.html" class="cid">SPARK-30</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="describing changes and goals: used to and future plans"><a href="SPARK-30.html" class="ctitle">Describing Changes and Goals: Used To and Future Plans</a></td>
+<td data-sort="used to, future" class="topics">Used to · Future</td>
+</tr>
+<tr data-search="spark-31 integrated a2 performance: final review and challenge spark a2 combine past, present, and future language in one interview, then write a message of 70 to 90 words. can hold a short, connected conversation about past experiences, plans, and comparisons, and write a short message on the same topics. present perfect past simple future comparatives" data-topics="Present perfect|Past simple|Future|Comparatives">
+<td data-sort="0-031"><a href="SPARK-31.html" class="cid">SPARK-31</a></td>
+<td data-sort="A2">A2</td>
+<td data-sort="integrated a2 performance: final review and challenge"><a href="SPARK-31.html" class="ctitle">Integrated A2 Performance: Final Review and Challenge</a></td>
+<td data-sort="present perfect, past simple, future, comparatives" class="topics">Present perfect · Past simple · Future · Comparatives</td>
+</tr>
+</tbody>
+</table>
+<p id="empty" class="empty">No classes match your search. Try a shorter word or a different topic.</p>
+</div>
+</details>
+<details>
+<summary>Focus pathways: 12 classes</summary>
+<div>
+<p style="margin:6px 0;">Short courses for needs we see often. Each pathway uses the Spark lesson skeleton, so it fits the same 30-minute format as the core course.</p>
+<details>
+<summary>Job Interviews: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Introduce yourself, tell past achievements clearly, talk about strengths, ask good questions, and finish with a full mock interview.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="SPARK-INTERVIEW-01.html" class="cid">SPARK-INTERVIEW-01</a></td><td>Job Interviews 1: Introducing Yourself at Work</td><td>To be</td></tr>
+<tr><td>2</td><td><a href="SPARK-INTERVIEW-02.html" class="cid">SPARK-INTERVIEW-02</a></td><td>Job Interviews 2: Talking About Your Job and Skills</td><td>Present simple</td></tr>
+<tr><td>3</td><td><a href="SPARK-INTERVIEW-03.html" class="cid">SPARK-INTERVIEW-03</a></td><td>Job Interviews 3: Talking About Past Work</td><td>Past simple</td></tr>
+<tr><td>4</td><td><a href="SPARK-INTERVIEW-04.html" class="cid">SPARK-INTERVIEW-04</a></td><td>Job Interviews 4: Simple Questions and a Mini Mock Interview</td><td>Questions</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Fluency: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Keep speaking smoothly: fillers and hesitation, linking ideas, rhythm and stress, and a timed speaking challenge.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="SPARK-FLUENCY-01.html" class="cid">SPARK-FLUENCY-01</a></td><td>Fluency 1: Keeping Going When You Don't Know a Word</td><td>Questions, Vocabulary</td></tr>
+<tr><td>2</td><td><a href="SPARK-FLUENCY-02.html" class="cid">SPARK-FLUENCY-02</a></td><td>Fluency 2: Small Talk at Work</td><td>Present simple, Questions</td></tr>
+<tr><td>3</td><td><a href="SPARK-FLUENCY-03.html" class="cid">SPARK-FLUENCY-03</a></td><td>Fluency 3: Linking Short Sentences</td><td>Linking words</td></tr>
+<tr><td>4</td><td><a href="SPARK-FLUENCY-04.html" class="cid">SPARK-FLUENCY-04</a></td><td>Fluency 4: Timed 30-Second Answers</td><td>Linking words, Vocabulary</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Presentation Skills: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Structure a talk, describe slides and visuals, handle questions, pace and pause well, and deliver a full presentation.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="SPARK-PRESENTATION-01.html" class="cid">SPARK-PRESENTATION-01</a></td><td>Presentation Skills 1: Introducing a Simple Topic</td><td>To be, Vocabulary</td></tr>
+<tr><td>2</td><td><a href="SPARK-PRESENTATION-02.html" class="cid">SPARK-PRESENTATION-02</a></td><td>Presentation Skills 2: Describing a Photo in Three Sentences</td><td>Vocabulary</td></tr>
+<tr><td>3</td><td><a href="SPARK-PRESENTATION-03.html" class="cid">SPARK-PRESENTATION-03</a></td><td>Presentation Skills 3: Showing a Short Slide with Numbers</td><td>Future, Past simple</td></tr>
+<tr><td>4</td><td><a href="SPARK-PRESENTATION-04.html" class="cid">SPARK-PRESENTATION-04</a></td><td>Presentation Skills 4: One-Minute Talk and Questions</td><td>Linking words, Vocabulary</td></tr>
+</table>
+</div>
+</details>
+</div>
+</details>
+<p class="footer">Global Key &middot; 3-Pillar Curriculum Framework</p>
+<script>
+(function () {
+  var table = document.getElementById("idx");
+  var tbody = table.tBodies[0];
+  var rows = Array.prototype.slice.call(tbody.rows);
+  var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
+  var input = document.getElementById("q");
+  var topic = document.getElementById("topic");
+  var count = document.getElementById("count");
+  var empty = document.getElementById("empty");
+  var box = document.getElementById("results");
+  var collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+  var sortCol = 0, dir = 1;
+
+  function filter() {
+    var words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var t = topic.value;
+    var shown = 0;
+    rows.forEach(function (row) {
+      var okWords = words.every(function (w) { return row.getAttribute("data-search").indexOf(w) !== -1; });
+      var okTopic = !t || (row.getAttribute("data-topics") || "").split("|").indexOf(t) !== -1;
+      row.hidden = !(okWords && okTopic);
+      if (!row.hidden) shown++;
+    });
+    count.textContent = "Showing " + shown + " of " + rows.length + " classes";
+    empty.style.display = shown === 0 ? "block" : "none";
+    if (box) box.hidden = !(words.length > 0 || t !== "");
+  }
+
+  function sortBy(col) {
+    if (sortCol === col) { dir = -dir; } else { sortCol = col; dir = 1; }
+    rows.slice().sort(function (a, b) {
+      var diff = collator.compare(a.cells[col].getAttribute("data-sort"), b.cells[col].getAttribute("data-sort"));
+      if (diff === 0) diff = collator.compare(a.cells[0].getAttribute("data-sort"), b.cells[0].getAttribute("data-sort"));
+      return dir * diff;
+    }).forEach(function (row) { tbody.appendChild(row); });
+    headers.forEach(function (th, i) {
+      th.setAttribute("aria-sort", i === sortCol ? (dir === 1 ? "ascending" : "descending") : "none");
+    });
+  }
+
+  headers.forEach(function (th, i) {
+    th.tabIndex = 0;
+    th.setAttribute("aria-sort", i === 0 ? "ascending" : "none");
+    th.addEventListener("click", function () { sortBy(i); });
+    th.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sortBy(i); }
+    });
+  });
+  input.addEventListener("input", filter);
+  topic.addEventListener("change", filter);
+  filter();
+})();
+</script>
+</body></html>

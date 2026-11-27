@@ -1,0 +1,502 @@
+[
+  {
+    "id": "FLOW-31",
+    "phase": "Flow",
+    "number": 31,
+    "cefr": "B1",
+    "title": "Module 7: Customer Complaints and Reviews Workshop",
+    "canDo": "Can explain a faulty item to a shop assistant and write a short, polite complaint email or product review.",
+    "goal": "Role-play returning a faulty item and write a short formal complaint email or review.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What makes you write a review of a product, good or bad?",
+        "tutorAction": "Give a 15-second example: I wrote a review because the battery lasted much longer than I expected. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Formal complaint: I am writing to complain about ... / The item I bought on ... is ... / I would like a refund or a replacement. / I look forward to hearing from you.",
+        "examples": [
+          "I am writing to complain about a laptop I bought on 3 May.",
+          "The screen is cracked, and the device is not working properly.",
+          "I would like either a refund or a replacement. I look forward to hearing from you."
+        ],
+        "method": "Show a complaint email with its structure labelled: opening, problem, request, closing. Ask guiding questions: Which sentence states the problem? Which sentence makes the request? Then ask the student to write a one-sentence opening for a complaint about something they bought.",
+        "checkQuestion": "In the request part of the email, do we state the solution we want, or only the problem?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this review twice at a steady pace: I bought a kettle last month. It is easy to use and looks nice, but the lid is loose, and the water does not boil quickly. Customer service replied within a day and offered a replacement, which I appreciated.",
+        "factCheck": "Ask: How long ago did the reviewer buy the kettle? (last month). What is wrong with the lid? (it is loose). What did customer service offer? (a replacement).",
+        "toneCheck": "Ask: Is the review mainly positive or negative? Ask the student to point to the phrase that shows the reviewer's appreciation, such as which I appreciated."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Return at the shop: the student returns a faulty item to the tutor, who plays a shop assistant. The student explains the problem and asks for a refund or a replacement. Then the student summarises the problem in two sentences for a review.",
+        "phrases": [
+          "I would like to return ...",
+          "The problem is that ...",
+          "Could I have a refund or a replacement?"
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student explain the problem and the request fully, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want to return because it is broken.",
+          "Please give me money back, I am angry."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-32",
+    "phase": "Flow",
+    "number": 32,
+    "cefr": "B1",
+    "title": "Module 8: Zero and First Conditionals",
+    "canDo": "Can describe general truths and real future possibilities using if, unless, as soon as, and when.",
+    "goal": "Use zero conditional for general truths and first conditional for real future possibilities.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What happens if you do not sleep well for a few nights?",
+        "tutorAction": "Give a 15-second example: If I do not sleep well, I feel tired all day. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Zero conditional: If / when + present simple, present simple (general truth). First conditional: If / unless / as soon as / when + present simple, will + base verb (real future possibility)",
+        "examples": [
+          "If you heat ice, it melts. (general truth)",
+          "If it rains tomorrow, we will stay home.",
+          "I will call you as soon as I arrive. Unless the train is late, we will be on time."
+        ],
+        "method": "Show the zero and first conditionals side by side. Ask guiding questions: Is this always true, or a possible future? Why do we use the present simple after if, not will? Then ask the student to finish two sentences: If I finish work early, ... and I will ... as soon as ....",
+        "checkQuestion": "After if in a first conditional, do we use will or the present simple?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: If you water plants every day, they grow faster. If the weather is dry this week, we will need to water the garden. Unless the rain returns, the lawn will turn brown. I will check as soon as I get home.",
+        "factCheck": "Ask: What happens if you water plants every day? (they grow faster). What will we need to do if the weather is dry? (water the garden). What will happen unless the rain returns? (the lawn will turn brown).",
+        "toneCheck": "Ask: Does the writer describe a fact or a possibility? Ask the student to point to the word that shows a possible future, such as If the weather is dry."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Plans and facts: the student tells the tutor one general fact about their daily life, using a zero conditional, and two possible plans for the weekend, using first conditionals. The tutor asks one question: What will you do unless the weather changes?",
+        "phrases": [
+          "If ..., ... always ...",
+          "If ..., I will ...",
+          "As soon as ..., I will ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each conditional, and note tense errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "If it will rain, I will stay home.",
+          "If you heat ice, it will melt."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-33",
+    "phase": "Flow",
+    "number": 33,
+    "cefr": "B1",
+    "title": "Module 8: Second Conditional and Home and Environment Lexis",
+    "canDo": "Can talk about imaginary situations, housing, neighbourhoods, and basic recycling and climate issues.",
+    "goal": "Use second conditional for imaginary situations, with vocabulary for housing, neighbourhoods, recycling, and climate.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: If you could live anywhere in the world, where would it be, and why?",
+        "tutorAction": "Give a 15-second example: If I could live anywhere, I would choose a quiet town by the sea. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "If + past simple, would + base verb (imaginary present or future situation). Vocabulary: a flat / a terraced house, a quiet neighbourhood, to recycle, to reduce waste, climate change",
+        "examples": [
+          "If I lived closer to work, I would walk every day.",
+          "If we had more parks, the neighbourhood would be nicer.",
+          "If everyone recycled more, we would reduce waste."
+        ],
+        "method": "Show the second conditional with a real and an imaginary example. Ask guiding questions: Is this situation real now? Which verb form follows if? Then ask the student to say what they would change about their home or neighbourhood, using if and would.",
+        "checkQuestion": "In If I lived closer to work, I would walk, is the situation real or imaginary?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Hannah lives in a flat on a busy road. If she lived in a quieter area, she would sleep better. Her neighbourhood has few parks, so she would welcome more green space. If the council offered more recycling bins, she would use them every day.",
+        "factCheck": "Ask: Where does Hannah live? (a flat on a busy road). What would she do if she lived in a quieter area? (sleep better). What would she welcome? (more green space). What would she use every day? (more recycling bins).",
+        "toneCheck": "Ask: Is Hannah happy or unhappy with her home? Ask the student to point to the phrase that shows her view, such as she would welcome."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Dream home: the student describes their ideal home or neighbourhood to the tutor, using at least two second conditionals, and says one thing they would do to help the environment.",
+        "phrases": [
+          "If I lived ..., I would ...",
+          "If we had ..., we would ...",
+          "I would recycle more if ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student describe the imagined situation fully, and note conditional errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "If I live closer, I will walk every day.",
+          "If I had more time, I would to study more."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-34",
+    "phase": "Flow",
+    "number": 34,
+    "cefr": "B1",
+    "title": "Module 8: Problem-Solving Debate Workshop",
+    "canDo": "Can discuss community and environmental solutions, give opinions, and disagree politely.",
+    "goal": "Discuss a local problem, give an opinion, agree, and disagree politely using I see your point, but.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one problem in your town or city that needs fixing?",
+        "tutorAction": "Give a 15-second example: The main problem is traffic in the centre. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Give an opinion: I think ... / In my opinion, ... Agree: I agree with you. / That's a good point. Disagree politely: I see your point, but ... / I'm not sure I agree, because ...",
+        "examples": [
+          "I think the council should build more cycle lanes.",
+          "I see your point, but cycle lanes would also take space from cars.",
+          "I'm not sure I agree, because new bins alone would not reduce waste."
+        ],
+        "method": "Show the opinion, agreement, and disagreement phrases with examples. Ask guiding questions: Which phrase softens the disagreement? Which phrase gives a reason? Then ask the student to give an opinion on the warm-up problem and disagree politely with one tutor point.",
+        "checkQuestion": "Does I see your point, but show agreement or disagreement?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this discussion twice at a steady pace: Anna: I think the town needs more recycling bins. Ben: I see your point, but bins alone will not solve the problem. Anna: That's a good point. Maybe we should also run a campaign in schools.",
+        "factCheck": "Ask: What does Anna think the town needs? (more recycling bins). What does Ben say bins alone will not do? (solve the problem). What does Anna suggest in the end? (a campaign in schools).",
+        "toneCheck": "Ask: Are Anna and Ben friendly or hostile? Ask the student to point to the phrase that shows politeness in the disagreement, such as I see your point, but."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Local solution debate: the student proposes one solution to a local problem, the tutor disagrees politely, and the student responds with a polite disagreement or an agreement and a new idea.",
+        "phrases": [
+          "I think ...",
+          "I see your point, but ...",
+          "That's a good point. Maybe we could ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the proposal and the response, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "No, the bins are not good idea.",
+          "I agree you, the campaign is good."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-35",
+    "phase": "Flow",
+    "number": 35,
+    "cefr": "B1",
+    "title": "Module 9: Reported Speech: Statements, Questions, and Commands",
+    "canDo": "Can report what someone said, asked, or told them to do, with the correct tense back-shift.",
+    "goal": "Report statements, questions, and commands using past tense back-shift and the correct reporting verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What did your last manager or teacher tell you to do?",
+        "tutorAction": "Give a 15-second example: My manager told me to finish the report by Friday. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Statement: said (that) + back-shifted tense (is → was; will → would). Question: asked + if / whether, or question word + subject + verb. Command: told / asked + object + to + verb",
+        "examples": [
+          "She said, I am tired. → She said she was tired.",
+          "He asked, Where do you live? → He asked me where I lived.",
+          "The teacher told us to wait outside."
+        ],
+        "method": "Show direct speech on the left and reported speech on the right for each type. Ask guiding questions: What changed in the tense? Did the question word order change? Then ask the student to report one thing a friend said to them this week.",
+        "checkQuestion": "In He asked me where I lived, do we keep the question word order or change it?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Yesterday my manager said the meeting would start late. She asked us whether we had read the report. She told us to bring our laptops tomorrow.",
+        "factCheck": "Ask: When would the meeting start? (late). What did the manager ask? (whether they had read the report). What did she tell them to bring? (their laptops).",
+        "toneCheck": "Ask: Is the manager's tone friendly or firm? Ask the student to point to the phrase that shows the instruction, such as told us to bring."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Message relay: the tutor says a short statement, a question, and a command. The student reports each one to a colleague. Then the student reports one thing the tutor said earlier in the lesson.",
+        "phrases": [
+          "He said that ...",
+          "She asked me whether ...",
+          "They told us to ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each report, and note tense back-shift errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "She said that she is tired.",
+          "He asked me where do I live."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-36",
+    "phase": "Flow",
+    "number": 36,
+    "cefr": "B1",
+    "title": "Module 9: Passive Voice and Technology Lexis",
+    "canDo": "Can describe what is done to things in the present, past, and present perfect, and discuss devices, social media, and internet safety.",
+    "goal": "Use present, past, and present perfect passive for technology and internet topics.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Which device or app do you use most every day, and how is it kept secure?",
+        "tutorAction": "Give a 15-second example: My phone is updated every month. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Passive: object + is / was / has been + past participle. Present: The app is updated every week. Past: The app was updated yesterday. Present perfect: The file has been deleted.",
+        "examples": [
+          "The app is updated every week.",
+          "The password was changed yesterday.",
+          "The account has been hacked, so it has been locked."
+        ],
+        "method": "Show the three passive forms side by side with an active version. Ask guiding questions: Who does the action? Is the action or the doer more important? Then ask the student to change one active sentence about their phone or computer into the passive.",
+        "checkQuestion": "In The password was changed yesterday, is the focus on the action or on who changed it?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Our online account was hacked last month. The password has been changed, and the emails were checked by the security team. Two-step verification is now used for all logins.",
+        "factCheck": "Ask: What happened to the online account? (it was hacked). What has been changed? (the password). What is now used for all logins? (two-step verification).",
+        "toneCheck": "Ask: Is the writer worried or reassured at the end? Ask the student to point to the phrase that shows the reassurance, such as is now used for all logins."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Device story: the student describes how their phone or computer is looked after (updated, backed up, protected) using at least three passive sentences. The tutor asks: Who does that for you?",
+        "phrases": [
+          "It is updated ...",
+          "It was ... yesterday.",
+          "It has been ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the description, and note passive errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The app is update every week.",
+          "The file was delete yesterday."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-37",
+    "phase": "Flow",
+    "number": 37,
+    "cefr": "B1",
+    "title": "Module 9: News Summary and Tech Troubleshooting Workshop",
+    "canDo": "Can summarise a straightforward news article and give basic tech support by explaining steps clearly.",
+    "goal": "Summarise a news article in three sentences and guide someone through a simple tech problem.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What was the most interesting news story you heard this week?",
+        "tutorAction": "Give a 15-second example: A local school was closed because of a flood. Let the student summarise it in one sentence."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "News summary: According to the report, ... / The article says that ... / It was announced that ... (passive reporting). Tech steps: First, ... Then, ... Finally, ...",
+        "examples": [
+          "According to the report, the new bridge was opened on Monday.",
+          "The article says that the trains will be delayed next week.",
+          "First, restart the router. Then, check the cable. Finally, try again."
+        ],
+        "method": "Show a short article and the summary frame. Ask guiding questions: What is the main point? Which words introduce the source? Then ask the student to give the three steps to restart a phone, using first, then, and finally.",
+        "checkQuestion": "Which word would you use to introduce the last step of a set of instructions?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this short article twice at a steady pace: A new train line opened in the city on Monday. According to the transport company, it will reduce journey times by twenty minutes. Officials said that ticket prices would stay the same for the first year.",
+        "factCheck": "Ask: When did the train line open? (Monday). How much will journey times be reduced? (twenty minutes). What will happen to ticket prices? (they will stay the same for a year).",
+        "toneCheck": "Ask: Does the article sound positive or cautious about the new line? Ask the student to point to the phrase that shows the source of the claim, such as According to the transport company."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Summary and steps: the student summarises the article to the tutor in three sentences, then gives the tutor three steps to fix a laptop that will not connect to the internet.",
+        "phrases": [
+          "According to the article, ...",
+          "First, ... Then, ... Finally, ...",
+          "Make sure that ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the summary and the steps, and note reporting or sequencing errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The article it says the train is good.",
+          "First you turn off, after that you turn on again, and the last is checking."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-38",
+    "phase": "Flow",
+    "number": 38,
+    "cefr": "B1",
+    "title": "Module 10: Gerunds and Infinitives",
+    "canDo": "Can use verbs followed by -ing and verbs followed by to-infinitive correctly in opinions, plans, and offers.",
+    "goal": "Distinguish verbs followed by -ing (enjoy, avoid, mind, suggest) from verbs followed by to-infinitive (decide, hope, promise, refuse).",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What do you enjoy doing in your free time, and what do you hope to do next year?",
+        "tutorAction": "Give a 15-second example: I enjoy cooking, and I hope to learn Italian. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Verb + -ing: enjoy, avoid, mind, suggest, finish. Verb + to-infinitive: decide, hope, promise, refuse, plan.",
+        "examples": [
+          "I enjoy reading, and I avoid watching the news before bed.",
+          "I have decided to change jobs, and I hope to start soon.",
+          "She refused to sign the contract, but she promised to reply tomorrow."
+        ],
+        "method": "Show two lists of verbs, one with -ing and one with to-infinitive. Ask guiding questions: Does the verb take an action or a plan? Can you say enjoy to do? Then ask the student to finish three sentences: I enjoy ..., I decided ..., I suggest ....",
+        "checkQuestion": "Do we say I enjoy to read or I enjoy reading?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Sara enjoys walking to work, and she avoids taking the car in the rain. She has decided to save money, so she hopes to move closer to the office. Her friend suggested buying a bike, and Sara promised to think about it.",
+        "factCheck": "Ask: What does Sara enjoy? (walking to work). What does she avoid? (taking the car in the rain). What has she decided to do? (save money). What did she promise? (to think about buying a bike).",
+        "toneCheck": "Ask: Is Sara positive or unsure about the bike? Ask the student to point to the phrase that shows her uncertainty, such as promised to think about it."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Plans and habits: the student tells the tutor about two things they enjoy or avoid doing, and two things they have decided or hope to do. The tutor asks one question: What do you plan to do first?",
+        "phrases": [
+          "I enjoy ...",
+          "I decided to ...",
+          "I hope to ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each sentence, and note verb-pattern errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I enjoy to swim in the sea.",
+          "I decided going to change my job."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-39",
+    "phase": "Flow",
+    "number": 39,
+    "cefr": "B1",
+    "title": "Module 10: Linking Words and Essay Structure",
+    "canDo": "Can connect ideas with linking words to build a clear paragraph with an opinion, reasons, and a conclusion.",
+    "goal": "Use however, although, despite, therefore, moreover, and on the other hand to build a structured paragraph.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Should students learn a second language at school? Give one reason for your answer.",
+        "tutorAction": "Let the student give a one-sentence opinion, then ask for one more reason with because."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Opinion: In my view, ... / Reason: Moreover, ... / Contrast: However, ... / Although ..., ... / Despite ..., ... / Conclusion: Therefore, ...",
+        "examples": [
+          "In my view, learning a language is worth the effort. Moreover, it helps people understand other cultures.",
+          "On the other hand, it takes a lot of time. However, the benefits last for years.",
+          "Although the course is expensive, it is worth it. Therefore, I would recommend it."
+        ],
+        "method": "Show the paragraph with each linking word labelled by its job: opinion, reason, contrast, conclusion. Ask guiding questions: Does this word add an idea, show a contrast, or lead to a result? Then ask the student to write a three-sentence paragraph on the warm-up question using one linking word from each job.",
+        "checkQuestion": "Does therefore introduce a reason or a result?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this paragraph twice at a steady pace: Public transport should be free. Moreover, it would reduce traffic in the city. On the other hand, it would cost the council a lot. However, the long-term savings could be large. Therefore, the council should at least consider it.",
+        "factCheck": "Ask: What is the writer's opinion? (public transport should be free). What would free transport reduce? (traffic). What would it cost? (a lot for the council). What does the writer conclude? (the council should consider it).",
+        "toneCheck": "Ask: Is the writer certain about the idea? Ask the student to point to the linking word that shows the writer considers both sides, such as On the other hand."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Paragraph talk: the student gives a short opinion on the warm-up question to the tutor, with two reasons and one counter-argument, using at least three linking words. The tutor asks: What would you conclude?",
+        "phrases": [
+          "In my view, ...",
+          "However, ...",
+          "Therefore, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student give the full opinion, and note linking-word errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Although it is expensive, but it is worth it.",
+          "It is good, therefore, because it is good for the people."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-40",
+    "phase": "Flow",
+    "number": 40,
+    "cefr": "B1",
+    "title": "Module 10: B1 Bridge Readiness Check",
+    "canDo": "Can hold an unprepared conversation on a familiar topic, respond in a situational role-play, and write a short opinion or personal letter.",
+    "goal": "Complete a timed readiness check covering an unprepared conversation, a situational role-play, and a short written task.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask an unprepared question on a familiar topic: What is a place in your town that you would recommend to a visitor, and why?",
+        "tutorAction": "Let the student speak for one to two minutes without interruption. Note two strengths and two priorities for feedback."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Readiness rubric: range of structures (past, future, modals, conditionals); accuracy of verb forms; linking words (because, although, however); clear sequence in a short text",
+        "examples": [
+          "Range: If the bus is late, I will take a taxi.",
+          "Accuracy: I have lived here since 2019, and I have never regretted it.",
+          "Linking: Although it is busy, the market is worth visiting, because the food is fresh."
+        ],
+        "method": "Show the four rubric areas with one example each. Ask the student which area they feel strongest in, and which needs most work. Agree on one priority for the written task.",
+        "checkQuestion": "Which of the four rubric areas do you think needs the most practice before the next lesson?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Play a short role-play with the tutor as a hotel receptionist and the student as a guest with a problem with the room. Then the student writes a three-sentence message to the receptionist asking for a solution, using a linking word.",
+        "factCheck": "Ask: What is the guest's problem? (the room). What does the guest want the receptionist to do? (solve the problem or move the guest). Check the written message for the request and one linking word.",
+        "toneCheck": "Ask: Is the message polite and clear? Check the message for a polite request, such as I would be grateful if."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Role-play and short opinion: the student responds as the hotel guest to the tutor's receptionist, then gives a short opinion in writing on whether hotels should offer quiet rooms. The student writes 60 to 80 words in the time remaining.",
+        "phrases": [
+          "I would be grateful if ...",
+          "In my opinion, ...",
+          "Therefore, ..."
+        ],
+        "mandate": "Act as a neutral examiner. Do not interrupt the role-play. Note examples of each rubric area for the feedback, and share feedback only after the student has finished."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I want the room changed because I don't like it.",
+          "The hotel is good, I think, it is because of the people."
+        ]
+      }
+    }
+  }
+]

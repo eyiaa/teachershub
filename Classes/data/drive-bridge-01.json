@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DRIVE-11",
+    "phase": "Drive",
+    "number": 11,
+    "cefr": "B2",
+    "title": "Module 1: Register Shifting",
+    "canDo": "Can rewrite informal speech in a formal academic or business register, replacing weak verbs with precise alternatives.",
+    "goal": "Replace make, do, and get with precise verbs in formal sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this casual sentence on screen: We need to do something about the delays, so let's get it sorted fast. Ask: How would you say this to a board of directors?",
+        "tutorAction": "Give a short example: We need to address the delays. Let the student respond instantly, even with a partial answer."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Weak verb (make, do, get) + noun → precise verb + noun (make a decision → reach a decision; do research → conduct research; get better → improve)",
+        "examples": [
+          "We need to make a decision by Friday. → We need to reach a decision by Friday.",
+          "Let's do some research on pricing. → Let's conduct research into pricing.",
+          "The team got better results. → The team achieved better results."
+        ],
+        "method": "Show each casual sentence beside its formal version. Ask concept-checking questions: Does the new verb show a process or a result? Would the casual verb be natural in a board report? Then ask the student to rewrite one sentence about their own work.",
+        "checkQuestion": "In a formal report, which verb is more precise: do or conduct?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Our team did a lot of work on the proposal, and we got the client's feedback last week. We made some changes, and now we are getting ready to send it back.",
+        "factCheck": "Ask: What did the team get last week? (the client's feedback). What did they make? (some changes).",
+        "toneCheck": "Ask: Is this text formal or informal? Ask the student to point to two informal phrases, such as did a lot of work and getting ready."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Board update: the student gives a short status update on a project to the tutor, who acts as a senior manager. The student must replace at least three weak verbs with precise ones. The tutor asks: What is the next step?",
+        "phrases": [
+          "We have reached ...",
+          "The team is conducting ...",
+          "We have achieved ..."
+        ],
+        "mandate": "Act as a conversation partner and language coach. Share one more precise verb live in the chat each time the student uses a weak one, without stopping their flow."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We did a lot of research and got better results.",
+          "We made a decision about the budget."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-12",
+    "phase": "Drive",
+    "number": 12,
+    "cefr": "B2",
+    "title": "Module 1: Hedging and Distancing",
+    "canDo": "Can soften claims diplomatically using hedging language and qualify statements about familiar and abstract topics.",
+    "goal": "Qualify claims using it could be argued that, presumably, and to a certain extent.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this statement on screen: This policy will fail. Ask: How could you say this more diplomatically?",
+        "tutorAction": "Give a short example: It may struggle in its current form. Let the student respond and then challenge them to soften one more word."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Hedge + claim: It could be argued that X / Presumably, X / To a certain extent, X / X may well be Y",
+        "examples": [
+          "This is the best option. → It could be argued that this is the strongest option.",
+          "The results are wrong. → To a certain extent, the results may be inaccurate.",
+          "He is the owner, presumably. → Presumably, he is the owner, though I have not checked."
+        ],
+        "method": "Show each direct claim beside its hedged version. Ask guiding questions: Which version sounds less certain? Why would a speaker choose a hedge in a meeting? Then ask the student to hedge one of their own opinions.",
+        "checkQuestion": "Does presumably show strong certainty or a reasonable assumption?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The new scheme is presumably intended to reduce costs, though it could be argued that the savings will be modest. To a certain extent, the critics have a point.",
+        "factCheck": "Ask: What is the scheme intended to do? (reduce costs). What could be argued about the savings? (they will be modest).",
+        "toneCheck": "Ask: Does the writer strongly support or doubt the scheme? Ask the student to point to the phrase that softens the criticism, such as to a certain extent."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Diplomatic feedback: the student gives feedback on a colleague's plan, with the tutor playing the colleague. The student must use at least three hedges and must end with one clear recommendation.",
+        "phrases": [
+          "It could be argued that ...",
+          "To a certain extent, ...",
+          "Presumably, ..."
+        ],
+        "mandate": "Act as a conversation partner. Respond as a sensitive colleague who may push back, and share one more diplomatic phrase live in the chat while the student speaks."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "This is definitely the best option, I think maybe.",
+          "Presumably, it will fail for sure."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-13",
+    "phase": "Drive",
+    "number": 13,
+    "cefr": "B2",
+    "title": "Module 1: Editorial Critique Workshop",
+    "canDo": "Can analyse an opinion piece for bias and tone, and rewrite a blunt argument as a nuanced critique.",
+    "goal": "Identify bias and loaded language in an opinion piece and rewrite a blunt critique in a nuanced register.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this sentence on screen: The mayor's plan is a total disaster. Ask: Is this a fair critique? How would you describe the tone?",
+        "tutorAction": "Let the student judge the sentence first, then ask one question about the evidence behind it."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Critique frame: The writer appears to ... / The argument rests on ... / The tone is somewhat ... / The evidence is selective",
+        "examples": [
+          "The writer appears to assume that all delays are the council's fault.",
+          "The argument rests on a single anecdote rather than on data.",
+          "The tone is somewhat dismissive, which weakens an otherwise sound point."
+        ],
+        "method": "Show the critique frame with a sample paragraph. Ask guiding questions: What evidence is offered? Which words show the writer's attitude? Then ask the student to name one loaded word in the sample text.",
+        "checkQuestion": "Does the phrase the argument rests on describe the evidence, or the writer's attitude?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this opinion extract twice at native speed: The council's transport plan is a disaster that no sensible person could support. Its authors ignore the commuters who will suffer most, and their claim that the buses will run on time rests on a single optimistic report.",
+        "factCheck": "Ask: What does the writer say the authors ignore? (the commuters who will suffer most). What does their claim rest on? (a single optimistic report).",
+        "toneCheck": "Ask: Is the writer neutral or biased? Ask the student to point to two loaded phrases, such as a disaster and no sensible person."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Rewrite and defend: the tutor reads a blunt paragraph aloud. The student rewrites it as a balanced critique in about two minutes, then defends the choices to the tutor, who plays the editor and questions the evidence.",
+        "phrases": [
+          "The writer appears to ...",
+          "The argument rests on ...",
+          "Although the concern is valid, ..."
+        ],
+        "mandate": "Act as an editor and language coach. Challenge the student to justify each change, and share one more precise word or phrase live in the chat when they hesitate."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The plan is terrible and the writer is biased.",
+          "The writer lies about the buses."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-14",
+    "phase": "Drive",
+    "number": 14,
+    "cefr": "B2",
+    "title": "Module 2: Mixed Conditionals",
+    "canDo": "Can connect past actions to present consequences and present conditions to past results in a single hypothetical sentence.",
+    "goal": "Use mixed conditionals, including inverted Had I forms, to link past and present.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: If you had chosen a different career at twenty, where would you be today?",
+        "tutorAction": "Give a short example: If I had studied medicine, I would be a doctor now. Let the student speculate for about one minute."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "If + past perfect, would + base verb (past cause, present result); If + past simple, would have + past participle (present condition, past result). Inverted: Had I taken that role, I would be living abroad now.",
+        "examples": [
+          "If I had taken that job, I would be living abroad now.",
+          "If I were more confident, I would have applied last year.",
+          "Had she accepted the offer, she would be running the team today."
+        ],
+        "method": "Show the two mixed patterns on a timeline. Ask concept-checking questions: When did the cause happen? When is the result felt? Then show the inverted Had I version and ask the student to rewrite one sentence without if.",
+        "checkQuestion": "In Had I taken that role, I would be living abroad, which part is the past cause and which is the present result?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Had the company invested in training five years ago, it would not be struggling to find skilled staff today. If its managers were more proactive now, the problem would be smaller.",
+        "factCheck": "Ask: What should the company have invested in five years ago? (training). What is it struggling to find today? (skilled staff).",
+        "toneCheck": "Ask: Do the managers sound defensive or accountable? Ask the student to point to the phrase that shows regret, such as would not be struggling."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Alternative life: the student describes how their present life would differ if one past decision had gone another way, using at least two mixed conditionals. The tutor asks: How would that affect your work or family now?",
+        "phrases": [
+          "Had I ..., I would be ... now.",
+          "If I were ..., I would have ...",
+          "That would have changed ..."
+        ],
+        "mandate": "Act as a conversation partner. Challenge the student to explain the present effect, and share one more natural phrase live in the chat while they speak."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "If I had studied law, I am a lawyer now.",
+          "Had I took that role, I would live abroad."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-15",
+    "phase": "Drive",
+    "number": 15,
+    "cefr": "B2",
+    "title": "Module 2: Unreal Past and the Subjunctive",
+    "canDo": "Can express wishes, regrets, preferences, and formal demands about unreal or required situations.",
+    "goal": "Use wish, if only, it is high time, would rather, and the mandative subjunctive accurately.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a crowded office. Ask: What do you wish were different about your workplace?",
+        "tutorAction": "Give a short example: I wish we had more meeting rooms. Let the student answer and encourage a second wish."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "I wish / if only + past perfect (regret); it is high time + past simple (urgent change); would rather + past simple (preference); insist / recommend / suggest + that + subject + base verb (mandative)",
+        "examples": [
+          "I wish I had studied economics. If only we had started earlier.",
+          "It is high time we updated the system.",
+          "I insist that she be informed before the meeting."
+        ],
+        "method": "Show each pattern with its meaning (regret, urgency, preference, formal demand). Ask guiding questions: Is this about the past or the present? Does the mandative clause use a base verb even for he or she? Then ask the student to express one regret and one urgent need.",
+        "checkQuestion": "After insist that she, do we use is informed or be informed?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Ms Adams wishes she had challenged the decision earlier. It is high time the board acted, she says, and she would rather not wait another year. She recommends that the report be published before the summer.",
+        "factCheck": "Ask: What does Ms Adams wish she had done? (challenged the decision earlier). What does she recommend? (that the report be published before the summer).",
+        "toneCheck": "Ask: Is Ms Adams patient or impatient? Ask the student to point to the phrase that shows urgency, such as it is high time."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Workplace frustrations: the student describes three frustrations at work or school, using a wish or if only, and then makes two formal recommendations to the tutor, who acts as a manager, using the mandative subjunctive.",
+        "phrases": [
+          "I wish ...",
+          "It is high time ...",
+          "I would rather ... / I suggest that ... be ..."
+        ],
+        "mandate": "Act as a conversation partner and manager. Respond to each recommendation and share one stronger phrase live in the chat when the student uses a plain modal."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I wish I have more time last week.",
+          "I insist that she is informed."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-16",
+    "phase": "Drive",
+    "number": 16,
+    "cefr": "B2",
+    "title": "Module 2: Crisis and Ethics Debate Workshop",
+    "canDo": "Can debate historical what-ifs and corporate ethical dilemmas, using complex hypotheticals to build a case.",
+    "goal": "Argue a what-if scenario and a corporate ethics dilemma using suppose, were it to, and had the board known.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What would have happened if the internet had been invented fifty years earlier?",
+        "tutorAction": "Let the student speculate for about one minute, then ask one follow-up: What would have been the biggest loss?"
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Suppose + past or present scenario, ... / Were it to happen, ... / Had the board known, it would have ...",
+        "examples": [
+          "Suppose the treaty had failed. The region would have faced a very different future.",
+          "Were it to happen again, the company would need a clear response plan.",
+          "Had the board known about the risk, it would have delayed the launch."
+        ],
+        "method": "Show the three hypothetical frames with one scenario each. Ask guiding questions: Is the scenario real or imagined? What is the consequence? Let the student build one hypothetical about the warm-up question using suppose.",
+        "checkQuestion": "In Were it to happen, is the speaker describing something likely or unlikely?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Historians often ask what would have happened had the crisis been averted. Suppose the bank had been allowed to fail in 1929. Many economists argue that the recovery would have come sooner, though others doubt it.",
+        "factCheck": "Ask: What do historians ask? (what would have happened had the crisis been averted). What do many economists argue? (the recovery would have come sooner).",
+        "toneCheck": "Ask: Does the writer accept the economists' view or stay neutral? Ask the student to point to the phrase that shows the doubt, such as though others doubt it."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Ethics debate: the student takes a position on a corporate dilemma (a company knowingly sells a product with a small safety risk). The tutor argues the opposite side. Each turn, the student must use one hypothetical frame.",
+        "phrases": [
+          "Suppose ..., then ...",
+          "Had the company ..., it would have ...",
+          "Were it to ..., we would ..."
+        ],
+        "mandate": "Act as a conversation partner and debate opponent. Challenge the student to defend the position, and share one stronger hypothetical phrase live in the chat while they speak."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Suppose the bank fails, the people would lose money.",
+          "If the board knew, they will stop the launch."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-17",
+    "phase": "Drive",
+    "number": 17,
+    "cefr": "B2",
+    "title": "Module 3: Cleft Sentences for Focus",
+    "canDo": "Can highlight key information in speech using it-clefts and wh-clefts to control what the listener notices first.",
+    "goal": "Use it-clefts and wh-clefts to put the key point at the front of a sentence.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a team celebrating a finished project. Ask: What is the most important thing about this result?",
+        "tutorAction": "Give a short example: What matters most is the team's trust. Let the student answer and try to put their key point first."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "It-cleft: It is / was + focus + that / who + clause. Wh-cleft: What + clause + is / was + focus.",
+        "examples": [
+          "It was the budget that caused the delay.",
+          "What strikes me most is how quickly the team adapted.",
+          "It was only after the audit that the problem became clear."
+        ],
+        "method": "Show a plain sentence and its cleft version side by side. Ask guiding questions: Which part is the focus? Which part follows known information? Then ask the student to turn one of their warm-up sentences into a cleft.",
+        "checkQuestion": "In It was the budget that caused the delay, what is the focus of the sentence?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: What concerns me most is the lack of planning. It was the rushed launch that caused the faults, and it was only after the complaints that anyone checked the software.",
+        "factCheck": "Ask: What concerns the speaker most? (the lack of planning). What caused the faults? (the rushed launch). When did anyone check the software? (after the complaints).",
+        "toneCheck": "Ask: Is the speaker angry, disappointed, or matter-of-fact? Ask the student to point to the cleft that signals the main concern, such as What concerns me most."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Priority statement: the student explains which issue matters most in a recent project, using at least two clefts. The tutor responds with one question that tests the focus: Why is that more important than the timeline?",
+        "phrases": [
+          "What matters most is ...",
+          "It was ... that ...",
+          "What I find striking is ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student finish each cleft before responding, and share one more emphatic phrase live in the chat when the structure is missing."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "It was the budget that is the problem.",
+          "What matters is the team is trusting each other."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-18",
+    "phase": "Drive",
+    "number": 18,
+    "cefr": "B2",
+    "title": "Module 3: Negative Inversion",
+    "canDo": "Can use formal negative adverbials with inversion to add emphasis in speech and formal writing.",
+    "goal": "Use not only, seldom, under no circumstances, and hardly ... when with correct inversion.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a long queue at a bank. Ask: Have you ever waited this long for a service? How did it feel?",
+        "tutorAction": "Give a short example: Rarely have I waited so long. Let the student answer and try one emphatic phrase."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Negative adverbial at the front + auxiliary + subject + main verb (Not only did ..., Seldom have I ..., Under no circumstances should ..., Hardly had ... when ...)",
+        "examples": [
+          "Not only did the team meet the deadline, but it also reduced costs.",
+          "Seldom have I seen such a clear presentation.",
+          "Under no circumstances should confidential data leave the building."
+        ],
+        "method": "Show a normal sentence and its inverted version. Ask concept-checking questions: Where does the auxiliary move? Is the sentence emphatic or neutral? Then ask the student to invert one simple negative sentence about their own experience.",
+        "checkQuestion": "After Seldom, do we put the auxiliary before or after the subject?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Not only did the proposal survive the review, but it was also praised by the board. Seldom has a project attracted such support. Hardly had the announcement been made when the complaints began.",
+        "factCheck": "Ask: What did the proposal survive? (the review). What did the board do? (praised it). When did the complaints begin? (right after the announcement).",
+        "toneCheck": "Ask: Is the writer surprised, pleased, or sceptical? Ask the student to point to the phrase that shows the strongest emphasis, such as Seldom has a project."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Achievement pitch: the student describes a success they are proud of, using at least two inverted negative phrases. The tutor responds as a sceptic and asks one challenging question.",
+        "phrases": [
+          "Not only did ...",
+          "Seldom have I ...",
+          "Hardly had ... when ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student finish the emphatic sentence, and share one more natural inverted phrase live in the chat while they speak."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Not only the team met the deadline.",
+          "Seldom I have seen such a clear presentation."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-19",
+    "phase": "Drive",
+    "number": 19,
+    "cefr": "B2",
+    "title": "Module 3: Persuasive Pitch Workshop",
+    "canDo": "Can deliver a structured persuasive monologue, using clefts and inversion to highlight the key points.",
+    "goal": "Deliver a short persuasive pitch that uses at least one cleft and one inverted structure.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this topic: Should the company move its office to a smaller building? Ask: Give your position in thirty seconds.",
+        "tutorAction": "Ask for an immediate position, then challenge it with one counter-argument."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Hook + thesis (with a cleft) + two points (one with inversion) + concession + closing call to action",
+        "examples": [
+          "Imagine paying rent for space nobody uses. (hook)",
+          "What we need is a smaller, more flexible office. (cleft thesis)",
+          "Not only would we save money, but we would also reduce waste. (inversion point)"
+        ],
+        "method": "Show the five-part frame with the example lines. Ask guiding questions: Which part highlights the key idea? Where is the concession? Then ask the student to map their warm-up position onto the frame.",
+        "checkQuestion": "Which part of the pitch should highlight the main idea with a cleft?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short pitch extract twice at native speed: Imagine a company that pays for empty desks. It is the wasted space that drains our budget, and not only is that expensive, it also slows decisions. What we need is a leaner plan.",
+        "factCheck": "Ask: What does the company pay for? (empty desks). What drains the budget? (the wasted space). What does the speaker say we need? (a leaner plan).",
+        "toneCheck": "Ask: Is the speaker confident or hesitant? Ask the student to point to the phrase that shows the strongest argument, such as not only is that expensive."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Five-minute pitch: the student delivers a short persuasive pitch to the tutor, who acts as a sceptical executive and asks one challenging question at the end. The pitch must use the five-part frame, a cleft, and an inverted structure.",
+        "phrases": [
+          "Imagine ...",
+          "What we need is ...",
+          "Not only ..., but also ..."
+        ],
+        "mandate": "Act as a sceptical audience member and coach. Challenge the student to defend the pitch, and share one stronger phrase live in the chat while they speak."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Imagine a office with empty desks, it is bad.",
+          "What we need is that we have a smaller office."
+        ]
+      }
+    }
+  }
+]

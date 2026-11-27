@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Flow classes &middot; Teachers Hub</title>
+<style>
+body{font-family:Calibri,Arial,Helvetica,sans-serif;color:#222222;font-size:11pt;line-height:1.5;max-width:900px;margin:28px auto;padding:0 24px;background:#FFFFFF}
+a{color:#1F4E79}
+a:hover{color:#D9731E}
+.kicker{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;margin:0 0 6px}
+h1{color:#1F4E79;font-size:22pt;margin:0 0 12px;padding-bottom:10px;border-bottom:3px solid #D9731E}
+h2{color:#1F4E79;font-size:13pt;margin:26px 0 10px;padding-bottom:4px;border-bottom:1px solid #C9D8E8}
+h3{color:#D9731E;font-size:10pt;text-transform:uppercase;letter-spacing:1px;margin:16px 0 6px}
+.lead{margin:4px 0 12px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid #C9D8E8;margin:18px 0 6px}
+.tab{background:none;border:none;border-bottom:3px solid transparent;padding:10px 16px;font-size:11pt;font-family:inherit;color:#5F6B7A;cursor:pointer;margin-bottom:-1px}
+.tab:hover{color:#1F4E79}
+.tab[aria-selected=true]{color:#1F4E79;font-weight:bold;border-bottom-color:#D9731E}
+.tab:focus{outline:2px solid #C9D8E8;outline-offset:2px}
+.cards{display:flex;flex-wrap:wrap;gap:14px;margin:6px 0 4px}
+.card{flex:1 1 230px;background:#EAF1F8;border-top:4px solid #D9731E;padding:14px 16px;text-decoration:none;color:#222222;display:block}
+.card:hover{background:#FDF1E7}
+.card .name{color:#1F4E79;font-size:15pt;font-weight:bold}
+.card .cefr{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin:2px 0 6px}
+.card .count{color:#5F6B7A;font-size:9.5pt;margin-top:8px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 6px}
+#q{flex:2 1 320px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;outline:none;font-family:inherit}
+#topic{flex:1 1 220px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit}
+#q:focus,#topic:focus{border-color:#1F4E79;box-shadow:0 0 0 2px #EAF1F8}
+#count{color:#5F6B7A;font-size:9.5pt;margin:8px 0 10px}
+table.idx{border-collapse:collapse;width:100%;font-size:10.5pt}
+table.idx th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:8px 10px;cursor:pointer;user-select:none;white-space:nowrap}
+table.idx th:focus{outline:2px solid #D9731E;outline-offset:-2px}
+table.idx th[aria-sort=ascending]::after{content:" \25B2";color:#D9731E}
+table.idx th[aria-sort=descending]::after{content:" \25BC";color:#D9731E}
+table.idx td{padding:8px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+table.idx tr:hover td{background:#EAF1F8}
+a.cid{color:#1F4E79;font-weight:bold;text-decoration:none}
+a.ctitle{color:#222222;text-decoration:none}
+.topics{color:#5F6B7A;font-size:9.5pt}
+.empty{color:#5F6B7A;padding:14px 0;display:none}
+[hidden]{display:none !important}
+.nav{margin:0 0 14px;user-select:none;-webkit-user-select:none}
+.btn{display:inline-block;background:#1F4E79;color:#FFFFFF;text-decoration:none;padding:6px 12px;border-radius:3px;font-size:9.5pt;margin-right:8px;margin-bottom:6px}
+.btn:hover{background:#D9731E;color:#FFFFFF}
+.grid{width:100%;border-collapse:collapse;font-size:10pt;margin:6px 0 10px}
+.grid th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:7px 10px;font-weight:bold;vertical-align:top}
+.grid td{padding:7px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+.grid tr:nth-child(even) td{background:#EAF1F8}
+.note{background:#EAF1F8;border-left:4px solid #1F4E79;padding:10px 14px;margin:10px 0}
+.warn{background:#FDF1E7;border-left:4px solid #D9731E;padding:10px 14px;margin:10px 0}
+details{border:1px solid #C9D8E8;border-radius:4px;margin:10px 0;padding:0}
+summary{cursor:pointer;color:#1F4E79;font-weight:bold;padding:12px 14px;font-size:12pt}
+details[open] summary{border-bottom:1px solid #C9D8E8}
+details > div{padding:6px 14px 14px}
+details details{margin:8px 0}
+details details summary{font-size:11pt;padding:10px 12px}
+.sel{padding:8px 10px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit;min-width:220px}
+.pb-btn{background:#1F4E79;color:#FFFFFF;border:none;padding:6px 10px;border-radius:3px;font-family:inherit;font-size:10pt;cursor:pointer;margin:2px 4px 2px 0}
+.pb-btn:hover{background:#D9731E}
+.pb-week td{background:#EAF1F8;color:#1F4E79;font-weight:bold}
+.pb-check{margin-right:14px;display:inline-block}
+.fb-card{border:1px solid #C9D8E8;border-left:5px solid #D9731E;border-radius:4px;padding:12px 14px;margin:10px 0}
+.fb-meta{color:#5F6B7A;font-size:9.5pt;font-weight:normal}
+@media print{body *{visibility:hidden}#pb-plan,#pb-plan *{visibility:visible}#pb-plan{position:absolute;left:0;top:0;width:100%}.no-print{display:none !important}}
+#score-go{background:#1F4E79;color:#FFFFFF;border:none;padding:10px 18px;font-size:11pt;font-family:inherit;border-radius:3px;cursor:pointer}
+#score-go:hover{background:#D9731E}
+.footer{color:#5F6B7A;font-size:8.5pt;margin-top:28px;border-top:1px solid #C9D8E8;padding-top:8px}
+</style></head>
+<body>
+<nav class="nav"><a class="btn" href="../index.html">&larr; Teachers Hub</a></nav>
+<p class="kicker">Flow &middot; B1</p>
+<h1>Flow classes</h1>
+<p class="lead">Connected speech and steady conversation. 40 core classes. Search by topic or filter by grammar topic. Open a class to copy it into Google Docs.</p>
+<details open>
+<summary>Core classes: 40</summary>
+<div>
+<div class="controls">
+<input id="q" type="search" placeholder="Search topics, titles, or IDs, e.g. conditional, passive, FLOW-12" autocomplete="off" aria-label="Search classes">
+<select id="topic" aria-label="Filter by grammar topic"><option value="">All grammar topics</option><option value="Comparatives">Comparatives</option><option value="Conditionals">Conditionals</option><option value="Future">Future</option><option value="Linking words">Linking words</option><option value="Modals">Modals</option><option value="Passive">Passive</option><option value="Past continuous">Past continuous</option><option value="Past perfect">Past perfect</option><option value="Past simple">Past simple</option><option value="Phrasal verbs">Phrasal verbs</option><option value="Prepositions">Prepositions</option><option value="Present continuous">Present continuous</option><option value="Present perfect">Present perfect</option><option value="Present simple">Present simple</option><option value="Quantifiers">Quantifiers</option><option value="Questions">Questions</option><option value="Relative clauses">Relative clauses</option><option value="Reported speech">Reported speech</option><option value="Used to">Used to</option><option value="Verb patterns">Verb patterns</option><option value="Vocabulary">Vocabulary</option><option value="Word formation">Word formation</option></select>
+</div>
+<p id="count">Showing 40 of 40 classes</p>
+<table id="idx" class="idx">
+<thead><tr><th>Class</th><th>CEFR</th><th>Title</th><th>Grammar topics</th></tr></thead>
+<tbody>
+<tr data-search="flow-01 life experiences: present perfect for experience flow b1 talk about life experiences using have or has with the past participle, and discover when to use it. can describe past experiences and personal history, and explain them with simple reasons. present perfect" data-topics="Present perfect">
+<td data-sort="1-001"><a href="FLOW-01.html" class="cid">FLOW-01</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="life experiences: present perfect for experience"><a href="FLOW-01.html" class="ctitle">Life Experiences: Present Perfect for Experience</a></td>
+<td data-sort="present perfect" class="topics">Present perfect</td>
+</tr>
+<tr data-search="flow-02 present perfect or past simple: choosing the right tense flow b1 choose between present perfect and past simple by discovering the time-reference rule. can distinguish between finished past events and past experiences that connect to the present. present perfect past simple" data-topics="Present perfect|Past simple">
+<td data-sort="1-002"><a href="FLOW-02.html" class="cid">FLOW-02</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="present perfect or past simple: choosing the right tense"><a href="FLOW-02.html" class="ctitle">Present Perfect or Past Simple: Choosing the Right Tense</a></td>
+<td data-sort="present perfect, past simple" class="topics">Present perfect · Past simple</td>
+</tr>
+<tr data-search="flow-03 if it rains: first conditional flow b1 describe a likely future situation and its result using if with the present simple and will. can talk about likely future situations and their consequences in familiar contexts. conditionals" data-topics="Conditionals">
+<td data-sort="1-003"><a href="FLOW-03.html" class="cid">FLOW-03</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="if it rains: first conditional"><a href="FLOW-03.html" class="ctitle">If It Rains: First Conditional</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="flow-04 advice and rules: should, must, and have to flow b1 give advice and talk about obligations using should, must, and have to. can give advice, express obligations, and explain rules in familiar situations using modal verbs. modals" data-topics="Modals">
+<td data-sort="1-004"><a href="FLOW-04.html" class="cid">FLOW-04</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="advice and rules: should, must, and have to"><a href="FLOW-04.html" class="ctitle">Advice and Rules: Should, Must, and Have To</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="flow-05 past habits: used to flow b1 talk about past habits and changes using used to and did not use to. can describe past habits and states that are no longer true, using everyday examples. used to" data-topics="Used to">
+<td data-sort="1-005"><a href="FLOW-05.html" class="cid">FLOW-05</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="past habits: used to"><a href="FLOW-05.html" class="ctitle">Past Habits: Used To</a></td>
+<td data-sort="used to" class="topics">Used to</td>
+</tr>
+<tr data-search="flow-06 predictions and plans: will or going to flow b1 use will for predictions and going to for plans, and explain the difference in context. can make predictions and talk about plans and intentions in familiar contexts, explaining the reasons. future" data-topics="Future">
+<td data-sort="1-006"><a href="FLOW-06.html" class="cid">FLOW-06</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="predictions and plans: will or going to"><a href="FLOW-06.html" class="ctitle">Predictions and Plans: Will or Going To</a></td>
+<td data-sort="future" class="topics">Future</td>
+</tr>
+<tr data-search="flow-07 passive voice: how things are made flow b1 describe how something is made or was built using the passive voice in simple tenses. can describe processes, products, and events where the action is more important than who does it. passive" data-topics="Passive">
+<td data-sort="1-007"><a href="FLOW-07.html" class="cid">FLOW-07</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="passive voice: how things are made"><a href="FLOW-07.html" class="ctitle">Passive Voice: How Things Are Made</a></td>
+<td data-sort="passive" class="topics">Passive</td>
+</tr>
+<tr data-search="flow-08 describing people and things: relative clauses flow b1 describe people and objects using who, which, and that in relative clauses. can describe people, places, and things in more detail by joining ideas into one sentence. relative clauses" data-topics="Relative clauses">
+<td data-sort="1-008"><a href="FLOW-08.html" class="cid">FLOW-08</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="describing people and things: relative clauses"><a href="FLOW-08.html" class="ctitle">Describing People and Things: Relative Clauses</a></td>
+<td data-sort="relative clauses" class="topics">Relative clauses</td>
+</tr>
+<tr data-search="flow-09 reporting what people said: reported speech flow b1 report statements and questions from the past using said that and asked with a tense change. can report what someone said or wrote in a simple, accurate way. reported speech" data-topics="Reported speech">
+<td data-sort="1-009"><a href="FLOW-09.html" class="cid">FLOW-09</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="reporting what people said: reported speech"><a href="FLOW-09.html" class="ctitle">Reporting What People Said: Reported Speech</a></td>
+<td data-sort="reported speech" class="topics">Reported speech</td>
+</tr>
+<tr data-search="flow-10 contrast and concession: however, although, and despite flow b1 link contrasting ideas with although, however, and despite, and explain the contrast clearly. can connect ideas that contrast or contradict each other using linking words, in familiar topics. linking words" data-topics="Linking words">
+<td data-sort="1-010"><a href="FLOW-10.html" class="cid">FLOW-10</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="contrast and concession: however, although, and despite"><a href="FLOW-10.html" class="ctitle">Contrast and Concession: However, Although, and Despite</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="flow-11 module 1: routines, temporary situations, and stative verbs flow b1 use present simple for routines and present continuous for temporary situations, and avoid continuous forms with stative verbs. can describe permanent routines and temporary situations, and talk about beliefs and feelings using stative verbs. present simple present continuous" data-topics="Present simple|Present continuous">
+<td data-sort="1-011"><a href="FLOW-11.html" class="cid">FLOW-11</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 1: routines, temporary situations, and stative verbs"><a href="FLOW-11.html" class="ctitle">Module 1: Routines, Temporary Situations, and Stative Verbs</a></td>
+<td data-sort="present simple, present continuous" class="topics">Present simple · Present continuous</td>
+</tr>
+<tr data-search="flow-12 module 1: personality, emotions, and dependent prepositions flow b1 use personality adjectives and emotions with afraid of, keen on, interested in, and get on with. can describe character traits and feelings, and use common adjective and verb plus preposition combinations. prepositions vocabulary" data-topics="Prepositions|Vocabulary">
+<td data-sort="1-012"><a href="FLOW-12.html" class="cid">FLOW-12</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 1: personality, emotions, and dependent prepositions"><a href="FLOW-12.html" class="ctitle">Module 1: Personality, Emotions, and Dependent Prepositions</a></td>
+<td data-sort="prepositions, vocabulary" class="topics">Prepositions · Vocabulary</td>
+</tr>
+<tr data-search="flow-13 module 1: meeting new people workshop flow b1 introduce yourself to a new contact, describe your family, and write a short personal profile email. can introduce themselves, talk about family, and write a short personal profile in an email. present perfect present simple" data-topics="Present perfect|Present simple">
+<td data-sort="1-013"><a href="FLOW-13.html" class="cid">FLOW-13</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 1: meeting new people workshop"><a href="FLOW-13.html" class="ctitle">Module 1: Meeting New People Workshop</a></td>
+<td data-sort="present perfect, present simple" class="topics">Present perfect · Present simple</td>
+</tr>
+<tr data-search="flow-14 module 2: past simple and past continuous flow b1 use past continuous for background and past simple for main events, with sequencing words such as meanwhile and eventually. can set the scene for a past event and describe the main actions that interrupted or happened during it. past simple past continuous" data-topics="Past simple|Past continuous">
+<td data-sort="1-014"><a href="FLOW-14.html" class="cid">FLOW-14</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 2: past simple and past continuous"><a href="FLOW-14.html" class="ctitle">Module 2: Past Simple and Past Continuous</a></td>
+<td data-sort="past simple, past continuous" class="topics">Past simple · Past continuous</td>
+</tr>
+<tr data-search="flow-15 module 2: childhood habits and confusable words flow b1 talk about childhood habits with used to, and choose between miss and lose, remember and remind, and fun and funny. can describe past habits and childhood routines, and use commonly confused words correctly. used to vocabulary" data-topics="Used to|Vocabulary">
+<td data-sort="1-015"><a href="FLOW-15.html" class="cid">FLOW-15</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 2: childhood habits and confusable words"><a href="FLOW-15.html" class="ctitle">Module 2: Childhood Habits and Confusable Words</a></td>
+<td data-sort="used to, vocabulary" class="topics">Used to · Vocabulary</td>
+</tr>
+<tr data-search="flow-16 module 2: personal anecdote workshop flow b1 tell a short personal story in order, then write a brief version of it. can tell a structured personal story with a clear beginning, middle, and end, and write a short narrative of it. past simple linking words" data-topics="Past simple|Linking words">
+<td data-sort="1-016"><a href="FLOW-16.html" class="cid">FLOW-16</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 2: personal anecdote workshop"><a href="FLOW-16.html" class="ctitle">Module 2: Personal Anecdote Workshop</a></td>
+<td data-sort="past simple, linking words" class="topics">Past simple · Linking words</td>
+</tr>
+<tr data-search="flow-17 module 3: present perfect and past simple flow b1 use present perfect for experiences and unfinished time, and past simple for finished times, with for, since, ever, never, just, already, and yet. can talk about life experiences and unfinished time, and choose between present perfect and past simple. present perfect past simple" data-topics="Present perfect|Past simple">
+<td data-sort="1-017"><a href="FLOW-17.html" class="cid">FLOW-17</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 3: present perfect and past simple"><a href="FLOW-17.html" class="ctitle">Module 3: Present Perfect and Past Simple</a></td>
+<td data-sort="present perfect, past simple" class="topics">Present perfect · Past simple</td>
+</tr>
+<tr data-search="flow-18 module 3: past perfect sequencing flow b1 use past perfect to show which of two past events happened first, with past simple for the second event. can describe two past events in order, showing which one happened first. past perfect" data-topics="Past perfect">
+<td data-sort="1-018"><a href="FLOW-18.html" class="cid">FLOW-18</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 3: past perfect sequencing"><a href="FLOW-18.html" class="ctitle">Module 3: Past Perfect Sequencing</a></td>
+<td data-sort="past perfect" class="topics">Past perfect</td>
+</tr>
+<tr data-search="flow-19 module 3: life milestones and travel mishaps interview flow b1 interview a partner about life milestones and a travel mishap, using present perfect and past simple together. can ask and answer questions about major life milestones and travel problems, giving the sequence of events. present perfect past simple questions" data-topics="Present perfect|Past simple|Questions">
+<td data-sort="1-019"><a href="FLOW-19.html" class="cid">FLOW-19</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 3: life milestones and travel mishaps interview"><a href="FLOW-19.html" class="ctitle">Module 3: Life Milestones and Travel Mishaps Interview</a></td>
+<td data-sort="present perfect, past simple, questions" class="topics">Present perfect · Past simple · Questions</td>
+</tr>
+<tr data-search="flow-20 module 4: future forms: will, going to, and present continuous flow b1 choose between will, going to, and present continuous for decisions, plans, predictions, and arrangements. can describe spontaneous decisions, plans, predictions with evidence, and fixed arrangements using the right future form. future present continuous" data-topics="Future|Present continuous">
+<td data-sort="1-020"><a href="FLOW-20.html" class="cid">FLOW-20</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 4: future forms: will, going to, and present continuous"><a href="FLOW-20.html" class="ctitle">Module 4: Future Forms: Will, Going To, and Present Continuous</a></td>
+<td data-sort="future, present continuous" class="topics">Future · Present continuous</td>
+</tr>
+<tr data-search="flow-21 module 4: work, education, and career lexis flow b1 use career and education vocabulary, including apply for, turn down, and give up, in simple, accurate sentences. can talk about study, job applications, and workplace routines using common career vocabulary and phrasal verbs. phrasal verbs vocabulary" data-topics="Phrasal verbs|Vocabulary">
+<td data-sort="1-021"><a href="FLOW-21.html" class="cid">FLOW-21</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 4: work, education, and career lexis"><a href="FLOW-21.html" class="ctitle">Module 4: Work, Education, and Career Lexis</a></td>
+<td data-sort="phrasal verbs, vocabulary" class="topics">Phrasal verbs · Vocabulary</td>
+</tr>
+<tr data-search="flow-22 module 4: job interview simulation workshop flow b1 answer interview questions about qualifications, past experience, and future ambitions in a mock interview. can answer and ask questions in a structured job interview about qualifications, experience, and future goals. present perfect future" data-topics="Present perfect|Future">
+<td data-sort="1-022"><a href="FLOW-22.html" class="cid">FLOW-22</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 4: job interview simulation workshop"><a href="FLOW-22.html" class="ctitle">Module 4: Job Interview Simulation Workshop</a></td>
+<td data-sort="present perfect, future" class="topics">Present perfect · Future</td>
+</tr>
+<tr data-search="flow-23 module 5: rules and advice with must, have to, and should flow b1 use must, have to, mustn't, don't have to, should, and ought to to express obligations, prohibitions, and advice. can explain rules and obligations, and give recommendations, using modal verbs with the correct meaning. modals" data-topics="Modals">
+<td data-sort="1-023"><a href="FLOW-23.html" class="cid">FLOW-23</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 5: rules and advice with must, have to, and should"><a href="FLOW-23.html" class="ctitle">Module 5: Rules and Advice with Must, Have To, and Should</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="flow-24 module 5: health, lifestyle, and symptoms flow b1 describe common symptoms and healthy habits using health vocabulary and simple sentences. can describe symptoms, talk about fitness, diet, and stress, and understand basic advice about health. vocabulary modals" data-topics="Vocabulary|Modals">
+<td data-sort="1-024"><a href="FLOW-24.html" class="cid">FLOW-24</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 5: health, lifestyle, and symptoms"><a href="FLOW-24.html" class="ctitle">Module 5: Health, Lifestyle, and Symptoms</a></td>
+<td data-sort="vocabulary, modals" class="topics">Vocabulary · Modals</td>
+</tr>
+<tr data-search="flow-25 module 5: doctor visit and advice column workshop flow b1 role-play a doctor's visit and write a short advice response to a reader's health question. can describe symptoms to a doctor, understand advice, and write a short advice column response. modals questions" data-topics="Modals|Questions">
+<td data-sort="1-025"><a href="FLOW-25.html" class="cid">FLOW-25</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 5: doctor visit and advice column workshop"><a href="FLOW-25.html" class="ctitle">Module 5: Doctor Visit and Advice Column Workshop</a></td>
+<td data-sort="modals, questions" class="topics">Modals · Questions</td>
+</tr>
+<tr data-search="flow-26 module 6: deduction and ability flow b1 use must be, might or could be, can't be for present deduction, and can, could, be able to, and be allowed to for ability and permission. can make logical guesses about the present, and talk about what someone is able or allowed to do. modals" data-topics="Modals">
+<td data-sort="1-026"><a href="FLOW-26.html" class="cid">FLOW-26</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 6: deduction and ability"><a href="FLOW-26.html" class="ctitle">Module 6: Deduction and Ability</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="flow-27 module 6: travel, accommodation, and defining relative clauses flow b1 use who, which, that, where, and whose to define people, places, and things in travel contexts. can describe places, bookings, and transit problems, identifying people and things with defining relative clauses. relative clauses" data-topics="Relative clauses">
+<td data-sort="1-027"><a href="FLOW-27.html" class="cid">FLOW-27</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 6: travel, accommodation, and defining relative clauses"><a href="FLOW-27.html" class="ctitle">Module 6: Travel, Accommodation, and Defining Relative Clauses</a></td>
+<td data-sort="relative clauses" class="topics">Relative clauses</td>
+</tr>
+<tr data-search="flow-28 module 6: travel troubleshooting workshop flow b1 role-play a lost luggage report, a hotel complaint, and a request for detailed directions. can handle lost luggage, hotel complaints, and requests for directions in a new city. vocabulary" data-topics="Vocabulary">
+<td data-sort="1-028"><a href="FLOW-28.html" class="cid">FLOW-28</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 6: travel troubleshooting workshop"><a href="FLOW-28.html" class="ctitle">Module 6: Travel Troubleshooting Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="flow-29 module 7: comparatives, superlatives, and quantifiers flow b1 compare options using as ... as, much better, a bit cheaper, and use too, enough, so, such, plenty of, and several. can compare options and describe quantities in shopping and service contexts. comparatives quantifiers" data-topics="Comparatives|Quantifiers">
+<td data-sort="1-029"><a href="FLOW-29.html" class="cid">FLOW-29</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 7: comparatives, superlatives, and quantifiers"><a href="FLOW-29.html" class="ctitle">Module 7: Comparatives, Superlatives, and Quantifiers</a></td>
+<td data-sort="comparatives, quantifiers" class="topics">Comparatives · Quantifiers</td>
+</tr>
+<tr data-search="flow-30 module 7: consumer lexis and word formation flow b1 use consumer vocabulary and build words with un-, in-, dis-, re-, -able, -ment, and -ness. can discuss banking, returns, and faulty goods, and form new words using common prefixes and suffixes. word formation vocabulary" data-topics="Word formation|Vocabulary">
+<td data-sort="1-030"><a href="FLOW-30.html" class="cid">FLOW-30</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 7: consumer lexis and word formation"><a href="FLOW-30.html" class="ctitle">Module 7: Consumer Lexis and Word Formation</a></td>
+<td data-sort="word formation, vocabulary" class="topics">Word formation · Vocabulary</td>
+</tr>
+<tr data-search="flow-31 module 7: customer complaints and reviews workshop flow b1 role-play returning a faulty item and write a short formal complaint email or review. can explain a faulty item to a shop assistant and write a short, polite complaint email or product review. vocabulary" data-topics="Vocabulary">
+<td data-sort="1-031"><a href="FLOW-31.html" class="cid">FLOW-31</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 7: customer complaints and reviews workshop"><a href="FLOW-31.html" class="ctitle">Module 7: Customer Complaints and Reviews Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="flow-32 module 8: zero and first conditionals flow b1 use zero conditional for general truths and first conditional for real future possibilities. can describe general truths and real future possibilities using if, unless, as soon as, and when. conditionals" data-topics="Conditionals">
+<td data-sort="1-032"><a href="FLOW-32.html" class="cid">FLOW-32</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 8: zero and first conditionals"><a href="FLOW-32.html" class="ctitle">Module 8: Zero and First Conditionals</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="flow-33 module 8: second conditional and home and environment lexis flow b1 use second conditional for imaginary situations, with vocabulary for housing, neighbourhoods, recycling, and climate. can talk about imaginary situations, housing, neighbourhoods, and basic recycling and climate issues. conditionals vocabulary" data-topics="Conditionals|Vocabulary">
+<td data-sort="1-033"><a href="FLOW-33.html" class="cid">FLOW-33</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 8: second conditional and home and environment lexis"><a href="FLOW-33.html" class="ctitle">Module 8: Second Conditional and Home and Environment Lexis</a></td>
+<td data-sort="conditionals, vocabulary" class="topics">Conditionals · Vocabulary</td>
+</tr>
+<tr data-search="flow-34 module 8: problem-solving debate workshop flow b1 discuss a local problem, give an opinion, agree, and disagree politely using i see your point, but. can discuss community and environmental solutions, give opinions, and disagree politely. vocabulary" data-topics="Vocabulary">
+<td data-sort="1-034"><a href="FLOW-34.html" class="cid">FLOW-34</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 8: problem-solving debate workshop"><a href="FLOW-34.html" class="ctitle">Module 8: Problem-Solving Debate Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="flow-35 module 9: reported speech: statements, questions, and commands flow b1 report statements, questions, and commands using past tense back-shift and the correct reporting verbs. can report what someone said, asked, or told them to do, with the correct tense back-shift. reported speech" data-topics="Reported speech">
+<td data-sort="1-035"><a href="FLOW-35.html" class="cid">FLOW-35</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 9: reported speech: statements, questions, and commands"><a href="FLOW-35.html" class="ctitle">Module 9: Reported Speech: Statements, Questions, and Commands</a></td>
+<td data-sort="reported speech" class="topics">Reported speech</td>
+</tr>
+<tr data-search="flow-36 module 9: passive voice and technology lexis flow b1 use present, past, and present perfect passive for technology and internet topics. can describe what is done to things in the present, past, and present perfect, and discuss devices, social media, and internet safety. passive vocabulary" data-topics="Passive|Vocabulary">
+<td data-sort="1-036"><a href="FLOW-36.html" class="cid">FLOW-36</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 9: passive voice and technology lexis"><a href="FLOW-36.html" class="ctitle">Module 9: Passive Voice and Technology Lexis</a></td>
+<td data-sort="passive, vocabulary" class="topics">Passive · Vocabulary</td>
+</tr>
+<tr data-search="flow-37 module 9: news summary and tech troubleshooting workshop flow b1 summarise a news article in three sentences and guide someone through a simple tech problem. can summarise a straightforward news article and give basic tech support by explaining steps clearly. reported speech passive" data-topics="Reported speech|Passive">
+<td data-sort="1-037"><a href="FLOW-37.html" class="cid">FLOW-37</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 9: news summary and tech troubleshooting workshop"><a href="FLOW-37.html" class="ctitle">Module 9: News Summary and Tech Troubleshooting Workshop</a></td>
+<td data-sort="reported speech, passive" class="topics">Reported speech · Passive</td>
+</tr>
+<tr data-search="flow-38 module 10: gerunds and infinitives flow b1 distinguish verbs followed by -ing (enjoy, avoid, mind, suggest) from verbs followed by to-infinitive (decide, hope, promise, refuse). can use verbs followed by -ing and verbs followed by to-infinitive correctly in opinions, plans, and offers. verb patterns" data-topics="Verb patterns">
+<td data-sort="1-038"><a href="FLOW-38.html" class="cid">FLOW-38</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 10: gerunds and infinitives"><a href="FLOW-38.html" class="ctitle">Module 10: Gerunds and Infinitives</a></td>
+<td data-sort="verb patterns" class="topics">Verb patterns</td>
+</tr>
+<tr data-search="flow-39 module 10: linking words and essay structure flow b1 use however, although, despite, therefore, moreover, and on the other hand to build a structured paragraph. can connect ideas with linking words to build a clear paragraph with an opinion, reasons, and a conclusion. linking words" data-topics="Linking words">
+<td data-sort="1-039"><a href="FLOW-39.html" class="cid">FLOW-39</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 10: linking words and essay structure"><a href="FLOW-39.html" class="ctitle">Module 10: Linking Words and Essay Structure</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="flow-40 module 10: b1 bridge readiness check flow b1 complete a timed readiness check covering an unprepared conversation, a situational role-play, and a short written task. can hold an unprepared conversation on a familiar topic, respond in a situational role-play, and write a short opinion or personal letter. conditionals present perfect linking words" data-topics="Conditionals|Present perfect|Linking words">
+<td data-sort="1-040"><a href="FLOW-40.html" class="cid">FLOW-40</a></td>
+<td data-sort="B1">B1</td>
+<td data-sort="module 10: b1 bridge readiness check"><a href="FLOW-40.html" class="ctitle">Module 10: B1 Bridge Readiness Check</a></td>
+<td data-sort="conditionals, present perfect, linking words" class="topics">Conditionals · Present perfect · Linking words</td>
+</tr>
+</tbody>
+</table>
+<p id="empty" class="empty">No classes match your search. Try a shorter word or a different topic.</p>
+</div>
+</details>
+<details>
+<summary>Focus pathways: 14 classes</summary>
+<div>
+<p style="margin:6px 0;">Short courses for needs we see often. Each pathway uses the Flow lesson skeleton, so it fits the same 30-minute format as the core course.</p>
+<details>
+<summary>Job Interviews: 5 classes</summary>
+<div>
+<p style="margin:6px 0;">Introduce yourself, tell past achievements clearly, talk about strengths, ask good questions, and finish with a full mock interview.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="INTERVIEW-01.html" class="cid">INTERVIEW-01</a></td><td>Job Interviews 1: Introducing Yourself Professionally</td><td>Present perfect, Vocabulary</td></tr>
+<tr><td>2</td><td><a href="INTERVIEW-02.html" class="cid">INTERVIEW-02</a></td><td>Job Interviews 2: Telling Your Story with STAR</td><td>Past simple, Present perfect</td></tr>
+<tr><td>3</td><td><a href="INTERVIEW-03.html" class="cid">INTERVIEW-03</a></td><td>Job Interviews 3: Strengths, Weaknesses, and Motivation</td><td>Verb patterns, Vocabulary</td></tr>
+<tr><td>4</td><td><a href="INTERVIEW-04.html" class="cid">INTERVIEW-04</a></td><td>Job Interviews 4: Asking Good Questions</td><td>Questions</td></tr>
+<tr><td>5</td><td><a href="INTERVIEW-05.html" class="cid">INTERVIEW-05</a></td><td>Job Interviews 5: Mock Interview and Feedback</td><td>Conditionals, Present perfect</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Fluency: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Keep speaking smoothly: fillers and hesitation, linking ideas, rhythm and stress, and a timed speaking challenge.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="FLUENCY-01.html" class="cid">FLUENCY-01</a></td><td>Fluency 1: Fillers and Hesitation</td><td>Vocabulary</td></tr>
+<tr><td>2</td><td><a href="FLUENCY-02.html" class="cid">FLUENCY-02</a></td><td>Fluency 2: Linking Ideas Smoothly</td><td>Linking words</td></tr>
+<tr><td>3</td><td><a href="FLUENCY-03.html" class="cid">FLUENCY-03</a></td><td>Fluency 3: Rhythm, Stress, and Connected Speech</td><td>Pronunciation</td></tr>
+<tr><td>4</td><td><a href="FLUENCY-04.html" class="cid">FLUENCY-04</a></td><td>Fluency 4: Timed Speaking Challenge</td><td>Linking words, Vocabulary</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Presentation Skills: 5 classes</summary>
+<div>
+<p style="margin:6px 0;">Structure a talk, describe slides and visuals, handle questions, pace and pause well, and deliver a full presentation.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="PRESENTATION-01.html" class="cid">PRESENTATION-01</a></td><td>Presentation Skills 1: Structuring a Presentation</td><td>Linking words</td></tr>
+<tr><td>2</td><td><a href="PRESENTATION-02.html" class="cid">PRESENTATION-02</a></td><td>Presentation Skills 2: Language for Slides and Visuals</td><td>Present simple, Comparatives</td></tr>
+<tr><td>3</td><td><a href="PRESENTATION-03.html" class="cid">PRESENTATION-03</a></td><td>Presentation Skills 3: Handling Questions</td><td>Modals, Vocabulary</td></tr>
+<tr><td>4</td><td><a href="PRESENTATION-04.html" class="cid">PRESENTATION-04</a></td><td>Presentation Skills 4: Pacing, Pauses, and Emphasis</td><td>Pronunciation</td></tr>
+<tr><td>5</td><td><a href="PRESENTATION-05.html" class="cid">PRESENTATION-05</a></td><td>Presentation Skills 5: Full Presentation and Peer Feedback</td><td>Linking words, Vocabulary</td></tr>
+</table>
+</div>
+</details>
+</div>
+</details>
+<p class="footer">Global Key &middot; 3-Pillar Curriculum Framework</p>
+<script>
+(function () {
+  var table = document.getElementById("idx");
+  var tbody = table.tBodies[0];
+  var rows = Array.prototype.slice.call(tbody.rows);
+  var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
+  var input = document.getElementById("q");
+  var topic = document.getElementById("topic");
+  var count = document.getElementById("count");
+  var empty = document.getElementById("empty");
+  var box = document.getElementById("results");
+  var collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+  var sortCol = 0, dir = 1;
+
+  function filter() {
+    var words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var t = topic.value;
+    var shown = 0;
+    rows.forEach(function (row) {
+      var okWords = words.every(function (w) { return row.getAttribute("data-search").indexOf(w) !== -1; });
+      var okTopic = !t || (row.getAttribute("data-topics") || "").split("|").indexOf(t) !== -1;
+      row.hidden = !(okWords && okTopic);
+      if (!row.hidden) shown++;
+    });
+    count.textContent = "Showing " + shown + " of " + rows.length + " classes";
+    empty.style.display = shown === 0 ? "block" : "none";
+    if (box) box.hidden = !(words.length > 0 || t !== "");
+  }
+
+  function sortBy(col) {
+    if (sortCol === col) { dir = -dir; } else { sortCol = col; dir = 1; }
+    rows.slice().sort(function (a, b) {
+      var diff = collator.compare(a.cells[col].getAttribute("data-sort"), b.cells[col].getAttribute("data-sort"));
+      if (diff === 0) diff = collator.compare(a.cells[0].getAttribute("data-sort"), b.cells[0].getAttribute("data-sort"));
+      return dir * diff;
+    }).forEach(function (row) { tbody.appendChild(row); });
+    headers.forEach(function (th, i) {
+      th.setAttribute("aria-sort", i === sortCol ? (dir === 1 ? "ascending" : "descending") : "none");
+    });
+  }
+
+  headers.forEach(function (th, i) {
+    th.tabIndex = 0;
+    th.setAttribute("aria-sort", i === 0 ? "ascending" : "none");
+    th.addEventListener("click", function () { sortBy(i); });
+    th.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sortBy(i); }
+    });
+  });
+  input.addEventListener("input", filter);
+  topic.addEventListener("change", filter);
+  filter();
+})();
+</script>
+</body></html>

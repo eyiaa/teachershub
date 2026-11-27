@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DRIVE-29",
+    "phase": "Drive",
+    "number": 29,
+    "cefr": "B2",
+    "title": "Module 7: Advanced Discourse Markers",
+    "canDo": "Can connect contrasting and consequential ideas using advanced discourse markers to build a clear, cohesive argument.",
+    "goal": "Use albeit, whereby, nonetheless, notwithstanding, and consequently to link ideas precisely.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: Is it better to work in one job for many years, or to change jobs often? Give your view in thirty seconds.",
+        "tutorAction": "Let the student answer, then ask one question that forces a contrast: What is the drawback of your view?"
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Albeit + clause (concession, a small qualification); whereby + clause (a process or mechanism); nonetheless / notwithstanding + idea (despite that); consequently + result",
+        "examples": [
+          "The plan succeeded, albeit on a smaller scale than expected.",
+          "The fund supports projects whereby local groups share the costs.",
+          "The evidence was limited; nonetheless, the committee approved the change."
+        ],
+        "method": "Show each marker beside a plain version using but or so. Ask guiding questions: Is the second idea a concession, a mechanism, or a result? Then ask the student to rewrite one sentence from their warm-up with a new marker.",
+        "checkQuestion": "Does notwithstanding introduce a result or a concession?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The reform passed, albeit narrowly. Nonetheless, critics argue that its rules are unclear, whereby small firms may struggle. Consequently, the government has promised a review next year.",
+        "factCheck": "Ask: How did the reform pass? (narrowly). What do critics say about the rules? (they are unclear). What has the government promised? (a review next year).",
+        "toneCheck": "Ask: Is the writer optimistic or sceptical about the reform? Ask the student to point to the marker that signals the concession, such as albeit or nonetheless."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Balanced argument: the student argues one side of the warm-up question using albeit, nonetheless, and consequently at least once each. The tutor counters with the opposite view and asks: Which marker shows your strongest point?",
+        "phrases": [
+          "Albeit ...",
+          "Nonetheless, ...",
+          "Consequently, ..."
+        ],
+        "mandate": "Act as a debate partner and language coach. Let the student finish each argument, and share one more precise discourse marker live in the chat when they repeat but or so."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The plan succeeded but on a smaller scale.",
+          "The evidence was limited, so the committee approved it, but it was still the right choice."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-30",
+    "phase": "Drive",
+    "number": 30,
+    "cefr": "B2",
+    "title": "Module 7: Strong Collocations and Word Formation",
+    "canDo": "Can use high-level collocations and affixes to express precise degrees of feeling, circumstance, and meaning.",
+    "goal": "Use strong adjective and adverb collocations such as bitterly disappointed and mitigating circumstances, and form words with affixes.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a football fan looking at a lost match. Ask: How would you describe how the fan feels?",
+        "tutorAction": "Give a short example: The fan is bitterly disappointed. Let the student describe the feeling in one or two words."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Adverb + adjective collocation (bitterly disappointed, deeply concerned, strongly opposed); adjective + noun collocation (mitigating circumstances, sweeping changes); affixes (un- / in-, -ism, -ise, -ness)",
+        "examples": [
+          "She was bitterly disappointed by the decision.",
+          "The court considered the mitigating circumstances.",
+          "The reform will bring sweeping changes to the system."
+        ],
+        "method": "Show each collocation with a weaker alternative (very sad, bad reasons). Ask guiding questions: Which word is stronger? Does the adverb fit the adjective? Then ask the student to replace one weak adjective in their warm-up with a stronger collocation.",
+        "checkQuestion": "Is it more natural to say strongly opposed or strongly opposite in this context?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Residents were deeply concerned about the plan. Many were strongly opposed to the sweeping changes, and their objections were not easily dismissed. The council cited mitigating circumstances for the delay.",
+        "factCheck": "Ask: How were residents feeling? (deeply concerned). What were they opposed to? (the sweeping changes). What did the council cite? (mitigating circumstances for the delay).",
+        "toneCheck": "Ask: Does the writer sympathise with the residents or with the council? Ask the student to point to the phrase that shows the attitude, such as not easily dismissed."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Describe a dispute: the student describes a disagreement at work or in a community, using at least three strong collocations. The tutor asks one follow-up question: What mitigating circumstances might explain it?",
+        "phrases": [
+          "I was deeply ...",
+          "There are mitigating circumstances, including ...",
+          "The change will bring ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student describe the situation fully, and share one stronger collocation live in the chat each time they use very or really."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "She was very disappointed by the decision.",
+          "The council had good excuses for the delay."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-31",
+    "phase": "Drive",
+    "number": 31,
+    "cefr": "B2",
+    "title": "Module 7: Long Turn Workshop on a Controversial Policy",
+    "canDo": "Can outline and argue both sides of a controversial policy topic in a sustained, structured long turn.",
+    "goal": "Deliver a structured two-minute long turn on a policy issue, covering both sides before giving a view.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: Should AI tools be regulated by law, or left to companies to manage?",
+        "tutorAction": "Let the student give a first reaction in thirty seconds, then ask which side they find harder to argue."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Outline: position A (the case for, with evidence) / position B (the case against, with evidence) / your view (with a concession and a reason)",
+        "examples": [
+          "On one hand, regulation protects users from harm, since clear rules reduce abuse.",
+          "On the other hand, heavy rules may slow innovation and favour large firms.",
+          "Weighing both, I would support targeted rules, albeit with regular review."
+        ],
+        "method": "Show the three-part outline on screen. Ask guiding questions: Which evidence supports each side? Where is the concession? Then ask the student to outline both sides of the warm-up question in three sentences.",
+        "checkQuestion": "In a balanced outline, where should the writer's own view appear, and why?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short policy extract twice at native speed: Supporters of content regulation argue that platforms have a duty to remove harmful material. Critics counter that vague rules invite censorship and chill legitimate debate, and they warn that enforcement would fall unevenly.",
+        "factCheck": "Ask: What do supporters argue platforms must do? (remove harmful material). What do critics say vague rules invite? (censorship). What do critics warn about enforcement? (it would fall unevenly).",
+        "toneCheck": "Ask: Is the writer taking a side or presenting both views? Ask the student to point to the phrase that shows balance, such as Critics counter."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Two-minute long turn: the student speaks for two minutes on the warm-up topic, giving both sides and then their view. The tutor asks one question at the end: What would change your mind?",
+        "phrases": [
+          "On the one hand, ...",
+          "On the other hand, ...",
+          "Weighing both sides, I ..."
+        ],
+        "mandate": "Act as a listener who does not interrupt. Let the student speak for the full two minutes, and make brief notes on phrasing for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Regulation is good and bad, both are true.",
+          "I think, the best way is to regulate it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-32",
+    "phase": "Drive",
+    "number": 32,
+    "cefr": "B2",
+    "title": "Module 8: Lexis of Policy and Law",
+    "canDo": "Can discuss systemic issues, legislation, and civil rights using precise policy vocabulary.",
+    "goal": "Use policy and legal vocabulary such as legislation, civil rights, and systemic inequality accurately in discussion.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is one law in your country that you think works well, and one that does not?",
+        "tutorAction": "Let the student answer, then ask them to name the law more precisely."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Legislation (laws passed by parliament) / to enact or repeal a law / civil rights (basic freedoms) / systemic inequality (unfairness built into institutions)",
+        "examples": [
+          "The government plans to enact new legislation on data privacy.",
+          "Campaigners argue that the law threatens civil rights.",
+          "Systemic inequality often shows up in housing and education."
+        ],
+        "method": "Show each term with a short definition and a collocation. Ask concept-checking questions: Who passes legislation? What does systemic mean compared with individual? Then ask the student to use two of the terms to describe a policy they know.",
+        "checkQuestion": "Does systemic inequality describe one person's unfair treatment, or unfairness built into institutions?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The bill would repeal an older law and enact stricter rules on public data. Campaigners say that the change could weaken civil rights, while the government insists it will reduce systemic inequality in access to services.",
+        "factCheck": "Ask: What would the bill do? (repeal an older law and enact stricter rules). What do campaigners say? (civil rights could weaken). What does the government say the bill will reduce? (systemic inequality in access to services).",
+        "toneCheck": "Ask: Does the writer trust the government's claim? Ask the student to point to the phrase that shows the writer's distance, such as the government insists."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Policy briefing: the student briefs the tutor on a policy issue, using at least four of the target terms. The tutor, as a legislator, asks: What would you change first?",
+        "phrases": [
+          "The legislation aims to ...",
+          "This raises concerns about civil rights ...",
+          "The main issue is systemic ..."
+        ],
+        "mandate": "Act as a legislator and coach. Challenge the student to use the terms precisely, and share one more accurate policy term live in the chat each time they use a vague word such as thing or problem."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The government will make new rules about the data.",
+          "The problem is that it is unfair for everyone."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-33",
+    "phase": "Drive",
+    "number": 33,
+    "cefr": "B2",
+    "title": "Module 8: Implicit Meaning and Irony",
+    "canDo": "Can detect sarcasm, understatement, and unstated attitudes in spoken and written text on social and political topics.",
+    "goal": "Identify sarcasm, understatement, and implied attitude in short listening and reading texts.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show this line: Oh, the new policy is wonderful, I'm sure it will work perfectly. Ask: Does the speaker mean this? How do you know?",
+        "tutorAction": "Let the student explain the tone first, then ask which words signal the irony."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Sarcasm (positive words, negative meaning); understatement (less than the truth, for effect); implied attitude (shown through word choice, not stated outright)",
+        "examples": [
+          "Oh, brilliant, another delay. (sarcasm: the delay is frustrating)",
+          "The reforms were not exactly a triumph. (understatement: they failed badly)",
+          "The minister thanked the committee for its patience. (implied: the committee had waited too long)"
+        ],
+        "method": "Show each example with its literal and intended meaning. Ask guiding questions: What would a neutral speaker say? What is the speaker's real attitude? Then ask the student to decode one new example and say what the speaker really means.",
+        "checkQuestion": "In The reforms were not exactly a triumph, is the speaker praising or criticising the reforms?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Play a short radio clip with an ironic host, or read this text twice at native speed: Thanks so much for your patience, everyone. The new system is only three months behind schedule, which is frankly impressive given everything we promised.",
+        "factCheck": "Ask: How far behind schedule is the system? (three months). What did the speaker promise? (the text says everything we promised, so the claims were large).",
+        "toneCheck": "Ask: Is the speaker grateful, sarcastic, or neutral? Ask the student to point to the phrase that shows the real attitude, such as only three months behind and frankly impressive."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Reading between the lines: the tutor reads three short remarks aloud (a politician's speech, a manager's email, a friend's comment). The student explains the implied meaning of each and says whether the speaker is sincere.",
+        "phrases": [
+          "The speaker seems to imply that ...",
+          "This is clearly ironic, because ...",
+          "The understatement suggests ..."
+        ],
+        "mandate": "Act as a discussion partner. Read each remark with the intended tone, and share one more precise description of the attitude live in the chat when the student only says sarcastic."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The minister is happy, he really likes the plan.",
+          "She says the meeting was great, so it was great."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-34",
+    "phase": "Drive",
+    "number": 34,
+    "cefr": "B2",
+    "title": "Module 8: Policy Debate Workshop",
+    "canDo": "Can take part in a structured debate on systemic inequality or on free speech versus regulation, responding to opposing arguments.",
+    "goal": "Argue a position in a structured policy debate, responding to a direct rebuttal.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this motion: This house believes that online speech should be regulated more strictly than offline speech. Ask: For or against?",
+        "tutorAction": "Ask the student to choose a side immediately, then take the other side for the next exchange."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Motion response: I would argue that ... / The opposition's strongest point is ... / My rebuttal is that ... / Therefore, ...",
+        "examples": [
+          "I would argue that online harm spreads faster, so the rules must be stricter.",
+          "The opposition's strongest point is that vague rules invite censorship.",
+          "My rebuttal is that clear rules protect speech, rather than limit it."
+        ],
+        "method": "Show the four-part response frame with an example debate exchange. Ask guiding questions: Which part states the position? Which part answers an argument? Then ask the student to write a rebuttal to the tutor's first point in one sentence.",
+        "checkQuestion": "In a rebuttal, does the speaker repeat the other side's argument, or answer it directly?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this debate extract twice at native speed: Opponents say that stricter rules on online speech would chill debate. Yet offline speech is already regulated by law, and the harm online can be faster and harder to reverse.",
+        "factCheck": "Ask: What do opponents say stricter rules would do? (chill debate). Why is online harm harder to reverse? (it spreads faster and is harder to undo).",
+        "toneCheck": "Ask: Does the speaker agree fully with the opponents? Ask the student to point to the word that marks the rebuttal, such as Yet."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Structured debate: the student debates the tutor on the motion for six exchanges. Each turn, the student must state a point and then rebut the tutor's last argument. The tutor finishes by summarising both sides.",
+        "phrases": [
+          "I would argue that ...",
+          "The opposition's strongest point is ...",
+          "My rebuttal is that ..."
+        ],
+        "mandate": "Act as a debate opponent and judge. Challenge the student to rebut rather than repeat, and share one stronger rebuttal phrase live in the chat when they only restate their point."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Free speech is important and so is safety, it is difficult.",
+          "The other side is wrong because they are wrong."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-35",
+    "phase": "Drive",
+    "number": 35,
+    "cefr": "B2",
+    "title": "Module 9: Lexis of Innovation and Risk",
+    "canDo": "Can discuss bioengineering, AI ethics, climate mitigation, and scientific method using precise technical vocabulary without excessive jargon.",
+    "goal": "Use innovation and risk vocabulary such as mitigation, methodology, and ethical safeguards in plain, precise language.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a picture of a wind farm and a gene sequencing lab. Ask: Which of these technologies do you think carries the greater risk, and why?",
+        "tutorAction": "Let the student choose and explain. Ask them to define one term they use in plain words."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Mitigation (reducing a harm) / methodology (the method used in research) / ethical safeguard (a protection against misuse) / to pose a risk (to create a danger)",
+        "examples": [
+          "Climate mitigation depends on reducing emissions in every sector.",
+          "The study's methodology was clear, but its sample was small.",
+          "The lab introduced ethical safeguards before testing the gene therapy."
+        ],
+        "method": "Show each term with a plain-English explanation. Ask concept-checking questions: Is mitigation about stopping a harm or preventing it from growing? Does methodology refer to the results or the process? Then ask the student to explain one technology from the warm-up in plain words.",
+        "checkQuestion": "Does methodology refer to the results of a study or to the way the study was done?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The new AI system poses a risk to privacy, but its developers argue that strong safeguards will mitigate the harm. Independent researchers, however, question the methodology used to test those safeguards.",
+        "factCheck": "Ask: What risk does the AI system pose? (to privacy). What do developers say will reduce harm? (strong safeguards). What do researchers question? (the methodology used to test the safeguards).",
+        "toneCheck": "Ask: Is the writer confident in the developers' claim? Ask the student to point to the phrase that shows doubt, such as however and question."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Technology explainer: the student explains a new technology to the tutor, who plays a non-specialist, using three target terms and no unnecessary jargon. The tutor asks: What is the main risk, and how would you reduce it?",
+        "phrases": [
+          "The main risk is ...",
+          "This could mitigate ...",
+          "The methodology ..."
+        ],
+        "mandate": "Act as a non-specialist listener and coach. Ask the student to explain simply each time they use a technical word, and share one plainer phrase live in the chat when they overload the explanation with jargon."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The AI is dangerous for privacy, and the way they test it is not good.",
+          "This technology is risky because it has a big risk."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-36",
+    "phase": "Drive",
+    "number": 36,
+    "cefr": "B2",
+    "title": "Module 9: Cause, Effect, and Correlation",
+    "canDo": "Can express causes, effects, and correlations precisely, distinguishing between direct cause and association.",
+    "goal": "Use trigger, stem from, exacerbate, and correlate with to express causality and association precisely.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: Does more screen time cause lower sleep quality, or are the two simply linked?",
+        "tutorAction": "Let the student answer, then ask whether the evidence proves cause or only shows a link."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "X triggers Y (direct cause, often sudden) / Y stems from X (origin) / X exacerbates Y (makes worse) / X correlates with Y (association, not proof of cause)",
+        "examples": [
+          "The sudden price rise triggered a wave of protests.",
+          "Many health problems stem from poor sleep and stress.",
+          "Long working hours correlate with lower job satisfaction, but they do not prove cause."
+        ],
+        "method": "Show each verb with a short diagram of cause and effect. Ask guiding questions: Is the link proven or only observed? Is the effect sudden or gradual? Then ask the student to describe one cause and effect from their experience using one of the verbs.",
+        "checkQuestion": "Does correlate with prove that one thing causes the other?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The study found that air pollution correlates with higher hospital admissions. Researchers believe the pollution may exacerbate existing conditions, although they stress that the findings do not prove cause.",
+        "factCheck": "Ask: What does air pollution correlate with? (higher hospital admissions). What may pollution exacerbate? (existing conditions). What do the researchers stress? (the findings do not prove cause).",
+        "toneCheck": "Ask: Is the writer certain that pollution causes the admissions? Ask the student to point to the phrase that limits the claim, such as do not prove cause."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Cause analysis: the student analyses a local problem (traffic, rising prices, a school issue) for the tutor, identifying one trigger, one underlying origin, and one correlation. The tutor asks: How do you know that is cause and not just association?",
+        "phrases": [
+          "The trigger was ...",
+          "This stems from ...",
+          "This correlates with ..., but ..."
+        ],
+        "mandate": "Act as a sceptical analyst. Challenge the student to separate cause from correlation, and share one more precise causal verb live in the chat when they overuse cause."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Pollution causes the hospital, the study proves it.",
+          "The price rise made the protests happen because of the price."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-37",
+    "phase": "Drive",
+    "number": 37,
+    "cefr": "B2",
+    "title": "Module 9: Expert Panel Workshop",
+    "canDo": "Can take part in a panel discussion with specialists, presenting a discipline-specific view and responding to other experts.",
+    "goal": "Role-play a panel of a scientist, an ethicist, and an economist discussing an emerging technology.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: Should a city invest in self-driving buses now, or wait for more evidence?",
+        "tutorAction": "Let the student give a quick opening view, then ask them which expert they would ask first."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Speaking as an expert: From a scientific view, ... / Ethically, the question is ... / Economically, the real cost is ... / I would add that ...",
+        "examples": [
+          "From a scientific view, the safety data is still limited.",
+          "Ethically, the question is who is responsible when a bus makes a mistake.",
+          "Economically, the real cost is the loss of driver jobs in the short term."
+        ],
+        "method": "Show the three expert frames on screen. Ask guiding questions: What does each expert focus on? Which point could the others challenge? Then ask the student to choose one expert role and state its opening view in two sentences.",
+        "checkQuestion": "If you speak as the economist, which point would you focus on first?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this panel transcript twice at native speed: Scientist: The trial data is promising but limited. Ethicist: Limited data is one thing; unclear accountability is another. Economist: Whatever we decide, the cost of waiting will fall on the drivers.",
+        "factCheck": "Ask: What does the scientist say about the data? (promising but limited). What does the ethicist worry about? (unclear accountability). What does the economist say falls on drivers? (the cost of waiting).",
+        "toneCheck": "Ask: Are the experts in agreement or disagreement? Ask the student to point to the phrase that shows each expert's concern, such as Limited data is one thing."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Panel discussion: the student speaks as one expert and responds to the tutor, who speaks as the other two. The student must respond to at least one point made by another panellist.",
+        "phrases": [
+          "From my perspective, ...",
+          "I would challenge the point that ...",
+          "Building on that, ..."
+        ],
+        "mandate": "Act as the other two panellists and a moderator. Challenge the student to respond directly to a point, and share one more precise response phrase live in the chat when they ignore an argument."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I think the data is limited, and the cost is high, and the people will be unhappy.",
+          "I agree with the scientist, he is right."
+        ]
+      }
+    }
+  }
+]

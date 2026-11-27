@@ -1,0 +1,126 @@
+{
+    "lessonMinutes":  30,
+    "toleranceCoveragePoints":  3,
+    "stageOrder":  [
+                       "warmup",
+                       "theory",
+                       "comprehension",
+                       "conversation",
+                       "wrapup"
+                   ],
+    "stageLabels":  {
+                        "warmup":  "1. Warm-Up \u0026 Lead-In",
+                        "theory":  "2. Theory (Grammar \u0026 Mechanics)",
+                        "comprehension":  "3. Comprehension (Listening \u0026 Reading)",
+                        "conversation":  "4. Conversation (Speaking \u0026 Expressing)",
+                        "wrapup":  "5. Delayed Feedback \u0026 Wrap-Up"
+                    },
+    "phases":  {
+                   "Spark":  {
+                                 "cefrAllowed":  [
+                                                     "Pre-A1", "A1",
+                                                     "A2"
+                                                 ],
+                                 "balance":  "Skeleton timing: Warm-up 10% | Theory 25-30% | Comprehension 25-30% | Conversation 25-30% | Wrap-up 5-10%",
+                                 "skeletonRanges":  {
+                                                        "warmup":  [
+                                                                       10,
+                                                                       10
+                                                                   ],
+                                                        "theory":  [
+                                                                       25,
+                                                                       30
+                                                                   ],
+                                                        "comprehension":  [
+                                                                              25,
+                                                                              30
+                                                                          ],
+                                                        "conversation":  [
+                                                                             25,
+                                                                             30
+                                                                         ],
+                                                        "wrapup":  [
+                                                                       5,
+                                                                       10
+                                                                   ]
+                                                    },
+                                 "mandate":  "Give clear step-by-step support, keep teacher talk time strictly under 40%, and create a safe environment for practice.",
+                                 "checklist":  [
+                                                   "Are sentence structures clearly visible on screen?",
+                                                   "Is Teacher Talk Time (TTT) under 40% of the lesson?",
+                                                   "Am I speaking at a steady, clear pace without complex idioms?",
+                                                   "Did the student speak using complete target sentences by the end?"
+                                               ]
+                             },
+                   "Flow":  {
+                                "cefrAllowed":  [
+                                                    "B1"
+                                                ],
+                                "balance":  "Skeleton timing: Warm-up 10% | Theory 25-30% | Comprehension 30-35% | Conversation 25-30% | Wrap-up 5-10%",
+                                "skeletonRanges":  {
+                                                       "warmup":  [
+                                                                      10,
+                                                                      10
+                                                                  ],
+                                                       "theory":  [
+                                                                      25,
+                                                                      30
+                                                                  ],
+                                                       "comprehension":  [
+                                                                             30,
+                                                                             35
+                                                                         ],
+                                                       "conversation":  [
+                                                                            25,
+                                                                            30
+                                                                        ],
+                                                       "wrapup":  [
+                                                                      5,
+                                                                      10
+                                                                  ]
+                                                   },
+                                "mandate":  "Avoid interrupting students mid-sentence, encourage longer student answers, and prompt students to fix their own mistakes using what they know.",
+                                "checklist":  [
+                                                  "Did I guide the student to discover the grammar rule instead of lecturing?",
+                                                  "Did I avoid interrupting mid-sentence during conversation?",
+                                                  "Is the student speaking for at least 60-65% of the class?",
+                                                  "Did we save error correction for the dedicated feedback stage?"
+                                              ]
+                            },
+                   "Drive":  {
+                                 "cefrAllowed":  [
+                                                     "B2"
+                                                 ],
+                                 "balance":  "Skeleton timing: Warm-up 10% | Theory 15-20% | Comprehension 25-30% | Conversation 45-50% | Wrap-up 5-10%",
+                                 "skeletonRanges":  {
+                                                        "warmup":  [
+                                                                       10,
+                                                                       10
+                                                                   ],
+                                                        "theory":  [
+                                                                       15,
+                                                                       20
+                                                                   ],
+                                                        "comprehension":  [
+                                                                              25,
+                                                                              30
+                                                                          ],
+                                                        "conversation":  [
+                                                                             45,
+                                                                             50
+                                                                         ],
+                                                        "wrapup":  [
+                                                                       5,
+                                                                       10
+                                                                   ]
+                                                    },
+                                 "mandate":  "Act as a conversation partner and language coach. Challenge students to defend their views, use natural vocabulary, and stop translating from their native language.",
+                                 "checklist":  [
+                                                   "Did the student defend a stance without translating from their native language?",
+                                                   "Did I share better vocabulary live while the student spoke?",
+                                                   "Is the student talking for 75-85% of the class?",
+                                                   "Did the wrap-up review good vs. better word choices?"
+                                               ]
+                             }
+               }
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "DRIVE-20",
+    "phase": "Drive",
+    "number": 20,
+    "cefr": "B2",
+    "title": "Module 4: Past Modals of Deduction and Criticism",
+    "canDo": "Can speculate about past events and criticise past decisions using past modal verbs with nuance.",
+    "goal": "Use might well have, can't have, should have, needn't have, and didn't need to to speculate and criticise.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a car with a dented door parked next to a wall. Ask: What might have happened here?",
+        "tutorAction": "Give a short example: It might well have been a parking accident. Let the student speculate and ask how sure they are."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "must / might well / can't have + past participle (deduction about the past); should have / needn't have / didn't need to + past participle (criticism or regret)",
+        "examples": [
+          "The lights are off, so they must have left already.",
+          "The train might well have been delayed by the storm.",
+          "You needn't have brought food. We didn't need to bring anything."
+        ],
+        "method": "Show the deduction modals on a certainty scale from can't have (very unlikely) to must have (very likely). Ask guiding questions: Is the speaker sure? Did the action actually happen? Then ask the student to make one deduction about the warm-up photo.",
+        "checkQuestion": "Does needn't have mean the action happened and was unnecessary, or that it did not happen?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The report was late, and the team might well have caught the error earlier. They should have checked the figures twice. Still, nobody can have expected the software to fail so badly.",
+        "factCheck": "Ask: What was late? (the report). What should the team have done? (checked the figures twice). What could nobody have expected? (the software failing so badly).",
+        "toneCheck": "Ask: Is the writer blaming the team or excusing it? Ask the student to point to the phrase that softens the criticism, such as Still."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Case review: the student and tutor review a recent project delay. The student must make two deductions about why it happened and one criticism of a past decision, using the past modals.",
+        "phrases": [
+          "We must have ...",
+          "We should have ...",
+          "We needn't have ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student reason through each deduction, and share one more precise modal phrase live in the chat when they hesitate."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The report might have to be late.",
+          "We didn't need to check it, we should not have."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-21",
+    "phase": "Drive",
+    "number": 21,
+    "cefr": "B2",
+    "title": "Module 4: Abstract Phrasal Verbs",
+    "canDo": "Can use abstract phrasal verbs to describe problems, processes, and outcomes in professional discussion.",
+    "goal": "Use iron out, phase out, boil down to, and come up against in abstract, professional sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is one problem your team has had to solve recently?",
+        "tutorAction": "Let the student speak for about one minute. Note any phrasal verb they use for the wrap-up."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Phrasal verb with an abstract meaning: iron out (solve problems), phase out (stop gradually), boil down to (reduce to the main point), come up against (face an obstacle)",
+        "examples": [
+          "We need to iron out the details before the launch.",
+          "The company plans to phase out the old system next year.",
+          "The debate boils down to one question: who pays?"
+        ],
+        "method": "Show each phrasal verb with its abstract meaning and a literal sense for contrast. Ask guiding questions: Is the meaning physical or abstract? What is being solved, stopped, or reduced? Then ask the student to use one of the verbs in a sentence about their warm-up problem.",
+        "checkQuestion": "In The debate boils down to one question, is the speaker describing something physical or a simplification?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The merger talks have come up against serious opposition from shareholders. The two boards will need to iron out their differences, and the old management structure will be phased out gradually. In the end, it all boils down to trust.",
+        "factCheck": "Ask: What have the merger talks come up against? (serious opposition). What will the boards need to iron out? (their differences). What will be phased out? (the old management structure).",
+        "toneCheck": "Ask: Does the writer sound optimistic or cautious about the merger? Ask the student to point to the phrase that shows the main obstacle, such as come up against."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Project status: the student explains a current problem to the tutor using at least three of the four phrasal verbs. The tutor asks one question: What does it all boil down to?",
+        "phrases": [
+          "We need to iron out ...",
+          "We are phasing out ...",
+          "It all boils down to ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student complete each explanation, and share one more natural abstract phrasal verb live in the chat when they paraphrase with a plain verb."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We will end the old system slowly.",
+          "The problem is that we come against many people."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-22",
+    "phase": "Drive",
+    "number": 22,
+    "cefr": "B2",
+    "title": "Module 4: Investigative Case Study Workshop",
+    "canDo": "Can analyse an unsolved problem or business failure, using past deduction and idiomatic language to build a reasoned explanation.",
+    "goal": "Reconstruct the likely causes of a business failure using past modals of deduction and abstract phrasal verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: A well-known shop closed suddenly last year. What do you think went wrong?",
+        "tutorAction": "Let the student guess freely, then ask: What evidence would you need to be sure?"
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Deduction from evidence: The shop must have ... / It might well have ... / Those signs point to ... / It all boils down to ...",
+        "examples": [
+          "The shop must have lost customers before the lease ended.",
+          "Rising rents might well have pushed the owners out.",
+          "It all boils down to cash flow, not to a single bad decision."
+        ],
+        "method": "Show a short case summary with three clues. Ask guiding questions: Which clue supports which deduction? Is the explanation certain or only likely? Then ask the student to make one deduction from the clues.",
+        "checkQuestion": "If the evidence is strong, do we use must have or might well have?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this case summary twice at native speed: The bakery closed in March. Sales had fallen for two years, the rent had doubled, and the owners had not updated their menu. Neighbours say the decision came suddenly, though the signs had been there for some time.",
+        "factCheck": "Ask: When did the bakery close? (March). What had happened to sales? (they had fallen for two years). What had doubled? (the rent).",
+        "toneCheck": "Ask: Does the writer blame the owners or treat the closure as mostly unavoidable? Ask the student to point to the phrase that shows the view, such as the signs had been there."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Case analysis: the student presents a reconstruction of the bakery's failure to the tutor, using at least two deductions and one abstract phrasal verb. The tutor, as an investor, asks: How certain are you of that?",
+        "phrases": [
+          "It must have ...",
+          "The evidence points to ...",
+          "It all boils down to ..."
+        ],
+        "mandate": "Act as an investor and coach. Challenge the student to match each claim to evidence, and share one stronger deduction phrase live in the chat while they speak."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The bakery can't have failed because of the rent.",
+          "The owners should not have been bad at business."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-23",
+    "phase": "Drive",
+    "number": 23,
+    "cefr": "B2",
+    "title": "Module 5: Participle Clauses",
+    "canDo": "Can compress relative and adverbial clauses into participle clauses for concise, formal writing and speech.",
+    "goal": "Replace relative and adverbial clauses with present, past, and perfect participle clauses.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a report on a desk. Ask: What did you do before writing your last report?",
+        "tutorAction": "Give a short example: Having checked the data, I started writing. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Having + past participle (earlier action); verb-ing (simultaneous or reason); past participle (passive meaning)",
+        "examples": [
+          "Having reviewed the data, we revised the forecast. (After we reviewed the data)",
+          "Working late, she finished the report. (While she was working late)",
+          "Written in haste, the memo contained several errors. (The memo, which was written in haste)"
+        ],
+        "method": "Show each participle clause next to the full clause it replaces. Ask guiding questions: Which action happened first? Who is doing the action? Then ask the student to compress one full sentence about their warm-up into a participle clause.",
+        "checkQuestion": "In Having reviewed the data, which action happened first?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: Having studied the market carefully, the team concluded that demand was rising. Attracted by the results, several investors asked to meet the directors, who had already drafted a plan.",
+        "factCheck": "Ask: What did the team conclude? (demand was rising). Who asked to meet the directors? (several investors). What had the directors already done? (drafted a plan).",
+        "toneCheck": "Ask: Is the text written in a formal or casual style? Ask the student to point to the participle clause that signals a formal register, such as Having studied the market carefully."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Summary talk: the student summarises a recent event for the tutor in a formal register, using at least three participle clauses. The tutor asks one follow-up question about the sequence of events.",
+        "phrases": [
+          "Having ..., I ...",
+          "Working on ..., we ...",
+          "Given ..., it seems ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student finish each sentence before offering a compressed version, and share one more precise participle phrase live in the chat."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Having I reviewed the data, I revised the forecast.",
+          "Written in haste, the memo it had several errors."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-24",
+    "phase": "Drive",
+    "number": 24,
+    "cefr": "B2",
+    "title": "Module 5: Referencing and Substitution",
+    "canDo": "Can avoid repetition using referencing words, substitution, and ellipsis in formal discussion and writing.",
+    "goal": "Use the former, the latter, such measures, if so, and ellipsis to avoid repeating nouns and clauses.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show two job offers on screen, one with high pay and one with flexible hours. Ask: Which would you choose, and why?",
+        "tutorAction": "Let the student compare the two offers. Note any repeated nouns for the wrap-up."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "The former / the latter (refer to the first or second of two items); such + noun (such measures); if so / if not (replace a clause); ellipsis (leave out a repeated word)",
+        "examples": [
+          "The firm offered flexible hours and high pay; the former attracted most applicants.",
+          "The council may raise taxes. If so, households will feel the change first.",
+          "Some staff prefer remote work, and others do not."
+        ],
+        "method": "Show a repetitive sentence and its version with referencing words. Ask guiding questions: What does the former refer to? What does so replace? Then ask the student to rewrite one repetitive pair of sentences with a referencing word.",
+        "checkQuestion": "In the former attracted most applicants, does the former refer to the first or the last of the two items?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: The city proposed two options: a congestion charge or a new tram line. The former would raise revenue quickly, whereas the latter would take years. If so, the council must decide which problem to tackle first.",
+        "factCheck": "Ask: What were the two options? (a congestion charge and a new tram line). Which option raises revenue quickly? (the former, the congestion charge). What does If so refer to? (the council's choice, or the option being fast).",
+        "toneCheck": "Ask: Does the writer prefer one option? Ask the student to point to the phrase that shows the balance, such as whereas."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Two-option choice: the student compares two options for a local problem (more buses or cycle lanes) with the tutor, using the former and the latter at least once. The tutor asks: If so, what would be the first step?",
+        "phrases": [
+          "The former ..., whereas the latter ...",
+          "Such measures ...",
+          "If so, ..."
+        ],
+        "mandate": "Act as a conversation partner. Let the student finish each comparison, and share one more referencing phrase live in the chat when they repeat a full noun."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The buses are good and the buses are cheap, so the buses are better.",
+          "The council may raise taxes. If it does, the council will tell the people."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-25",
+    "phase": "Drive",
+    "number": 25,
+    "cefr": "B2",
+    "title": "Module 5: Executive Summary Workshop",
+    "canDo": "Can condense a longer report into a concise, cohesive summary using compression techniques.",
+    "goal": "Summarise a longer report into a short, cohesive executive summary using participles and referencing.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Post this question: What is the most important point to include when you summarise a long meeting for a busy director?",
+        "tutorAction": "Let the student give one or two priorities, then ask which of these could be cut."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Lead with the conclusion, compress detail with participles, and refer back with the former, the latter, or such measures",
+        "examples": [
+          "Sales rose 12 percent, driven by the new range.",
+          "Having cut costs by a fifth, the division now meets its targets.",
+          "Two risks remain. The former is financial; the latter is reputational."
+        ],
+        "method": "Show a long sentence beside a compressed version. Ask guiding questions: What is the main message? What detail can be removed without losing meaning? Then ask the student to compress one sentence from their warm-up answer.",
+        "checkQuestion": "Which part of the sentence Sales rose 12 percent, driven by the new range can be cut without changing the main message?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this report extract twice at native speed: Over the past year, the division expanded into three new markets. Costs rose sharply, and margins fell in two of them. Management has since reviewed its pricing, and results have begun to improve.",
+        "factCheck": "Ask: How many new markets did the division expand into? (three). In how many markets did margins fall? (two). What has management reviewed? (its pricing).",
+        "toneCheck": "Ask: Is the report optimistic or cautious? Ask the student to point to the phrase that shows the direction of results, such as have begun to improve."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Summary pitch: the student summarises the report extract to the tutor, who plays a busy director, in under forty seconds. The director asks one question about what was left out.",
+        "phrases": [
+          "Overall, ...",
+          "Having ..., the division ...",
+          "The main risk is ..."
+        ],
+        "mandate": "Act as a busy director and coach. Interrupt only at the end of each summary, and share one more concise phrase live in the chat while the student speaks."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The division it expanded to three markets and the costs was going up very fast.",
+          "This report is about the division and it says the results are getting better."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-26",
+    "phase": "Drive",
+    "number": 26,
+    "cefr": "B2",
+    "title": "Module 6: Passive Reporting Verbs",
+    "canDo": "Can report rumours, allegations, and widely held views objectively, using passive reporting structures.",
+    "goal": "Use it is alleged that, he is believed to have, and it is widely believed that to report information objectively.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a headline on screen: Former minister accused of misusing funds. Ask: How would you report this without taking a side?",
+        "tutorAction": "Give a short example: He is alleged to have misused public funds. Let the student respond and note any unsupported claims."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "It is + reporting verb (alleged, believed, said, reported, expected) + that + clause; Subject + is / was + reporting verb + to + verb (is alleged to have done)",
+        "examples": [
+          "It is widely believed that the policy will be reversed.",
+          "He is alleged to have accepted gifts from the company.",
+          "The project is expected to be completed next spring."
+        ],
+        "method": "Show an active sentence and its passive reporting version. Ask guiding questions: Is the speaker certain? Who holds the view? Then ask the student to turn one active claim into a passive reporting sentence that stays neutral.",
+        "checkQuestion": "In He is alleged to have accepted gifts, does the speaker confirm that it happened?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this news extract twice at native speed: The former director is alleged to have awarded contracts to a relative. It is widely believed that the investigation will take months, and the company is expected to comment next week.",
+        "factCheck": "Ask: What is the former director alleged to have done? (awarded contracts to a relative). How long will the investigation take? (months, it is believed). When is the company expected to comment? (next week).",
+        "toneCheck": "Ask: Does the writer present the allegation as proven? Ask the student to point to the word that keeps the report neutral, such as alleged."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Neutral report: the tutor reads three rumours aloud (a delayed launch, a resignation, a price rise). The student reports each one neutrally to a colleague using a passive reporting structure, then gives their own view with a hedge.",
+        "phrases": [
+          "It is said that ...",
+          "He is believed to have ...",
+          "It is widely expected that ..."
+        ],
+        "mandate": "Act as a colleague who asks for sources. Challenge the student to keep each report neutral, and share one more precise reporting verb live in the chat when they overstate."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "He is alleged to be stolen the money.",
+          "It is believe that the launch is late."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-27",
+    "phase": "Drive",
+    "number": 27,
+    "cefr": "B2",
+    "title": "Module 6: Causatives and Agency",
+    "canDo": "Can describe who arranged, caused, or persuaded an action to happen, using causative structures with precise nuance.",
+    "goal": "Use have something done, have someone do, and get someone to do with the right degree of agency.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a car being repaired in a garage. Ask: Who would you ask to fix something like this, and why?",
+        "tutorAction": "Give a short example: I have my car serviced every spring. Let the student answer and ask one question about who does the work."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "have + object + past participle (someone else does it for us); have + someone + base verb (we arrange for someone to do it); get + someone + to + verb (we persuade or arrange it with effort)",
+        "examples": [
+          "We had the office repainted last month.",
+          "She had her manager check the figures.",
+          "I got the supplier to deliver two days early."
+        ],
+        "method": "Show each causative with the agent and the action. Ask guiding questions: Who does the action? Did the speaker arrange it or persuade someone? Then ask the student to describe one thing they had or got done recently.",
+        "checkQuestion": "In I got the supplier to deliver early, did the speaker simply arrange it, or did they have to persuade someone?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at native speed: After the flood, the council had the roads repaired within a week. The mayor got the regional government to release emergency funds, and she had local volunteers check every damaged house.",
+        "factCheck": "Ask: What did the council have repaired? (the roads). How quickly? (within a week). Who did the mayor get to release funds? (the regional government).",
+        "toneCheck": "Ask: Does the writer present the mayor's work as effortful or routine? Ask the student to point to the phrase that shows effort, such as got the regional government to."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Organising an event: the student describes how they would organise a community event, using at least one of each causative structure. The tutor asks: Who would actually do the work, and who would you need to persuade?",
+        "phrases": [
+          "We would have ... done ...",
+          "I would get ... to ...",
+          "We had ... arranged ..."
+        ],
+        "mandate": "Act as a conversation partner and event partner. Let the student describe the arrangements in full, and share one more precise causative phrase live in the chat when they use a plain verb."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "We had the room clean by the staff.",
+          "I had the manager to check the figures."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DRIVE-28",
+    "phase": "Drive",
+    "number": 28,
+    "cefr": "B2",
+    "title": "Module 6: Media Bias and Framing Workshop",
+    "canDo": "Can compare how two news outlets frame the same event, using passive attribution to show their positions.",
+    "goal": "Compare two news reports on the same event and explain how their passive attribution frames the story.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a headline on screen: Protest turns violent as police respond. Ask: Who is the story about, and who is missing from the headline?",
+        "tutorAction": "Let the student identify the missing voice, then ask what the headline implies about the protesters."
+      },
+      "theory": {
+        "minutes": 4,
+        "structure": "Passive attribution: The protesters are said to have ... / Police are reported to have ... (the source is hidden or softened); active attribution: The minister claimed ... (the source is named and responsible)",
+        "examples": [
+          "The crowd is reported to have blocked the road.",
+          "The minister claimed that the plan was fully funded.",
+          "Witnesses are said to have seen the driver leave the scene."
+        ],
+        "method": "Show two versions of the same event: one with passive attribution and one with a named source. Ask guiding questions: Who is responsible? Who is hidden? Then ask the student to rewrite one sentence to name its source.",
+        "checkQuestion": "Does the passive version name who made the claim, or hide the source?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read two short news reports about the same protest twice at native speed. Report A: The crowd is said to have turned violent after officers arrived. Report B: Officers are reported to have used force against peaceful marchers.",
+        "factCheck": "Ask: What does Report A say the crowd did? (turned violent). What does Report B say the officers did? (used force against peaceful marchers).",
+        "toneCheck": "Ask: Which report seems to blame the protesters, and which blames the officers? Ask the student to point to the passive phrase that hides the source in each report."
+      },
+      "conversation": {
+        "minutes": 13,
+        "task": "Framing analysis: the student explains to the tutor how each report frames the protest, then rewrites one claim from each report so that the source is named. The tutor asks: Which version is more objective?",
+        "phrases": [
+          "The report suggests that ...",
+          "According to ..., ...",
+          "The framing implies ..."
+        ],
+        "mandate": "Act as a sceptical reader and media coach. Challenge the student to justify each judgement with evidence from the text, and share one more precise attribution phrase live in the chat."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "The protesters is said to be violent.",
+          "The police are bad, the newspaper says."
+        ]
+      }
+    }
+  }
+]

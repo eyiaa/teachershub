@@ -1,0 +1,53 @@
+[
+  {
+    "id": "SPARK-01",
+    "phase": "Spark",
+    "number": 1,
+    "cefr": "A1",
+    "title": "Introducing Myself: Name, Country, and Job",
+    "canDo": "Can introduce himself or herself and ask and answer simple questions about personal details such as name, country, and job.",
+    "goal": "Say who you are and where you are from using the verb to be in simple sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a smiling person with a name tag. Ask: What is your name?",
+        "tutorAction": "Greet the student, state the goal on screen, and give a 5-second example of your own answer. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + to be (am / is / are) + name, country, or job",
+        "examples": [
+          "I am Maria. I am from Brazil. I am a nurse.",
+          "He is Tom. He is from Canada. He is a teacher.",
+          "We are students. They are from Mexico."
+        ],
+        "method": "Show the formula on screen with the three forms of to be. Point to each part as you read the examples aloud. Then ask the student to replace the name and country with their own details.",
+        "checkQuestion": "Is the word after I always am, and do we say I is or I am?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short text twice at a steady pace: Hi, my name is Lena. I am from Germany. I am a doctor. I am 30 years old.",
+        "factCheck": "Ask the student: Where is Lena from? (Germany). What is Lena's job? (doctor). Accept short answers or single words.",
+        "toneCheck": "Ask the student: Is Lena speaking formally or casually? Expect a simple answer such as friendly or normal. Accept one-word answers."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Role-play with your tutor: the student introduces themselves to you, who play a new colleague at work, using the screen template. Then swap roles, so you introduce yourself to the student. Use the prompts: What is your name? Where are you from? What is your job?",
+        "phrases": [
+          "My name is ...",
+          "I am from ...",
+          "I am a ...",
+          "Nice to meet you."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Speak slowly, use the visual template, and praise every complete sentence even if the grammar is imperfect."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I is Maria.",
+          "I am from Brazil. Is nurse."
+        ]
+      }
+    }
+  }
+]

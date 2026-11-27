@@ -1,0 +1,614 @@
+[
+  {
+    "id": "SPARK-INTERVIEW-01",
+    "phase": "Spark",
+    "number": 1,
+    "pathway": "Job Interviews",
+    "cefr": "A1",
+    "title": "Job Interviews 1: Introducing Yourself at Work",
+    "canDo": "Can introduce yourself at work or school, giving your name, job, and workplace.",
+    "goal": "Say who you are and where you work using to be and simple job words.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a smiling person with a name badge. Ask: What is your name, and what is your job?",
+        "tutorAction": "Greet the student, state the goal on screen, and give a short example of your own answer. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I am + name / I am a + job / I work at + place",
+        "examples": [
+          "I am Maria. I am a nurse.",
+          "I work at a hospital in Lima.",
+          "He is Tom. He is an engineer at a bank."
+        ],
+        "method": "Show the three sentence patterns on screen with the job word highlighted. Ask guiding questions: Which word comes after I am for a job? Which word is used before the place? Then ask the student to say their own name, job, and workplace.",
+        "checkQuestion": "Do we say I am a teacher or I am teacher?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short introduction twice at a steady pace: Hello, I am Lena. I am an accountant. I work at a small company in Madrid.",
+        "factCheck": "Ask: What is Lena's name? (Lena). What is her job? (an accountant). Where does she work? (a small company in Madrid).",
+        "toneCheck": "Ask: Is Lena friendly or formal? Accept a simple answer and ask the student to point to the word Hello, which shows a friendly start."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Meeting a new colleague: the student introduces themselves to the tutor, who plays a new colleague at work. Then they swap roles. Use the screen prompts: What is your name? What is your job? Where do you work?",
+        "phrases": [
+          "My name is ...",
+          "I am a ...",
+          "I work at ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the screen template, and praise every complete sentence before correcting anything."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I is Maria.",
+          "I work in a hospital, I am nurse."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-INTERVIEW-02",
+    "phase": "Spark",
+    "number": 2,
+    "pathway": "Job Interviews",
+    "cefr": "A1",
+    "title": "Job Interviews 2: Talking About Your Job and Skills",
+    "canDo": "Can describe what you do at work and what you can do, using simple present sentences.",
+    "goal": "Describe your daily work and two skills using present simple and can.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of an office with people at desks. Ask: What do people do in this office?",
+        "tutorAction": "Give a short example: They answer emails. Let the student answer, even with one or two words."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I / We / They + base verb (I work, we help); He / She + verb with s (She works); I can + base verb (I can speak English)",
+        "examples": [
+          "I work with customers every day.",
+          "She helps the team with reports.",
+          "I can use computers and I can speak two languages."
+        ],
+        "method": "Show the two patterns on screen with the s ending highlighted. Ask guiding questions: Which form do we use with she? Does can change with he or she? Then ask the student to say one job task and one skill they have.",
+        "checkQuestion": "Do we say she work or she works, and does can change?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Sam works in a shop. He helps customers and he can speak three languages. He also checks the stock every morning.",
+        "factCheck": "Ask: Where does Sam work? (in a shop). What can he do? (speak three languages). What does he check? (the stock).",
+        "toneCheck": "Ask: Does Sam seem proud of his skills? Accept a simple answer and ask the student to point to the phrase that shows his skill, such as he can speak three languages."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Job card: the tutor shows a card with a job (a receptionist, a cook, a driver). The student says what the person does and what they can do, then says one task and one skill of their own.",
+        "phrases": [
+          "I work as ...",
+          "I can ...",
+          "I help ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the job cards on screen, and praise each complete sentence before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "She work in a hospital.",
+          "I can to speak English."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-INTERVIEW-03",
+    "phase": "Spark",
+    "number": 3,
+    "pathway": "Job Interviews",
+    "cefr": "A2",
+    "title": "Job Interviews 3: Talking About Past Work",
+    "canDo": "Can talk about past jobs, study, and tasks you did, using simple past sentences.",
+    "goal": "Describe a past job or course using past simple with regular and irregular verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What was your first job, or your first part-time job?",
+        "tutorAction": "Give a short example: My first job was in a café. I made coffee. Let the student answer, even briefly."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + past simple verb (worked, studied, went, had). Negative: did not + base verb.",
+        "examples": [
+          "I worked in a café for two years.",
+          "I studied accounting at college.",
+          "I did not have much experience at first."
+        ],
+        "method": "Show the regular and irregular verbs in two columns. Ask guiding questions: Does this verb end in ed? Is this a finished time? Then ask the student to say one past job and one past course.",
+        "checkQuestion": "Do we say I did not work or I did not worked?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: Anna studied English at college. She worked in a hotel for a year. Then she went to London, and she had a job in an office there.",
+        "factCheck": "Ask: What did Anna study? (English). Where did she work for a year? (a hotel). Where did she go? (London).",
+        "toneCheck": "Ask: Is Anna's story positive or negative? Accept a simple answer and ask the student to point to a word that shows it, such as had a job."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "My work history: the student tells the tutor about one past job and one past course, using at least three past simple verbs. The tutor asks one question: What did you learn there?",
+        "phrases": [
+          "I worked as ...",
+          "I studied ...",
+          "I did not ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Give the student time to recall past verbs, and praise each complete sentence."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I work in a hotel last year.",
+          "I went to college and I study accounting."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-INTERVIEW-04",
+    "phase": "Spark",
+    "number": 4,
+    "pathway": "Job Interviews",
+    "cefr": "A2",
+    "title": "Job Interviews 4: Simple Questions and a Mini Mock Interview",
+    "canDo": "Can answer simple interview questions and ask basic questions about a job.",
+    "goal": "Ask and answer simple interview questions using Do you, What is, and Could you repeat.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What would you like to know about a job before you start it?",
+        "tutorAction": "Give a short example: What time does the job start? Let the student answer and ask one more question."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Do you + verb ...? (yes or no) / What is + noun ...? (information) / Could you repeat that, please? (asking again)",
+        "examples": [
+          "Do you have experience with computers?",
+          "What is the salary for this job?",
+          "Could you repeat that, please?"
+        ],
+        "method": "Show the three question types with examples. Ask guiding questions: Which question needs yes or no? Which one asks for information? Then ask the student to write one question for an interview.",
+        "checkQuestion": "Does Do you have experience ask for a yes or no answer, or for information?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short interview dialogue twice at a steady pace: Interviewer: Do you have experience in sales? Candidate: Yes, I do. What is the working time? Interviewer: Nine to five. Candidate: Could you repeat that, please?",
+        "factCheck": "Ask: Does the candidate have sales experience? (yes). What is the working time? (nine to five). What does the candidate ask for? (to repeat it).",
+        "toneCheck": "Ask: Is the candidate polite? Ask the student to point to the polite phrase, such as Could you repeat that, please?"
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Mini mock interview: the tutor plays the interviewer and asks: Do you have experience? What is your job now? Do you have any questions? The student answers and asks at least one question, using Could you repeat or What is.",
+        "phrases": [
+          "Yes, I do.",
+          "What is ...?",
+          "Could you repeat that, please?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Speak slowly, let the student answer each question, and praise each polite question."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Do you have experience? Yes I have.",
+          "What is the time work?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-FLUENCY-01",
+    "phase": "Spark",
+    "number": 1,
+    "pathway": "Fluency",
+    "cefr": "A1",
+    "title": "Fluency 1: Keeping Going When You Don't Know a Word",
+    "canDo": "Can ask for help with words and ask someone to repeat or explain, so that a conversation continues.",
+    "goal": "Use Could you repeat that? and How do you say ...? to keep a conversation going at work.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What do you do at work when you don't know an English word?",
+        "tutorAction": "Give a short example: I say, How do you say this in English? Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Could you repeat that, please? / How do you say ... in English? / What does ... mean?",
+        "examples": [
+          "Could you repeat that, please?",
+          "How do you say this word in English?",
+          "What does this word mean?"
+        ],
+        "method": "Show the three phrases with a picture or a word. Ask guiding questions: Which phrase asks for the same information again? Which phrase asks for a new word? Then ask the student to use one phrase with a word they do not know.",
+        "checkQuestion": "Which phrase do you use when you want someone to say something again?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short dialogue twice at a steady pace: Colleague: The report is in the folder. Student: Sorry, could you repeat that? Colleague: The report is in the folder. Student: What does folder mean? Colleague: It is the file.",
+        "factCheck": "Ask: Where is the report? (in the folder). What did the student ask first? (could you repeat that). What does folder mean? (the file).",
+        "toneCheck": "Ask: Is the student calm or worried? Ask the student to point to the phrase that shows a polite request, such as Sorry, could you repeat that?"
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Work word game: the tutor says a short sentence with one word the student may not know. The student asks for the word or for a repeat, then the tutor explains it simply. The student then uses the word in a sentence.",
+        "phrases": [
+          "Could you repeat that, please?",
+          "How do you say ... in English?",
+          "What does ... mean?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Do not translate for the student. Use simple words to explain, and praise each request for help."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Repeat please you.",
+          "What mean the word folder?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-FLUENCY-02",
+    "phase": "Spark",
+    "number": 2,
+    "pathway": "Fluency",
+    "cefr": "A1",
+    "title": "Fluency 2: Small Talk at Work",
+    "canDo": "Can greet colleagues, make small talk, and ask simple questions about their day and weekend.",
+    "goal": "Make small talk at work using How are you?, What about you?, and Nice to meet you.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: How are you today? What is one good thing that happened this week?",
+        "tutorAction": "Give a short example: I am fine, thank you. I had a good weekend. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Greeting: Hello, how are you? / Answer: I am fine, thanks. / Turn the question back: And you? / Meeting someone: Nice to meet you.",
+        "examples": [
+          "Hi, how are you? I am fine, thanks. And you?",
+          "Nice to meet you. I am new here.",
+          "Did you have a good weekend? Yes, I did. What about you?"
+        ],
+        "method": "Show a short dialogue with the phrases highlighted. Ask guiding questions: What do we say after the answer? Which phrase welcomes a new person? Then ask the student to practise one greeting and one question about the weekend.",
+        "checkQuestion": "After I am fine, thanks, what question do you ask back?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short dialogue twice at a steady pace: Ana: Hi, how are you? Ben: I am fine, thanks. Did you have a good weekend? Ana: Yes, I went to the park. What about you? Ben: I stayed home and read a book.",
+        "factCheck": "Ask: How is Ben? (fine). Where did Ana go? (the park). What did Ben do? (stayed home and read a book).",
+        "toneCheck": "Ask: Are Ana and Ben friendly? Ask the student to point to the phrase that shows interest, such as What about you?"
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Coffee break: the tutor plays a colleague and starts with Hi, how are you? The student greets, answers, asks about the tutor's weekend, and makes one short comment about the day.",
+        "phrases": [
+          "Hi, how are you?",
+          "I am fine, thanks. And you?",
+          "What about you?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Act naturally, and praise each question the student asks back."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "How are you? I am good, and you how?",
+          "Nice to meet you, I am new in here."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-FLUENCY-03",
+    "phase": "Spark",
+    "number": 3,
+    "pathway": "Fluency",
+    "cefr": "A2",
+    "title": "Fluency 3: Linking Short Sentences",
+    "canDo": "Can join two short sentences with and, but, so, and because to give a longer answer.",
+    "goal": "Join two short sentences with and, but, so, and because to explain work and study.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Do you like your job or your studies? Why?",
+        "tutorAction": "Give a short example: I like my job because I meet people. Let the student answer, even with one sentence."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Sentence 1 + and (add) / but (contrast) / so (result) / because (reason) + sentence 2",
+        "examples": [
+          "I like my job, and I work with a good team.",
+          "The work is hard, but I enjoy it.",
+          "I was tired, so I went home early."
+        ],
+        "method": "Show each connector with its meaning. Ask guiding questions: Does this word add, contrast, or give a result? Then ask the student to join two short sentences about their work using because.",
+        "checkQuestion": "Does so show a reason or a result?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice at a steady pace: I work in an office, and I like my team. The work is busy, but it is interesting. I finish late, so I often walk home. I like walking because it helps me relax.",
+        "factCheck": "Ask: Where does the speaker work? (in an office). Why does the speaker walk home? (they finish late, so they walk). Why do they walk? (it helps them relax).",
+        "toneCheck": "Ask: Is the speaker happy with the job? Ask the student to point to the word that shows a difference, such as but, and to the reason with because."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Opinion and reason: the student tells the tutor about their job or studies in three sentences, using and, but, so, and because. The tutor asks one question: Why do you like it?",
+        "phrases": [
+          "I like ... because ...",
+          "It is hard, but ...",
+          "I ..., so ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student finish each sentence, and praise each connector they use correctly."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I like my job, because and I meet people.",
+          "I was tired, so I went home because it was late."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-FLUENCY-04",
+    "phase": "Spark",
+    "number": 4,
+    "pathway": "Fluency",
+    "cefr": "A2",
+    "title": "Fluency 4: Timed 30-Second Answers",
+    "canDo": "Can give a short, clear answer about work or study within 30 seconds.",
+    "goal": "Give a 30-second answer with an opinion and an example, using simple phrases.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one thing you like about your job or your studies?",
+        "tutorAction": "Set a 30-second timer and start it when the student begins."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I think + opinion. For example, + example. (30 seconds: one opinion and one example)",
+        "examples": [
+          "I think teamwork is important. For example, we solve problems faster together.",
+          "I like my study group. For example, we help each other with homework.",
+          "I think English is useful. For example, I can talk to customers."
+        ],
+        "method": "Show the frame and the 30-second timer. Ask guiding questions: What is the opinion? What is the example? Then ask the student to answer a short question in 30 seconds with the frame.",
+        "checkQuestion": "Which part of the answer gives an example?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this answer twice at a steady pace: I think my job is good. For example, I work with nice people, and we help each other. I also like the hours, because I finish at four.",
+        "factCheck": "Ask: What does the speaker think about the job? (it is good). What is one example? (they work with nice people). What do they like about the hours? (they finish at four)",
+        "toneCheck": "Ask: Does the speaker sound positive? Ask the student to point to the phrase that shows the opinion, such as I think my job is good."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Thirty-second answer: the tutor asks one question about work or study, such as: Do you like your job? The student answers in 30 seconds using the frame. The student then tries again with a new example, faster.",
+        "phrases": [
+          "I think ...",
+          "For example, ...",
+          "I like ... because ..."
+        ],
+        "mandate": "Keep time visibly. Do not interrupt during the 30 seconds. After each answer, praise one clear point and give one tip for the next try."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I think the job is good, the job is good, the job.",
+          "For example the people is nice, and we help."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-PRESENTATION-01",
+    "phase": "Spark",
+    "number": 1,
+    "pathway": "Presentation Skills",
+    "cefr": "A1",
+    "title": "Presentation Skills 1: Introducing a Simple Topic",
+    "canDo": "Can introduce a simple work or study topic to a small group, using a short opening.",
+    "goal": "Open a short presentation with This is my ... and I'd like to show you ...",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one topic about your work or studies that you could explain to a group?",
+        "tutorAction": "Let the student name a topic, then give a short example: My topic is my office."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Hello, everyone. This is my ... / I'd like to show you ... / Let's begin.",
+        "examples": [
+          "Hello, everyone. This is my job.",
+          "I'd like to show you my office.",
+          "Let's begin with my team."
+        ],
+        "method": "Show the opening phrases on screen. Ask guiding questions: Which phrase introduces the topic? Which phrase says you will show something? Then ask the student to write a two-line opening for their topic.",
+        "checkQuestion": "Which phrase tells the listener you will show them something?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this opening twice at a steady pace: Hello, everyone. This is my company. I'd like to show you our office and our team. Let's begin with the office.",
+        "factCheck": "Ask: What is the presentation about? (the speaker's company). What will the speaker show? (the office and the team). Where do they begin? (the office).",
+        "toneCheck": "Ask: Does the speaker sound friendly or formal? Ask the student to point to the phrase that shows a friendly start, such as Hello, everyone."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Short opening: the student gives a 30-second opening to you, playing a friendly audience member. The student introduces the topic, says what they will show, and ends with Let's begin.",
+        "phrases": [
+          "This is my ...",
+          "I'd like to show you ...",
+          "Let's begin."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Act as a friendly audience, and praise each complete sentence before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "This is my job, I show you the office.",
+          "I like show you the office, lets begin."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-PRESENTATION-02",
+    "phase": "Spark",
+    "number": 2,
+    "pathway": "Presentation Skills",
+    "cefr": "A1",
+    "title": "Presentation Skills 2: Describing a Photo in Three Sentences",
+    "canDo": "Can describe a photo or picture of a workplace or place in short, simple sentences.",
+    "goal": "Describe a picture using there is, there are, and it is in three simple sentences.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a busy office. Ask: What can you see in this photo?",
+        "tutorAction": "Point to one thing in the photo and give a short example: There is a computer. Let the student answer."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "There is + one thing / There are + many things / It is + adjective (big, busy, bright)",
+        "examples": [
+          "There is a desk near the window.",
+          "There are three people in the office.",
+          "It is busy and bright."
+        ],
+        "method": "Show the photo with labels. Ask guiding questions: Is it one thing or more? Which word do we use for the room? Then ask the student to make three sentences about the photo.",
+        "checkQuestion": "Do we say there is three people or there are three people?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this description twice at a steady pace: There is a large meeting room. There are four chairs around the table. It is quiet and clean.",
+        "factCheck": "Ask: What is there in the room? (a large meeting room). How many chairs are there? (four). What is the room like? (quiet and clean).",
+        "toneCheck": "Ask: Does the speaker like the room? Ask the student to point to the word that shows the feeling, such as clean."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Photo talk: the tutor shows a new photo of a workplace. The student describes three things in the photo using there is or there are, and one adjective with it is.",
+        "phrases": [
+          "There is a ...",
+          "There are ...",
+          "It is ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student point and describe, and praise each complete sentence before correcting."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "There is two desks by the door.",
+          "It is a computer on the table."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-PRESENTATION-03",
+    "phase": "Spark",
+    "number": 3,
+    "pathway": "Presentation Skills",
+    "cefr": "A2",
+    "title": "Presentation Skills 3: Showing a Short Slide with Numbers",
+    "canDo": "Can describe a simple slide with numbers, such as sales, costs, or visitors, in short sentences.",
+    "goal": "Describe a simple slide with numbers using This shows, In 2024, and going to.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one number that is important for your work or studies?",
+        "tutorAction": "Give a short example: The number of students is 120. Let the student answer, even with a number only."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "This shows + noun / In + year, we + past simple verb / Next year, we are going to + base verb",
+        "examples": [
+          "This shows the number of visitors each month.",
+          "In 2024, we sold two hundred products.",
+          "Next year, we are going to open a second shop."
+        ],
+        "method": "Show a simple slide with two numbers. Ask guiding questions: Is this a past or a future plan? Which word introduces the number? Then ask the student to describe the slide with This shows and one plan using going to.",
+        "checkQuestion": "Is Next year, we are going to open a shop a past or a future plan?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this slide text twice at a steady pace: This shows our sales. In 2023, we sold one hundred products. In 2024, we sold one hundred and fifty. Next year, we are going to sell even more.",
+        "factCheck": "Ask: What does the slide show? (sales). How many products were sold in 2024? (one hundred and fifty). What are they going to do next year? (sell even more).",
+        "toneCheck": "Ask: Does the speaker feel positive about the sales? Ask the student to point to the phrase that shows the plan, such as are going to sell even more."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Slide talk: the student describes a simple slide with two numbers, such as visitors or costs, to the tutor. The student uses This shows, one past number, and one plan with going to.",
+        "phrases": [
+          "This shows ...",
+          "In ..., we ...",
+          "Next year, we are going to ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the slide on screen, and praise the numbers the student reads out correctly."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "This shows the sales last year, we sell many.",
+          "Next year we going to open new shop."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-PRESENTATION-04",
+    "phase": "Spark",
+    "number": 4,
+    "pathway": "Presentation Skills",
+    "cefr": "A2",
+    "title": "Presentation Skills 4: One-Minute Talk and Questions",
+    "canDo": "Can give a one-minute talk on a work or study topic and answer simple questions from the audience.",
+    "goal": "Deliver a one-minute talk with an opening, two points, and an ending, then answer one question.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one thing you could explain to a group in one minute?",
+        "tutorAction": "Let the student name a topic, then ask how they would start."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Opening (This is my ...) + two points (First, ... / Also, ...) + ending (Thank you. Any questions?)",
+        "examples": [
+          "This is my job. First, I work with customers. Also, I help the team.",
+          "Thank you. Any questions?",
+          "Sorry, can you repeat the question?"
+        ],
+        "method": "Show the three-part talk frame and the question phrases. Ask guiding questions: Where does the talk start? Which phrase invites questions? Then ask the student to plan a one-minute talk with two points.",
+        "checkQuestion": "Which phrase invites the audience to ask questions?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this short talk twice at a steady pace: This is my team. First, we answer customer calls. Also, we check the orders. Thank you. Any questions?",
+        "factCheck": "Ask: What is the talk about? (the team). What are the two points? (answering calls and checking orders). What does the speaker ask at the end? (any questions).",
+        "toneCheck": "Ask: Is the talk clear and organised? Ask the student to point to the words that show the order, such as First and Also."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "One-minute talk: the student gives a one-minute talk on a work or study topic to the tutor, who plays the audience. The tutor asks one simple question at the end, and the student answers it.",
+        "phrases": [
+          "This is my ...",
+          "First, ... Also, ...",
+          "Any questions?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Act as a friendly audience, let the student finish the talk, and praise the structure before correcting language."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "This is my job. I work. Thank you. End.",
+          "Any question? Yes, the question."
+        ]
+      }
+    }
+  }
+]

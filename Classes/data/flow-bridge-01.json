@@ -1,0 +1,502 @@
+[
+  {
+    "id": "FLOW-11",
+    "phase": "Flow",
+    "number": 11,
+    "cefr": "B1",
+    "title": "Module 1: Routines, Temporary Situations, and Stative Verbs",
+    "canDo": "Can describe permanent routines and temporary situations, and talk about beliefs and feelings using stative verbs.",
+    "goal": "Use present simple for routines and present continuous for temporary situations, and avoid continuous forms with stative verbs.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What do you usually do on weekday mornings? Then ask: What are you doing this month that is different?",
+        "tutorAction": "Give a 15-second example: I usually walk to work, but this month I am taking the bus. Let the student answer freely for one to two minutes."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Routine or permanent state: subject + present simple (I work in a bank). Temporary situation: subject + am / is / are + verb-ing (I am working from home this week). Stative verbs (believe, belong, realise, suppose) do not usually take -ing.",
+        "examples": [
+          "I work in a hospital. I am working in a hospital this month, while my usual office is closed.",
+          "I believe you are right. (not: I am believing)",
+          "This book belongs to my sister. (not: is belonging)"
+        ],
+        "method": "Show the two example pairs side by side. Ask guiding questions: Is this a routine or a temporary situation? Can we say I am believing? Then ask the student to make one routine sentence and one temporary sentence about their own life.",
+        "checkQuestion": "Would we say I am realising the answer, or I realise the answer, and why?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Maria works as a teacher in Lisbon. This term she is covering a colleague's classes in a different school. She believes the new school suits her, and she realises that she enjoys the change.",
+        "factCheck": "Ask: Where does Maria usually work? (as a teacher in Lisbon, the text implies). What is she doing this term? (covering a colleague's classes in a different school). What does she realise? (that she enjoys the change).",
+        "toneCheck": "Ask: Does Maria seem happy or unhappy with the change? Ask the student to point to the phrase that shows her feeling, such as she enjoys the change."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Daily life and this month: the student describes a routine they have and one temporary situation in their life right now. The tutor asks one question: How long do you think this situation will last?",
+        "phrases": [
+          "I usually ...",
+          "This week I am ...",
+          "I believe that ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student speak for at least 60 to 65 percent of the class and keep corrections for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I am believing that the plan is good.",
+          "I work this month in a different office."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-12",
+    "phase": "Flow",
+    "number": 12,
+    "cefr": "B1",
+    "title": "Module 1: Personality, Emotions, and Dependent Prepositions",
+    "canDo": "Can describe character traits and feelings, and use common adjective and verb plus preposition combinations.",
+    "goal": "Use personality adjectives and emotions with afraid of, keen on, interested in, and get on with.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a friendly group at a party. Ask: What do you think these people are like?",
+        "tutorAction": "Give a 15-second example: They look cheerful and easy to talk to. Let the student describe one person in the photo."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Adjective + preposition (afraid of, keen on, interested in); verb + preposition (get on with, depend on, look after)",
+        "examples": [
+          "I am afraid of spiders, but my brother is not.",
+          "She is very keen on cooking and interested in healthy food.",
+          "I get on well with my new colleagues."
+        ],
+        "method": "Show the example sentences with the preposition highlighted. Ask guiding questions: Which word comes after the adjective or verb? Is the next word a noun or -ing form? Then ask the student to finish three sentences: I am interested in ..., I get on with ..., I am afraid of ....",
+        "checkQuestion": "After interested, do we use in or on?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Tom is a very easy-going person. He is keen on sport and interested in music. He gets on well with his brother, but he is afraid of heights, so he never climbs ladders.",
+        "factCheck": "Ask: What is Tom keen on? (sport). What is he interested in? (music). Who does he get on well with? (his brother). What is he afraid of? (heights).",
+        "toneCheck": "Ask: How would you describe Tom's personality? Ask the student to point to the word that shows his character, such as easy-going."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Describe a friend: the student describes a friend's personality, interests, and one thing they are afraid of, using the target prepositions. The tutor asks: How long have you known each other?",
+        "phrases": [
+          "I get on well with ...",
+          "She is very keen on ...",
+          "He is afraid of ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each description, and note preposition errors silently for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "She is interested to music.",
+          "I get on very good with my friend."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-13",
+    "phase": "Flow",
+    "number": 13,
+    "cefr": "B1",
+    "title": "Module 1: Meeting New People Workshop",
+    "canDo": "Can introduce themselves, talk about family, and write a short personal profile in an email.",
+    "goal": "Introduce yourself to a new contact, describe your family, and write a short personal profile email.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: If you met someone new at a conference, what would you tell them about yourself first?",
+        "tutorAction": "Give a 15-second example: I work in marketing and I live with my family in a small town. Let the student speak freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Introduction: I'm ... / I work as ... / I live with ... / I have got ... (family) / I'm originally from ... / I'm keen on ... (interests)",
+        "examples": [
+          "I'm Carlos, and I work as an engineer in Madrid.",
+          "I've got two younger sisters, and we all get on very well.",
+          "I'm originally from Peru, but I've lived here for five years."
+        ],
+        "method": "Show the introduction structure in three parts: name and job, family, and background. Ask guiding questions: What information comes first in an introduction? Which tense do we use for how long you have lived somewhere? Then ask the student to build their own introduction in three sentences.",
+        "checkQuestion": "In I have lived here for five years, is the action finished or still continuing?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this email twice at a steady pace: Hello Anna, I'm Sam, and I work as a designer in a small agency. I've got a dog called Max, and I'm really keen on hiking. I'm originally from Ireland, but I've lived in Berlin since 2019. Best wishes, Sam.",
+        "factCheck": "Ask: What is Sam's job? (designer). What does Sam have? (a dog called Max). Where is Sam originally from? (Ireland). Since when has he lived in Berlin? (2019).",
+        "toneCheck": "Ask: Is the email formal or friendly? Ask the student to point to the phrase that makes it friendly, such as Hello Anna or really keen on."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "New contact role-play: the tutor plays a new colleague at a welcome lunch. The student introduces themselves, talks about their family, and asks the tutor two questions about their life.",
+        "phrases": [
+          "I'm ... and I work as ...",
+          "I've got ...",
+          "Where are you from originally?"
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student lead the introduction, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I am working as a designer since two years.",
+          "I have a dog, it is called Max."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-14",
+    "phase": "Flow",
+    "number": 14,
+    "cefr": "B1",
+    "title": "Module 2: Past Simple and Past Continuous",
+    "canDo": "Can set the scene for a past event and describe the main actions that interrupted or happened during it.",
+    "goal": "Use past continuous for background and past simple for main events, with sequencing words such as meanwhile and eventually.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a street in the rain with people running. Ask: What do you think was happening when this photo was taken?",
+        "tutorAction": "Give a 15-second example: People were walking home when it suddenly started to rain. Let the student speculate for one to two minutes."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Past continuous (was / were + verb-ing) for the background or ongoing action; past simple for the main event that interrupts or follows. Sequencing: meanwhile, eventually, in the end.",
+        "examples": [
+          "I was walking home when it started to rain.",
+          "While the team was preparing the report, the manager called.",
+          "Eventually, the storm stopped, and in the end we got home safely."
+        ],
+        "method": "Show the example pairs with the background and the main event coloured differently. Ask guiding questions: Which action was already happening? Which action interrupted it? Then ask the student to say what they were doing when something happened to them last week.",
+        "checkQuestion": "In I was walking home when it started to rain, which action was already in progress?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Last summer, Lucy was camping with her friends when a storm arrived. Meanwhile, the others were setting up the tent. Eventually the rain stopped, and in the end they had a wonderful evening by the fire.",
+        "factCheck": "Ask: Who was Lucy with? (her friends). What arrived? (a storm). What were the others doing? (setting up the tent). How did the evening end? (wonderfully, by the fire).",
+        "toneCheck": "Ask: Does the story end happily or unhappily? Ask the student to point to the sequencing word that shows the end of the story, such as in the end."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Story of a day: the student tells the tutor about a day they remember, using past continuous for the background and past simple for at least two main events. The tutor asks: And then what happened?",
+        "phrases": [
+          "I was ... when ...",
+          "Meanwhile, ...",
+          "In the end, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the story, then note tense errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I walked home when it was starting to rain.",
+          "While we were eating, the phone was ringing."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-15",
+    "phase": "Flow",
+    "number": 15,
+    "cefr": "B1",
+    "title": "Module 2: Childhood Habits and Confusable Words",
+    "canDo": "Can describe past habits and childhood routines, and use commonly confused words correctly.",
+    "goal": "Talk about childhood habits with used to, and choose between miss and lose, remember and remind, and fun and funny.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What did you use to do as a child that you do not do now?",
+        "tutorAction": "Give a 15-second example: I used to play in the park every evening. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Subject + used to + base verb (past habit that has stopped); confusable pairs: miss (feel sad about someone gone) / lose (no longer have something); remember (keep in mind) / remind (make someone remember); fun (adjective, enjoyable) / funny (makes you laugh)",
+        "examples": [
+          "We used to visit our grandparents every summer.",
+          "I miss my old school. I lost my pen during the exam.",
+          "Please remind me to call you. The trip was fun, and the guide was funny."
+        ],
+        "method": "Show each confusable pair with an example. Ask concept-checking questions: Does used to describe something still happening? Do you keep a thing or lose it? Who does the reminding? Then ask the student to say one childhood habit with used to and one thing they miss.",
+        "checkQuestion": "Does used to describe a habit that has stopped, or one that continues now?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: When I was a child, we used to spend every Sunday at my grandmother's house. I miss those days. She always made us laugh, and the afternoons were fun. Once I lost my keys there, and she reminded me to check the garden.",
+        "factCheck": "Ask: Where did the family spend Sundays? (at the grandmother's house). What does the speaker miss? (those days). What did the grandmother do? (made them laugh, and reminded the speaker to check the garden).",
+        "toneCheck": "Ask: Does the speaker feel nostalgic or unhappy about the past? Ask the student to point to the phrase that shows the feeling, such as I miss those days."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Childhood memories: the student tells the tutor about one childhood habit, one place they used to go, and one thing they miss now. The tutor asks one follow-up question: Why do you miss it?",
+        "phrases": [
+          "I used to ...",
+          "I miss ...",
+          "I remember ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the memory, and note confusable-word errors silently for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I use to play football when I was young.",
+          "I lost my grandmother very much."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-16",
+    "phase": "Flow",
+    "number": 16,
+    "cefr": "B1",
+    "title": "Module 2: Personal Anecdote Workshop",
+    "canDo": "Can tell a structured personal story with a clear beginning, middle, and end, and write a short narrative of it.",
+    "goal": "Tell a short personal story in order, then write a brief version of it.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is the funniest thing that has ever happened to you on a journey?",
+        "tutorAction": "Give a 15-second example: Once I missed my train, so I took a taxi. Let the student speak for one to two minutes."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Beginning (set the scene: It was ... / Last year, ...); middle (the problem: Suddenly, ... / Then ...); end (the result: In the end, ... / Luckily, ...)",
+        "examples": [
+          "It was a cold morning, and I was rushing to catch the bus.",
+          "Suddenly, the driver stopped and said the route had changed.",
+          "In the end, I arrived late, but I met my best friend on the way."
+        ],
+        "method": "Show a short story divided into three parts. Ask guiding questions: Which part sets the scene? Which part has the problem? Which part gives the result? Then ask the student to match their warm-up story to the three parts.",
+        "checkQuestion": "Which sentence in the example story introduces the problem?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this story twice at a steady pace: It was a cold morning, and I was rushing to catch the bus. Suddenly, I realised I had left my phone at home. I went back, and in the end I caught the next bus. Luckily, the journey was calm, and I felt much better by lunchtime.",
+        "factCheck": "Ask: What was the speaker rushing to do? (catch the bus). What did they realise? (they had left their phone at home). How did the story end? (they caught the next bus and felt better by lunchtime).",
+        "toneCheck": "Ask: Is the story serious or light-hearted? Ask the student to point to the sentence that shows the speaker's feelings at the end, such as I felt much better."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Anecdote: the student tells the tutor a short personal story with a clear beginning, middle, and end. The tutor asks one question at the end: What did you learn from that?",
+        "phrases": [
+          "It was ..., and I ...",
+          "Suddenly, ...",
+          "In the end, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student tell the full story, and keep corrections for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "Suddenly I am realising I forgot my phone.",
+          "In the end I was arriving late and it was a good day."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-17",
+    "phase": "Flow",
+    "number": 17,
+    "cefr": "B1",
+    "title": "Module 3: Present Perfect and Past Simple",
+    "canDo": "Can talk about life experiences and unfinished time, and choose between present perfect and past simple.",
+    "goal": "Use present perfect for experiences and unfinished time, and past simple for finished times, with for, since, ever, never, just, already, and yet.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Have you ever been to another country? When did you last go?",
+        "tutorAction": "Give a 15-second example: I have been to Italy twice, and I went last summer. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Present perfect (have / has + past participle) for experiences and unfinished time (for, since, ever, never, just, already, yet); past simple for a finished time (last year, in 2019, yesterday)",
+        "examples": [
+          "I have visited Spain twice. I went there last year.",
+          "She has lived here since 2015. She has already finished the course.",
+          "Have you ever tried sushi? I have never eaten it, but I want to try."
+        ],
+        "method": "Show the example pairs with the time expressions highlighted. Ask guiding questions: Is there a finished time word? Does the experience still matter now? Then ask the student to say one experience with present perfect and one finished event with past simple.",
+        "checkQuestion": "Do we say I have gone there last year or I went there last year?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Ahmed has worked at the hospital for ten years. He has already trained three new nurses this year. He went to Canada in 2018, and he has never forgotten the experience.",
+        "factCheck": "Ask: How long has Ahmed worked at the hospital? (ten years). What has he already done this year? (trained three new nurses). When did he go to Canada? (in 2018).",
+        "toneCheck": "Ask: Does Ahmed seem proud of his work? Ask the student to point to the phrase that shows his feeling, such as has never forgotten the experience."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Life so far: the student tells the tutor about two experiences they have had and one thing they have already done this year. The tutor asks: When did that happen?",
+        "phrases": [
+          "I have ever ...",
+          "I have already ...",
+          "I went there in ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student speak for at least 60 to 65 percent of the class, and note tense errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I have visited Spain last year.",
+          "Have you ever went to Canada?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-18",
+    "phase": "Flow",
+    "number": 18,
+    "cefr": "B1",
+    "title": "Module 3: Past Perfect Sequencing",
+    "canDo": "Can describe two past events in order, showing which one happened first.",
+    "goal": "Use past perfect to show which of two past events happened first, with past simple for the second event.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Have you ever arrived somewhere and found that something had already happened or changed?",
+        "tutorAction": "Give a 15-second example: When I got to the cinema, the film had already started. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Past perfect (had + past participle) for the earlier event; past simple for the later event: When I arrived, the train had already left.",
+        "examples": [
+          "When I arrived at the station, the train had already left.",
+          "She had finished her homework before her friends called.",
+          "After they had eaten, they went for a walk."
+        ],
+        "method": "Show a timeline with two past events and label the earlier one. Ask guiding questions: Which event happened first? Which verb form shows the earlier event? Then ask the student to say what had happened before they arrived at work or school today.",
+        "checkQuestion": "In When I arrived, the train had already left, which event happened first?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: When Maya got to the airport, her flight had already boarded. She had booked the wrong time. The staff had tried to call her, but her phone had run out of battery.",
+        "factCheck": "Ask: What had already happened when Maya arrived? (her flight had boarded). What had she booked? (the wrong time). Why could the staff not reach her? (her phone had run out of battery).",
+        "toneCheck": "Ask: Is Maya calm or stressed about the situation? Ask the student to point to the phrase that shows her problem, such as had booked the wrong time."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Missed moment: the student describes a time they arrived too late for something, using past perfect for what had already happened. The tutor asks one question: What did you do next?",
+        "phrases": [
+          "When I arrived, ... had already ...",
+          "I had forgotten ...",
+          "By the time I got there, ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish the sequence, and keep tense corrections for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "When I arrived, the train already left.",
+          "When I arrived, the shop closed."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-19",
+    "phase": "Flow",
+    "number": 19,
+    "cefr": "B1",
+    "title": "Module 3: Life Milestones and Travel Mishaps Interview",
+    "canDo": "Can ask and answer questions about major life milestones and travel problems, giving the sequence of events.",
+    "goal": "Interview a partner about life milestones and a travel mishap, using present perfect and past simple together.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: What is one big milestone in your life, such as a job, a move, or a graduation?",
+        "tutorAction": "Give a 15-second example: I moved to a new city five years ago. Let the student speak freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Interview questions: Have you ever ...? / When did you ...? / How long have you ...? / What had happened before ...?",
+        "examples": [
+          "Have you ever moved to another country? When did you do it?",
+          "How long have you lived in your current home?",
+          "What had happened before you decided to change jobs?"
+        ],
+        "method": "Show the four question types with example answers. Ask guiding questions: Which question asks for a time? Which asks for a duration? Then ask the student to write one question for each type to ask their partner.",
+        "checkQuestion": "Which question type asks how long something has been true?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this interview extract twice at a steady pace: Interviewer: Have you ever had a travel problem? Traveller: Yes, I have. Last year I lost my passport on a train. I had left it in my jacket, and by the time I realised, the train had already reached the border.",
+        "factCheck": "Ask: What did the traveller lose last year? (their passport). Where had they left it? (in their jacket). What had already happened when they realised? (the train had reached the border).",
+        "toneCheck": "Ask: Does the traveller treat the problem as serious or funny? Ask the student to point to the phrase that shows their attitude, such as by the time I realised."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "Partner interview: the student interviews the tutor about a life milestone and a travel mishap, using at least two questions from the theory slide. Then the tutor interviews the student.",
+        "phrases": [
+          "Have you ever ...?",
+          "How long have you ...?",
+          "When did you ...?"
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let each person answer fully before asking the next question, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "How long you have lived here?",
+          "I lost my passport and then I have been worried."
+        ]
+      }
+    }
+  },
+  {
+    "id": "FLOW-20",
+    "phase": "Flow",
+    "number": 20,
+    "cefr": "B1",
+    "title": "Module 4: Future Forms: Will, Going To, and Present Continuous",
+    "canDo": "Can describe spontaneous decisions, plans, predictions with evidence, and fixed arrangements using the right future form.",
+    "goal": "Choose between will, going to, and present continuous for decisions, plans, predictions, and arrangements.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Show a photo of a dark cloud over a beach. Ask: What is going to happen, and what are you going to do about it?",
+        "tutorAction": "Give a 15-second example: It is going to rain, so I will take an umbrella. Let the student answer freely."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Will + base verb (spontaneous decision or prediction without evidence); going to + base verb (plan or prediction with evidence now); present continuous for fixed arrangements (I am meeting her at six)",
+        "examples": [
+          "I am tired, so I will go to bed early. (decision at the moment)",
+          "Look at those clouds. It is going to rain. (evidence now)",
+          "We are flying to Madrid on Friday. (fixed arrangement)"
+        ],
+        "method": "Show the three examples. Ask guiding questions: Was the decision made before or at the moment of speaking? Is there evidence now? Is there a fixed time or booking? Then ask the student to make one sentence for each form about their plans this week.",
+        "checkQuestion": "In I am meeting her at six, is the arrangement fixed or a spontaneous idea?"
+      },
+      "comprehension": {
+        "minutes": 10,
+        "source": "Read this text twice at a steady pace: Next month, Sofia is going to start a new course. She is starting on Monday, and she will need to buy books first. She thinks the course will be difficult, but she is sure it will help her career.",
+        "factCheck": "Ask: What is Sofia going to start? (a new course). When does she start? (on Monday). What will she need to buy? (books).",
+        "toneCheck": "Ask: Is Sofia excited or nervous about the course? Ask the student to point to the phrase that shows her feeling, such as she is sure it will help."
+      },
+      "conversation": {
+        "minutes": 7,
+        "task": "My week: the student describes three things they will do or are doing next week, using one of each future form. The tutor asks one question: Why did you decide to do that?",
+        "phrases": [
+          "I will ... because ...",
+          "I am going to ...",
+          "I am ...-ing on ..."
+        ],
+        "mandate": "Do not interrupt mid-sentence. Let the student finish each plan, and note future form errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 2,
+        "mistakes": [
+          "I will meet my friend on Friday, I decided it yesterday.",
+          "I am going to meet my doctor at ten tomorrow."
+        ]
+      }
+    }
+  }
+]

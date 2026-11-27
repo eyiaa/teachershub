@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Drive classes &middot; Teachers Hub</title>
+<style>
+body{font-family:Calibri,Arial,Helvetica,sans-serif;color:#222222;font-size:11pt;line-height:1.5;max-width:900px;margin:28px auto;padding:0 24px;background:#FFFFFF}
+a{color:#1F4E79}
+a:hover{color:#D9731E}
+.kicker{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;margin:0 0 6px}
+h1{color:#1F4E79;font-size:22pt;margin:0 0 12px;padding-bottom:10px;border-bottom:3px solid #D9731E}
+h2{color:#1F4E79;font-size:13pt;margin:26px 0 10px;padding-bottom:4px;border-bottom:1px solid #C9D8E8}
+h3{color:#D9731E;font-size:10pt;text-transform:uppercase;letter-spacing:1px;margin:16px 0 6px}
+.lead{margin:4px 0 12px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid #C9D8E8;margin:18px 0 6px}
+.tab{background:none;border:none;border-bottom:3px solid transparent;padding:10px 16px;font-size:11pt;font-family:inherit;color:#5F6B7A;cursor:pointer;margin-bottom:-1px}
+.tab:hover{color:#1F4E79}
+.tab[aria-selected=true]{color:#1F4E79;font-weight:bold;border-bottom-color:#D9731E}
+.tab:focus{outline:2px solid #C9D8E8;outline-offset:2px}
+.cards{display:flex;flex-wrap:wrap;gap:14px;margin:6px 0 4px}
+.card{flex:1 1 230px;background:#EAF1F8;border-top:4px solid #D9731E;padding:14px 16px;text-decoration:none;color:#222222;display:block}
+.card:hover{background:#FDF1E7}
+.card .name{color:#1F4E79;font-size:15pt;font-weight:bold}
+.card .cefr{color:#D9731E;font-size:9pt;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin:2px 0 6px}
+.card .count{color:#5F6B7A;font-size:9.5pt;margin-top:8px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 6px}
+#q{flex:2 1 320px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;outline:none;font-family:inherit}
+#topic{flex:1 1 220px;padding:10px 12px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit}
+#q:focus,#topic:focus{border-color:#1F4E79;box-shadow:0 0 0 2px #EAF1F8}
+#count{color:#5F6B7A;font-size:9.5pt;margin:8px 0 10px}
+table.idx{border-collapse:collapse;width:100%;font-size:10.5pt}
+table.idx th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:8px 10px;cursor:pointer;user-select:none;white-space:nowrap}
+table.idx th:focus{outline:2px solid #D9731E;outline-offset:-2px}
+table.idx th[aria-sort=ascending]::after{content:" \25B2";color:#D9731E}
+table.idx th[aria-sort=descending]::after{content:" \25BC";color:#D9731E}
+table.idx td{padding:8px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+table.idx tr:hover td{background:#EAF1F8}
+a.cid{color:#1F4E79;font-weight:bold;text-decoration:none}
+a.ctitle{color:#222222;text-decoration:none}
+.topics{color:#5F6B7A;font-size:9.5pt}
+.empty{color:#5F6B7A;padding:14px 0;display:none}
+[hidden]{display:none !important}
+.nav{margin:0 0 14px;user-select:none;-webkit-user-select:none}
+.btn{display:inline-block;background:#1F4E79;color:#FFFFFF;text-decoration:none;padding:6px 12px;border-radius:3px;font-size:9.5pt;margin-right:8px;margin-bottom:6px}
+.btn:hover{background:#D9731E;color:#FFFFFF}
+.grid{width:100%;border-collapse:collapse;font-size:10pt;margin:6px 0 10px}
+.grid th{background:#1F4E79;color:#FFFFFF;text-align:left;padding:7px 10px;font-weight:bold;vertical-align:top}
+.grid td{padding:7px 10px;border-bottom:1px solid #C9D8E8;vertical-align:top}
+.grid tr:nth-child(even) td{background:#EAF1F8}
+.note{background:#EAF1F8;border-left:4px solid #1F4E79;padding:10px 14px;margin:10px 0}
+.warn{background:#FDF1E7;border-left:4px solid #D9731E;padding:10px 14px;margin:10px 0}
+details{border:1px solid #C9D8E8;border-radius:4px;margin:10px 0;padding:0}
+summary{cursor:pointer;color:#1F4E79;font-weight:bold;padding:12px 14px;font-size:12pt}
+details[open] summary{border-bottom:1px solid #C9D8E8}
+details > div{padding:6px 14px 14px}
+details details{margin:8px 0}
+details details summary{font-size:11pt;padding:10px 12px}
+.sel{padding:8px 10px;font-size:11pt;border:1px solid #C9D8E8;border-radius:4px;background:#FFFFFF;font-family:inherit;min-width:220px}
+.pb-btn{background:#1F4E79;color:#FFFFFF;border:none;padding:6px 10px;border-radius:3px;font-family:inherit;font-size:10pt;cursor:pointer;margin:2px 4px 2px 0}
+.pb-btn:hover{background:#D9731E}
+.pb-week td{background:#EAF1F8;color:#1F4E79;font-weight:bold}
+.pb-check{margin-right:14px;display:inline-block}
+.fb-card{border:1px solid #C9D8E8;border-left:5px solid #D9731E;border-radius:4px;padding:12px 14px;margin:10px 0}
+.fb-meta{color:#5F6B7A;font-size:9.5pt;font-weight:normal}
+@media print{body *{visibility:hidden}#pb-plan,#pb-plan *{visibility:visible}#pb-plan{position:absolute;left:0;top:0;width:100%}.no-print{display:none !important}}
+#score-go{background:#1F4E79;color:#FFFFFF;border:none;padding:10px 18px;font-size:11pt;font-family:inherit;border-radius:3px;cursor:pointer}
+#score-go:hover{background:#D9731E}
+.footer{color:#5F6B7A;font-size:8.5pt;margin-top:28px;border-top:1px solid #C9D8E8;padding-top:8px}
+</style></head>
+<body>
+<nav class="nav"><a class="btn" href="../index.html">&larr; Teachers Hub</a></nav>
+<p class="kicker">Drive &middot; B2</p>
+<h1>Drive classes</h1>
+<p class="lead">Style, tone, and debate. 46 core classes. Search by topic or filter by grammar topic. Open a class to copy it into Google Docs.</p>
+<details open>
+<summary>Core classes: 46</summary>
+<div>
+<div class="controls">
+<input id="q" type="search" placeholder="Search topics, titles, or IDs, e.g. conditional, passive, FLOW-12" autocomplete="off" aria-label="Search classes">
+<select id="topic" aria-label="Filter by grammar topic"><option value="">All grammar topics</option><option value="Causatives">Causatives</option><option value="Conditionals">Conditionals</option><option value="Emphasis and inversion">Emphasis and inversion</option><option value="Linking words">Linking words</option><option value="Modals">Modals</option><option value="Participle clauses">Participle clauses</option><option value="Passive">Passive</option><option value="Phrasal verbs">Phrasal verbs</option><option value="Pronunciation">Pronunciation</option><option value="Referencing">Referencing</option><option value="Reported speech">Reported speech</option><option value="Subjunctive">Subjunctive</option><option value="Vocabulary">Vocabulary</option><option value="Word formation">Word formation</option></select>
+</div>
+<p id="count">Showing 46 of 46 classes</p>
+<table id="idx" class="idx">
+<thead><tr><th>Class</th><th>CEFR</th><th>Title</th><th>Grammar topics</th></tr></thead>
+<tbody>
+<tr data-search="drive-01 defending an opinion: building a strong argument drive b2 state a clear opinion, give two reasons, and defend it against a challenge. can explain a viewpoint on a topical issue, giving the advantages and disadvantages of various options. linking words" data-topics="Linking words">
+<td data-sort="2-001"><a href="DRIVE-01.html" class="cid">DRIVE-01</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="defending an opinion: building a strong argument"><a href="DRIVE-01.html" class="ctitle">Defending an Opinion: Building a Strong Argument</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="drive-02 hypothetical advice: second conditional drive b2 discuss hypothetical situations and give advice using if i were you, i would. can talk about unreal or unlikely situations and give considered advice on problems in detail. conditionals" data-topics="Conditionals">
+<td data-sort="2-002"><a href="DRIVE-02.html" class="cid">DRIVE-02</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="hypothetical advice: second conditional"><a href="DRIVE-02.html" class="ctitle">Hypothetical Advice: Second Conditional</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-03 regrets and lessons: third conditional drive b2 reflect on past decisions and their results using the third conditional. can discuss past regrets and missed opportunities, and reflect on the consequences in detail. conditionals" data-topics="Conditionals">
+<td data-sort="2-003"><a href="DRIVE-03.html" class="cid">DRIVE-03</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="regrets and lessons: third conditional"><a href="DRIVE-03.html" class="ctitle">Regrets and Lessons: Third Conditional</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-04 formal reports: the passive in context drive b2 present findings and processes in a formal style using passive structures such as it is believed that. can produce clear, detailed text on a wide range of subjects, using a formal register and passive structures. passive" data-topics="Passive">
+<td data-sort="2-004"><a href="DRIVE-04.html" class="cid">DRIVE-04</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="formal reports: the passive in context"><a href="DRIVE-04.html" class="ctitle">Formal Reports: The Passive in Context</a></td>
+<td data-sort="passive" class="topics">Passive</td>
+</tr>
+<tr data-search="drive-05 contrast and nuance: advanced linking words drive b2 connect ideas using nevertheless, whereas, consequently, and in contrast to show nuance. can connect ideas with advanced linking words to build a clear, well-organised argument on abstract topics. linking words" data-topics="Linking words">
+<td data-sort="2-005"><a href="DRIVE-05.html" class="cid">DRIVE-05</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="contrast and nuance: advanced linking words"><a href="DRIVE-05.html" class="ctitle">Contrast and Nuance: Advanced Linking Words</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="drive-06 mixed conditionals: linking past and present drive b2 explain how a past decision affects the present using mixed conditionals. can discuss how past events affect the present, and the consequences of unreal situations in detail. conditionals" data-topics="Conditionals">
+<td data-sort="2-006"><a href="DRIVE-06.html" class="cid">DRIVE-06</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="mixed conditionals: linking past and present"><a href="DRIVE-06.html" class="ctitle">Mixed Conditionals: Linking Past and Present</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-07 good versus better: precise word choice drive b2 replace basic verbs and adjectives with precise, professional alternatives in everyday discussion. can use a wide range of vocabulary to express precise meaning and avoid repetition in discussion. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-007"><a href="DRIVE-07.html" class="cid">DRIVE-07</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="good versus better: precise word choice"><a href="DRIVE-07.html" class="ctitle">Good Versus Better: Precise Word Choice</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-08 idioms and tone: reading between the lines drive b2 recognise idioms and tone in speech and use two or three of them naturally in discussion. can understand implied meaning, idioms, and changes of tone in speech on familiar and abstract topics. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-008"><a href="DRIVE-08.html" class="cid">DRIVE-08</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="idioms and tone: reading between the lines"><a href="DRIVE-08.html" class="ctitle">Idioms and Tone: Reading Between the Lines</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-09 negotiating terms: conditional offers drive b2 make and respond to conditional offers in a negotiation using provided that and as long as. can negotiate and make conditional proposals in a real-time exchange, stating and weighing terms clearly. conditionals linking words" data-topics="Conditionals|Linking words">
+<td data-sort="2-009"><a href="DRIVE-09.html" class="cid">DRIVE-09</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="negotiating terms: conditional offers"><a href="DRIVE-09.html" class="ctitle">Negotiating Terms: Conditional Offers</a></td>
+<td data-sort="conditionals, linking words" class="topics">Conditionals · Linking words</td>
+</tr>
+<tr data-search="drive-10 persuasive speaking: making a case to an audience drive b2 deliver a two-minute persuasive case using a clear structure, precise vocabulary, and a strong close. can deliver clear, detailed presentations and sustain a persuasive case on a topical issue in front of listeners. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-010"><a href="DRIVE-10.html" class="cid">DRIVE-10</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="persuasive speaking: making a case to an audience"><a href="DRIVE-10.html" class="ctitle">Persuasive Speaking: Making a Case to an Audience</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-11 module 1: register shifting drive b2 replace make, do, and get with precise verbs in formal sentences. can rewrite informal speech in a formal academic or business register, replacing weak verbs with precise alternatives. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-011"><a href="DRIVE-11.html" class="cid">DRIVE-11</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 1: register shifting"><a href="DRIVE-11.html" class="ctitle">Module 1: Register Shifting</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-12 module 1: hedging and distancing drive b2 qualify claims using it could be argued that, presumably, and to a certain extent. can soften claims diplomatically using hedging language and qualify statements about familiar and abstract topics. modals vocabulary" data-topics="Modals|Vocabulary">
+<td data-sort="2-012"><a href="DRIVE-12.html" class="cid">DRIVE-12</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 1: hedging and distancing"><a href="DRIVE-12.html" class="ctitle">Module 1: Hedging and Distancing</a></td>
+<td data-sort="modals, vocabulary" class="topics">Modals · Vocabulary</td>
+</tr>
+<tr data-search="drive-13 module 1: editorial critique workshop drive b2 identify bias and loaded language in an opinion piece and rewrite a blunt critique in a nuanced register. can analyse an opinion piece for bias and tone, and rewrite a blunt argument as a nuanced critique. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-013"><a href="DRIVE-13.html" class="cid">DRIVE-13</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 1: editorial critique workshop"><a href="DRIVE-13.html" class="ctitle">Module 1: Editorial Critique Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-14 module 2: mixed conditionals drive b2 use mixed conditionals, including inverted had i forms, to link past and present. can connect past actions to present consequences and present conditions to past results in a single hypothetical sentence. conditionals" data-topics="Conditionals">
+<td data-sort="2-014"><a href="DRIVE-14.html" class="cid">DRIVE-14</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 2: mixed conditionals"><a href="DRIVE-14.html" class="ctitle">Module 2: Mixed Conditionals</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-15 module 2: unreal past and the subjunctive drive b2 use wish, if only, it is high time, would rather, and the mandative subjunctive accurately. can express wishes, regrets, preferences, and formal demands about unreal or required situations. conditionals subjunctive" data-topics="Conditionals|Subjunctive">
+<td data-sort="2-015"><a href="DRIVE-15.html" class="cid">DRIVE-15</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 2: unreal past and the subjunctive"><a href="DRIVE-15.html" class="ctitle">Module 2: Unreal Past and the Subjunctive</a></td>
+<td data-sort="conditionals, subjunctive" class="topics">Conditionals · Subjunctive</td>
+</tr>
+<tr data-search="drive-16 module 2: crisis and ethics debate workshop drive b2 argue a what-if scenario and a corporate ethics dilemma using suppose, were it to, and had the board known. can debate historical what-ifs and corporate ethical dilemmas, using complex hypotheticals to build a case. conditionals" data-topics="Conditionals">
+<td data-sort="2-016"><a href="DRIVE-16.html" class="cid">DRIVE-16</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 2: crisis and ethics debate workshop"><a href="DRIVE-16.html" class="ctitle">Module 2: Crisis and Ethics Debate Workshop</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-17 module 3: cleft sentences for focus drive b2 use it-clefts and wh-clefts to put the key point at the front of a sentence. can highlight key information in speech using it-clefts and wh-clefts to control what the listener notices first. emphasis and inversion" data-topics="Emphasis and inversion">
+<td data-sort="2-017"><a href="DRIVE-17.html" class="cid">DRIVE-17</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 3: cleft sentences for focus"><a href="DRIVE-17.html" class="ctitle">Module 3: Cleft Sentences for Focus</a></td>
+<td data-sort="emphasis and inversion" class="topics">Emphasis and inversion</td>
+</tr>
+<tr data-search="drive-18 module 3: negative inversion drive b2 use not only, seldom, under no circumstances, and hardly ... when with correct inversion. can use formal negative adverbials with inversion to add emphasis in speech and formal writing. emphasis and inversion" data-topics="Emphasis and inversion">
+<td data-sort="2-018"><a href="DRIVE-18.html" class="cid">DRIVE-18</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 3: negative inversion"><a href="DRIVE-18.html" class="ctitle">Module 3: Negative Inversion</a></td>
+<td data-sort="emphasis and inversion" class="topics">Emphasis and inversion</td>
+</tr>
+<tr data-search="drive-19 module 3: persuasive pitch workshop drive b2 deliver a short persuasive pitch that uses at least one cleft and one inverted structure. can deliver a structured persuasive monologue, using clefts and inversion to highlight the key points. emphasis and inversion" data-topics="Emphasis and inversion">
+<td data-sort="2-019"><a href="DRIVE-19.html" class="cid">DRIVE-19</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 3: persuasive pitch workshop"><a href="DRIVE-19.html" class="ctitle">Module 3: Persuasive Pitch Workshop</a></td>
+<td data-sort="emphasis and inversion" class="topics">Emphasis and inversion</td>
+</tr>
+<tr data-search="drive-20 module 4: past modals of deduction and criticism drive b2 use might well have, can't have, should have, needn't have, and didn't need to to speculate and criticise. can speculate about past events and criticise past decisions using past modal verbs with nuance. modals" data-topics="Modals">
+<td data-sort="2-020"><a href="DRIVE-20.html" class="cid">DRIVE-20</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 4: past modals of deduction and criticism"><a href="DRIVE-20.html" class="ctitle">Module 4: Past Modals of Deduction and Criticism</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="drive-21 module 4: abstract phrasal verbs drive b2 use iron out, phase out, boil down to, and come up against in abstract, professional sentences. can use abstract phrasal verbs to describe problems, processes, and outcomes in professional discussion. phrasal verbs" data-topics="Phrasal verbs">
+<td data-sort="2-021"><a href="DRIVE-21.html" class="cid">DRIVE-21</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 4: abstract phrasal verbs"><a href="DRIVE-21.html" class="ctitle">Module 4: Abstract Phrasal Verbs</a></td>
+<td data-sort="phrasal verbs" class="topics">Phrasal verbs</td>
+</tr>
+<tr data-search="drive-22 module 4: investigative case study workshop drive b2 reconstruct the likely causes of a business failure using past modals of deduction and abstract phrasal verbs. can analyse an unsolved problem or business failure, using past deduction and idiomatic language to build a reasoned explanation. modals" data-topics="Modals">
+<td data-sort="2-022"><a href="DRIVE-22.html" class="cid">DRIVE-22</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 4: investigative case study workshop"><a href="DRIVE-22.html" class="ctitle">Module 4: Investigative Case Study Workshop</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="drive-23 module 5: participle clauses drive b2 replace relative and adverbial clauses with present, past, and perfect participle clauses. can compress relative and adverbial clauses into participle clauses for concise, formal writing and speech. participle clauses" data-topics="Participle clauses">
+<td data-sort="2-023"><a href="DRIVE-23.html" class="cid">DRIVE-23</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 5: participle clauses"><a href="DRIVE-23.html" class="ctitle">Module 5: Participle Clauses</a></td>
+<td data-sort="participle clauses" class="topics">Participle clauses</td>
+</tr>
+<tr data-search="drive-24 module 5: referencing and substitution drive b2 use the former, the latter, such measures, if so, and ellipsis to avoid repeating nouns and clauses. can avoid repetition using referencing words, substitution, and ellipsis in formal discussion and writing. referencing" data-topics="Referencing">
+<td data-sort="2-024"><a href="DRIVE-24.html" class="cid">DRIVE-24</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 5: referencing and substitution"><a href="DRIVE-24.html" class="ctitle">Module 5: Referencing and Substitution</a></td>
+<td data-sort="referencing" class="topics">Referencing</td>
+</tr>
+<tr data-search="drive-25 module 5: executive summary workshop drive b2 summarise a longer report into a short, cohesive executive summary using participles and referencing. can condense a longer report into a concise, cohesive summary using compression techniques. participle clauses referencing" data-topics="Participle clauses|Referencing">
+<td data-sort="2-025"><a href="DRIVE-25.html" class="cid">DRIVE-25</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 5: executive summary workshop"><a href="DRIVE-25.html" class="ctitle">Module 5: Executive Summary Workshop</a></td>
+<td data-sort="participle clauses, referencing" class="topics">Participle clauses · Referencing</td>
+</tr>
+<tr data-search="drive-26 module 6: passive reporting verbs drive b2 use it is alleged that, he is believed to have, and it is widely believed that to report information objectively. can report rumours, allegations, and widely held views objectively, using passive reporting structures. passive reported speech" data-topics="Passive|Reported speech">
+<td data-sort="2-026"><a href="DRIVE-26.html" class="cid">DRIVE-26</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 6: passive reporting verbs"><a href="DRIVE-26.html" class="ctitle">Module 6: Passive Reporting Verbs</a></td>
+<td data-sort="passive, reported speech" class="topics">Passive · Reported speech</td>
+</tr>
+<tr data-search="drive-27 module 6: causatives and agency drive b2 use have something done, have someone do, and get someone to do with the right degree of agency. can describe who arranged, caused, or persuaded an action to happen, using causative structures with precise nuance. causatives" data-topics="Causatives">
+<td data-sort="2-027"><a href="DRIVE-27.html" class="cid">DRIVE-27</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 6: causatives and agency"><a href="DRIVE-27.html" class="ctitle">Module 6: Causatives and Agency</a></td>
+<td data-sort="causatives" class="topics">Causatives</td>
+</tr>
+<tr data-search="drive-28 module 6: media bias and framing workshop drive b2 compare two news reports on the same event and explain how their passive attribution frames the story. can compare how two news outlets frame the same event, using passive attribution to show their positions. passive reported speech" data-topics="Passive|Reported speech">
+<td data-sort="2-028"><a href="DRIVE-28.html" class="cid">DRIVE-28</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 6: media bias and framing workshop"><a href="DRIVE-28.html" class="ctitle">Module 6: Media Bias and Framing Workshop</a></td>
+<td data-sort="passive, reported speech" class="topics">Passive · Reported speech</td>
+</tr>
+<tr data-search="drive-29 module 7: advanced discourse markers drive b2 use albeit, whereby, nonetheless, notwithstanding, and consequently to link ideas precisely. can connect contrasting and consequential ideas using advanced discourse markers to build a clear, cohesive argument. linking words" data-topics="Linking words">
+<td data-sort="2-029"><a href="DRIVE-29.html" class="cid">DRIVE-29</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 7: advanced discourse markers"><a href="DRIVE-29.html" class="ctitle">Module 7: Advanced Discourse Markers</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="drive-30 module 7: strong collocations and word formation drive b2 use strong adjective and adverb collocations such as bitterly disappointed and mitigating circumstances, and form words with affixes. can use high-level collocations and affixes to express precise degrees of feeling, circumstance, and meaning. word formation vocabulary" data-topics="Word formation|Vocabulary">
+<td data-sort="2-030"><a href="DRIVE-30.html" class="cid">DRIVE-30</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 7: strong collocations and word formation"><a href="DRIVE-30.html" class="ctitle">Module 7: Strong Collocations and Word Formation</a></td>
+<td data-sort="word formation, vocabulary" class="topics">Word formation · Vocabulary</td>
+</tr>
+<tr data-search="drive-31 module 7: long turn workshop on a controversial policy drive b2 deliver a structured two-minute long turn on a policy issue, covering both sides before giving a view. can outline and argue both sides of a controversial policy topic in a sustained, structured long turn. linking words" data-topics="Linking words">
+<td data-sort="2-031"><a href="DRIVE-31.html" class="cid">DRIVE-31</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 7: long turn workshop on a controversial policy"><a href="DRIVE-31.html" class="ctitle">Module 7: Long Turn Workshop on a Controversial Policy</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="drive-32 module 8: lexis of policy and law drive b2 use policy and legal vocabulary such as legislation, civil rights, and systemic inequality accurately in discussion. can discuss systemic issues, legislation, and civil rights using precise policy vocabulary. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-032"><a href="DRIVE-32.html" class="cid">DRIVE-32</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 8: lexis of policy and law"><a href="DRIVE-32.html" class="ctitle">Module 8: Lexis of Policy and Law</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-33 module 8: implicit meaning and irony drive b2 identify sarcasm, understatement, and implied attitude in short listening and reading texts. can detect sarcasm, understatement, and unstated attitudes in spoken and written text on social and political topics. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-033"><a href="DRIVE-33.html" class="cid">DRIVE-33</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 8: implicit meaning and irony"><a href="DRIVE-33.html" class="ctitle">Module 8: Implicit Meaning and Irony</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-34 module 8: policy debate workshop drive b2 argue a position in a structured policy debate, responding to a direct rebuttal. can take part in a structured debate on systemic inequality or on free speech versus regulation, responding to opposing arguments. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-034"><a href="DRIVE-34.html" class="cid">DRIVE-34</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 8: policy debate workshop"><a href="DRIVE-34.html" class="ctitle">Module 8: Policy Debate Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-35 module 9: lexis of innovation and risk drive b2 use innovation and risk vocabulary such as mitigation, methodology, and ethical safeguards in plain, precise language. can discuss bioengineering, ai ethics, climate mitigation, and scientific method using precise technical vocabulary without excessive jargon. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-035"><a href="DRIVE-35.html" class="cid">DRIVE-35</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 9: lexis of innovation and risk"><a href="DRIVE-35.html" class="ctitle">Module 9: Lexis of Innovation and Risk</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-36 module 9: cause, effect, and correlation drive b2 use trigger, stem from, exacerbate, and correlate with to express causality and association precisely. can express causes, effects, and correlations precisely, distinguishing between direct cause and association. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-036"><a href="DRIVE-36.html" class="cid">DRIVE-36</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 9: cause, effect, and correlation"><a href="DRIVE-36.html" class="ctitle">Module 9: Cause, Effect, and Correlation</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-37 module 9: expert panel workshop drive b2 role-play a panel of a scientist, an ethicist, and an economist discussing an emerging technology. can take part in a panel discussion with specialists, presenting a discipline-specific view and responding to other experts. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-037"><a href="DRIVE-37.html" class="cid">DRIVE-37</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 9: expert panel workshop"><a href="DRIVE-37.html" class="ctitle">Module 9: Expert Panel Workshop</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-38 module 10: lexis of cognition and emotion drive b2 use cognition and emotion vocabulary such as bias, motivation, and trigger accurately in discussion. can discuss cognitive biases, motivation, and emotional responses using precise psychological vocabulary. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-038"><a href="DRIVE-38.html" class="cid">DRIVE-38</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 10: lexis of cognition and emotion"><a href="DRIVE-38.html" class="ctitle">Module 10: Lexis of Cognition and Emotion</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-39 module 10: figurative language and metaphor drive b2 recognise and use conceptual metaphors such as building a case and a sea of change in natural speech. can understand and use common conceptual metaphors and idioms naturally in everyday and professional conversation. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-039"><a href="DRIVE-39.html" class="cid">DRIVE-39</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 10: figurative language and metaphor"><a href="DRIVE-39.html" class="ctitle">Module 10: Figurative Language and Metaphor</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-40 module 10: behavioural analysis workshop drive b2 analyse an interpersonal conflict, identifying motives, triggers, and possible outcomes in precise language. can analyse an interpersonal conflict or decision-making scenario, identifying motives, triggers, and likely outcomes. modals" data-topics="Modals">
+<td data-sort="2-040"><a href="DRIVE-40.html" class="cid">DRIVE-40</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 10: behavioural analysis workshop"><a href="DRIVE-40.html" class="ctitle">Module 10: Behavioural Analysis Workshop</a></td>
+<td data-sort="modals" class="topics">Modals</td>
+</tr>
+<tr data-search="drive-41 module 11: lexis of strategy and economics drive b2 use strategy and economics vocabulary such as market share, downturn, and leadership style accurately in discussion. can discuss corporate strategy, market trends, crisis management, and leadership styles using precise business vocabulary. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-041"><a href="DRIVE-41.html" class="cid">DRIVE-41</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 11: lexis of strategy and economics"><a href="DRIVE-41.html" class="ctitle">Module 11: Lexis of Strategy and Economics</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-42 module 11: diplomatic disagreement and concession drive b2 disagree diplomatically, make a concession, and propose a conditional compromise. can push back politely, make concessions, and move a discussion toward consensus in a professional setting. linking words" data-topics="Linking words">
+<td data-sort="2-042"><a href="DRIVE-42.html" class="cid">DRIVE-42</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 11: diplomatic disagreement and concession"><a href="DRIVE-42.html" class="ctitle">Module 11: Diplomatic Disagreement and Concession</a></td>
+<td data-sort="linking words" class="topics">Linking words</td>
+</tr>
+<tr data-search="drive-43 module 11: live negotiation simulation workshop drive b2 negotiate a multi-party agreement, using concessions, hedges, and conditional offers. can take part in a multi-party negotiation, using concession, hedging, and conditional framing to reach a workable agreement. conditionals" data-topics="Conditionals">
+<td data-sort="2-043"><a href="DRIVE-43.html" class="cid">DRIVE-43</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 11: live negotiation simulation workshop"><a href="DRIVE-43.html" class="ctitle">Module 11: Live Negotiation Simulation Workshop</a></td>
+<td data-sort="conditionals" class="topics">Conditionals</td>
+</tr>
+<tr data-search="drive-44 module 12: lexis of aesthetics and critique drive b2 use critical vocabulary such as symbolism, movement, and appropriation to analyse a work of art or media. can analyse symbolism, artistic movements, cultural appropriation, and media messages using precise critical vocabulary. vocabulary" data-topics="Vocabulary">
+<td data-sort="2-044"><a href="DRIVE-44.html" class="cid">DRIVE-44</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 12: lexis of aesthetics and critique"><a href="DRIVE-44.html" class="ctitle">Module 12: Lexis of Aesthetics and Critique</a></td>
+<td data-sort="vocabulary" class="topics">Vocabulary</td>
+</tr>
+<tr data-search="drive-45 module 12: fast speech and native rhythm drive b2 recognise elision, assimilation, and weak forms in fast, unscripted speech, and reproduce them in your own speech. can understand connected speech, including elision, assimilation, and weak forms, in unscripted audio from different accents. pronunciation" data-topics="Pronunciation">
+<td data-sort="2-045"><a href="DRIVE-45.html" class="cid">DRIVE-45</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 12: fast speech and native rhythm"><a href="DRIVE-45.html" class="ctitle">Module 12: Fast Speech and Native Rhythm</a></td>
+<td data-sort="pronunciation" class="topics">Pronunciation</td>
+</tr>
+<tr data-search="drive-46 module 12: bridge readiness check drive b2 complete a timed readiness check covering an unprepared long turn, a formal summary, and an abstract discussion, then review feedback. can speak at length on an unprepared abstract topic, read and summarise a complex text in formal register, and self-assess progress across the bridge programme. emphasis and inversion linking words conditionals" data-topics="Emphasis and inversion|Linking words|Conditionals">
+<td data-sort="2-046"><a href="DRIVE-46.html" class="cid">DRIVE-46</a></td>
+<td data-sort="B2">B2</td>
+<td data-sort="module 12: bridge readiness check"><a href="DRIVE-46.html" class="ctitle">Module 12: Bridge Readiness Check</a></td>
+<td data-sort="emphasis and inversion, linking words, conditionals" class="topics">Emphasis and inversion · Linking words · Conditionals</td>
+</tr>
+</tbody>
+</table>
+<p id="empty" class="empty">No classes match your search. Try a shorter word or a different topic.</p>
+</div>
+</details>
+<details>
+<summary>Focus pathways: 12 classes</summary>
+<div>
+<p style="margin:6px 0;">Short courses for needs we see often. Each pathway uses the Drive lesson skeleton, so it fits the same 30-minute format as the core course.</p>
+<details>
+<summary>Job Interviews: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Introduce yourself, tell past achievements clearly, talk about strengths, ask good questions, and finish with a full mock interview.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="DRIVE-INTERVIEW-01.html" class="cid">DRIVE-INTERVIEW-01</a></td><td>Job Interviews 1: Selling Your Experience with Results</td><td>Present perfect, Relative clauses</td></tr>
+<tr><td>2</td><td><a href="DRIVE-INTERVIEW-02.html" class="cid">DRIVE-INTERVIEW-02</a></td><td>Job Interviews 2: Handling Tricky Questions</td><td>Conditionals, Vocabulary</td></tr>
+<tr><td>3</td><td><a href="DRIVE-INTERVIEW-03.html" class="cid">DRIVE-INTERVIEW-03</a></td><td>Job Interviews 3: Discussing Salary and Conditions</td><td>Conditionals, Linking words</td></tr>
+<tr><td>4</td><td><a href="DRIVE-INTERVIEW-04.html" class="cid">DRIVE-INTERVIEW-04</a></td><td>Job Interviews 4: Full Mock Interview and Self-Review</td><td>Conditionals, Vocabulary</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Fluency: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Keep speaking smoothly: fillers and hesitation, linking ideas, rhythm and stress, and a timed speaking challenge.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="DRIVE-FLUENCY-01.html" class="cid">DRIVE-FLUENCY-01</a></td><td>Fluency 1: Discourse Markers for Natural Speech</td><td>Linking words</td></tr>
+<tr><td>2</td><td><a href="DRIVE-FLUENCY-02.html" class="cid">DRIVE-FLUENCY-02</a></td><td>Fluency 2: Agreeing and Disagreeing Politely</td><td>Vocabulary</td></tr>
+<tr><td>3</td><td><a href="DRIVE-FLUENCY-03.html" class="cid">DRIVE-FLUENCY-03</a></td><td>Fluency 3: Telling Stories with Pace and Emphasis</td><td>Emphasis and inversion, Past simple</td></tr>
+<tr><td>4</td><td><a href="DRIVE-FLUENCY-04.html" class="cid">DRIVE-FLUENCY-04</a></td><td>Fluency 4: Timed Opinion with a Concession</td><td>Linking words</td></tr>
+</table>
+</div>
+</details>
+<details>
+<summary>Presentation Skills: 4 classes</summary>
+<div>
+<p style="margin:6px 0;">Structure a talk, describe slides and visuals, handle questions, pace and pause well, and deliver a full presentation.</p>
+<table class="grid">
+<tr><th>#</th><th>Class</th><th>Title</th><th>Grammar topics</th></tr>
+<tr><td>1</td><td><a href="DRIVE-PRESENTATION-01.html" class="cid">DRIVE-PRESENTATION-01</a></td><td>Presentation Skills 1: Persuasive Openings and Hooks</td><td>Emphasis and inversion, Vocabulary</td></tr>
+<tr><td>2</td><td><a href="DRIVE-PRESENTATION-02.html" class="cid">DRIVE-PRESENTATION-02</a></td><td>Presentation Skills 2: Describing Data with Precise Hedging</td><td>Passive, Vocabulary</td></tr>
+<tr><td>3</td><td><a href="DRIVE-PRESENTATION-03.html" class="cid">DRIVE-PRESENTATION-03</a></td><td>Presentation Skills 3: Handling Challenging Questions</td><td>Modals, Vocabulary</td></tr>
+<tr><td>4</td><td><a href="DRIVE-PRESENTATION-04.html" class="cid">DRIVE-PRESENTATION-04</a></td><td>Presentation Skills 4: Full Seven-Minute Talk with Debrief</td><td>Linking words, Passive</td></tr>
+</table>
+</div>
+</details>
+</div>
+</details>
+<p class="footer">Global Key &middot; 3-Pillar Curriculum Framework</p>
+<script>
+(function () {
+  var table = document.getElementById("idx");
+  var tbody = table.tBodies[0];
+  var rows = Array.prototype.slice.call(tbody.rows);
+  var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
+  var input = document.getElementById("q");
+  var topic = document.getElementById("topic");
+  var count = document.getElementById("count");
+  var empty = document.getElementById("empty");
+  var box = document.getElementById("results");
+  var collator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+  var sortCol = 0, dir = 1;
+
+  function filter() {
+    var words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var t = topic.value;
+    var shown = 0;
+    rows.forEach(function (row) {
+      var okWords = words.every(function (w) { return row.getAttribute("data-search").indexOf(w) !== -1; });
+      var okTopic = !t || (row.getAttribute("data-topics") || "").split("|").indexOf(t) !== -1;
+      row.hidden = !(okWords && okTopic);
+      if (!row.hidden) shown++;
+    });
+    count.textContent = "Showing " + shown + " of " + rows.length + " classes";
+    empty.style.display = shown === 0 ? "block" : "none";
+    if (box) box.hidden = !(words.length > 0 || t !== "");
+  }
+
+  function sortBy(col) {
+    if (sortCol === col) { dir = -dir; } else { sortCol = col; dir = 1; }
+    rows.slice().sort(function (a, b) {
+      var diff = collator.compare(a.cells[col].getAttribute("data-sort"), b.cells[col].getAttribute("data-sort"));
+      if (diff === 0) diff = collator.compare(a.cells[0].getAttribute("data-sort"), b.cells[0].getAttribute("data-sort"));
+      return dir * diff;
+    }).forEach(function (row) { tbody.appendChild(row); });
+    headers.forEach(function (th, i) {
+      th.setAttribute("aria-sort", i === sortCol ? (dir === 1 ? "ascending" : "descending") : "none");
+    });
+  }
+
+  headers.forEach(function (th, i) {
+    th.tabIndex = 0;
+    th.setAttribute("aria-sort", i === 0 ? "ascending" : "none");
+    th.addEventListener("click", function () { sortBy(i); });
+    th.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sortBy(i); }
+    });
+  });
+  input.addEventListener("input", filter);
+  topic.addEventListener("change", filter);
+  filter();
+})();
+</script>
+</body></html>

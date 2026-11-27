@@ -1,0 +1,434 @@
+[
+  {
+    "id": "SPARK-09",
+    "phase": "Spark",
+    "number": 9,
+    "cefr": "A1",
+    "title": "My Home and Neighborhood: There Is, There Are, and Where Things Are",
+    "canDo": "Can describe a home and neighborhood and say where things are, using there is, there are, and simple prepositions of place.",
+    "goal": "Describe rooms with there is and there are, and say where things are with in, on, under, next to, and between.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Where do you buy food? Then ask: Do you live in a house or an apartment? What's your favorite room?",
+        "tutorAction": "Do not ask for personal details the student may not want to share. Accept short answers and expand them into full sentences."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "There is + a / an + one thing. / There are + two or more things. + in / on / under / next to / between + place. Where is ...? It's ... / Where are ...? They're ... / Is there ...? Are there ...?",
+        "examples": [
+          "There is a sofa in my living room.",
+          "There are two chairs in the kitchen.",
+          "The lamp is on the table. The shoes are under the bed.",
+          "The chair is between the table and the sofa."
+        ],
+        "method": "Show a house picture with a bedroom, bathroom, kitchen, living room, and dining room, and link each room to a routine verb: I cook in the kitchen. Add furniture: sofa, table, chair, TV, bed, lamp, closet, mirror. Show one object for there is and several for there are. Then move a pen around a book to show in, on, under, next to, and between, and ask: Where is the pen?",
+        "checkQuestion": "Two chairs: there is or there are?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this description twice, slowly, while the student looks at a simple room picture: This is my living room. There is a big sofa next to the window. There are two lamps. The TV is on a small table. My cat is under the sofa! Near my home, there is a park and a supermarket.",
+        "factCheck": "Ask: Where is the sofa? (next to the window). How many lamps are there? (two). Where is the TV? (on a small table). Where is the cat? (under the sofa). What is near the home? (a park and a supermarket).",
+        "toneCheck": "Ask: Is the speaker happy with the home? What is funny in the text? (the cat under the sofa)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Help me find it: the tutor is visiting the student's home and can't find a phone, a bag, and a book. The tutor asks Where is my phone?, and the student explains with prepositions, without pointing. Then switch roles, using a room picture. Finish: the student describes two rooms and one place near the home.",
+        "phrases": [
+          "There is a ... / There are ... in my ...",
+          "It's in / on / under / next to / between ...",
+          "Where is ...? / Where are ...?",
+          "Is there a ...? Yes, there is. / No, there isn't.",
+          "There is a ... near my home."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Offer a picture or an imaginary home if the student prefers. Give feedback after the activity unless the student is stuck."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "There is two chairs in the kitchen.",
+          "The lamp is in the table.",
+          "In my house have a big kitchen."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-10",
+    "phase": "Spark",
+    "number": 10,
+    "cefr": "A1",
+    "title": "Getting Around Town: Asking for and Giving Directions",
+    "canDo": "Can ask for and give simple directions to places in a town, and follow short spoken directions on a map.",
+    "goal": "Ask Excuse me, where is ...?, give directions with go straight, turn left, and turn right, and describe places with next to, across from, and between.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Is there a supermarket near your home? What places are in your neighborhood? Then ask: How do you get to the supermarket?",
+        "tutorAction": "Review the neighborhood words from the last class. Accept any answer, such as I walk or by bus, then move to the town map."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Excuse me, where is the ...? / How do I get to the ...? / Is there a ... near here? + Go straight. Turn left. Turn right. Stop. + It's next to / across from / between / near the ...",
+        "examples": [
+          "Excuse me, where is the bank?",
+          "Go straight and turn left. The bank is next to the supermarket.",
+          "The pharmacy is across from the park.",
+          "The library is between the bank and the school."
+        ],
+        "method": "Show a simple town map with a bank, hospital, supermarket, pharmacy, library, bus stop, school, and park. Use a hand gesture for each direction. Give one route and trace it on the map. Then say a route, and the student traces it. Keep instructions to two or three steps. Directions start with the verb, with no I or you.",
+        "checkQuestion": "Look at the map. Is the pharmacy across from the park or next to the park?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice, slowly: A: Excuse me, how do I get to the library? B: Go straight. Then turn left at the bank. The library is next to the school, across from the park. A: Thank you! B: You're welcome.",
+        "factCheck": "Ask: Where does the man want to go? (the library). Where does he turn left? (at the bank). What is the library next to? (the school). What is across from it? (the park).",
+        "toneCheck": "Ask: Is the man polite? Which words show it? (Excuse me, Thank you)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "I'm new in town: the tutor is a visitor at the bus stop. The visitor asks for three places on the map, and the student gives directions with two or three steps and one location phrase. Then switch: the tutor gives directions, and the student follows them on the map and names the place. If the student doesn't understand, they ask: Can you repeat that, please?",
+        "phrases": [
+          "Excuse me, where is the ...?",
+          "How do I get to the ...?",
+          "Go straight. Turn left. Turn right.",
+          "It's next to / across from / between ...",
+          "Can you repeat that, please?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use the same map for every task. Treat asking for repetition as good communication, not as a mistake."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Excuse me, where is bank?",
+          "Go straight and turn in left.",
+          "The library is next the school."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-11",
+    "phase": "Spark",
+    "number": 11,
+    "cefr": "A1",
+    "title": "Weather and Seasons: What's the Weather Like?",
+    "canDo": "Can describe the weather and seasons in simple terms, and choose clothes or activities that suit the weather.",
+    "goal": "Describe the weather with It's + adjective or It's raining, talk about the seasons, and give a simple reason with when or because.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: Is there a park near your home? How do you get there? Then ask: What's the weather like today? Do you want to go outside?",
+        "tutorAction": "Link outdoor places from the last class to the weather. Accept one word, such as sunny, and expand it: It's sunny today."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "It's + sunny / cloudy / windy / hot / warm / cool / cold. It's raining. It's snowing. + In summer, it's often hot. + When it's cold, I wear a jacket. / I stay at home because it's raining.",
+        "examples": [
+          "It's sunny and warm today.",
+          "When it's raining, I wear a raincoat.",
+          "In winter, it's usually cold in my city.",
+          "I go to the beach because it's hot."
+        ],
+        "method": "Show weather symbols for sunny, cloudy, rainy, windy, and snowy, and the temperature words hot, warm, cool, and cold. Practise What's the weather like? and Is it ...? Yes, it is. / No, it isn't. Show the four seasons, and note that some countries have a rainy season and a dry season instead. Then match weather to clothes: hot and sunny, a T-shirt and a hat; cold, a jacket and a sweater; rainy, a raincoat.",
+        "checkQuestion": "Do we say It's rain or It's raining?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this weather forecast twice, slowly: Good morning! Here is the weather for Saturday. In London, it's cloudy and cool, 14 degrees. In Madrid, it's sunny and hot, 30 degrees. In Toronto, it's raining and cold, 8 degrees. Take an umbrella!",
+        "factCheck": "Ask: What's the weather like in Madrid? (sunny and hot). What's the temperature in Toronto? (8 degrees). Where do you need an umbrella? (Toronto).",
+        "toneCheck": "Ask: Which city is good for the beach? Why? Accept a short reason with because."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Let's make weekend plans: the student and tutor look at the forecast and choose a city for the weekend. The student describes the weather in two cities, chooses clothes, and suggests one activity with a reason. Then the tutor gives a short spoken forecast for a new city, and the student says what the weather is and picks an activity.",
+        "phrases": [
+          "What's the weather like in ...?",
+          "It's sunny / cloudy / raining / cold.",
+          "In summer / In winter, it's usually ...",
+          "When it's ..., I wear ...",
+          "I want to ... because it's ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Respect different climates and seasons. Let the student choose, and ask Why? to get a reason with because."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Today is sun.",
+          "It's rain in Toronto.",
+          "When is cold, I wear jacket."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-12",
+    "phase": "Spark",
+    "number": 12,
+    "cefr": "A1",
+    "title": "Yesterday and Last Weekend: Talking About the Past",
+    "canDo": "Can describe completed everyday activities in the past simple and ask someone about their weekend.",
+    "goal": "Say what you did with regular -ed verbs and with went, ate, had, saw, and did, make negatives with didn't, and ask Did you ...? and What did you do?",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Say: I usually watch movies on weekends. Last weekend, I watched a movie. Ask: What did you do last weekend? The student may describe an imaginary weekend.",
+        "tutorAction": "Do not expect correct past forms yet. Accept short answers and say them back in the past, such as You visited your family."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Yesterday / last night / last weekend + verb-ed (worked, watched, played, visited, studied) or an irregular verb (went, ate, had, saw, did). Negative: I didn't + base verb. Questions: Did you ...? Yes, I did. / No, I didn't. What did you do?",
+        "examples": [
+          "I watched TV last night.",
+          "I went to the supermarket yesterday.",
+          "I didn't go to the park.",
+          "Did you have a good weekend? Yes, I did."
+        ],
+        "method": "Draw a timeline with yesterday, today, and tomorrow. Show four regular verbs with -ed, and note that study becomes studied. Then show five irregular verbs. Practise: I (go / went) to the park. She (have / had) breakfast. We (see / saw) a movie. Change two sentences to negatives with didn't. Then model Did you ...? and What did you do?",
+        "checkQuestion": "Do we say I didn't went or I didn't go?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this text twice, slowly: Last Saturday, I had breakfast with my sister. Then, we went to the park and walked. In the afternoon, I watched a movie. In the evening, I didn't go out. I cooked dinner and played video games.",
+        "factCheck": "Ask: Who did the speaker have breakfast with? (the sister). Where did they go? (the park). What did the speaker do in the afternoon? (watched a movie). Did the speaker go out in the evening? (No.)",
+        "toneCheck": "Ask: Was it a busy weekend or a quiet weekend? How do you know?"
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "How was your weekend? The student uses four picture prompts (park, movie, family, shopping) to tell the tutor about a real or imaginary weekend, in order, with first, then, and after that, plus one sentence with didn't. Then the tutor tells a short weekend story. The student names two activities from it and asks one follow-up question with Did you ...?",
+        "phrases": [
+          "Last weekend, I ...",
+          "First, ... Then, ... After that, ...",
+          "I didn't ...",
+          "What did you do on Saturday?",
+          "Did you ...? Yes, I did. / No, I didn't."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student invent a weekend if they prefer. Note past-tense errors and correct them in the wrap-up, not during the story."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Yesterday I go to the park.",
+          "I didn't watched TV.",
+          "Did you went to the market?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-13",
+    "phase": "Spark",
+    "number": 13,
+    "cefr": "A1",
+    "title": "My Future Plans: What Are You Going to Do?",
+    "canDo": "Can talk about future plans with going to, and make a simple plan with another person, agreeing on a day and time.",
+    "goal": "Say your plans with am, is, or are going to + verb, ask What are you going to do? and Are you going to ...?, and agree on a plan.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What did you do last weekend? Then ask: What are you going to do next weekend? Give an example: Next Saturday, I'm going to visit my grandmother.",
+        "tutorAction": "Accept any answer and say it back with going to. Show the move from yesterday to tomorrow on a quick timeline."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I am (I'm) / You are / He is / She is + going to + base verb + tomorrow / next weekend / on Saturday. Negative: I'm not going to ... Questions: What are you going to do? Are you going to ...? Yes, I am. / No, I'm not.",
+        "examples": [
+          "I'm going to visit my family on Sunday.",
+          "She's going to study English tomorrow.",
+          "I'm not going to work next weekend.",
+          "Are you going to watch the game? Yes, I am."
+        ],
+        "method": "Put three sentences on a timeline: Yesterday, I watched a movie. Today, I study English. Tomorrow, I'm going to play soccer. Ask the student which one is about the future. Show going to + verb with I, you, he, and she. The student makes three sentences about their own plans, one of them negative. Then practise both question forms.",
+        "checkQuestion": "Do we say I going to visit or I'm going to visit?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this phone call twice, slowly: Sam: Hi, Lisa! What are you going to do this weekend? Lisa: On Saturday morning, I'm going to clean my apartment. In the afternoon, I'm free. Sam: Great! Are you going to come to the park? Lisa: Yes! What time? Sam: At three o'clock. Lisa: Perfect. See you on Saturday!",
+        "factCheck": "Ask: What is Lisa going to do on Saturday morning? (clean her apartment). Is she free in the afternoon? (Yes.) Where are they going to meet? (at the park). What time? (three o'clock).",
+        "toneCheck": "Ask: Is Lisa happy about the plan? Which words show it? (Yes!, Perfect)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Weekend planning: the student has a weekend calendar with two activities and some free time. The tutor plays a friend who wants to meet. The student describes their plans with going to, asks when the tutor is free, suggests an activity, and agrees on a day and time. Then the tutor suggests a time that does not work, and the student says no politely and offers another time.",
+        "phrases": [
+          "I'm going to ... on ...",
+          "I'm not going to ...",
+          "What are you going to do on Saturday?",
+          "Are you free on ...? / Are you going to ...?",
+          "Let's meet at ... See you then!"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use a real or an imaginary calendar. Let the student lead the planning, and note errors with going to for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I going to visit my family.",
+          "She is going to studies tomorrow.",
+          "Are you going to come? Yes, I going."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-14",
+    "phase": "Spark",
+    "number": 14,
+    "cefr": "A1",
+    "title": "Health and Everyday Problems: How Are You Feeling?",
+    "canDo": "Can describe simple symptoms and how he or she feels, ask for basic help, and give a simple suggestion with should.",
+    "goal": "Describe how you feel with I feel ..., I have a ..., and My ... hurts, ask What's wrong?, and suggest You should ...",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What are you going to do tomorrow? Then ask: How are you feeling today? Show four faces: happy, tired, sick, relaxed. The student completes: Today, I feel ...",
+        "tutorAction": "Link plans to feelings: What do you do when you feel tired? Students may not want to talk about their real health, so offer imaginary people and situations."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "I feel + adjective (sick, tired, dizzy) / I have a + problem (headache, cold, fever, stomachache, sore throat) / My + body part + hurts (one) or hurt (two or more) + You should / shouldn't + base verb + I need ... / Can I have ...?",
+        "examples": [
+          "I feel tired. I have a headache.",
+          "My back hurts. My feet hurt.",
+          "You should drink some water.",
+          "You shouldn't go to work today."
+        ],
+        "method": "Show a picture for each problem, and model the pronunciation of headache, stomachache, and sore throat. Point to body parts: head, eyes, ears, nose, mouth, throat, stomach, back, arms, legs, feet. Practise the three patterns: I ___ tired (feel or have). I ___ a headache. My stomach ___ (hurt or hurts). My feet ___. Then add needs and simple advice. Keep to everyday problems, not medical words.",
+        "checkQuestion": "Do we say I have tired or I feel tired? And My feet hurt or My feet hurts?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice, slowly: Ben: Hi, Ana. Are you okay? Ana: No, I'm not feeling well. I have a headache and a sore throat. Ben: Oh no! Do you have a fever? Ana: No, I don't. But I feel very tired. Ben: You should go home and rest. Do you need anything? Ana: Yes, I need some water, please. Ben: Here you are.",
+        "factCheck": "Ask: What two problems does Ana have? (a headache and a sore throat). Does she have a fever? (No.) What does Ben suggest? (go home and rest). What does Ana need? (some water).",
+        "toneCheck": "Ask: Does Ben care about Ana? Which words show it? (Are you okay?, Oh no!, Do you need anything?)."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "I don't feel well. Situation one: the student is a worker who feels sick, and the tutor plays the manager. The student says two symptoms and asks for help, such as going home or getting some water. Situation two: the tutor describes a problem. The student asks what's wrong, names the problem, says I'm sorry, and gives one suggestion with should.",
+        "phrases": [
+          "How are you feeling? / What's wrong?",
+          "I feel ... / I have a ... / My ... hurts.",
+          "I need ... / Can I have ..., please?",
+          "I'm sorry to hear that.",
+          "You should ... / You shouldn't ..."
+        ],
+        "mandate": "Keep your talk time under 40 percent. Use imaginary situations if the student prefers. This is everyday language, not medical advice. Note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "I have tired.",
+          "My head hurt.",
+          "You should to rest."
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-15",
+    "phase": "Spark",
+    "number": 15,
+    "cefr": "A1",
+    "title": "Everyday Communication: Invitations, Requests, and Social Plans",
+    "canDo": "Can make, accept, and politely decline simple invitations, make polite requests, and agree on a time and place to meet.",
+    "goal": "Invite with Would you like to ...?, accept or decline politely with a reason, make requests with Can you ...? and Could you ...?, and agree on a plan with Let's ...",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Review: What do you usually do on weekends? Do you like coffee shops? Show four activities: coffee, lunch, a movie, a walk in the park. Then ask: Would you like to get coffee this weekend?",
+        "tutorAction": "Model the main phrase Would you like to ...? and tell the student it is more polite than Do you want to ...?"
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Would you like to + verb? (an activity) / Would you like a / some + noun? (an offer) + Yes, I'd love to! / I'm sorry, I can't. I have to + verb. + Can you ...? / Could you ...? / Can I have ...? + How about ...? Let's meet at ... See you then!",
+        "examples": [
+          "Would you like to see a movie on Friday?",
+          "I'm sorry, I can't. I have to work.",
+          "Could you help me, please? Of course!",
+          "How about three o'clock? Let's meet at the café."
+        ],
+        "method": "Show the difference: Would you like to go ...? for an action, and Would you like a coffee? for a thing. Practise rising intonation for polite questions. The tutor invites the student to three activities, and the student accepts one and declines two with reasons (I have to study, I'm busy). Gap-fill requests: ___ I have a glass of water? Could you ___ me? (help or to help). Then suggest a time and place.",
+        "checkQuestion": "Do we say Would you like go or Would you like to go?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this dialogue twice, slowly: Kate: Hi, Omar! Would you like to have lunch on Saturday? Omar: I'm sorry, I can't. I have to work on Saturday. Kate: How about Sunday? Omar: Yes, I'd love to! Where? Kate: Let's meet at the Italian restaurant. Omar: Great. What time? Kate: How about one o'clock? Omar: Perfect. See you then!",
+        "factCheck": "Ask: Why can't Omar have lunch on Saturday? (He has to work.) Which day do they choose? (Sunday). Where are they going to meet? (at the Italian restaurant). What time? (one o'clock).",
+        "toneCheck": "Ask: Is Omar polite when he says no? Which words show it? (I'm sorry, I can't.)"
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Can you plan an outing? Scenario one: the student invites the tutor to an activity, suggests a time and place, and confirms the plan. Scenario two: the tutor invites the student, and the student declines politely, gives a reason, and suggests another day. Add one polite request in each scenario, such as Can you send me the address?",
+        "phrases": [
+          "Would you like to ...?",
+          "Yes, I'd love to! / I'm sorry, I can't. I have to ...",
+          "Can you ...? / Could you ..., please?",
+          "How about ...? / Let's meet at ...",
+          "See you then!"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Let the student start each scenario. Check that the student uses to after would like, and note errors for the wrap-up."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Would you like go to the cinema?",
+          "Sorry, I can't. I must to work.",
+          "Can you to help me, please?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SPARK-16",
+    "phase": "Spark",
+    "number": 16,
+    "cefr": "A1",
+    "title": "My English in Action: Final A1 Communication Challenge",
+    "canDo": "Can combine familiar A1 language to introduce himself or herself, describe everyday life, handle a simple everyday situation, and talk about the past and the future.",
+    "goal": "Complete four short challenges with the English from the course, then set one goal for the next stage.",
+    "stages": {
+      "warmup": {
+        "minutes": 3,
+        "prompt": "Ask: Think about your first English lesson. What English can you use now? Which topics do you enjoy talking about? Tell me one thing you're proud of learning.",
+        "tutorAction": "Keep the mood positive. Explain that today combines the earlier lessons, and that it is practice and evidence of progress, not a high-pressure exam."
+      },
+      "theory": {
+        "minutes": 8,
+        "structure": "Review of the course structures: to be (I'm from ...), present simple (I usually ...), there is / there are, I'd like ..., past simple (Yesterday, I ...), going to (Tomorrow, I'm going to ...), and Could you repeat that, please?",
+        "examples": [
+          "Yesterday, I watched a movie.",
+          "Today, I work and study English.",
+          "Tomorrow, I'm going to visit my family.",
+          "I'd like a sandwich, please. How much is it?"
+        ],
+        "method": "Show past, present, and future on one timeline. The student says two things they did last weekend, one thing they usually do, and two things they're going to do next weekend. Then the student asks you one question about the past and one about the future. Prompt only when needed. The goal is to use familiar forms, not to learn new ones.",
+        "checkQuestion": "Which sentence is about the future: I visited my family, I visit my family, or I'm going to visit my family?"
+      },
+      "comprehension": {
+        "minutes": 8,
+        "source": "Read this message twice at an accessible pace, with a short pause between readings: Hi! Last Saturday, I went to the park with my sister. We walked and had lunch. Next Saturday, I'm going to meet my friend at a café at three o'clock. We're going to have coffee.",
+        "factCheck": "Ask: What did the speaker do last Saturday? (went to the park, walked, and had lunch). Who did the speaker go with? (the sister). What is the speaker going to do next Saturday? (meet a friend at a café and have coffee). What time? (three o'clock).",
+        "toneCheck": "Ask: Is the speaker happy about next Saturday? Accept a short answer. If the student asks Could you repeat that, please?, praise it as a good strategy."
+      },
+      "conversation": {
+        "minutes": 8,
+        "task": "Four mini-challenges with new details, about two minutes each. 1. Meet someone new at an international event: greet, give two personal details, and ask one question. 2. Describe your life: one daily habit, one preference, and one detail about your home or family. 3. Solve a situation: buy a T-shirt for 15 dollars, order a 6-dollar sandwich and a drink, or ask the way to the library. 4. Talk about time: one past activity and one future plan. Then the student completes: I'm good at ... I want to improve ... My next English goal is ...",
+        "phrases": [
+          "Hi! My name is ... I'm from ... I work as a ...",
+          "I usually ... / I like ...",
+          "I'd like ... / How much is it? / Excuse me, how do I get to ...?",
+          "Last weekend, I ... Next weekend, I'm going to ...",
+          "Could you repeat that, please?"
+        ],
+        "mandate": "Keep your talk time under 40 percent. Change the details from earlier lessons so the student uses the language in new situations. Do not give scripts or correct during the challenges. Record what the student did alone, then give one strength and one clear next step. Do not tell the student they have reached full A1."
+      },
+      "wrapup": {
+        "minutes": 3,
+        "mistakes": [
+          "Yesterday I go to the park, and tomorrow I visit my family.",
+          "I want a sandwich. How much it is?",
+          "I'm good in speaking."
+        ]
+      }
+    }
+  }
+]
